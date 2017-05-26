@@ -1,0 +1,96 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Ausbildungs-/Berufsweg erneut wählen?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "1.5",
+			"relatedQuestionStrings" : {
+				"de" : "Würden Sie aus heutiger Sicht nach der Schule wieder den gleichen Ausbildungs- und Berufsweg wählen?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 440,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 2906,
+		"totalValidRelativeFrequency" : 10.31,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.16126660306164",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 2.71,
+				"absoluteFrequency" : 765
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja",
+					"en" : null
+				},
+				"relativeFrequency" : 7.55,
+				"absoluteFrequency" : 2129,
+				"validRelativeFrequency" : 73.26
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "nein",
+					"en" : null
+				},
+				"relativeFrequency" : 2.76,
+				"absoluteFrequency" : 777,
+				"validRelativeFrequency" : 26.74
+			}
+		]
+	}
+}

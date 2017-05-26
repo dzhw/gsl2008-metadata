@@ -1,0 +1,84 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cstu37\_g3r}
+	\label{subSection:cstu37_g3r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cstu37_g3r}
+			Name & cstu37\_g3r \\
+			Label & künftiges Studium: Staat einer ausl. Hochschule \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & gen cstu37\_g2 = cstu37\_g3 if cstu37\_g3\textgreater{}=9000 \& cstu37\_g3\textless{}=9206
+recode cstu37\_g2 (9000 = 9990)
+replace cstu37\_g2 = -988 if (cstu37\_g3\textless{}=9000 \& cstu37\_g3\textgreater{}=1) | (cstu37\_g3\textgreater{}=81101 \& cstu37\_g3\textless{}=81712) \\
+				 \\
+					Generierungsbeschreibung & Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländische Hochschulen, deutschen Hochschulen wurden auf trifft nicht zu gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9). Die Variable enthält nur die fünf häufigsten Staaten, alle anderen Staaten wurden auf sonstige Staaten gesetzt. 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:cstu37_g3r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								9019 & HS in Belgien & 1 & 0 & 0.85 \\
+								9037 & HS in Dänemark ( Färöer \& Grönland) & 2 & 0.01 & 1.71 \\
+								9048 & HS in Finnland & 2 & 0.01 & 1.71 \\
+								9049 & HS in Frankreich & 9 & 0.03 & 7.69 \\
+								9056 & HS in Großbritannien (Vereinigtes Königreich) & 25 & 0.09 & 21.37 \\
+								9067 & HS in Irland & 2 & 0.01 & 1.71 \\
+								9070 & HS in Italien & 1 & 0 & 0.85 \\
+								9072 & HS in Japan & 1 & 0 & 0.85 \\
+								9077 & HS in Kanada & 2 & 0.01 & 1.71 \\
+								9127 & HS in Niederlande, Königreich (Holland) & 23 & 0.08 & 19.66 \\
+								9132 & HS in Norwegen & 2 & 0.01 & 1.71 \\
+								9134 & HS in Österreich & 15 & 0.05 & 12.82 \\
+								9144 & HS in Polen & 1 & 0 & 0.85 \\
+								9155 & HS in Schweden & 7 & 0.02 & 5.98 \\
+								9156 & HS in Schweiz & 13 & 0.05 & 11.11 \\
+								9167 & HS in Spanien & 2 & 0.01 & 1.71 \\
+								9201 & HS in Vereinigte Staaten (USA) & 9 & 0.03 & 7.69 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 277 & 0.98 & - \\						
+							-995 & keine Teilnahme (Panel) & 24723 & 87.73 & - \\						
+							-989 & filterbedingt fehlend & 1518 & 5.39 & - \\						
+							-988 & trifft nicht zu & 1547 & 5.49 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{117} & \textbf{0.42} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable cstu37\_g3r}
+			\end{table}
+
+	
+	\newpage

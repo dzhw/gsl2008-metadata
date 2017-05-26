@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Berufs- und Lebensziel: Persönlichkeit entfalten",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "8.1",
+			"relatedQuestionStrings" : {
+				"de" : "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\nMir geht es darum, …\nmeine Persönlichkeit zu entfalten",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1257,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3629,
+		"totalValidRelativeFrequency" : 12.88,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.32120679157255",
+			"meanDeviation" : "805.0518",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "2",
+			"lowWhisker" : 1,
+			"highWhisker" : 3.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.15,
+				"absoluteFrequency" : 42
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 4.31,
+				"absoluteFrequency" : 1216,
+				"validRelativeFrequency" : 33.51
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 6.02,
+				"absoluteFrequency" : 1697,
+				"validRelativeFrequency" : 46.76
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 1.99,
+				"absoluteFrequency" : 562,
+				"validRelativeFrequency" : 15.49
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.48,
+				"absoluteFrequency" : 135,
+				"validRelativeFrequency" : 3.72
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 19,
+				"validRelativeFrequency" : 0.52
+			}
+		]
+	}
+}

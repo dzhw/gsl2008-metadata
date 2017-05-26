@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "berufliche Zufriedenheit: Einkommen",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "7.8",
+			"relatedQuestionStrings" : {
+				"de" : "Wie zufrieden sind Sie mit Ihrer beruflichen Tätigkeit in Bezug auf …?\nVerdienst/Einkommen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1246,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 970,
+		"totalValidRelativeFrequency" : 3.44,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.94161823103939",
+			"meanDeviation" : "161.6034",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.04,
+				"absoluteFrequency" : 12
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 9.54,
+				"absoluteFrequency" : 2689
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr zufrieden",
+					"en" : null
+				},
+				"relativeFrequency" : 0.4,
+				"absoluteFrequency" : 113,
+				"validRelativeFrequency" : 11.65
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 1.14,
+				"absoluteFrequency" : 320,
+				"validRelativeFrequency" : 32.99
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 1.03,
+				"absoluteFrequency" : 291,
+				"validRelativeFrequency" : 30
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.65,
+				"absoluteFrequency" : 182,
+				"validRelativeFrequency" : 18.76
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "gar nicht zufrieden",
+					"en" : null
+				},
+				"relativeFrequency" : 0.23,
+				"absoluteFrequency" : 64,
+				"validRelativeFrequency" : 6.6
+			}
+		]
+	}
+}

@@ -1,0 +1,39 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{cstu37\_g2a}
+	\label{subSection:cstu37_g2a}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cstu37_g2a}
+			Name & cstu37\_g2a \\
+			Label & künftiges Studium: Staat einer ausl. Hochschule \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				not-accessible,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & gen cstu37\_g2 = cstu37\_g3 if cstu37\_g3\textgreater{}=9000 \& cstu37\_g3\textless{}=9206
+recode cstu37\_g2 (9000 = 9990)
+replace cstu37\_g2 = -988 if (cstu37\_g3\textless{}=9000 \& cstu37\_g3\textgreater{}=1) | (cstu37\_g3\textgreater{}=81101 \& cstu37\_g3\textless{}=81712) \\
+				 \\
+					Generierungsbeschreibung & Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländische Hochschulen, deutschen Hochschulen wurden auf trifft nicht zu gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9).
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+	
+	\newpage

@@ -1,0 +1,105 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Grund Studienpause: sonstige Gründe",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "5.8",
+			"relatedQuestionStrings" : {
+				"de" : "Aus welchen Gründen legen Sie diese Studienpause ein?\nSonstiges, und zwar:",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1201,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 393,
+		"totalValidRelativeFrequency" : 1.39,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "0",
+			"standardDeviation" : null,
+			"deviance" : "1.22643450704334",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 3
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 11.62,
+				"absoluteFrequency" : 3275
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "0",
+				"label" : {
+					"de" : "nicht genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 0.97,
+				"absoluteFrequency" : 274,
+				"validRelativeFrequency" : 69.72
+			},
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 0.42,
+				"absoluteFrequency" : 119,
+				"validRelativeFrequency" : 30.28
+			}
+		]
+	}
+}

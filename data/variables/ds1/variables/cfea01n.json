@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Sorgen Studium: Konkurrenz Studierende",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.15",
+			"relatedQuestionStrings" : {
+				"de" : "Wenn Sie an Ihr derzeitiges Studium denken, was bereitet Ihnen persönlich Sorge?\nhohe Konkurrenz unter Studierenden",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1151,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1836,
+		"totalValidRelativeFrequency" : 6.51,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "4",
+			"mode" : "4",
+			"standardDeviation" : null,
+			"deviance" : "3.04227248005492",
+			"meanDeviation" : "157.1556",
+			"firstQuartile" : "3",
+			"thirdQuartile" : "5",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 4.42,
+				"absoluteFrequency" : 1247
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 0.45,
+				"absoluteFrequency" : 127,
+				"validRelativeFrequency" : 6.92
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 1.06,
+				"absoluteFrequency" : 300,
+				"validRelativeFrequency" : 16.34
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 1.38,
+				"absoluteFrequency" : 390,
+				"validRelativeFrequency" : 21.24
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 1.86,
+				"absoluteFrequency" : 523,
+				"validRelativeFrequency" : 28.49
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 1.76,
+				"absoluteFrequency" : 496,
+				"validRelativeFrequency" : 27.02
+			}
+		]
+	}
+}

@@ -1,0 +1,127 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cbeg01\_g1r}
+	\label{subSection:cbeg01_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cbeg01_g1r}
+			Name & cbeg01\_g1r \\
+			Label & 1. Tätigkeit: Beginn (Monat) (Jahr) \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert. 
+				 \\	
+			 \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cbeg01_g1r}
+			Nummer & 2.1 \\
+			Einleitung der Frage & - \\
+			Fragetext & Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.
+Zeitraum
+Beginn
+Monat/Jahr \\
+			Ausfüllanweisung & Geben Sie bitte alle bisherigen Tätigkeiten – z. B. Studium, Berufsausbildung, Erwerbstätigkeit, aber auch Praktikum, Haushaltstätigkeit,
+Erziehungszeit, Arbeitslosigkeit – mit ihren jeweiligen Anfangs- und Endterminen an. Tragen Sie die Tätigkeiten in die entsprechenden Spalten ein bzw. machen Sie die entsprechenden „Kreuze“. Verwenden Sie immer dann eine neue Zeile, wenn sich eine Änderung der Tätigkeit – beispielsweise auch Wechsel des Studienfachs oder der Hochschule – ergeben hat. Wichtig ist für uns, dass im zeitlichen Ablauf keine Lücken entstehen. Wenn sich wesentliche Tätigkeiten zeitlich überschneiden, geben Sie jede in einer eigenen Zeile an. \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cbeg01_g1r}
+					Arithmetisches Mittel & 2008 \\
+					Standardabweichung & 42 \\
+					Minimum & 2008 \\
+					Unteres Quartil & 2008 \\
+					Median & 2008 \\
+					Oberes Quartil & 2008 \\
+					Maximum & 2008 \\
+					Schiefe & 119 \\
+					Wölbung & 1 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cbeg01_g1r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {2008,2008,2008,2008,2008},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=2007,
+				ymax=2009
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=2008,
+    		  		upper quartile=2008,
+      			lower quartile=2008,
+    	  			upper whisker=2008,
+	    		  	lower whisker=2008
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cbeg01\_g1r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cbeg01_g1r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							2008 &  & 3671 & 13.03 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cbeg01\_g1r}
+			\end{table}
+	
+	\newpage

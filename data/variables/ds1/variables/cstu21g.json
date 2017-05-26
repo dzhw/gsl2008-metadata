@@ -1,0 +1,105 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Grund Doppelqualifikation: persönliche Bildung",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "3.9",
+			"relatedQuestionStrings" : {
+				"de" : "Wenn Sie nach der Berufsausbildung ein Studium aufgenommen haben bzw. aufnehmen wollen, nennen Sie bitte die Gründe dafür. \num mir eine umfassende persönliche Bildung zu verschaffen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 959,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 816,
+		"totalValidRelativeFrequency" : 2.9,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "0",
+			"standardDeviation" : null,
+			"deviance" : "1.25900252175276",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.59,
+				"absoluteFrequency" : 166
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 9.54,
+				"absoluteFrequency" : 2689
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "0",
+				"label" : {
+					"de" : "nicht genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 1.96,
+				"absoluteFrequency" : 552,
+				"validRelativeFrequency" : 67.65
+			},
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 0.94,
+				"absoluteFrequency" : 264,
+				"validRelativeFrequency" : 32.35
+			}
+		]
+	}
+}

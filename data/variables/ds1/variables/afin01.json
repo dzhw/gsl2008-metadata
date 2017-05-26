@@ -1,0 +1,117 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Bereits mit Studienfinanzierung beschäftigt?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "18",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie sich bereits mit Fragen und Problemen der Finanzierung eines Hochschulstudiums beschäftigt?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 97,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 27894,
+		"totalValidRelativeFrequency" : 98.98,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "5",
+			"standardDeviation" : null,
+			"deviance" : "3.05524475956126",
+			"meanDeviation" : "2781.3576",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "5",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 1.02,
+				"absoluteFrequency" : 288
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "intensiv",
+					"en" : null
+				},
+				"relativeFrequency" : 7.02,
+				"absoluteFrequency" : 1979,
+				"validRelativeFrequency" : 7.09
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 20.36,
+				"absoluteFrequency" : 5739,
+				"validRelativeFrequency" : 20.57
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 27.02,
+				"absoluteFrequency" : 7615,
+				"validRelativeFrequency" : 27.3
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 17.33,
+				"absoluteFrequency" : 4884,
+				"validRelativeFrequency" : 17.51
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt noch nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 27.24,
+				"absoluteFrequency" : 7677,
+				"validRelativeFrequency" : 27.52
+			}
+		]
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Studienrichtung: medizinisch",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "12",
+			"relatedQuestionStrings" : {
+				"de" : "Welche drei Studienrichtungen kommen bzw. kamen für Sie persönlich am ehesten infrage?\nmedizinische Studienrichtung",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 204,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1205,
+		"totalValidRelativeFrequency" : 4.28,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "2.16103433670955",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 16.23,
+				"absoluteFrequency" : 4575
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -969,
+				"label" : {
+					"de" : "unbekannter fehlender Wert",
+					"en" : null
+				},
+				"relativeFrequency" : 0.54,
+				"absoluteFrequency" : 153
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "an 1. Stelle",
+					"en" : null
+				},
+				"relativeFrequency" : 1.79,
+				"absoluteFrequency" : 505,
+				"validRelativeFrequency" : 41.91
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "an 2. Stelle",
+					"en" : null
+				},
+				"relativeFrequency" : 1.14,
+				"absoluteFrequency" : 320,
+				"validRelativeFrequency" : 26.56
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "an 3. Stelle",
+					"en" : null
+				},
+				"relativeFrequency" : 1.35,
+				"absoluteFrequency" : 380,
+				"validRelativeFrequency" : 31.54
+			}
+		]
+	}
+}

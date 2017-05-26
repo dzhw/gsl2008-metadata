@@ -1,0 +1,105 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Grund Studienverzicht: Anforderungen unkalkulierbar",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "6.1",
+			"relatedQuestionStrings" : {
+				"de" : "Wenn Sie noch kein Studium an einer Universität oder einer Fachhochschule aufgenommen haben und dies auch zukünftig nicht tun wollen, nennen Sie uns bitte die ausschlaggebenden Gründe hierfür.\nDie Anforderungen eines solchen Studiums sind unübersichtlich und unkalkulierbar.",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1215,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1434,
+		"totalValidRelativeFrequency" : 5.09,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "0",
+			"standardDeviation" : null,
+			"deviance" : "0.264521737587113",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.17,
+				"absoluteFrequency" : 48
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 7.77,
+				"absoluteFrequency" : 2189
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "0",
+				"label" : {
+					"de" : "nicht genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 4.94,
+				"absoluteFrequency" : 1392,
+				"validRelativeFrequency" : 97.07
+			},
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 0.15,
+				"absoluteFrequency" : 42,
+				"validRelativeFrequency" : 2.93
+			}
+		]
+	}
+}

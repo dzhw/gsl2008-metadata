@@ -1,0 +1,125 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Entspricht berufliche Stellung der eigenen Qualifikation?",
+		"en" : null
+	},
+	"indexInDataSet" : 1241,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 954,
+		"totalValidRelativeFrequency" : 3.39,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "3",
+			"standardDeviation" : null,
+			"deviance" : "2.41977602688402",
+			"meanDeviation" : "66.717",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.1,
+				"absoluteFrequency" : 28
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 9.54,
+				"absoluteFrequency" : 2689
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "deutlich höher",
+					"en" : null
+				},
+				"relativeFrequency" : 0.21,
+				"absoluteFrequency" : 58,
+				"validRelativeFrequency" : 6.08
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 1.08,
+				"absoluteFrequency" : 303,
+				"validRelativeFrequency" : 31.76
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 1.7,
+				"absoluteFrequency" : 478,
+				"validRelativeFrequency" : 50.1
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.28,
+				"absoluteFrequency" : 80,
+				"validRelativeFrequency" : 8.39
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "deutlich niedriger",
+					"en" : null
+				},
+				"relativeFrequency" : 0.12,
+				"absoluteFrequency" : 35,
+				"validRelativeFrequency" : 3.67
+			}
+		]
+	}
+}

@@ -1,0 +1,105 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "freiwillige Studienpause?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "5.7",
+			"relatedQuestionStrings" : {
+				"de" : "Handelt es sich hierbei um eine freiwillige Studienpause?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1195,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 313,
+		"totalValidRelativeFrequency" : 1.11,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.13678918967635",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.29,
+				"absoluteFrequency" : 83
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 11.62,
+				"absoluteFrequency" : 3275
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja",
+					"en" : null
+				},
+				"relativeFrequency" : 0.83,
+				"absoluteFrequency" : 233,
+				"validRelativeFrequency" : 74.44
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "nein",
+					"en" : null
+				},
+				"relativeFrequency" : 0.28,
+				"absoluteFrequency" : 80,
+				"validRelativeFrequency" : 25.56
+			}
+		]
+	}
+}

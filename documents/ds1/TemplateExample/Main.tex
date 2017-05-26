@@ -1,0 +1,3224 @@
+\documentclass[a4paper]{article}
+
+\usepackage[urlbordercolor={1 1 1}]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8]{luainputenc}
+\usepackage[margin=1in,headsep=.7in]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage{multicol}
+\usepackage{pgfplots}
+\usepackage{array}
+\usepackage{tocloft}
+\usepackage{chngcntr}
+\usepackage{bookmark}
+\usepackage[strings]{underscore}
+\usepackage{booktabs}
+\usepackage{capt-of}
+\usepackage[style=apa,backend=biber,language=american]{biblatex}
+
+% For counting figures and tables, style of number
+\counterwithin{figure}{subsection}
+\counterwithin{table}{subsection}
+
+% Space between subsection number and subsection title for the command \subsection{}
+\setlength{\cftsubsecnumwidth}{4em}
+
+% PGF Plots
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{statistics}
+\setlength{\columnsep}{1cm}
+
+% Define Pagestyle
+\pagestyle{fancy}
+\geometry{a4paper,left=28mm,right=28mm, top=32mm, bottom=22mm}
+
+% Table Columns equivalent to l,c,r but with wraping the text
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+%Definition of author und title
+\hypersetup{
+	pdfauthor={fdz.DZHW}
+	pdfkeywords={Variable Report}
+	pdftitle={Variable Report}
+}
+
+%For the lines in tables. increase the thickness of botton and top line
+\setlength\heavyrulewidth{0.11em}
+
+%DZHW Colors
+\definecolor{dzhwblue}{RGB}{0,106,178}
+\definecolor{dzhwbluegrey}{RGB}{200,211,217}
+\definecolor{dzhwbluegreen}{RGB}{2,138,164}
+\definecolor{dzhwred}{RGB}{201,22,48}
+\definecolor{dzhwgreen}{RGB}{178,177,9}
+\definecolor{dzhwsand}{RGB}{215,197,142}
+\definecolor{dzhworange}{RGB}{246,159,36}
+
+%BibTex Resource
+\addbibresource{References.bib}
+
+\begin{document}
+
+%INTRODUCTION
+\include{Introduction}
+
+%VARIABLES, EVERY VARIABLE HAS A OWN PAGE
+\newpage
+\section{Variablen}
+
+			\include{variables/cjob0411_g1r}	
+
+		Die Variable sb2008-pid\_r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/asys04_r}	
+
+			\include{variables/adec02c_r}	
+
+			\include{variables/cstu2115d_g2a}	
+
+			\include{variables/cstu2115d_g3r}	
+
+			\include{variables/cstu2115d_g4o}	
+
+			\include{variables/cstu2115d_g5r}	
+
+			\include{variables/cvoc0815_g1r}	
+
+			\include{variables/cvoc0815_g2r}	
+
+			\include{variables/cjob0415_g1r}	
+
+		Die Variable sb2008-cjob0415\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1215_g1r}	
+
+			\include{variables/cact1215_g2r}	
+
+			\include{variables/adec02d_r}	
+
+			\include{variables/cact1215_g3r}	
+
+			\include{variables/cbeg16_g1r}	
+
+			\include{variables/cbeg16_g2r}	
+
+			\include{variables/anfang16_aip}	
+
+		Die Variable sb2008-cend16\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend16\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende16_aip}	
+
+			\include{variables/cstu2116a_o}	
+
+			\include{variables/cstu2116a_g1r}	
+
+			\include{variables/cstu2116a_g2r}	
+
+			\include{variables/adec02e_r}	
+
+			\include{variables/cstu2116a_g3r}	
+
+			\include{variables/sber116_aip}	
+
+			\include{variables/cstu2116b_o}	
+
+			\include{variables/cstu2116b_g1r}	
+
+			\include{variables/cstu2116b_g2r}	
+
+			\include{variables/cstu2116b_g3r}	
+
+			\include{variables/sber216_aip}	
+
+			\include{variables/cstu2116c_r}	
+
+			\include{variables/hs16_aip}	
+
+			\include{variables/hland16_aip}	
+
+			\include{variables/adec02f_r}	
+
+			\include{variables/cstu2116d_g1r}	
+
+			\include{variables/cstu2116d_g2a}	
+
+			\include{variables/cstu2116d_g3r}	
+
+			\include{variables/cstu2116d_g4o}	
+
+			\include{variables/cstu2116d_g5r}	
+
+			\include{variables/cvoc0816_g1r}	
+
+			\include{variables/cvoc0816_g2r}	
+
+			\include{variables/cjob0416_g1}	
+
+		Die Variable sb2008-cjob0416\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1216_g1r}	
+
+			\include{variables/adec02g_r}	
+
+			\include{variables/cact1216_g2r}	
+
+			\include{variables/cact1216_g3r}	
+
+			\include{variables/cbeg17_g1r}	
+
+			\include{variables/cbeg17_g2r}	
+
+			\include{variables/anfang17_aip}	
+
+		Die Variable sb2008-cend17\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend17\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende17_aip}	
+
+			\include{variables/cstu2117a_o}	
+
+			\include{variables/cstu2117a_g1r}	
+
+			\include{variables/adec02h_r}	
+
+			\include{variables/cstu2117a_g2r}	
+
+			\include{variables/cstu2117a_g3r}	
+
+			\include{variables/sber117_aip}	
+
+			\include{variables/cstu2117b_o}	
+
+			\include{variables/cstu2117b_g1r}	
+
+			\include{variables/cstu2117b_g2r}	
+
+			\include{variables/cstu2117b_g3r}	
+
+			\include{variables/sber217_aip}	
+
+			\include{variables/cstu2117c_r}	
+
+			\include{variables/hs17_aip}	
+
+			\include{variables/adec02i_r}	
+
+			\include{variables/hland17_aip}	
+
+			\include{variables/cstu2117d_g1r}	
+
+			\include{variables/cstu2117d_g2a}	
+
+			\include{variables/cstu2117d_g3r}	
+
+			\include{variables/cstu2117d_g4o}	
+
+			\include{variables/cstu2117d_g5r}	
+
+			\include{variables/cvoc0817_g1r}	
+
+			\include{variables/cvoc0817_g2r}	
+
+			\include{variables/cjob0417_g1r}	
+
+		Die Variable sb2008-cjob0417\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/adec02j_r}	
+
+			\include{variables/cact1217_g1r}	
+
+			\include{variables/cact1217_g2r}	
+
+			\include{variables/cact1217_g3r}	
+
+			\include{variables/cbeg18_g1r}	
+
+			\include{variables/cbeg18_g2r}	
+
+			\include{variables/anfang18_aip}	
+
+		Die Variable sb2008-cend18\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend18\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende18_aip}	
+
+			\include{variables/cstu2118a_o}	
+
+			\include{variables/adec02j_g1r}	
+
+			\include{variables/cstu2118a_g1r}	
+
+			\include{variables/cstu2118a_g2r}	
+
+			\include{variables/cstu2118a_g3r}	
+
+			\include{variables/sber118_aip}	
+
+			\include{variables/cstu2118b_o}	
+
+			\include{variables/cstu2118b_g1r}	
+
+			\include{variables/cstu2118b_g2r}	
+
+			\include{variables/cstu2118b_g3r}	
+
+			\include{variables/sber218_aip}	
+
+			\include{variables/cstu2118c_r}	
+
+			\include{variables/adec02k_r}	
+
+			\include{variables/hs18_aip}	
+
+			\include{variables/hland18_aip}	
+
+			\include{variables/cstu2118d_g1r}	
+
+			\include{variables/cstu2118d_g2a}	
+
+			\include{variables/cstu2118d_g3r}	
+
+			\include{variables/cstu2118d_g4o}	
+
+			\include{variables/cstu2118d_g5r}	
+
+			\include{variables/cvoc0818_g1r}	
+
+			\include{variables/cvoc0818_g2r}	
+
+			\include{variables/cjob0418_g1r}	
+
+			\include{variables/asch01_a}	
+
+			\include{variables/afin01_r}	
+
+		Die Variable sb2008-cjob0418\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1218_g1r}	
+
+			\include{variables/cact1218_g2r}	
+
+			\include{variables/cact1218_g3r}	
+
+			\include{variables/cbeg19_g1r}	
+
+			\include{variables/cbeg19_g2r}	
+
+			\include{variables/anfang19_aip}	
+
+		Die Variable sb2008-cend19\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend19\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende19_aip}	
+
+			\include{variables/afin02_r}	
+
+			\include{variables/cstu2119a_o}	
+
+			\include{variables/cstu2119a_g1r}	
+
+			\include{variables/cstu2119a_g2r}	
+
+			\include{variables/cstu2119a_g3r}	
+
+			\include{variables/sber119_aip}	
+
+			\include{variables/cstu2119b_o}	
+
+			\include{variables/cstu2119b_g1r}	
+
+			\include{variables/cstu2119b_g2r}	
+
+			\include{variables/cstu2119b_g3r}	
+
+			\include{variables/sber219_aip}	
+
+			\include{variables/afin03_r}	
+
+			\include{variables/cstu2119c_r}	
+
+			\include{variables/hs19_aip}	
+
+			\include{variables/hland19_aip}	
+
+			\include{variables/cstu2119d_g1r}	
+
+			\include{variables/cstu2119d_g2a}	
+
+			\include{variables/cstu2119d_g3r}	
+
+			\include{variables/cstu2119d_g4o}	
+
+			\include{variables/cstu2119d_g5r}	
+
+			\include{variables/cvoc0819_g1r}	
+
+			\include{variables/cvoc0819_g2r}	
+
+			\include{variables/afin04_r}	
+
+			\include{variables/cjob0419_g1r}	
+
+		Die Variable sb2008-cjob0419\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1219_g1r}	
+
+			\include{variables/cact1219_g2r}	
+
+			\include{variables/cact1219_g3r}	
+
+			\include{variables/cbeg20_g1r}	
+
+			\include{variables/cbeg20_g2r}	
+
+			\include{variables/anfang20_aip}	
+
+		Die Variable sb2008-cend20\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ainf01a_r}	
+
+			\include{variables/ende20_aip}	
+
+			\include{variables/cstu2120a_o}	
+
+			\include{variables/cstu2120a_g1r}	
+
+			\include{variables/cstu2120a_g2r}	
+
+			\include{variables/cstu2120a_g3r}	
+
+			\include{variables/sber120_aip}	
+
+			\include{variables/cstu2120b_o}	
+
+			\include{variables/cstu2120b_g1r}	
+
+			\include{variables/cstu2120b_g2r}	
+
+			\include{variables/cstu2120b_g3r}	
+
+			\include{variables/ainf01b_r}	
+
+			\include{variables/sber220_aip}	
+
+			\include{variables/cstu2120c_r}	
+
+			\include{variables/hs20_aip}	
+
+			\include{variables/hland20_aip}	
+
+			\include{variables/cstu2120d_g1r}	
+
+			\include{variables/cstu2120d_g2a}	
+
+			\include{variables/cstu2120d_g3r}	
+
+			\include{variables/cstu2120d_g4o}	
+
+			\include{variables/cstu2120d_g5r}	
+
+			\include{variables/cvoc0820_g1r}	
+
+			\include{variables/ainf01c_r}	
+
+			\include{variables/cvoc0820_g2r}	
+
+			\include{variables/cjob0420_g1r}	
+
+			\include{variables/cjob0420_g2r}	
+
+			\include{variables/cact1220_g1r}	
+
+			\include{variables/cact1220_g2r}	
+
+			\include{variables/cact1220_g3r}	
+
+			\include{variables/cvoc09_g1r}	
+
+			\include{variables/cvoc09a_r}	
+
+			\include{variables/cvoc10_g1r}	
+
+			\include{variables/cvoc10_g2r}	
+
+			\include{variables/ainf01d_r}	
+
+			\include{variables/aubeterm_aip}	
+
+			\include{variables/cvoc11_g1o}	
+
+			\include{variables/cvoc11_g2r}	
+
+			\include{variables/cvoc12_g1r}	
+
+			\include{variables/cvoc12a_g1r}	
+
+			\include{variables/cvoc12a_g2r}	
+
+			\include{variables/auabterm_aip}	
+
+			\include{variables/cvoc12b_r}	
+
+			\include{variables/cvoc12c_r}	
+
+			\include{variables/cvoc13a_r}	
+
+			\include{variables/ainf02_r}	
+
+			\include{variables/cvoc13b_r}	
+
+			\include{variables/cvoc13c_r}	
+
+			\include{variables/cvoc13d_r}	
+
+			\include{variables/cvoc13e_r}	
+
+			\include{variables/cvoc13f_r}	
+
+			\include{variables/cvoc13g_r}	
+
+			\include{variables/cvoc14_r}	
+
+			\include{variables/cvoc15_r}	
+
+			\include{variables/cact13a_r}	
+
+			\include{variables/cact13b_r}	
+
+			\include{variables/ainf03_r}	
+
+			\include{variables/cact13c_r}	
+
+			\include{variables/cact13d_r}	
+
+			\include{variables/cact13e_g1r}	
+
+			\include{variables/cact13f_r}	
+
+			\include{variables/cstu21a_r}	
+
+			\include{variables/cstu21b_r}	
+
+			\include{variables/cstu21c_r}	
+
+			\include{variables/cstu21d_r}	
+
+			\include{variables/cstu21e_r}	
+
+			\include{variables/cstu21f_r}	
+
+		Die Variable sb2008-asch01\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ainf04a_r}	
+
+			\include{variables/cstu21g_r}	
+
+			\include{variables/cstu21h_r}	
+
+			\include{variables/cstu21i_r}	
+
+			\include{variables/cstu21j_r}	
+
+			\include{variables/cstu22_r}	
+
+			\include{variables/cstu23_g1r}	
+
+			\include{variables/cstu23_g2r}	
+
+			\include{variables/term1imm_aip}	
+
+			\include{variables/cstu24_r}	
+
+			\include{variables/cstu25a_r}	
+
+			\include{variables/ainf04b_r}	
+
+			\include{variables/cstu25b_r}	
+
+			\include{variables/cstu25c_r}	
+
+			\include{variables/cstu25d_r}	
+
+			\include{variables/cstu25e_r}	
+
+			\include{variables/cstu25f_r}	
+
+			\include{variables/cstu25g_r}	
+
+			\include{variables/cstu25h_r}	
+
+			\include{variables/cstu25i_r}	
+
+			\include{variables/cstu25j_r}	
+
+			\include{variables/cstu25k_r}	
+
+			\include{variables/ainf04c_r}	
+
+			\include{variables/cstu25l_r}	
+
+			\include{variables/cstu25m_r}	
+
+			\include{variables/cstu25n_r}	
+
+			\include{variables/cstu25o_r}	
+
+			\include{variables/cstu26_r}	
+
+			\include{variables/cstu27a_g1r}	
+
+			\include{variables/cstu27a_g2r}	
+
+			\include{variables/cstu27b_g1o}	
+
+			\include{variables/cstu27b_g2r}	
+
+			\include{variables/cstu27b_g3r}	
+
+			\include{variables/ainf04d_r}	
+
+			\include{variables/cstu27b_g4r}	
+
+			\include{variables/erstsber_aip}	
+
+			\include{variables/cstu27c_g1r}	
+
+			\include{variables/cstu27d_g1r}	
+
+			\include{variables/cstu27d_g2r}	
+
+			\include{variables/cstu27d_g1o}	
+
+			\include{variables/cstu27e_g2r}	
+
+			\include{variables/cstu27e_g3r}	
+
+			\include{variables/cstu27e_g4r}	
+
+			\include{variables/fw12sber_aip}	
+
+			\include{variables/ainf04e_r}	
+
+			\include{variables/cstu27f_g1r}	
+
+			\include{variables/cstu27g_g1r}	
+
+			\include{variables/cstu27g_g2r}	
+
+			\include{variables/fw12term_aip}	
+
+			\include{variables/cstu28_g1r}	
+
+			\include{variables/erst12hs_aip}	
+
+			\include{variables/cstu29a_g1r}	
+
+			\include{variables/cstu29a_g2a}	
+
+			\include{variables/cstu29a_g3r}	
+
+			\include{variables/cstu29a_g4o}	
+
+			\include{variables/ainf05a_r}	
+
+			\include{variables/cstu29a_g5r}	
+
+			\include{variables/hsw12hs_aip}	
+
+			\include{variables/cstu29b_g1r}	
+
+			\include{variables/cstu29b_g3r}	
+
+			\include{variables/cstu29b_g4o}	
+
+			\include{variables/cstu29b_g5r}	
+
+			\include{variables/cstu29c_g1r}	
+
+			\include{variables/cstu29c_g2r}	
+
+			\include{variables/hsw12term_aip}	
+
+			\include{variables/ainf05b_r}	
+
+			\include{variables/cstu30_g1r}	
+
+			\include{variables/cstu31_g1r}	
+
+			\include{variables/cstu31_g2r}	
+
+			\include{variables/ab12term_aip}	
+
+			\include{variables/cstu32a_r}	
+
+			\include{variables/cstu32b_g1r}	
+
+			\include{variables/cstu32b_g2r}	
+
+			\include{variables/ex12term_aip}	
+
+			\include{variables/cstu32c_r}	
+
+			\include{variables/cfin05a_r}	
+
+			\include{variables/ainf05c_r}	
+
+			\include{variables/cfin05b_r}	
+
+			\include{variables/cfin05c_r}	
+
+			\include{variables/cfin05d_r}	
+
+			\include{variables/cfin05e_r}	
+
+			\include{variables/cfin05f_r}	
+
+			\include{variables/cfin05g_r}	
+
+			\include{variables/cfin05h_r}	
+
+			\include{variables/cfin05i_r}	
+
+			\include{variables/cfin05j_g1r}	
+
+			\include{variables/cfin06_r}	
+
+			\include{variables/ainf05d_r}	
+
+			\include{variables/cbeg21_g1r}	
+
+			\include{variables/cbeg21_g2r}	
+
+			\include{variables/ebeginn01_aip}	
+
+			\include{variables/cend21_g1r}	
+
+			\include{variables/cend21_g2r}	
+
+			\include{variables/eende01_aip}	
+
+			\include{variables/cjob0521a_g1o}	
+
+			\include{variables/cjob0521a_g2r}	
+
+			\include{variables/cjob0521a_g3r}	
+
+			\include{variables/cjob0521a_g4aip}	
+
+			\include{variables/ainf05e_r}	
+
+			\include{variables/cjob0521b_r}	
+
+			\include{variables/cjob0521c_r}	
+
+			\include{variables/cjob0521d_r}	
+
+			\include{variables/cjob0521e_r}	
+
+			\include{variables/cbeg22_g1r}	
+
+			\include{variables/cbeg22_g2r}	
+
+			\include{variables/ebeginn02_aip}	
+
+			\include{variables/cend22_g1r}	
+
+			\include{variables/cend22_g2r}	
+
+			\include{variables/eende02_aip}	
+
+		Die Variable sb2008-asch01\_g2o wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ainf05f_r}	
+
+			\include{variables/cjob0522a_g1o}	
+
+			\include{variables/cjob0522a_g2r}	
+
+			\include{variables/cjob0522a_g3r}	
+
+			\include{variables/cjob0522a_g4aip}	
+
+			\include{variables/cjob0522b_r}	
+
+			\include{variables/cjob0522c_r}	
+
+			\include{variables/cjob0522d_r}	
+
+			\include{variables/cjob0522e_r}	
+
+			\include{variables/cbeg23_g1r}	
+
+			\include{variables/cbeg23_g2r}	
+
+			\include{variables/ainf05g_r}	
+
+			\include{variables/ebeginn03_aip}	
+
+			\include{variables/cend23_g1r}	
+
+			\include{variables/cend23_g2r}	
+
+			\include{variables/eende03_aip}	
+
+			\include{variables/cjob0523a_g1o}	
+
+			\include{variables/cjob0523a_g2r}	
+
+			\include{variables/cjob0523a_g3r}	
+
+			\include{variables/cjob0523a_g4aip}	
+
+			\include{variables/cjob0523b_r}	
+
+			\include{variables/cjob0523c_r}	
+
+			\include{variables/ainf05h_r}	
+
+			\include{variables/cjob0523d_r}	
+
+			\include{variables/cjob0523e_r}	
+
+			\include{variables/cbeg24_g1r}	
+
+			\include{variables/cbeg24_g2r}	
+
+			\include{variables/ebeginn04_aip}	
+
+			\include{variables/cend24_g1r}	
+
+			\include{variables/cend24_g2r}	
+
+			\include{variables/eende04_aip}	
+
+			\include{variables/cjob0524a_g1o}	
+
+			\include{variables/cjob0524a_g2r}	
+
+			\include{variables/ainf05i_r}	
+
+			\include{variables/cjob0524a_g3r}	
+
+			\include{variables/cjob0524a_g4aip}	
+
+			\include{variables/cjob0524b_r}	
+
+			\include{variables/cjob0524c_r}	
+
+			\include{variables/cjob0524d_r}	
+
+			\include{variables/cjob0524e_r}	
+
+			\include{variables/cbeg25_g1r}	
+
+			\include{variables/cbeg25_g2r}	
+
+			\include{variables/ebeginn05_aip}	
+
+			\include{variables/cend25_g1r}	
+
+			\include{variables/ainf05j_r}	
+
+			\include{variables/cend25_g2r}	
+
+			\include{variables/eende05_aip}	
+
+			\include{variables/cjob0525a_g1o}	
+
+			\include{variables/cjob0525a_g2r}	
+
+			\include{variables/cjob0525a_g3r}	
+
+			\include{variables/cjob0525a_g4aip}	
+
+			\include{variables/cjob0525b_r}	
+
+			\include{variables/cjob0525c_r}	
+
+			\include{variables/cjob0525d_r}	
+
+			\include{variables/cjob0525e_r}	
+
+			\include{variables/ainf05k_r}	
+
+			\include{variables/cbeg26_g1r}	
+
+			\include{variables/cbeg26_g2r}	
+
+			\include{variables/ebeginn06_aip}	
+
+			\include{variables/cend26_g1r}	
+
+			\include{variables/cend26_g2r}	
+
+			\include{variables/eende06_aip}	
+
+			\include{variables/cjob0526a_g1o}	
+
+			\include{variables/cjob0526a_g2r}	
+
+			\include{variables/cjob0526a_g3r}	
+
+			\include{variables/cjob0526a_g4aip}	
+
+			\include{variables/ainf05l_r}	
+
+			\include{variables/cjob0526b_r}	
+
+			\include{variables/cjob0526c_r}	
+
+			\include{variables/cjob0526d_r}	
+
+			\include{variables/cjob0526e_r}	
+
+			\include{variables/cbeg27_g1r}	
+
+			\include{variables/cbeg27_g2r}	
+
+			\include{variables/ebeginn07_aip}	
+
+			\include{variables/cend27_g1r}	
+
+			\include{variables/cend27_g2r}	
+
+			\include{variables/eende07_aip}	
+
+			\include{variables/ainf06a_r}	
+
+			\include{variables/cjob0527a_g1o}	
+
+			\include{variables/cjob0527a_g2r}	
+
+			\include{variables/cjob0527a_g3r}	
+
+			\include{variables/cjob0527a_g4aip}	
+
+			\include{variables/cjob0527b_r}	
+
+			\include{variables/cjob0527c_r}	
+
+			\include{variables/cjob0527d_r}	
+
+			\include{variables/cjob0527e_r}	
+
+			\include{variables/cbeg28_g1r}	
+
+			\include{variables/cbeg28_g2r}	
+
+			\include{variables/ainf06b_r}	
+
+			\include{variables/ebeginn08_aip}	
+
+			\include{variables/cend28_g1r}	
+
+			\include{variables/cend28_g2r}	
+
+			\include{variables/eende08_aip}	
+
+			\include{variables/cjob0528a_g1o}	
+
+			\include{variables/cjob0528a_g2r}	
+
+			\include{variables/cjob0528a_g3r}	
+
+			\include{variables/cjob0528a_g4aip}	
+
+			\include{variables/cjob0528b_r}	
+
+			\include{variables/cjob0528c_r}	
+
+			\include{variables/ainf06c_r}	
+
+			\include{variables/cjob0528d_r}	
+
+			\include{variables/cjob0528e_r}	
+
+			\include{variables/cbeg29_g1r}	
+
+			\include{variables/cbeg29_g2r}	
+
+			\include{variables/ebeginn09_aip}	
+
+			\include{variables/cend29_g1r}	
+
+			\include{variables/cend29_g2r}	
+
+			\include{variables/eende09_aip}	
+
+			\include{variables/cjob0529a_g1o}	
+
+			\include{variables/cjob0529a_g2r}	
+
+			\include{variables/asch02_r}	
+
+			\include{variables/ainf06d_r}	
+
+			\include{variables/cjob0529a_g3r}	
+
+			\include{variables/cjob0529a_g4aip}	
+
+			\include{variables/cjob0529b_r}	
+
+			\include{variables/cjob0529c_r}	
+
+			\include{variables/cjob0529d_r}	
+
+			\include{variables/cjob0529e_r}	
+
+			\include{variables/cbeg30_g1r}	
+
+			\include{variables/cbeg30_g2r}	
+
+			\include{variables/ebeginn10_aip}	
+
+			\include{variables/cend30_g1r}	
+
+			\include{variables/ainf06e_r}	
+
+			\include{variables/cend30_g2r}	
+
+			\include{variables/eende10_aip}	
+
+			\include{variables/cjob0530a_g1o}	
+
+			\include{variables/cjob0530a_g2r}	
+
+			\include{variables/cjob0530a_g3r}	
+
+			\include{variables/cjob0530a_g4aip}	
+
+			\include{variables/cjob0530b_r}	
+
+			\include{variables/cjob0530c_r}	
+
+			\include{variables/cjob0530d_r}	
+
+			\include{variables/cjob0530e_r}	
+
+			\include{variables/ainf06f_r}	
+
+			\include{variables/cfea01a_r}	
+
+			\include{variables/cfea01b_r}	
+
+			\include{variables/cfea01c_r}	
+
+			\include{variables/cfea01d_r}	
+
+			\include{variables/cfea01e_r}	
+
+			\include{variables/cfea01f_r}	
+
+			\include{variables/cfea01g_r}	
+
+			\include{variables/cfea01h_r}	
+
+			\include{variables/cfea01i_r}	
+
+			\include{variables/cfea01j_r}	
+
+			\include{variables/ainf06g_r}	
+
+			\include{variables/cfea01k_r}	
+
+			\include{variables/cfea01l_r}	
+
+			\include{variables/cfea01m_r}	
+
+			\include{variables/cfea01n_r}	
+
+			\include{variables/cfea01o_r}	
+
+			\include{variables/cfea01p_r}	
+
+			\include{variables/cstu33_r}	
+
+			\include{variables/cstu34_r}	
+
+			\include{variables/cstu35_g1r}	
+
+			\include{variables/ainf06h_r}	
+
+			\include{variables/cstu35_g2r}	
+
+			\include{variables/bestterm_aip}	
+
+			\include{variables/cstu36a_g1o}	
+
+			\include{variables/cstu36a_g2r}	
+
+			\include{variables/cstu36a_g3r}	
+
+			\include{variables/cstu36a_g4r}	
+
+			\include{variables/sberpla1_aip}	
+
+			\include{variables/cstu36b_g1o}	
+
+			\include{variables/cstu36b_g2r}	
+
+			\include{variables/cstu36b_g3r}	
+
+			\include{variables/ainf06i_r}	
+
+			\include{variables/cstu36b_g4r}	
+
+			\include{variables/sberpla2_aip}	
+
+			\include{variables/wuhs12_aip}	
+
+			\include{variables/wuhlan12_aip}	
+
+			\include{variables/cstu37_g1r}	
+
+			\include{variables/cstu37_g2a}	
+
+			\include{variables/cstu37_g3r}	
+
+			\include{variables/cstu37_g4o}	
+
+			\include{variables/cstu37_g5r}	
+
+			\include{variables/cstu38_r}	
+
+			\include{variables/aper01a_r}	
+
+			\include{variables/cstu39_r}	
+
+			\include{variables/cstu40a_g1r}	
+
+			\include{variables/cstu40b_g1r}	
+
+			\include{variables/cstu40c_g1r}	
+
+			\include{variables/cstu40d_g1r}	
+
+			\include{variables/cstu40e_g1r}	
+
+			\include{variables/cstu40f_g1r}	
+
+			\include{variables/cstu41_r}	
+
+			\include{variables/cstu42_r}	
+
+			\include{variables/cstu42a_r}	
+
+			\include{variables/aper01b_r}	
+
+			\include{variables/cstu43a_r}	
+
+			\include{variables/cstu43b_r}	
+
+			\include{variables/cstu43c_r}	
+
+			\include{variables/cstu43d_r}	
+
+			\include{variables/cstu43e_r}	
+
+			\include{variables/cstu43f_r}	
+
+			\include{variables/cstu43g_r}	
+
+			\include{variables/cstu43h_r}	
+
+			\include{variables/cstu43i_r}	
+
+			\include{variables/cstu43j_r}	
+
+			\include{variables/aper01c_r}	
+
+			\include{variables/cstu43k_r}	
+
+			\include{variables/cstu43l_r}	
+
+			\include{variables/cstu43m_g1r}	
+
+			\include{variables/cstu44_r}	
+
+			\include{variables/cstu45_r}	
+
+			\include{variables/cstu46a_r}	
+
+			\include{variables/cstu46b_r}	
+
+			\include{variables/cstu46c_r}	
+
+			\include{variables/cstu46d_r}	
+
+			\include{variables/cstu46e_r}	
+
+			\include{variables/aper01d_r}	
+
+			\include{variables/cstu46f_r}	
+
+			\include{variables/cstu46g_g1r}	
+
+			\include{variables/cstu47a_r}	
+
+			\include{variables/cstu47b_r}	
+
+			\include{variables/cstu47c_r}	
+
+			\include{variables/cstu47d_r}	
+
+			\include{variables/cstu47e_r}	
+
+			\include{variables/cstu47f_r}	
+
+			\include{variables/cstu47g_r}	
+
+			\include{variables/cstu47h_r}	
+
+			\include{variables/asch03_r}	
+
+			\include{variables/aper01e_r}	
+
+			\include{variables/cdec03a_v1r}	
+
+			\include{variables/cdec03l_v1r}	
+
+			\include{variables/cdec03b_v1r}	
+
+			\include{variables/cdec03o_r}	
+
+			\include{variables/cdec03e_v1r}	
+
+			\include{variables/cdec03f_v1r}	
+
+			\include{variables/cdec03g_v1r}	
+
+			\include{variables/cdec03h_v1r}	
+
+			\include{variables/cdec03n_v1r}	
+
+			\include{variables/cdec03i_v1r}	
+
+			\include{variables/aper01f_r}	
+
+			\include{variables/cdec03c_v1r}	
+
+			\include{variables/cdec03p_r}	
+
+			\include{variables/cdec03k_v1r}	
+
+			\include{variables/cdec03q_r}	
+
+			\include{variables/cjob06_r}	
+
+			\include{variables/cjob07a_r}	
+
+			\include{variables/cjob07b_r}	
+
+			\include{variables/cjob07c_r}	
+
+			\include{variables/cjob07d_r}	
+
+			\include{variables/cjob08_r}	
+
+			\include{variables/aper01g_r}	
+
+			\include{variables/cinc01_r}	
+
+			\include{variables/cinc02_r}	
+
+			\include{variables/cinc03a_r}	
+
+			\include{variables/cinc03b_r}	
+
+			\include{variables/cinc03c_r}	
+
+			\include{variables/cinc03d_r}	
+
+			\include{variables/cinc03e_r}	
+
+			\include{variables/cinc03f_r}	
+
+			\include{variables/cinc03g_r}	
+
+			\include{variables/cjob08a_r}	
+
+			\include{variables/aper01h_r}	
+
+			\include{variables/cjob08b_r}	
+
+			\include{variables/cjob08c_r}	
+
+			\include{variables/cjob09_r}	
+
+			\include{variables/cjob10a_r}	
+
+			\include{variables/cjob10b_r}	
+
+			\include{variables/cjob10c_r}	
+
+			\include{variables/cjob10d_r}	
+
+			\include{variables/cjob10e_r}	
+
+			\include{variables/cjob10f_r}	
+
+			\include{variables/cjob10g_r}	
+
+			\include{variables/aper01i_r}	
+
+			\include{variables/cjob10h_r}	
+
+			\include{variables/cjob10i_r}	
+
+			\include{variables/cjob10j_r}	
+
+			\include{variables/cjob10k_r}	
+
+			\include{variables/cgoa01a_r}	
+
+			\include{variables/cgoa01b_r}	
+
+			\include{variables/cgoa01c_r}	
+
+			\include{variables/cgoa01d_r}	
+
+			\include{variables/cgoa01e_r}	
+
+			\include{variables/cgoa01f_r}	
+
+			\include{variables/aper01j_r}	
+
+			\include{variables/cgoa01g_r}	
+
+			\include{variables/cgoa01h_r}	
+
+			\include{variables/cgoa01i_r}	
+
+			\include{variables/cgoa01j_r}	
+
+			\include{variables/cgoa01k_r}	
+
+			\include{variables/cgoa01l_r}	
+
+			\include{variables/cgoa01m_r}	
+
+			\include{variables/cgoa01n_r}	
+
+			\include{variables/cgoa01o_r}	
+
+			\include{variables/cfut01_r}	
+
+			\include{variables/afut01_r}	
+
+			\include{variables/cfut02_r}	
+
+			\include{variables/cfut03_r}	
+
+			\include{variables/cdem17_r}	
+
+			\include{variables/cdem18_r}	
+
+			\include{variables/cdem19_r}	
+
+			\include{variables/cfut04_r}	
+
+			\include{variables/cfut05_r}	
+
+			\include{variables/afut02_r}	
+
+		Die Variable sb2008-sample\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-ge\_wgt\_t1\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-ge\_wgt\_t1t2\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-ge\_wgt\_t1t2t3\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/schulart_gew_aip}	
+
+			\include{variables/schul_ipf_aip}	
+
+			\include{variables/asys05_r}	
+
+			\include{variables/wgt_base_aip}	
+
+			\include{variables/wgt_t1_aip}	
+
+			\include{variables/afut03_r}	
+
+		Die Variable sb2008-wgt\_t1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/nonrespGEW_t2_aip}	
+
+			\include{variables/wgt_t1t2_aip}	
+
+		Die Variable sb2008-wgt\_t1t2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/nonrespGEW_t3_aip}	
+
+			\include{variables/wgt_t1t2t3_aip}	
+
+		Die Variable sb2008-wgt\_t1t2t3r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/adem01_g1r}	
+
+			\include{variables/asch04a_r}	
+
+			\include{variables/adem01_g2r}	
+
+			\include{variables/gebjahr_aip}	
+
+			\include{variables/adem02_r}	
+
+			\include{variables/adem03a_r}	
+
+			\include{variables/adem03b_g1o}	
+
+			\include{variables/adem03b_g2r}	
+
+			\include{variables/adem04a_r}	
+
+			\include{variables/adem04b_r}	
+
+			\include{variables/adem05_r}	
+
+			\include{variables/adem05a_g1o}	
+
+			\include{variables/asch04b_r}	
+
+			\include{variables/adem05a_g2r}	
+
+		Die Variable sb2008-eltspr1\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/adem05b_g1o}	
+
+			\include{variables/adem05b_g2r}	
+
+		Die Variable sb2008-eltspr2\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/adem05c_g1o}	
+
+			\include{variables/adem05c_g2r}	
+
+			\include{variables/adem06a_r}	
+
+			\include{variables/adem06b_r}	
+
+			\include{variables/gew1_aip}	
+
+			\include{variables/asch05a_r}	
+
+			\include{variables/gew2_aip}	
+
+			\include{variables/bpid_aip}	
+
+			\include{variables/bsch02_v1r}	
+
+			\include{variables/bsch11_g1r}	
+
+			\include{variables/bsch11_g2r}	
+
+			\include{variables/reifterm_aip}	
+
+			\include{variables/bsch04a_v1r}	
+
+			\include{variables/bsch04b_v1r}	
+
+			\include{variables/asch05b_r}	
+
+			\include{variables/bsch12a_r}	
+
+			\include{variables/bsch12b_r}	
+
+			\include{variables/bsch13a_r}	
+
+			\include{variables/bsch13b_r}	
+
+			\include{variables/bsch14a_g1r}	
+
+			\include{variables/bsch14a_g2r}	
+
+			\include{variables/prffach1_aip}	
+
+			\include{variables/bsch14b_r}	
+
+			\include{variables/bsch15a_g1r}	
+
+			\include{variables/bsch15a_g2r}	
+
+			\include{variables/apid_aip}	
+
+			\include{variables/asch05c_r}	
+
+			\include{variables/prffach2_aip}	
+
+			\include{variables/bsch15b_r}	
+
+			\include{variables/bsch16a_g1r}	
+
+			\include{variables/bsch16a_g2r}	
+
+			\include{variables/prffach3_aip}	
+
+			\include{variables/bsch16b_r}	
+
+			\include{variables/bsch17a_g1r}	
+
+			\include{variables/bsch17a_g2r}	
+
+			\include{variables/prffach4_aip}	
+
+			\include{variables/bsch17b_r}	
+
+			\include{variables/asch05d_r}	
+
+			\include{variables/bsch18a_g1r}	
+
+			\include{variables/bsch18a_g2r}	
+
+			\include{variables/prffach5_aip}	
+
+			\include{variables/bsch18b_r}	
+
+			\include{variables/bsch08_g1v1o}	
+
+			\include{variables/bsch08_g2v1r}	
+
+			\include{variables/schwerp2_aip}	
+
+			\include{variables/bsch19a_g1r}	
+
+			\include{variables/bsch19a_g2r}	
+
+			\include{variables/intrfac1_aip}	
+
+			\include{variables/asch05e_r}	
+
+			\include{variables/bsch19b_g1r}	
+
+			\include{variables/bsch19b_g2r}	
+
+			\include{variables/intrfac2_aip}	
+
+			\include{variables/bvoc01_r}	
+
+			\include{variables/bvoc02_r}	
+
+			\include{variables/bvoc03_g1v1o}	
+
+			\include{variables/bvoc03_g2v1r}	
+
+			\include{variables/bjob01_r}	
+
+			\include{variables/bjob02_r}	
+
+			\include{variables/bstu04_r}	
+
+			\include{variables/asch05f_r}	
+
+			\include{variables/bstu05a_r}	
+
+			\include{variables/bstu05b_r}	
+
+			\include{variables/bstu05c_r}	
+
+			\include{variables/bstu05d_r}	
+
+			\include{variables/bstu05e_r}	
+
+			\include{variables/bstu05f_r}	
+
+			\include{variables/bstu05g_r}	
+
+			\include{variables/bstu05h_r}	
+
+			\include{variables/bstu05i_r}	
+
+			\include{variables/beng01_r}	
+
+			\include{variables/asch06a_r}	
+
+			\include{variables/beng02a_r}	
+
+			\include{variables/beng02b_r}	
+
+			\include{variables/beng02c_r}	
+
+			\include{variables/beng02d_r}	
+
+			\include{variables/beng02e_r}	
+
+			\include{variables/beng02f_r}	
+
+			\include{variables/beng02g_r}	
+
+			\include{variables/beng02h_r}	
+
+			\include{variables/beng02i_r}	
+
+			\include{variables/bstu06_r}	
+
+			\include{variables/asch06b_r}	
+
+			\include{variables/bint01a_r}	
+
+			\include{variables/bint01b_r}	
+
+			\include{variables/bint01c_r}	
+
+			\include{variables/bint01d_r}	
+
+			\include{variables/bint01e_r}	
+
+			\include{variables/bint01f_r}	
+
+			\include{variables/bint01g_r}	
+
+			\include{variables/bint01h_r}	
+
+			\include{variables/bint01i_r}	
+
+			\include{variables/bint01j_r}	
+
+			\include{variables/asch06c_r}	
+
+			\include{variables/bint01k_r}	
+
+			\include{variables/bint01l_r}	
+
+			\include{variables/bint01m_r}	
+
+			\include{variables/bint01n_r}	
+
+			\include{variables/bint01o_r}	
+
+			\include{variables/bint01p_r}	
+
+			\include{variables/bint01q_r}	
+
+			\include{variables/bint01r_r}	
+
+			\include{variables/bint01s_r}	
+
+			\include{variables/bint01t_r}	
+
+			\include{variables/asch06d_r}	
+
+			\include{variables/bint01u_r}	
+
+			\include{variables/bint01v_r}	
+
+			\include{variables/bint01w_r}	
+
+			\include{variables/bint01x_r}	
+
+			\include{variables/bact01_r}	
+
+			\include{variables/bact02_r}	
+
+			\include{variables/bact03_g1r}	
+
+			\include{variables/bact04a_g1r}	
+
+			\include{variables/bstu07a_g1r}	
+
+			\include{variables/bstu07a_g3r}	
+
+			\include{variables/asch06e_r}	
+
+			\include{variables/bstu07a_g2r}	
+
+		Die Variable sb2008-bstu07a\_g4r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/and2sb1_aip}	
+
+			\include{variables/bvoc05a_g1r}	
+
+			\include{variables/bvoc05a_g2r}	
+
+			\include{variables/bstu08a_g1r}	
+
+			\include{variables/bact04b_g1r}	
+
+			\include{variables/bstu07b_g1r}	
+
+			\include{variables/bstu07b_g3r}	
+
+			\include{variables/bstu07b_g2r}	
+
+			\include{variables/asch06f_r}	
+
+		Die Variable sb2008-bstu07b\_g4r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/and2sb2_aip}	
+
+			\include{variables/bvoc05b_g1r}	
+
+			\include{variables/bvoc05b_g2r}	
+
+			\include{variables/bstu08b_g1r}	
+
+			\include{variables/bact04c_g1r}	
+
+			\include{variables/bstu07c_g1o}	
+
+			\include{variables/bstu07c_g2r}	
+
+			\include{variables/bstu07c_g3r}	
+
+		Die Variable sb2008-bstu07c\_g4r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/asys01_r}	
+
+			\include{variables/asch07a_r}	
+
+			\include{variables/and2sb3_aip}	
+
+			\include{variables/bvoc05c_g1r}	
+
+			\include{variables/bvoc05c_g2r}	
+
+			\include{variables/bstu08c_g1r}	
+
+			\include{variables/bact05_g1r}	
+
+			\include{variables/bact05_g2r}	
+
+			\include{variables/erstterm_aip}	
+
+			\include{variables/bact06_r}	
+
+			\include{variables/bact07a_r}	
+
+			\include{variables/bact07b_r}	
+
+			\include{variables/asch07b_r}	
+
+			\include{variables/bact07c_r}	
+
+			\include{variables/bact07d_r}	
+
+			\include{variables/bact07e_r}	
+
+			\include{variables/bact07f_r}	
+
+			\include{variables/bact07g_r}	
+
+			\include{variables/bact07h_r}	
+
+			\include{variables/bact07i_r}	
+
+			\include{variables/bact07j_r}	
+
+			\include{variables/bact07k_r}	
+
+			\include{variables/bact07l_r}	
+
+			\include{variables/asch07c_r}	
+
+			\include{variables/bact07m_r}	
+
+			\include{variables/bstu09_g1r}	
+
+			\include{variables/ershland_aip}	
+
+			\include{variables/bstu09_g2a}	
+
+			\include{variables/bstu09_g3r}	
+
+			\include{variables/ersths_aip}	
+
+			\include{variables/bstu09_g4o}	
+
+			\include{variables/bstu09_g5r}	
+
+			\include{variables/bstu10a_o}	
+
+			\include{variables/ers2sb1_aip}	
+
+			\include{variables/asch07d_r}	
+
+			\include{variables/bstu10a_g1r}	
+
+			\include{variables/bstu10a_g2r}	
+
+			\include{variables/bstu10a_g3r}	
+
+			\include{variables/bstu10b_o}	
+
+			\include{variables/ers2sb2_aip}	
+
+			\include{variables/bstu10b_g1r}	
+
+			\include{variables/bstu10b_g2r}	
+
+			\include{variables/bstu10b_g3r}	
+
+			\include{variables/bstu11_r}	
+
+			\include{variables/bvoc06_g1o}	
+
+			\include{variables/asch07e_r}	
+
+			\include{variables/bvoc06_g2r}	
+
+			\include{variables/bjob03_g1o}	
+
+			\include{variables/bjob03_g2r}	
+
+			\include{variables/bstu12_r}	
+
+			\include{variables/bstu13_r}	
+
+			\include{variables/bstu14_g1r}	
+
+			\include{variables/zwhland_aip}	
+
+			\include{variables/bstu14_g2a}	
+
+			\include{variables/bstu14_g3r}	
+
+			\include{variables/zweihs_aip}	
+
+			\include{variables/asch07f_r}	
+
+			\include{variables/bstu14_g4o}	
+
+			\include{variables/bstu14_g5r}	
+
+			\include{variables/bstu15a_o}	
+
+			\include{variables/zwsber1_aip}	
+
+			\include{variables/bstu15a_g1r}	
+
+			\include{variables/bstu15a_g2r}	
+
+			\include{variables/bstu15a_g3r}	
+
+			\include{variables/bstu15b_o}	
+
+			\include{variables/zwsber2_aip}	
+
+			\include{variables/bstu15b_g1r}	
+
+			\include{variables/asch07g_r}	
+
+			\include{variables/bstu15b_g2r}	
+
+			\include{variables/bstu15b_g3r}	
+
+			\include{variables/bstu16_g1r}	
+
+			\include{variables/bstu16_g2r}	
+
+			\include{variables/zweiterm_aip}	
+
+			\include{variables/bstu17_r}	
+
+			\include{variables/bstu18_r}	
+
+			\include{variables/bstu19_r}	
+
+			\include{variables/bact08_r}	
+
+			\include{variables/bvoc07a_g1r}	
+
+			\include{variables/asch08_g1o}	
+
+			\include{variables/bvoc07b_g1o}	
+
+			\include{variables/bvoc07b_g2r}	
+
+			\include{variables/bstu20a_g1r}	
+
+			\include{variables/bstu20b_g1o}	
+
+			\include{variables/bstu20b_g2r}	
+
+			\include{variables/bstu20b_g3r}	
+
+		Die Variable sb2008-bstu20b\_g4r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/studsber_aip}	
+
+			\include{variables/bstu20c_g1r}	
+
+			\include{variables/bact09a_g1r}	
+
+			\include{variables/asch08_g2r}	
+
+			\include{variables/bact09b_g1r}	
+
+			\include{variables/bact09b_g2r}	
+
+			\include{variables/bact10_r}	
+
+			\include{variables/bmot01a_r}	
+
+			\include{variables/bmot01b_r}	
+
+			\include{variables/bmot01c_r}	
+
+			\include{variables/bmot01d_r}	
+
+			\include{variables/bmot01e_r}	
+
+			\include{variables/bmot01f_r}	
+
+			\include{variables/bmot01g_r}	
+
+			\include{variables/schwerp_aip}	
+
+			\include{variables/bmot01h_r}	
+
+			\include{variables/bmot01i_r}	
+
+			\include{variables/bmot01j_r}	
+
+			\include{variables/bmot01k_r}	
+
+			\include{variables/bmot01l_r}	
+
+			\include{variables/bmot01m_r}	
+
+			\include{variables/bmot01n_r}	
+
+			\include{variables/bmot01o_r}	
+
+			\include{variables/bmot01p_r}	
+
+			\include{variables/bmot01q_r}	
+
+			\include{variables/asys01_g1r}	
+
+			\include{variables/asch09a_r}	
+
+			\include{variables/bmot01r_r}	
+
+			\include{variables/bmot01s_r}	
+
+			\include{variables/bmot01t_r}	
+
+			\include{variables/bmot01u_r}	
+
+			\include{variables/bmot01v_r}	
+
+			\include{variables/bmot01w_r}	
+
+			\include{variables/bmot01x_r}	
+
+			\include{variables/bmot01y_r}	
+
+			\include{variables/bdec03a_r}	
+
+			\include{variables/bdec03b_r}	
+
+			\include{variables/asch09b_r}	
+
+			\include{variables/bdec03c_r}	
+
+			\include{variables/bdec03d_r}	
+
+			\include{variables/bdec03e_r}	
+
+			\include{variables/bdec03f_r}	
+
+			\include{variables/bdec03g_r}	
+
+			\include{variables/bdec03h_r}	
+
+			\include{variables/bdec03i_r}	
+
+			\include{variables/bdec03j_r}	
+
+			\include{variables/bdec03k_r}	
+
+			\include{variables/bdec03l_r}	
+
+			\include{variables/asch09c_r}	
+
+			\include{variables/bdec03m_r}	
+
+			\include{variables/bdec03n_r}	
+
+			\include{variables/bdec04a_r}	
+
+			\include{variables/bdec04b_r}	
+
+			\include{variables/bsch20_r}	
+
+			\include{variables/bfee01_r}	
+
+			\include{variables/bfee02_g1r}	
+
+			\include{variables/bfee03_r}	
+
+			\include{variables/bfee04_g1r}	
+
+			\include{variables/bfee05_r}	
+
+			\include{variables/asch09d_r}	
+
+			\include{variables/bfee06_r}	
+
+			\include{variables/bfee07_r}	
+
+			\include{variables/bfee08_r}	
+
+			\include{variables/bfee09_r}	
+
+			\include{variables/bfee10_r}	
+
+			\include{variables/bfee11_g1r}	
+
+			\include{variables/bfee12_r}	
+
+			\include{variables/bfee13_r}	
+
+			\include{variables/bfee14_r}	
+
+			\include{variables/bfee15_r}	
+
+			\include{variables/asch09e_r}	
+
+			\include{variables/bfee16_r}	
+
+			\include{variables/bdem07_g1r}	
+
+			\include{variables/bdem08_r}	
+
+			\include{variables/bdem08a_r}	
+
+			\include{variables/bdem08b_r}	
+
+			\include{variables/bdem08c_r}	
+
+			\include{variables/bdem08d_r}	
+
+			\include{variables/bdem08e_r}	
+
+			\include{variables/bdem09a_r}	
+
+			\include{variables/bdem09b_r}	
+
+			\include{variables/asch09f_r}	
+
+			\include{variables/bdem10a_r}	
+
+			\include{variables/bdem10b_r}	
+
+			\include{variables/bdem11a_r}	
+
+			\include{variables/bdem11b_r}	
+
+			\include{variables/bdem12a_g1o}	
+
+			\include{variables/bdem12b_g1o}	
+
+			\include{variables/bdec05_r}	
+
+			\include{variables/bfut01_r}	
+
+			\include{variables/bfut02_r}	
+
+			\include{variables/bfut03_r}	
+
+			\include{variables/aski01a_r}	
+
+			\include{variables/bgoa01a_r}	
+
+			\include{variables/bgoa01b_r}	
+
+			\include{variables/bgoa01c_r}	
+
+			\include{variables/bgoa01d_r}	
+
+			\include{variables/bgoa01e_r}	
+
+			\include{variables/bgoa01f_r}	
+
+			\include{variables/bgoa01g_r}	
+
+			\include{variables/bgoa01h_r}	
+
+			\include{variables/bgoa01i_r}	
+
+			\include{variables/bgoa01j_r}	
+
+			\include{variables/aski01b_r}	
+
+			\include{variables/bgoa01k_r}	
+
+			\include{variables/bgoa01l_r}	
+
+			\include{variables/bgoa01m_r}	
+
+			\include{variables/bgoa01n_r}	
+
+			\include{variables/bgoa01o_r}	
+
+			\include{variables/cpid_aip}	
+
+			\include{variables/csat01_r}	
+
+			\include{variables/cdec06_r}	
+
+			\include{variables/aski01c_r}	
+
+			\include{variables/csch20_v1r}	
+
+			\include{variables/cski01a_r}	
+
+			\include{variables/cski01b_r}	
+
+			\include{variables/cski01c_r}	
+
+			\include{variables/cski01d_r}	
+
+			\include{variables/cski01e_r}	
+
+			\include{variables/cski01f_r}	
+
+			\include{variables/cski01g_r}	
+
+			\include{variables/cski01h_r}	
+
+			\include{variables/cski01i_r}	
+
+			\include{variables/aski01d_r}	
+
+			\include{variables/cski02a_r}	
+
+			\include{variables/cski02b_r}	
+
+			\include{variables/cski02c_r}	
+
+			\include{variables/cski02d_r}	
+
+			\include{variables/cski02e_r}	
+
+			\include{variables/cski02f_r}	
+
+			\include{variables/cski02g_r}	
+
+			\include{variables/cski02h_r}	
+
+			\include{variables/cski02i_r}	
+
+			\include{variables/cact11_r}	
+
+		Die Variable sb2008-asys02\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/aski01e_r}	
+
+			\include{variables/cact11a_g1r}	
+
+			\include{variables/cact11b_g1r}	
+
+			\include{variables/cact11c_g1r}	
+
+			\include{variables/cdec07a_r}	
+
+			\include{variables/cdec07b_r}	
+
+			\include{variables/cdec07c_r}	
+
+			\include{variables/cdec07d_r}	
+
+			\include{variables/cdec07e_r}	
+
+			\include{variables/cdec07f_r}	
+
+			\include{variables/cdec07g_r}	
+
+			\include{variables/aski01f_r}	
+
+			\include{variables/cdec08a_r}	
+
+			\include{variables/cdec08b_r}	
+
+			\include{variables/csat02a_r}	
+
+			\include{variables/csat02b_r}	
+
+			\include{variables/csat02c_r}	
+
+			\include{variables/csat02d_r}	
+
+			\include{variables/csat02e_r}	
+
+			\include{variables/csat02f_r}	
+
+			\include{variables/csat02g_r}	
+
+			\include{variables/csat02h_r}	
+
+			\include{variables/aski01g_r}	
+
+			\include{variables/csat02i_r}	
+
+			\include{variables/cmot01a_r}	
+
+			\include{variables/cmot01b_r}	
+
+			\include{variables/cmot01c_v1r}	
+
+			\include{variables/cmot01d_r}	
+
+			\include{variables/cmot01e_r}	
+
+			\include{variables/cmot01f_r}	
+
+			\include{variables/cmot01g_r}	
+
+			\include{variables/cmot01h_r}	
+
+			\include{variables/cmot01i_r}	
+
+			\include{variables/aski01h_r}	
+
+			\include{variables/cmot01j_r}	
+
+			\include{variables/cmot01k_r}	
+
+			\include{variables/cmot01l_r}	
+
+			\include{variables/cmot01m_r}	
+
+			\include{variables/cmot01n_r}	
+
+			\include{variables/cmot01o_r}	
+
+			\include{variables/cmot01p_r}	
+
+			\include{variables/cmot01q_r}	
+
+			\include{variables/cmot01r_r}	
+
+			\include{variables/cmot01s_r}	
+
+			\include{variables/aski01i_r}	
+
+			\include{variables/cmot01t_r}	
+
+			\include{variables/cmot01u_r}	
+
+			\include{variables/cmot01v_r}	
+
+			\include{variables/cmot01w_r}	
+
+			\include{variables/cmot01x_r}	
+
+			\include{variables/cmot01y_r}	
+
+			\include{variables/cbeg01_g1r}	
+
+			\include{variables/cbeg01_g2r}	
+
+			\include{variables/anfang01_aip}	
+
+			\include{variables/cend01_g1r}	
+
+			\include{variables/asch10a_r}	
+
+			\include{variables/cend01_g2r}	
+
+			\include{variables/ende01_aip}	
+
+			\include{variables/cstu211a_o}	
+
+			\include{variables/cstu211a_g1r}	
+
+			\include{variables/cstu211a_g2r}	
+
+			\include{variables/cstu211a_g3r}	
+
+		Die Variable sb2008-sber101\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cstu211b_o}	
+
+			\include{variables/cstu211b_g1r}	
+
+			\include{variables/cstu211b_g2r}	
+
+			\include{variables/asch10b_r}	
+
+			\include{variables/cstu211b_g3r}	
+
+		Die Variable sb2008-sber201\_aip wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cstu211c_r}	
+
+			\include{variables/hs01_aip}	
+
+			\include{variables/hland01_aip}	
+
+			\include{variables/cstu211d_g1r}	
+
+			\include{variables/cstu211d_g2a}	
+
+			\include{variables/cstu211d_g3r}	
+
+			\include{variables/cstu211d_g4o}	
+
+			\include{variables/cstu211d_g5r}	
+
+			\include{variables/asch10c_r}	
+
+			\include{variables/cvoc081_g1o}	
+
+			\include{variables/cvoc081_g2r}	
+
+			\include{variables/cjob041_g1r}	
+
+			\include{variables/cjob041_g2r}	
+
+			\include{variables/cact121_g1r}	
+
+			\include{variables/cact121_g2r}	
+
+			\include{variables/cact121_g3r}	
+
+			\include{variables/cbeg02_g1r}	
+
+			\include{variables/cbeg02_g2r}	
+
+			\include{variables/anfang02_aip}	
+
+			\include{variables/asch10d_r}	
+
+			\include{variables/cend02_g1r}	
+
+			\include{variables/cend02_g2r}	
+
+			\include{variables/ende02_aip}	
+
+			\include{variables/cstu212a_o}	
+
+			\include{variables/cstu212a_g1r}	
+
+			\include{variables/cstu212a_g2r}	
+
+			\include{variables/cstu212a_g3r}	
+
+			\include{variables/sber102_aip}	
+
+			\include{variables/cstu212b_o}	
+
+			\include{variables/cstu212b_g1r}	
+
+			\include{variables/asch10e_r}	
+
+			\include{variables/cstu212b_g2r}	
+
+			\include{variables/cstu212b_g3r}	
+
+			\include{variables/sber202_aip}	
+
+			\include{variables/cstu212c_r}	
+
+			\include{variables/hs02_aip}	
+
+			\include{variables/hland02_aip}	
+
+			\include{variables/cstu212d_g1r}	
+
+		Die Variable sb2008-cstu212d\_g2a wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cstu212d_g3r}	
+
+			\include{variables/cstu212d_g4o}	
+
+			\include{variables/asys02_g2a}	
+
+			\include{variables/asch10f_r}	
+
+			\include{variables/cstu212d_g5r}	
+
+			\include{variables/cvoc152_g1o}	
+
+			\include{variables/cvoc152_g2r}	
+
+			\include{variables/cjob042_g1r}	
+
+			\include{variables/cjob042_g2r}	
+
+			\include{variables/cact122_g1r}	
+
+			\include{variables/cact122_g2r}	
+
+			\include{variables/cact122_g3r}	
+
+			\include{variables/cbeg03_g1r}	
+
+			\include{variables/cbeg03_g2r}	
+
+			\include{variables/asch10g_r}	
+
+			\include{variables/anfang03_aip}	
+
+			\include{variables/cend03_g1r}	
+
+			\include{variables/cend03_g2r}	
+
+			\include{variables/ende03_aip}	
+
+			\include{variables/cstu213_o}	
+
+			\include{variables/cstu213a_g1r}	
+
+			\include{variables/cstu213a_g2r}	
+
+			\include{variables/cstu213a_g3r}	
+
+			\include{variables/sber103_aip}	
+
+			\include{variables/cstu213b_o}	
+
+			\include{variables/asch10h_r}	
+
+			\include{variables/cstu213b_g1r}	
+
+			\include{variables/cstu213b_g2r}	
+
+			\include{variables/cstu213b_g3r}	
+
+			\include{variables/sber203_aip}	
+
+			\include{variables/cstu213c_r}	
+
+			\include{variables/hs03_aip}	
+
+			\include{variables/hland03_aip}	
+
+			\include{variables/cstu213d_g1r}	
+
+			\include{variables/cstu213d_g2a}	
+
+			\include{variables/cstu213d_g3r}	
+
+			\include{variables/asch10i_r}	
+
+			\include{variables/cstu213d_g4o}	
+
+			\include{variables/cstu213d_g5r}	
+
+			\include{variables/cvoc153_g1o}	
+
+			\include{variables/cvoc153_g2r}	
+
+			\include{variables/cjob043_g1r}	
+
+			\include{variables/cjob043_g2r}	
+
+			\include{variables/cact123_g1r}	
+
+			\include{variables/cact123_g2r}	
+
+			\include{variables/cact123_g3r}	
+
+			\include{variables/cbeg04_g1r}	
+
+			\include{variables/asch10j_r}	
+
+			\include{variables/cbeg04_g2r}	
+
+			\include{variables/anfang04_aip}	
+
+			\include{variables/cend04_g1r}	
+
+			\include{variables/cend04_g2r}	
+
+			\include{variables/ende04_aip}	
+
+			\include{variables/cstu214a_o}	
+
+			\include{variables/cstu214a_g1r}	
+
+			\include{variables/cstu214a_g2r}	
+
+			\include{variables/cstu214a_g3r}	
+
+			\include{variables/sber104_aip}	
+
+			\include{variables/avoc01_r}	
+
+			\include{variables/cstu214b_o}	
+
+			\include{variables/cstu214b_g1r}	
+
+			\include{variables/cstu214b_g2r}	
+
+			\include{variables/cstu214b_g3r}	
+
+			\include{variables/sber204_aip}	
+
+			\include{variables/cstu214c_r}	
+
+			\include{variables/hs04_aip}	
+
+			\include{variables/hland04_aip}	
+
+			\include{variables/cstu214d_g1r}	
+
+			\include{variables/cstu214d_g2a}	
+
+			\include{variables/avoc02_r}	
+
+			\include{variables/cstu214d_g3r}	
+
+			\include{variables/cstu214d_g4o}	
+
+			\include{variables/cstu214d_g5r}	
+
+			\include{variables/cvoc154_g1o}	
+
+			\include{variables/cvoc154_g2r}	
+
+			\include{variables/cjob044_g1r}	
+
+			\include{variables/cjob044_g2r}	
+
+			\include{variables/cact124_g1r}	
+
+			\include{variables/cact124_g2r}	
+
+			\include{variables/cact124_g3r}	
+
+			\include{variables/avoc03_g1o}	
+
+			\include{variables/cbeg05_g1r}	
+
+			\include{variables/cbeg05_g2r}	
+
+			\include{variables/anfang05_aip}	
+
+			\include{variables/cend05_g1r}	
+
+			\include{variables/cend05_g2r}	
+
+			\include{variables/ende05_aip}	
+
+			\include{variables/cstu215a_o}	
+
+			\include{variables/cstu215a_g1r}	
+
+			\include{variables/cstu215a_g2r}	
+
+			\include{variables/cstu215a_g3r}	
+
+			\include{variables/avoc03_g2r}	
+
+			\include{variables/sber105_aip}	
+
+			\include{variables/cstu215b_o}	
+
+			\include{variables/cstu215b_g1r}	
+
+			\include{variables/cstu215b_g2r}	
+
+			\include{variables/cstu215b_g3r}	
+
+			\include{variables/sber205_aip}	
+
+			\include{variables/cstu215c_r}	
+
+			\include{variables/hs05_aip}	
+
+			\include{variables/hland05_aip}	
+
+			\include{variables/cstu215d_g1r}	
+
+			\include{variables/bevorgrp_aip}	
+
+			\include{variables/cstu215d_g2a}	
+
+			\include{variables/cstu215d_g3r}	
+
+			\include{variables/cstu215d_g4o}	
+
+			\include{variables/cstu215d_g5r}	
+
+			\include{variables/cvoc155_g1o}	
+
+			\include{variables/cvoc155_g2r}	
+
+			\include{variables/cjob045_g1r}	
+
+			\include{variables/cjob045_g2r}	
+
+			\include{variables/cact125_g1r}	
+
+			\include{variables/cact125_g2r}	
+
+			\include{variables/asys03_g1r}	
+
+			\include{variables/astu01_r}	
+
+			\include{variables/cact125_g3r}	
+
+			\include{variables/cbeg06_g1r}	
+
+			\include{variables/cbeg06_g2r}	
+
+			\include{variables/anfang06_aip}	
+
+			\include{variables/cend06_g1r}	
+
+			\include{variables/cend06_g2r}	
+
+			\include{variables/ende06_aip}	
+
+			\include{variables/cstu216a_o}	
+
+			\include{variables/cstu216a_g1r}	
+
+			\include{variables/cstu216a_g2r}	
+
+			\include{variables/astu02_r}	
+
+			\include{variables/cstu216a_g3r}	
+
+			\include{variables/sber106_aip}	
+
+			\include{variables/cstu216b_o}	
+
+			\include{variables/cstu216b_g1r}	
+
+			\include{variables/cstu216b_g2r}	
+
+			\include{variables/cstu216b_g3r}	
+
+			\include{variables/sber206_aip}	
+
+			\include{variables/cstu216c_r}	
+
+			\include{variables/hs06_aip}	
+
+			\include{variables/hland06_aip}	
+
+			\include{variables/studart_aip}	
+
+			\include{variables/cstu216d_g1r}	
+
+			\include{variables/cstu216d_g2a}	
+
+			\include{variables/cstu216d_g3r}	
+
+			\include{variables/cstu216d_g4o}	
+
+			\include{variables/cstu216d_g5r}	
+
+			\include{variables/cvoc156_g1o}	
+
+			\include{variables/cvoc156_g2r}	
+
+			\include{variables/cjob046_g1r}	
+
+			\include{variables/cjob046_g2r}	
+
+			\include{variables/cact126_g1r}	
+
+			\include{variables/astu03a_o}	
+
+			\include{variables/cact126_g2r}	
+
+			\include{variables/cact126_g3r}	
+
+			\include{variables/cbeg07_g1r}	
+
+			\include{variables/cbeg07_g2r}	
+
+			\include{variables/anfang07_aip}	
+
+			\include{variables/cend07_g1r}	
+
+			\include{variables/cend07_g2r}	
+
+			\include{variables/ende07_aip}	
+
+			\include{variables/cstu217a_o}	
+
+			\include{variables/cstu217a_g1r}	
+
+			\include{variables/astu03a_g1r}	
+
+			\include{variables/cstu217a_g2r}	
+
+			\include{variables/cstu217a_g3r}	
+
+			\include{variables/sber107_aip}	
+
+			\include{variables/cstu217b_o}	
+
+			\include{variables/cstu217b_g1r}	
+
+			\include{variables/cstu217b_g2r}	
+
+			\include{variables/cstu217b_g3r}	
+
+			\include{variables/sber207_aip}	
+
+			\include{variables/cstu217c_r}	
+
+			\include{variables/hs07_aip}	
+
+			\include{variables/astu03a_g2r}	
+
+			\include{variables/hland07_aip}	
+
+			\include{variables/cstu217d_g1r}	
+
+			\include{variables/cstu217d_g2a}	
+
+			\include{variables/cstu217d_g3r}	
+
+			\include{variables/cstu217d_g4o}	
+
+			\include{variables/cstu217d_g5r}	
+
+			\include{variables/cvoc087_g1o}	
+
+			\include{variables/cvoc087_g2r}	
+
+		Die Variable sb2008-cjob047\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cjob047_g2r}	
+
+			\include{variables/astu03a_g3r}	
+
+			\include{variables/cact127_g1r}	
+
+			\include{variables/cact127_g2r}	
+
+			\include{variables/cact127_g3r}	
+
+			\include{variables/cbeg08_g1r}	
+
+			\include{variables/cbeg08_g2r}	
+
+			\include{variables/anfang08_aip}	
+
+			\include{variables/cend08_g1r}	
+
+			\include{variables/cend08_g2r}	
+
+			\include{variables/ende08_aip}	
+
+			\include{variables/cstu218a_o}	
+
+			\include{variables/erssber1_aip}	
+
+			\include{variables/cstu218a_g1r}	
+
+			\include{variables/cstu218a_g2r}	
+
+			\include{variables/cstu218a_g3r}	
+
+			\include{variables/sber108_aip}	
+
+			\include{variables/cstu218b_o}	
+
+			\include{variables/cstu218b_g1r}	
+
+			\include{variables/cstu218b_g2r}	
+
+			\include{variables/cstu218b_g3r}	
+
+			\include{variables/sber208_aip}	
+
+			\include{variables/cstu218c_r}	
+
+			\include{variables/astu03b_o}	
+
+			\include{variables/hs08_aip}	
+
+			\include{variables/hland08_aip}	
+
+			\include{variables/cstu218d_g1r}	
+
+			\include{variables/cstu218d_g2a}	
+
+			\include{variables/cstu218d_g3r}	
+
+			\include{variables/cstu218d_g4o}	
+
+			\include{variables/cstu218d_g5r}	
+
+			\include{variables/cvoc088_g1o}	
+
+			\include{variables/cvoc088_g2r}	
+
+		Die Variable sb2008-cjob048\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/astu03b_g3r}	
+
+			\include{variables/cjob048_g2r}	
+
+			\include{variables/cact128_g1r}	
+
+			\include{variables/cact128_g2r}	
+
+			\include{variables/cact128_g3r}	
+
+			\include{variables/cbeg09_g1r}	
+
+			\include{variables/cbeg09_g2r}	
+
+			\include{variables/anfang09_aip}	
+
+			\include{variables/cend09_g1r}	
+
+			\include{variables/cend09_g2r}	
+
+			\include{variables/ende09_aip}	
+
+			\include{variables/asys03_g2o}	
+
+			\include{variables/astu03b_g2r}	
+
+			\include{variables/cstu219a_o}	
+
+			\include{variables/cstu219a_g1r}	
+
+			\include{variables/cstu219a_g2r}	
+
+			\include{variables/cstu219a_g3r}	
+
+			\include{variables/sber109_aip}	
+
+			\include{variables/cstu219b_o}	
+
+			\include{variables/cstu219b_g1r}	
+
+			\include{variables/cstu219b_g2r}	
+
+			\include{variables/cstu219b_g3r}	
+
+			\include{variables/sber209_aip}	
+
+			\include{variables/astu03b_g1r}	
+
+			\include{variables/cstu219c_r}	
+
+			\include{variables/hs09_aip}	
+
+			\include{variables/hland09_aip}	
+
+			\include{variables/cstu219d_g1r}	
+
+			\include{variables/cstu219d_g2a}	
+
+			\include{variables/cstu219d_g3r}	
+
+			\include{variables/cstu219d_g4o}	
+
+			\include{variables/cstu219d_g5r}	
+
+			\include{variables/cvoc089_g1o}	
+
+			\include{variables/cvoc089_g2r}	
+
+			\include{variables/erssber2_aip}	
+
+			\include{variables/cjob049_g1r}	
+
+			\include{variables/cjob049_g2r}	
+
+			\include{variables/cact211_g1r}	
+
+			\include{variables/cact129_g2r}	
+
+			\include{variables/cact129_g3r}	
+
+			\include{variables/cbeg10_g1r}	
+
+			\include{variables/cbeg10_g2r}	
+
+			\include{variables/anfang10_aip}	
+
+			\include{variables/cend10_g1r}	
+
+			\include{variables/cend10_g2r}	
+
+			\include{variables/astu03c_o}	
+
+			\include{variables/ende10_aip}	
+
+			\include{variables/cstu2110a_o}	
+
+			\include{variables/cstu2110a_g1r}	
+
+			\include{variables/cstu2110a_g2r}	
+
+			\include{variables/cstu2110a_g3r}	
+
+			\include{variables/sber110_aip}	
+
+			\include{variables/cstu2110b_o}	
+
+			\include{variables/cstu2110b_g1r}	
+
+			\include{variables/cstu2110b_g2r}	
+
+			\include{variables/cstu2110b_g3r}	
+
+			\include{variables/astu03c_g3r}	
+
+			\include{variables/sber210_aip}	
+
+			\include{variables/cstu2110c_r}	
+
+			\include{variables/hs10_aip}	
+
+			\include{variables/hland10_aip}	
+
+			\include{variables/cstu2110d_g1r}	
+
+			\include{variables/cstu2110d_g2a}	
+
+			\include{variables/cstu2110d_g3r}	
+
+			\include{variables/cstu2110d_g4o}	
+
+			\include{variables/cstu2110d_g5r}	
+
+			\include{variables/cvoc0810_g1r}	
+
+			\include{variables/astu03c_g2r}	
+
+			\include{variables/cvoc0810_g2r}	
+
+			\include{variables/cjob0410_g1r}	
+
+		Die Variable sb2008-cjob0410\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1210_g1r}	
+
+			\include{variables/cact1210_g2r}	
+
+			\include{variables/cact1210_g3r}	
+
+			\include{variables/cbeg11_g1r}	
+
+			\include{variables/cbeg11_g2r}	
+
+			\include{variables/anfang11_aip}	
+
+		Die Variable sb2008-cend11\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/astu03c_g1r}	
+
+		Die Variable sb2008-cend11\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende11_aip}	
+
+			\include{variables/cstu2111a_o}	
+
+			\include{variables/cstu2111a_g1r}	
+
+			\include{variables/cstu2111a_g2r}	
+
+			\include{variables/cstu2111a_g3r}	
+
+			\include{variables/sber111_aip}	
+
+			\include{variables/cstu2111b_o}	
+
+			\include{variables/cstu2111b_g1r}	
+
+			\include{variables/cstu2111b_g2r}	
+
+			\include{variables/andsber1_aip}	
+
+			\include{variables/cstu2111b_g3r}	
+
+			\include{variables/sber211_aip}	
+
+			\include{variables/cstu2111c_r}	
+
+			\include{variables/hs11_aip}	
+
+			\include{variables/hland11_aip}	
+
+			\include{variables/cstu2111d_g1r}	
+
+			\include{variables/cstu2111d_g2a}	
+
+			\include{variables/cstu2111d_g3r}	
+
+			\include{variables/cstu2111d_g4o}	
+
+			\include{variables/cstu2111d_g5r}	
+
+			\include{variables/astu03d_o}	
+
+			\include{variables/cvoc0811_g1r}	
+
+			\include{variables/cvoc0811_g2r}	
+
+		Die Variable sb2008-cjob0411\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1211_g1r}	
+
+			\include{variables/cact1211_g2r}	
+
+			\include{variables/cact1211_g3r}	
+
+			\include{variables/cbeg12_g1r}	
+
+			\include{variables/cbeg12_g2r}	
+
+			\include{variables/anfang12_aip}	
+
+			\include{variables/astu03d_g3r}	
+
+		Die Variable sb2008-cend12\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend12\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende12_aip}	
+
+			\include{variables/cstu2112a_o}	
+
+			\include{variables/cstu2112a_g1r}	
+
+			\include{variables/cstu2112a_g2r}	
+
+			\include{variables/cstu2112a_g3r}	
+
+			\include{variables/sber112_aip}	
+
+			\include{variables/cstu2112b_o}	
+
+			\include{variables/cstu2112b_g1r}	
+
+			\include{variables/asys03_a}	
+
+			\include{variables/astu03d_g2r}	
+
+			\include{variables/cstu2112b_g2r}	
+
+			\include{variables/cstu2112b_g3r}	
+
+			\include{variables/sber212_aip}	
+
+			\include{variables/cstu2112c_r}	
+
+			\include{variables/hs12_aip}	
+
+			\include{variables/hland12_aip}	
+
+			\include{variables/cstu2112d_g1r}	
+
+			\include{variables/cstu2112d_g2a}	
+
+			\include{variables/cstu2112d_g3r}	
+
+			\include{variables/cstu2112d_g4o}	
+
+			\include{variables/astu03d_g1r}	
+
+			\include{variables/cstu2112d_g5r}	
+
+			\include{variables/cvoc0812_g1r}	
+
+			\include{variables/cvoc0812_g2r}	
+
+			\include{variables/cjob0412_g1r}	
+
+		Die Variable sb2008-cjob0412\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1212_g1r}	
+
+			\include{variables/cact1212_g2r}	
+
+			\include{variables/cact1212_g3r}	
+
+			\include{variables/cbeg13_g1r}	
+
+			\include{variables/cbeg13_g2r}	
+
+			\include{variables/andsber2_aip}	
+
+			\include{variables/anfang13_aip}	
+
+		Die Variable sb2008-cend13\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend13\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende13_aip}	
+
+			\include{variables/cstu2113a_o}	
+
+			\include{variables/cstu2113a_g1r}	
+
+			\include{variables/cstu2113a_g2r}	
+
+			\include{variables/cstu2113a_g3r}	
+
+			\include{variables/sber113_aip}	
+
+			\include{variables/cstu2113b_o}	
+
+			\include{variables/astu03e_r}	
+
+			\include{variables/cstu2113b_g1r}	
+
+			\include{variables/cstu2113b_g2r}	
+
+			\include{variables/cstu2113b_g3r}	
+
+			\include{variables/sber213_aip}	
+
+			\include{variables/cstu2113c_r}	
+
+			\include{variables/hs13_aip}	
+
+			\include{variables/hland13_aip}	
+
+			\include{variables/cstu2113d_g1r}	
+
+			\include{variables/cstu2113d_g2a}	
+
+			\include{variables/cstu2113d_g3r}	
+
+			\include{variables/astu03f_r}	
+
+			\include{variables/cstu2113d_g4o}	
+
+			\include{variables/cstu2113d_g5r}	
+
+			\include{variables/cvoc0813_g1r}	
+
+			\include{variables/cvoc0813_g2r}	
+
+			\include{variables/cjob0413_g1r}	
+
+		Die Variable sb2008-cjob0413\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1213_g1r}	
+
+			\include{variables/cact1213_g2}	
+
+			\include{variables/cact1213_g3r}	
+
+			\include{variables/cbeg14_g1r}	
+
+			\include{variables/avoc04_r}	
+
+			\include{variables/cbeg14_g2r}	
+
+			\include{variables/anfang14_aip}	
+
+		Die Variable sb2008-cend14\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend14\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende14_aip}	
+
+			\include{variables/cstu2114a_o}	
+
+			\include{variables/cstu2114a_g1r}	
+
+			\include{variables/cstu2114a_g2r}	
+
+			\include{variables/cstu2114a_g3r}	
+
+			\include{variables/sber114_aip}	
+
+			\include{variables/adec01_r}	
+
+			\include{variables/cstu2114b_o}	
+
+			\include{variables/cstu2114b_g1r}	
+
+			\include{variables/cstu2114b_g2r}	
+
+			\include{variables/cstu2114b_g3r}	
+
+			\include{variables/sber214_aip}	
+
+			\include{variables/cstu2114c_r}	
+
+			\include{variables/hs14_aip}	
+
+			\include{variables/hland14_aip}	
+
+			\include{variables/cstu2114d_g1r}	
+
+			\include{variables/cstu2114d_g2a}	
+
+			\include{variables/entschei_aip}	
+
+			\include{variables/cstu2114d_g3r}	
+
+			\include{variables/cstu2114d_g4o}	
+
+			\include{variables/cstu2114d_g5r}	
+
+			\include{variables/cvoc0814_g1r}	
+
+			\include{variables/cvoc0814_g2r}	
+
+			\include{variables/cjob0414_g1r}	
+
+		Die Variable sb2008-cjob0414\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/cact1214_g1r}	
+
+			\include{variables/cact1214_g2r}	
+
+			\include{variables/cact1214_g3r}	
+
+			\include{variables/adec02a_r}	
+
+			\include{variables/cbeg15_g1r}	
+
+			\include{variables/cbeg15_g2r}	
+
+			\include{variables/anfang15_aip}	
+
+		Die Variable sb2008-cend15\_g1r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+		Die Variable sb2008-cend15\_g2r wird im Datensatz aufgeführt, jedoch liegt diese nicht im System vor.
+
+			\include{variables/ende15_aip}	
+
+			\include{variables/cstu2115a_o}	
+
+			\include{variables/cstu2115a_g1r}	
+
+			\include{variables/cstu2115a_g2r}	
+
+			\include{variables/cstu2115a_g3r}	
+
+			\include{variables/adec02b_r}	
+
+			\include{variables/sber115_aip}	
+
+			\include{variables/cstu2115b_o}	
+
+			\include{variables/cstu2115b_g1r}	
+
+			\include{variables/cstu2115b_g2r}	
+
+			\include{variables/cstu2115b_g3r}	
+
+			\include{variables/sber215_aip}	
+
+			\include{variables/cstu2115c_r}	
+
+			\include{variables/hs15_aip}	
+
+			\include{variables/hland15_aip}	
+
+			\include{variables/cstu2115d_g1r}	
+
+%Bibliography 
+\printbibliography 
+
+\end{document}

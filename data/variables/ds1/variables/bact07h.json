@@ -1,0 +1,105 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Grund Nichtverwirklichung: geforderte Leistungen (noch) nicht erfüllt",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "21",
+			"relatedQuestionStrings" : {
+				"de" : "Aus welchen Gründen haben Sie diese Planung bislang noch nicht verwirklicht?\nich muss vorher noch bestimmte Leistungen erbringen (z.B. Praktikum)",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 274,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1710,
+		"totalValidRelativeFrequency" : 6.07,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "0",
+			"standardDeviation" : null,
+			"deviance" : "0.840329433622226",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.13,
+				"absoluteFrequency" : 36
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 14.86,
+				"absoluteFrequency" : 4187
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "0",
+				"label" : {
+					"de" : "nicht genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 5.17,
+				"absoluteFrequency" : 1456,
+				"validRelativeFrequency" : 85.15
+			},
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 0.9,
+				"absoluteFrequency" : 254,
+				"validRelativeFrequency" : 14.85
+			}
+		]
+	}
+}

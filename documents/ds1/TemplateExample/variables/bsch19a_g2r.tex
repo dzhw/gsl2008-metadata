@@ -1,0 +1,81 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{bsch19a\_g2r}
+	\label{subSection:bsch19a_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bsch19a_g2r}
+			Name & bsch19a\_g2r \\
+			Label & 1. Interessenfach der letzten 2 Schuljahre (Fächergruppe) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode bsch18a\_g1 (101/108 = 1) (121/134 = 2) (141/144 = 3) 
+(151/153 = 4) (161/179 = 5) (301/328 = 6) (351/366 = 7) 
+(401/409 = 8) (451/474 = 9) (501/514 773 = 10) (551/561 = 11) 
+(601/614 = 12) (652/665 = 13) (701/708 = 14) (751/753 = 15)
+, gen(bsch18a\_g2) \\
+				 \\
+					Generierungsbeschreibung & Die (Schul-)Fächergruppen wurden aus den codierten Angaben zu den am meisten interessierenden Schulfächern in codierter Form generiert. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-7).
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:bsch19a_g2r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Mathematik/Naturwissenschaften/Technik (Allgemeinbildene Schule) & 2430 & 8.62 & 41.48 \\
+								2 & Kulturwissenschaften/Soziologie/Wirtschaft (Allgemeinbildene Schule) & 896 & 3.18 & 15.3 \\
+								3 & Kunst/Musik/Sport (Allgemeinbildene Schule) & 454 & 1.61 & 7.75 \\
+								5 & Sprachen/Sprachwissenschaften (Allgemeinbildene Schule) & 1342 & 4.76 & 22.91 \\
+								6 & Technik (berufsbildende Schule) & 119 & 0.42 & 2.03 \\
+								7 & Bauwesen (berufsbildende Schule) & 19 & 0.07 & 0.32 \\
+								8 & Informatik (berufsbildende Schule) & 70 & 0.25 & 1.19 \\
+								9 & Wirtschaft (und Verwaltung) (berufsbildende Schule) & 260 & 0.92 & 4.44 \\
+								10 & Landwirtschaft/ Naturwissenschaften (berufsbildende Schule) & 24 & 0.09 & 0.41 \\
+								11 & Gestaltung (berufsbildende Schule) & 33 & 0.12 & 0.56 \\
+								12 & Ernährung/Hauswirtschaft/Gesundheit (berufsbildende Schule) & 39 & 0.14 & 0.67 \\
+								13 & Sozialwesen (berufsbildende Schule) & 137 & 0.49 & 2.34 \\
+								14 & Sprachen (berufsbildende Schule) & 32 & 0.11 & 0.55 \\
+								15 & Medien (und Kommunikation) (berufsbildende Schule) & 3 & 0.01 & 0.05 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 75 & 0.27 & - \\						
+							-995 & keine Teilnahme (Panel) & 22249 & 78.95 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{5858} & \textbf{20.79} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable bsch19a\_g2r}
+			\end{table}
+
+	
+	\newpage

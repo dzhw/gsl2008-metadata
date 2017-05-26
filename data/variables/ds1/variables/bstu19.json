@@ -1,0 +1,125 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Art geplantes Masterstudium",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "28",
+			"relatedQuestionStrings" : {
+				"de" : "Welcher Art wird das Masterstudium voraussichtlich sein?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 313,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 2288,
+		"totalValidRelativeFrequency" : 8.12,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.96082681995387",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.47,
+				"absoluteFrequency" : 133
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 12.46,
+				"absoluteFrequency" : 3512
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "Vollzeit",
+					"en" : null
+				},
+				"relativeFrequency" : 4.59,
+				"absoluteFrequency" : 1294,
+				"validRelativeFrequency" : 56.56
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "Teilzeit",
+					"en" : null
+				},
+				"relativeFrequency" : 0.13,
+				"absoluteFrequency" : 36,
+				"validRelativeFrequency" : 1.57
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "berufsbegleitend",
+					"en" : null
+				},
+				"relativeFrequency" : 0.8,
+				"absoluteFrequency" : 225,
+				"validRelativeFrequency" : 9.83
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "weiß noch nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 2.6,
+				"absoluteFrequency" : 733,
+				"validRelativeFrequency" : 32.04
+			}
+		]
+	}
+}

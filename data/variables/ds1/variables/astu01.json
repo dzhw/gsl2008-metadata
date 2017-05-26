@@ -1,0 +1,117 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Studium beabsichtigt?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "12",
+			"relatedQuestionStrings" : {
+				"de" : "Falls Sie über die Aufnahme eines Studiums nachdenken, wie konkret sind diese Überlegungen?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 67,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 28101,
+		"totalValidRelativeFrequency" : 99.71,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "2.99709993833919",
+			"meanDeviation" : "2982.9912",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.29,
+				"absoluteFrequency" : 81
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja, sicher",
+					"en" : null
+				},
+				"relativeFrequency" : 34.41,
+				"absoluteFrequency" : 9697,
+				"validRelativeFrequency" : 34.51
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "ja, wahrscheinlich",
+					"en" : null
+				},
+				"relativeFrequency" : 25.15,
+				"absoluteFrequency" : 7087,
+				"validRelativeFrequency" : 25.22
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "eventuell",
+					"en" : null
+				},
+				"relativeFrequency" : 19.57,
+				"absoluteFrequency" : 5514,
+				"validRelativeFrequency" : 19.62
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "nein, wahrscheinlich nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 12.43,
+				"absoluteFrequency" : 3502,
+				"validRelativeFrequency" : 12.46
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "auf keinen Fall",
+					"en" : null
+				},
+				"relativeFrequency" : 8.16,
+				"absoluteFrequency" : 2301,
+				"validRelativeFrequency" : 8.19
+			}
+		]
+	}
+}

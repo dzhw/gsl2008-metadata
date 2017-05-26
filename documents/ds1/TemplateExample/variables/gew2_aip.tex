@@ -1,0 +1,75 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{gew2\_aip}
+	\label{subSection:gew2_aip}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:gew2_aip}
+			Name & gew2\_aip \\
+			Label & Gewichtung Bund, 1.Welle \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				not-accessible,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			Keine statistischen Daten, da die Variable ausschließlich fehlende Werte enthält.
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:gew2_aip}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {0.07905,0.7587,1.047,1.2118,1.8914},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=-0.92095,
+				ymax=2.8914
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=1.047,
+    		  		upper quartile=1.2118,
+      			lower quartile=0.7587,
+    	  			upper whisker=1.8914,
+	    		  	lower whisker=0.07905
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{gew2\_aip Verteilungen}
+			\end{minipage}
+
+	
+	\newpage

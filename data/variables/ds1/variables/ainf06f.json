@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Informationsquelle Zukunft: Techniktage",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "25",
+			"relatedQuestionStrings" : {
+				"de" : "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInformationsangebote\nTechniktage, \"Girlsday\"",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 129,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 6378,
+		"totalValidRelativeFrequency" : 22.63,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "4",
+			"mode" : "5",
+			"standardDeviation" : null,
+			"deviance" : "3.03881778976782",
+			"meanDeviation" : "601.9356",
+			"firstQuartile" : "3",
+			"thirdQuartile" : "5",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 5.04,
+				"absoluteFrequency" : 1421
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 10.52,
+				"absoluteFrequency" : 2966
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 61.8,
+				"absoluteFrequency" : 17417
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr hilfreich",
+					"en" : null
+				},
+				"relativeFrequency" : 1.67,
+				"absoluteFrequency" : 470,
+				"validRelativeFrequency" : 7.37
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 3.53,
+				"absoluteFrequency" : 994,
+				"validRelativeFrequency" : 15.58
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 5.34,
+				"absoluteFrequency" : 1506,
+				"validRelativeFrequency" : 23.61
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 4.97,
+				"absoluteFrequency" : 1400,
+				"validRelativeFrequency" : 21.95
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "nicht hilfreich",
+					"en" : null
+				},
+				"relativeFrequency" : 7.13,
+				"absoluteFrequency" : 2008,
+				"validRelativeFrequency" : 31.48
+			}
+		]
+	}
+}

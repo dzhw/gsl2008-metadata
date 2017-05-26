@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Studienfach-/Abschlusswechsel seit Beginn?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.5",
+			"relatedQuestionStrings" : {
+				"de" : "Habens Sie seit Beginn Ihres Studiums das Studienfach oder den angestrebten Abschluss gewechselt?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 982,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3077,
+		"totalValidRelativeFrequency" : 10.92,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "5",
+			"standardDeviation" : null,
+			"deviance" : "1.14450617998469",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 6
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja, Fach & Abschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 0.64,
+				"absoluteFrequency" : 181,
+				"validRelativeFrequency" : 5.88
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "ja, nur das Fach",
+					"en" : null
+				},
+				"relativeFrequency" : 0.71,
+				"absoluteFrequency" : 201,
+				"validRelativeFrequency" : 6.53
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "ja, nur den Abschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 0.16,
+				"absoluteFrequency" : 44,
+				"validRelativeFrequency" : 1.43
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "nein, aber demnächst",
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 20,
+				"validRelativeFrequency" : 0.65
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "nein",
+					"en" : null
+				},
+				"relativeFrequency" : 9.34,
+				"absoluteFrequency" : 2631,
+				"validRelativeFrequency" : 85.51
+			}
+		]
+	}
+}

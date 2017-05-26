@@ -1,0 +1,131 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cbeg21\_g1r}
+	\label{subSection:cbeg21_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cbeg21_g1r}
+			Name & cbeg21\_g1r \\
+			Label & 1. Job: Beginn (Jahr) \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert. 
+				 \\	
+			 \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cbeg21_g1r}
+			Nummer & 4.14 \\
+			Einleitung der Frage & - \\
+			Fragetext & Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.
+Zeitraum
+Beginn Monat/Jahr \\
+			Ausfüllanweisung & Geben Sie bitte alle wesentlichen Tätigkeiten mit ihren jeweiligen Anfangs- und Endterminen an. Tragen Sie die Tätigkeiten in die entsprechenden Spalten ein bzw. machen Sie die entsprechenden „Kreuze“. \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cbeg21_g1r}
+					Arithmetisches Mittel & 2009.7 \\
+					Standardabweichung & 56 \\
+					Minimum & 2008 \\
+					Unteres Quartil & 2009 \\
+					Median & 2010 \\
+					Oberes Quartil & 2011 \\
+					Maximum & 2012 \\
+					Schiefe & 129 \\
+					Wölbung & 38 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cbeg21_g1r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {2008,2009,2010,2011,2012},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=2007,
+				ymax=2013
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=2010,
+    		  		upper quartile=2011,
+      			lower quartile=2009,
+    	  			upper whisker=2012,
+	    		  	lower whisker=2008
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cbeg21\_g1r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cbeg21_g1r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							2008 &  & 545 & 1.93 \\
+							2009 &  & 598 & 2.12 \\
+							2010 &  & 483 & 1.71 \\
+							2011 &  & 444 & 1.58 \\
+							2012 &  & 256 & 0.91 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 164 & 0.58  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+							-989 & filterbedingt fehlend & 1181 & 4.19  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cbeg21\_g1r}
+			\end{table}
+	
+	\newpage

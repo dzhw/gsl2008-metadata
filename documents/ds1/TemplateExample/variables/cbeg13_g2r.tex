@@ -1,0 +1,117 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cbeg13\_g2r}
+	\label{subSection:cbeg13_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cbeg13_g2r}
+			Name & cbeg13\_g2r \\
+			Label & 13. Tätigkeit: Beginn (Monat)  \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert. 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cbeg13_g2r}
+					Arithmetisches Mittel & 10.556 \\
+					Standardabweichung & 106 \\
+					Minimum & 3 \\
+					Unteres Quartil & 11 \\
+					Median & 12 \\
+					Oberes Quartil & 12 \\
+					Maximum & 12 \\
+					Schiefe & 99 \\
+					Wölbung & 149 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cbeg13_g2r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {9.5,11,12,12,12},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=8.5,
+				ymax=13
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=12,
+    		  		upper quartile=12,
+      			lower quartile=11,
+    	  			upper whisker=12,
+	    		  	lower whisker=9.5
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cbeg13\_g2r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cbeg13_g2r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							3 & März & 1 & 0 \\
+							9 & September & 1 & 0 \\
+							11 & November & 1 & 0 \\
+							12 & Dezember & 6 & 0.02 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 3662 & 12.99  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cbeg13\_g2r}
+			\end{table}
+	
+	\newpage

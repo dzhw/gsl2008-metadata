@@ -1,0 +1,239 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cjob0525d\_r}
+	\label{subSection:cjob0525d_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cjob0525d_r}
+			Name & cjob0525d\_r \\
+			Label & 5. Job: Netto-Monatseinkommen \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if cstu22==2 | inrange(cfin06,1,3) \\
+ \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cjob0525d_r}
+			Nummer & 4.14 \\
+			Einleitung der Frage & - \\
+			Fragetext & Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.
+Finanzielle Entlohnung
+(Netto-Monatseinkommen) \\
+			Ausfüllanweisung & Geben Sie bitte alle wesentlichen Tätigkeiten mit ihren jeweiligen Anfangs- und Endterminen an. Tragen Sie die Tätigkeiten in die entsprechenden Spalten ein bzw. machen Sie die entsprechenden „Kreuze“. \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cjob0525d_r}
+					Arithmetisches Mittel & 648.02 \\
+					Standardabweichung & 169 \\
+					Minimum & 10 \\
+					Unteres Quartil & 280 \\
+					Median & 400 \\
+					Oberes Quartil & 840 \\
+					Maximum & 3150 \\
+					Schiefe & 157 \\
+					Wölbung & 164 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cjob0525d_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {10,280,400,840,1680},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=9,
+				ymax=1681
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=400,
+    		  		upper quartile=840,
+      			lower quartile=280,
+    	  			upper whisker=1680,
+	    		  	lower whisker=10
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cjob0525d\_r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cjob0525d_r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+						& & 83 & 0.29 \\	
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 2407 & 8.54  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+							-989 & filterbedingt fehlend & 1181 & 4.19  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cjob0525d\_r}
+			\end{table}
+	
+			%HISTOGRAM FOR CONTINOUS DATA, IF THERE ARE MORE THAN 10 BINs
+			
+			\begin{figure}[!ht]
+			\label{histogram:cjob0525d_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}[
+			    /pgf/number format/.cd,
+		    	    use comma,		    	    
+	    	    		1000 sep={},
+	    	    		ylabel={Absolute Häufigkeit},
+			    xlabel={Werte},
+			    ybar,
+			    ymin=0,
+			    axis y line*=left,
+			    axis x line*=bottom
+			]
+			\addplot +[
+				fill=dzhwblue, 
+				draw=white,
+			    hist={
+			        bins=25,
+			        data min=9.5,
+			        data max=3150.5
+			    }   
+			] table[row sep=\\,y index=0] {
+				data\\
+						10\\ 
+						100\\ 
+						100\\ 
+						136\\ 
+						140\\ 
+						140\\ 
+						140\\ 
+						150\\ 
+						150\\ 
+						150\\ 
+						150\\ 
+						150\\ 
+						170\\ 
+						175\\ 
+						200\\ 
+						200\\ 
+						200\\ 
+						200\\ 
+						260\\ 
+						270\\ 
+						280\\ 
+						300\\ 
+						300\\ 
+						320\\ 
+						320\\ 
+						320\\ 
+						330\\ 
+						330\\ 
+						350\\ 
+						350\\ 
+						360\\ 
+						360\\ 
+						382\\ 
+						383\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						420\\ 
+						480\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						550\\ 
+						600\\ 
+						600\\ 
+						650\\ 
+						700\\ 
+						700\\ 
+						700\\ 
+						750\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						840\\ 
+						850\\ 
+						900\\ 
+						960\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1060\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1300\\ 
+						1400\\ 
+						1400\\ 
+						1500\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2100\\ 
+						2300\\ 
+						3150\\ 
+			};
+			\end{axis}
+			\end{tikzpicture}	
+			\caption{Histogramm der Variable cjob0525d\_r}	
+			\end{figure}	
+	\newpage

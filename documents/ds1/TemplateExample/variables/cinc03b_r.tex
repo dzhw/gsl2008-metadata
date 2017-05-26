@@ -1,0 +1,607 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cinc03b\_r}
+	\label{subSection:cinc03b_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cinc03b_r}
+			Name & cinc03b\_r \\
+			Label & fixe Gehaltbestandteile: Höhe pro Jahr (in €) \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if cjob04==2 \\
+ \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cinc03b_r}
+			Nummer & 7.5 \\
+			Einleitung der Frage & - \\
+			Fragetext & Welche zusätzlichen Gehaltsbestandteile bekommen Sie?
+Fixe Gehaltsbestandteile
+ca. …..€ pro Jahr \\
+			Ausfüllanweisung & 
+Bitte Brutto-Angaben machen. Mehrfachnennung möglich. \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cinc03b_r}
+					Arithmetisches Mittel & 2633.1 \\
+					Standardabweichung & 137 \\
+					Minimum & 50 \\
+					Unteres Quartil & 1000 \\
+					Median & 2050 \\
+					Oberes Quartil & 3000 \\
+					Maximum & 44000 \\
+					Schiefe & 183 \\
+					Wölbung & 183 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cinc03b_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {50,1000,2050,3000,6000},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=49,
+				ymax=6001
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=2050,
+    		  		upper quartile=3000,
+      			lower quartile=1000,
+    	  			upper whisker=6000,
+	    		  	lower whisker=50
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cinc03b\_r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cinc03b_r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+						& & 449 & 1.59 \\	
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 138 & 0.49  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+							-989 & filterbedingt fehlend & 2689 & 9.54  \\
+							-988 & trifft nicht zu & 395 & 1.4  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cinc03b\_r}
+			\end{table}
+	
+			%HISTOGRAM FOR CONTINOUS DATA, IF THERE ARE MORE THAN 10 BINs
+			
+			\begin{figure}[!ht]
+			\label{histogram:cinc03b_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}[
+			    /pgf/number format/.cd,
+		    	    use comma,		    	    
+	    	    		1000 sep={},
+	    	    		ylabel={Absolute Häufigkeit},
+			    xlabel={Werte},
+			    ybar,
+			    ymin=0,
+			    axis y line*=left,
+			    axis x line*=bottom
+			]
+			\addplot +[
+				fill=dzhwblue, 
+				draw=white,
+			    hist={
+			        bins=25,
+			        data min=49.5,
+			        data max=44001
+			    }   
+			] table[row sep=\\,y index=0] {
+				data\\
+						50\\ 
+						77\\ 
+						100\\ 
+						120\\ 
+						150\\ 
+						150\\ 
+						150\\ 
+						180\\ 
+						200\\ 
+						200\\ 
+						200\\ 
+						250\\ 
+						250\\ 
+						250\\ 
+						250\\ 
+						250\\ 
+						265\\ 
+						300\\ 
+						300\\ 
+						300\\ 
+						300\\ 
+						300\\ 
+						300\\ 
+						300\\ 
+						300\\ 
+						300\\ 
+						311\\ 
+						312\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						400\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						500\\ 
+						528\\ 
+						550\\ 
+						600\\ 
+						600\\ 
+						600\\ 
+						600\\ 
+						600\\ 
+						600\\ 
+						600\\ 
+						600\\ 
+						600\\ 
+						670\\ 
+						700\\ 
+						700\\ 
+						700\\ 
+						700\\ 
+						750\\ 
+						750\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						800\\ 
+						828\\ 
+						850\\ 
+						900\\ 
+						900\\ 
+						900\\ 
+						900\\ 
+						900\\ 
+						950\\ 
+						990\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1000\\ 
+						1092\\ 
+						1100\\ 
+						1100\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1200\\ 
+						1250\\ 
+						1300\\ 
+						1300\\ 
+						1350\\ 
+						1355\\ 
+						1400\\ 
+						1400\\ 
+						1400\\ 
+						1400\\ 
+						1400\\ 
+						1440\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1500\\ 
+						1520\\ 
+						1524\\ 
+						1600\\ 
+						1600\\ 
+						1600\\ 
+						1600\\ 
+						1600\\ 
+						1600\\ 
+						1600\\ 
+						1700\\ 
+						1700\\ 
+						1700\\ 
+						1700\\ 
+						1700\\ 
+						1700\\ 
+						1700\\ 
+						1750\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1800\\ 
+						1830\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2000\\ 
+						2049\\ 
+						2050\\ 
+						2050\\ 
+						2075\\ 
+						2100\\ 
+						2100\\ 
+						2140\\ 
+						2160\\ 
+						2189\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2200\\ 
+						2250\\ 
+						2250\\ 
+						2255\\ 
+						2300\\ 
+						2300\\ 
+						2300\\ 
+						2300\\ 
+						2300\\ 
+						2300\\ 
+						2300\\ 
+						2300\\ 
+						2333\\ 
+						2360\\ 
+						2400\\ 
+						2400\\ 
+						2400\\ 
+						2400\\ 
+						2400\\ 
+						2400\\ 
+						2400\\ 
+						2400\\ 
+						2400\\ 
+						2453\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2500\\ 
+						2600\\ 
+						2600\\ 
+						2600\\ 
+						2600\\ 
+						2650\\ 
+						2667\\ 
+						2700\\ 
+						2700\\ 
+						2700\\ 
+						2700\\ 
+						2700\\ 
+						2700\\ 
+						2800\\ 
+						2800\\ 
+						2800\\ 
+						2850\\ 
+						2850\\ 
+						2900\\ 
+						2900\\ 
+						2900\\ 
+						2950\\ 
+						2990\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3000\\ 
+						3100\\ 
+						3170\\ 
+						3190\\ 
+						3200\\ 
+						3300\\ 
+						3300\\ 
+						3300\\ 
+						3300\\ 
+						3300\\ 
+						3400\\ 
+						3500\\ 
+						3500\\ 
+						3500\\ 
+						3500\\ 
+						3500\\ 
+						3500\\ 
+						3500\\ 
+						3500\\ 
+						3500\\ 
+						3600\\ 
+						3600\\ 
+						3600\\ 
+						3600\\ 
+						3600\\ 
+						3600\\ 
+						3600\\ 
+						3600\\ 
+						3700\\ 
+						3700\\ 
+						3700\\ 
+						3800\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4000\\ 
+						4080\\ 
+						4100\\ 
+						4125\\ 
+						4150\\ 
+						4200\\ 
+						4400\\ 
+						4500\\ 
+						4500\\ 
+						4500\\ 
+						4600\\ 
+						4700\\ 
+						4800\\ 
+						4847\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5000\\ 
+						5082\\ 
+						5200\\ 
+						5340\\ 
+						5400\\ 
+						5500\\ 
+						5500\\ 
+						6000\\ 
+						6000\\ 
+						6000\\ 
+						6000\\ 
+						6000\\ 
+						6000\\ 
+						6000\\ 
+						6500\\ 
+						6500\\ 
+						7000\\ 
+						7000\\ 
+						7010\\ 
+						7800\\ 
+						8000\\ 
+						8000\\ 
+						8000\\ 
+						8400\\ 
+						10000\\ 
+						10500\\ 
+						12000\\ 
+						12000\\ 
+						12002\\ 
+						20400\\ 
+						39600\\ 
+						44000\\ 
+			};
+			\end{axis}
+			\end{tikzpicture}	
+			\caption{Histogramm der Variable cinc03b\_r}	
+			\end{figure}	
+	\newpage

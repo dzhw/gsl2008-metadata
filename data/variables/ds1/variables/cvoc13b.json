@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Zufriedenheit Ausbildung: Übereinstimmung mit Fähigkeiten",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "3.5",
+			"relatedQuestionStrings" : {
+				"de" : "Wie zufrieden sind bzw. waren Sie mit Ihrer Ausbildung hinsichtlich der …\nÜbereinstimmung mit Ihren Fähigkeiten?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 939,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 937,
+		"totalValidRelativeFrequency" : 3.32,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.44708974199286",
+			"meanDeviation" : "154.1904",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "2",
+			"lowWhisker" : 1,
+			"highWhisker" : 3.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.18,
+				"absoluteFrequency" : 50
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 9.52,
+				"absoluteFrequency" : 2684
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr zufrieden",
+					"en" : null
+				},
+				"relativeFrequency" : 1.1,
+				"absoluteFrequency" : 310,
+				"validRelativeFrequency" : 33.08
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 1.54,
+				"absoluteFrequency" : 434,
+				"validRelativeFrequency" : 46.32
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 0.46,
+				"absoluteFrequency" : 130,
+				"validRelativeFrequency" : 13.87
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.13,
+				"absoluteFrequency" : 37,
+				"validRelativeFrequency" : 3.95
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "sehr unzufrieden",
+					"en" : null
+				},
+				"relativeFrequency" : 0.09,
+				"absoluteFrequency" : 26,
+				"validRelativeFrequency" : 2.77
+			}
+		]
+	}
+}

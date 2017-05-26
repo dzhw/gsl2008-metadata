@@ -1,0 +1,106 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Familienstand",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "8.3",
+			"relatedQuestionStrings" : {
+				"de" : "Ihr Familienstand?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1273,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3639,
+		"totalValidRelativeFrequency" : 12.91,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "1.63344928522259",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.11,
+				"absoluteFrequency" : 32
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "verheiratet",
+					"en" : null
+				},
+				"relativeFrequency" : 0.53,
+				"absoluteFrequency" : 149,
+				"validRelativeFrequency" : 4.09
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "in fester Beziehung",
+					"en" : null
+				},
+				"relativeFrequency" : 7.42,
+				"absoluteFrequency" : 2091,
+				"validRelativeFrequency" : 57.46
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "ohne feste Beziehung",
+					"en" : null
+				},
+				"relativeFrequency" : 4.96,
+				"absoluteFrequency" : 1399,
+				"validRelativeFrequency" : 38.44
+			}
+		]
+	}
+}

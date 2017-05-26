@@ -1,0 +1,136 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Motiv Tätigkeit (Dez 2012): günstige Berufs- und Einkommenschancen",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "1.9",
+			"relatedQuestionStrings" : {
+				"de" : "Diese Frage bezieht sich auf den Zeitpunkt Dezember 2012. Wie bedeutend sind die folgenden Gründe und Motive für die Ausübung Ihrer derzeitigen Tätigkeit (Studium/Ausbildung/Erwerbstätigkeit)?\nmeines Erachtens günstige Berufs- und Einkommenschancen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 480,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3651,
+		"totalValidRelativeFrequency" : 12.96,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "6",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "3.17685652908753",
+			"meanDeviation" : "392.889",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 20
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr bedeutend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.6,
+				"absoluteFrequency" : 733,
+				"validRelativeFrequency" : 20.08
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 4.68,
+				"absoluteFrequency" : 1319,
+				"validRelativeFrequency" : 36.13
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 2.79,
+				"absoluteFrequency" : 787,
+				"validRelativeFrequency" : 21.56
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 1.36,
+				"absoluteFrequency" : 382,
+				"validRelativeFrequency" : 10.46
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "5",
+					"en" : null
+				},
+				"relativeFrequency" : 0.91,
+				"absoluteFrequency" : 257,
+				"validRelativeFrequency" : 7.04
+			},
+			{
+				"value" : "6",
+				"label" : {
+					"de" : "bedeutungslos",
+					"en" : null
+				},
+				"relativeFrequency" : 0.61,
+				"absoluteFrequency" : 173,
+				"validRelativeFrequency" : 4.74
+			}
+		]
+	}
+}

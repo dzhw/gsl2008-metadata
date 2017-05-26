@@ -1,0 +1,125 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "anderer Werdegang (3.Nennung)",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "1.5",
+			"relatedQuestionStrings" : {
+				"de" : "Würden Sie aus heutiger Sicht nach der Schule wieder den gleichen Ausbildungs- und Berufsweg wählen?\nnein, ich würde etwas anderes machen\nund zwar: (z.B. Studium, Berufsausbildung, …)",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 443,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5,
+		"totalValidRelativeFrequency" : 0.02,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "15",
+			"standardDeviation" : null,
+			"deviance" : "2.66435808042024",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 5.45,
+				"absoluteFrequency" : 1537
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 7.55,
+				"absoluteFrequency" : 2129
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "15",
+				"label" : {
+					"de" : "zunächst (weitere) Übergangstätigkeit (z. B. Ausland), dann Studium",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 2,
+				"validRelativeFrequency" : 40
+			},
+			{
+				"value" : "27",
+				"label" : {
+					"de" : "Ausbildung (statt Studium)",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 20
+			},
+			{
+				"value" : "33",
+				"label" : {
+					"de" : "anderes Studienfach",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 20
+			},
+			{
+				"value" : "40",
+				"label" : {
+					"de" : "Betonung von sonstigen anderen Details",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 20
+			}
+		]
+	}
+}

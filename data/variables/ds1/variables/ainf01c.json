@@ -1,0 +1,87 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Info: andere Förderungsmöglichkeiten",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "22",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie sich bereits über Möglichkeiten der Studienförderung informiert?\nja, über andere Fördermöglichkeiten",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 103,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 27973,
+		"totalValidRelativeFrequency" : 99.26,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "0",
+			"standardDeviation" : null,
+			"deviance" : "0.543485035413571",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.74,
+				"absoluteFrequency" : 209
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "0",
+				"label" : {
+					"de" : "nicht genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 91.6,
+				"absoluteFrequency" : 25815,
+				"validRelativeFrequency" : 92.29
+			},
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 7.66,
+				"absoluteFrequency" : 2158,
+				"validRelativeFrequency" : 7.71
+			}
+		]
+	}
+}

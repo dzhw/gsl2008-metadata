@@ -1,0 +1,115 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Masteraufnahme: Zeitrahmen ",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "5.6",
+			"relatedQuestionStrings" : {
+				"de" : "Wann haben Sie das Masterstudium aufgenommen bzw. werden es voraussichtlich aufnehmen?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1194,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1649,
+		"totalValidRelativeFrequency" : 5.85,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.44555500537183",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.27,
+				"absoluteFrequency" : 77
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 6.9,
+				"absoluteFrequency" : 1945
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "direkt im Anschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 4.33,
+				"absoluteFrequency" : 1219,
+				"validRelativeFrequency" : 73.92
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "einige Zeit nach vorangegangenem Studium",
+					"en" : null
+				},
+				"relativeFrequency" : 1.13,
+				"absoluteFrequency" : 319,
+				"validRelativeFrequency" : 19.35
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "weiß ich noch nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.39,
+				"absoluteFrequency" : 111,
+				"validRelativeFrequency" : 6.73
+			}
+		]
+	}
+}

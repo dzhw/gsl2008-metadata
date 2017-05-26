@@ -1,0 +1,77 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{astu03a\_g3r}
+	\label{subSection:astu03a_g3r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:astu03a_g3r}
+			Name & astu03a\_g3r \\
+			Label & sichere Präferenz: 1. Hauptstudienfach  (Fächergruppe) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode astu03a /// (101/108 = 1) (121/134 = 2) (141/144 = 3) ///
+       (151/153 = 4) (161/179 = 5) (301/328 = 6) ///
+              (351/366 = 7) (401/409 = 8) (451/474 = 9) ///
+              (501/514 773 = 10) (551/561 = 11) (601/614 = 12) ///
+       (652/665 = 13) (701/708 = 14) (751/753 = 15), gen(astu03a\_g1)
+ \\
+				 \\
+					Generierungsbeschreibung & Die Fächergruppen wurden aus den von den Befragten angegebenen Fächercodes generiert. Die Zuordnung ergibt sich auf Grundlage des Destatis-Schlüsselverzeichnisses für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (vgl. cl-destatis-studienfach-2007).  Einige darin nicht enthaltenen Fächercodes wurden vom DZHW vergeben und zugeordnet. 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:astu03a_g3r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Sprach-/Kultur-/Sportwissenschaften & 2132 & 7.57 & 19.01 \\
+								2 & Wirtschafts-/Sozialwissenschaften & 3031 & 10.76 & 27.02 \\
+								3 & Mathematik/Naturwissenschaften & 1777 & 6.31 & 15.84 \\
+								4 & Human-/Zahn-/Tiermedizin & 903 & 3.2 & 8.05 \\
+								5 & Agrar-/Forst-/Ernährungswissenschaften & 211 & 0.75 & 1.88 \\
+								6 & Ingenieurwissenschaften & 2084 & 7.39 & 18.58 \\
+								7 & Kunst & 729 & 2.59 & 6.5 \\
+								8 & Jura & 349 & 1.24 & 3.11 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 1222 & 4.34 & - \\						
+							-989 & filterbedingt fehlend & 5803 & 20.59 & - \\						
+							-988 & trifft nicht zu & 9941 & 35.27 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{11216} & \textbf{39.8} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable astu03a\_g3r}
+			\end{table}
+
+	
+	\newpage

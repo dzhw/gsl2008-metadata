@@ -1,0 +1,84 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{bstu09\_g1r}
+	\label{subSection:bstu09_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bstu09_g1r}
+			Name & bstu09\_g1r \\
+			Label & 1. Qualifikation: Bundesland der Hochschule \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & gen bstu09\_g1  = bstu09\_g2
+replace bstu09\_g1  = -988 if bstu09\_g4\textgreater{}=9000 \& bstu09\_g4\textless{}=9206 \\
+				 \\
+					Generierungsbeschreibung & Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer, Länder von ausländische Hochschulen wurden auf trifft nicht zu gesetzt. Die Zuordnung von Hochschulen zu Bundesländern erfolgte nach einer Codieliste (cl-destatis-hochschule-2008).
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:bstu09_g1r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Schleswig-Holstein & 92 & 0.33 & 2.19 \\
+								2 & Hamburg & 116 & 0.41 & 2.76 \\
+								3 & Niedersachsen & 276 & 0.98 & 6.56 \\
+								4 & Bremen & 62 & 0.22 & 1.47 \\
+								5 & Nordrhein-Westfalen & 720 & 2.55 & 17.12 \\
+								6 & Hessen & 293 & 1.04 & 6.97 \\
+								7 & Rheinland-Pfalz & 241 & 0.86 & 5.73 \\
+								8 & Baden-Württemberg & 725 & 2.57 & 17.24 \\
+								9 & Bayern & 585 & 2.08 & 13.91 \\
+								10 & Saarland & 33 & 0.12 & 0.78 \\
+								11 & Berlin & 208 & 0.74 & 4.95 \\
+								12 & Brandenburg & 87 & 0.31 & 2.07 \\
+								13 & Mecklenburg-Vorpommern & 128 & 0.45 & 3.04 \\
+								14 & Sachsen & 229 & 0.81 & 5.45 \\
+								15 & Sachsen-Anhalt & 159 & 0.56 & 3.78 \\
+								16 & Thüringen & 145 & 0.51 & 3.45 \\
+								9990 & Hochschulen im Ausland & 106 & 0.38 & 2.52 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-999 & weiß nicht & 70 & 0.25 & - \\						
+							-998 & keine Angabe & 183 & 0.65 & - \\						
+							-995 & keine Teilnahme (Panel) & 22249 & 78.95 & - \\						
+							-989 & filterbedingt fehlend & 1473 & 5.23 & - \\						
+							-969 & unbekannter fehlender Wert & 2 & 0.01 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{4205} & \textbf{14.92} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable bstu09\_g1r}
+			\end{table}
+
+	
+	\newpage

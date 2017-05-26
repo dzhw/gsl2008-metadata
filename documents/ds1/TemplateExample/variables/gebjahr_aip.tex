@@ -1,0 +1,78 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{gebjahr\_aip}
+	\label{subSection:gebjahr_aip}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:gebjahr_aip}
+			Name & gebjahr\_aip \\
+			Label & Geburtsjahr und -monat \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				not-accessible,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Diese Variable enthält die Angabe zu Jahr/Monat in umgekehrter Reihenfolge als ursprünglich erfasst (Monat/Jahr). 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			Keine statistischen Daten, da die Variable ausschließlich fehlende Werte enthält.
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:gebjahr_aip}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {198420,198710,198810,198900,199110},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=198419,
+				ymax=199111
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=198810,
+    		  		upper quartile=198900,
+      			lower quartile=198710,
+    	  			upper whisker=199110,
+	    		  	lower whisker=198420
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{gebjahr\_aip Verteilungen}
+			\end{minipage}
+
+	
+	\newpage

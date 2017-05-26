@@ -1,0 +1,136 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Vater: Höchster Schulabschluss ",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "42",
+			"relatedQuestionStrings" : {
+				"de" : "Geben Sie bitte den jeweils höchsten Schulabschluss Ihrer Eltern an.\nVater",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 392,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5877,
+		"totalValidRelativeFrequency" : 20.85,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "2.94278717368689",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.2,
+				"absoluteFrequency" : 56
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "Abitur",
+					"en" : null
+				},
+				"relativeFrequency" : 6.9,
+				"absoluteFrequency" : 1944,
+				"validRelativeFrequency" : 33.08
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "Fachhochschulreife",
+					"en" : null
+				},
+				"relativeFrequency" : 2.63,
+				"absoluteFrequency" : 741,
+				"validRelativeFrequency" : 12.61
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "Realschulabschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 6.22,
+				"absoluteFrequency" : 1754,
+				"validRelativeFrequency" : 29.85
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "Volks-/Hauptschulabschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 4.2,
+				"absoluteFrequency" : 1184,
+				"validRelativeFrequency" : 20.15
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "kein Abschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 0.24,
+				"absoluteFrequency" : 67,
+				"validRelativeFrequency" : 1.14
+			},
+			{
+				"value" : "6",
+				"label" : {
+					"de" : "Abschluss unbekannt",
+					"en" : null
+				},
+				"relativeFrequency" : 0.66,
+				"absoluteFrequency" : 187,
+				"validRelativeFrequency" : 3.18
+			}
+		]
+	}
+}

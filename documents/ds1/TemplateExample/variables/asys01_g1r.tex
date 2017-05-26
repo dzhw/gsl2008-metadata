@@ -1,0 +1,65 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{asys01\_g1r}
+	\label{subSection:asys01_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:asys01_g1r}
+			Name & asys01\_g1r \\
+			Label & alte/neue Bundesländer \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode asys01 (1/11 = 1) (12/16 = 2) 
+, gen(asys03) \\
+				 \\
+					Generierungsbeschreibung & Diese Variable wurde zum Zweck der Anonymisierung aus dem vom Projekt ermittelten Landes des HZB-Erwerbs. Zur Aggregation zu alten und neuen Bundesländern wurde die Zuordnung des Destatis-Bundeslandschlüssel (vgl. cl-destatis-bundesland-1990) verwendet.
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:asys01_g1r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & alte Länder & 20115 & 71.38 & 71.38 \\
+								2 & neue Länder & 8067 & 28.62 & 28.62 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+						& & 0 & 0 & 0 \\										
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{28182} & \textbf{100} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable asys01\_g1r}
+			\end{table}
+
+	
+	\newpage

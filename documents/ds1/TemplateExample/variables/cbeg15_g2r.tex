@@ -1,0 +1,114 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cbeg15\_g2r}
+	\label{subSection:cbeg15_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cbeg15_g2r}
+			Name & cbeg15\_g2r \\
+			Label & 15. Tätigkeit: Beginn (Monat)  \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert. 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cbeg15_g2r}
+					Arithmetisches Mittel & 2 \\
+					Standardabweichung & 1 \\
+					Minimum & 2 \\
+					Unteres Quartil & 2 \\
+					Median & 2 \\
+					Oberes Quartil & 2 \\
+					Maximum & 2 \\
+					Schiefe & 119 \\
+					Wölbung & 1 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cbeg15_g2r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {2,2,2,2,2},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=1,
+				ymax=3
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=2,
+    		  		upper quartile=2,
+      			lower quartile=2,
+    	  			upper whisker=2,
+	    		  	lower whisker=2
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cbeg15\_g2r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cbeg15_g2r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							2 & Februar & 1 & 0 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 3670 & 13.02  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cbeg15\_g2r}
+			\end{table}
+	
+	\newpage

@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Englisch (Fach): anregend",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "04",
+			"relatedQuestionStrings" : {
+				"de" : "Der Unterricht der letzten beiden Schuljahre kann unter verschiedenen Gesichtspunkten bewertet werden:\nDer Unterricht im Fach Englisch war…\nanregend",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 34,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 26350,
+		"totalValidRelativeFrequency" : 93.5,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "3",
+			"standardDeviation" : null,
+			"deviance" : "2.97730969325917",
+			"meanDeviation" : "4722.081",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -999,
+				"label" : {
+					"de" : "weiß nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 1.12,
+				"absoluteFrequency" : 315
+			},
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.87,
+				"absoluteFrequency" : 246
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 4.51,
+				"absoluteFrequency" : 1271
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "trifft voll zu",
+					"en" : null
+				},
+				"relativeFrequency" : 7.93,
+				"absoluteFrequency" : 2234,
+				"validRelativeFrequency" : 8.48
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 22.03,
+				"absoluteFrequency" : 6209,
+				"validRelativeFrequency" : 23.56
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 32.74,
+				"absoluteFrequency" : 9228,
+				"validRelativeFrequency" : 35.02
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 21.05,
+				"absoluteFrequency" : 5932,
+				"validRelativeFrequency" : 22.51
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "trifft gar nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 9.75,
+				"absoluteFrequency" : 2747,
+				"validRelativeFrequency" : 10.43
+			}
+		]
+	}
+}

@@ -1,0 +1,144 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "intervall",
+		"en" : "interval"
+	},
+	"label" : {
+		"de" : "Ausbildung abgeschlossen: Abschlussjahr",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "3.4",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie diese Berufsausbildung bereits abgeschlossen?\nja, und zwar:\n(Jahr)",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 934,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 807,
+		"totalValidRelativeFrequency" : 2.86,
+		"histogram" : {
+			"numberOfBins" : 5,
+			"start" : 2007.5,
+			"end" : 2012.5
+		},
+		"statistics" : {
+			"meanValue" : 2011.1,
+			"minimum" : "2008",
+			"maximum" : "2012",
+			"skewness" : -0.56056,
+			"kurtosis" : 4.0207,
+			"median" : "2011",
+			"mode" : "2011",
+			"standardDeviation" : 0.66789,
+			"deviance" : "1.96861990721809",
+			"meanDeviation" : "137.8818",
+			"firstQuartile" : "2011",
+			"thirdQuartile" : "2011",
+			"lowWhisker" : 2011,
+			"highWhisker" : 2011
+		},
+		"missings" : [
+			{
+				"code" : -999,
+				"label" : {
+					"de" : "weiß nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1
+			},
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.64,
+				"absoluteFrequency" : 179
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 9.52,
+				"absoluteFrequency" : 2684
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "2008",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 0.12
+			},
+			{
+				"value" : "2009",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.05,
+				"absoluteFrequency" : 15,
+				"validRelativeFrequency" : 1.86
+			},
+			{
+				"value" : "2010",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.36,
+				"absoluteFrequency" : 101,
+				"validRelativeFrequency" : 12.52
+			},
+			{
+				"value" : "2011",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 1.76,
+				"absoluteFrequency" : 496,
+				"validRelativeFrequency" : 61.46
+			},
+			{
+				"value" : "2012",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.69,
+				"absoluteFrequency" : 194,
+				"validRelativeFrequency" : 24.04
+			}
+		]
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "1. Tätigkeit: Beginn (Monat)",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "2.1",
+			"relatedQuestionStrings" : {
+				"de" : "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nZeitraum\nBeginn\nMonat/Jahr",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 488,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3671,
+		"totalValidRelativeFrequency" : 13.03,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "7",
+			"maximum" : "7",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "7",
+			"mode" : "7",
+			"standardDeviation" : null,
+			"deviance" : "0",
+			"meanDeviation" : "0",
+			"firstQuartile" : "7",
+			"thirdQuartile" : "7",
+			"lowWhisker" : 7,
+			"highWhisker" : 7
+		},
+		"missings" : [
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "7",
+				"label" : {
+					"de" : "Juli",
+					"en" : null
+				},
+				"relativeFrequency" : 13.03,
+				"absoluteFrequency" : 3671,
+				"validRelativeFrequency" : 100
+			}
+		]
+	}
+}

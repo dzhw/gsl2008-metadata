@@ -1,0 +1,97 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Sprache Elternhaus: Deutsch",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "32",
+			"relatedQuestionStrings" : {
+				"de" : "Welche Sprache wird in Ihrem Elternhaus normalerweise gesprochen?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 154,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 27802,
+		"totalValidRelativeFrequency" : 98.65,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "0.876137685480079",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 1.35,
+				"absoluteFrequency" : 380
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "deutsch",
+					"en" : null
+				},
+				"relativeFrequency" : 85.45,
+				"absoluteFrequency" : 24082,
+				"validRelativeFrequency" : 86.62
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "deutsch + eine andere Sprache",
+					"en" : null
+				},
+				"relativeFrequency" : 11.83,
+				"absoluteFrequency" : 3335,
+				"validRelativeFrequency" : 12
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "kein deutsch",
+					"en" : null
+				},
+				"relativeFrequency" : 1.37,
+				"absoluteFrequency" : 385,
+				"validRelativeFrequency" : 1.38
+			}
+		]
+	}
+}

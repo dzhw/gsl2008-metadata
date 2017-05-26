@@ -1,0 +1,105 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Hochschulwechsel seit Beginn?",
+		"en" : null
+	},
+	"indexInDataSet" : 995,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3077,
+		"totalValidRelativeFrequency" : 10.92,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "3",
+			"standardDeviation" : null,
+			"deviance" : "1.08159442038547",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 6
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja",
+					"en" : null
+				},
+				"relativeFrequency" : 2.17,
+				"absoluteFrequency" : 611,
+				"validRelativeFrequency" : 19.86
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "nein, aber demnächst",
+					"en" : null
+				},
+				"relativeFrequency" : 0.08,
+				"absoluteFrequency" : 23,
+				"validRelativeFrequency" : 0.75
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "nein",
+					"en" : null
+				},
+				"relativeFrequency" : 8.67,
+				"absoluteFrequency" : 2443,
+				"validRelativeFrequency" : 79.4
+			}
+		]
+	}
+}

@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Einschätzung Berufsaussichten: persönliche Berufsaussichten",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "27",
+			"relatedQuestionStrings" : {
+				"de" : "Wie schätzen Sie…\n… Ihre persönlichen Berufsaussichten ein?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 145,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 24752,
+		"totalValidRelativeFrequency" : 87.83,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.37855740374207",
+			"meanDeviation" : "4066.7718",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -999,
+				"label" : {
+					"de" : "weiß nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 9.64,
+				"absoluteFrequency" : 2716
+			},
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 2.53,
+				"absoluteFrequency" : 714
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr gut",
+					"en" : null
+				},
+				"relativeFrequency" : 10.8,
+				"absoluteFrequency" : 3045,
+				"validRelativeFrequency" : 12.3
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 40.62,
+				"absoluteFrequency" : 11448,
+				"validRelativeFrequency" : 46.25
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 30.77,
+				"absoluteFrequency" : 8671,
+				"validRelativeFrequency" : 35.03
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 4.56,
+				"absoluteFrequency" : 1286,
+				"validRelativeFrequency" : 5.2
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "sehr schlecht",
+					"en" : null
+				},
+				"relativeFrequency" : 1.07,
+				"absoluteFrequency" : 302,
+				"validRelativeFrequency" : 1.22
+			}
+		]
+	}
+}

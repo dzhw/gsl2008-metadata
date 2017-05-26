@@ -1,0 +1,267 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cfin05e\_r}
+	\label{subSection:cfin05e_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cfin05e_r}
+			Name & cfin05e\_r \\
+			Label & Finanzierung letze 2 Semester (in \%): Kredit \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if cstu22==2 \\
+ \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cfin05e_r}
+			Nummer & 4.12 \\
+			Einleitung der Frage & - \\
+			Fragetext & Auf welche Weise haben Sie in den letzten beiden Studiensemestern Ihren Lebensunterhalt finanziert?
+Kredit von einer Bank \\
+			Ausfüllanweisung & Bitte geben Sie prozentual an, welcher Anteil auf welche Finanzierungsquelle entfällt \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cfin05e_r}
+					Arithmetisches Mittel & 37.92 \\
+					Standardabweichung & 100 \\
+					Minimum & 5 \\
+					Unteres Quartil & 15 \\
+					Median & 40 \\
+					Oberes Quartil & 50 \\
+					Maximum & 100 \\
+					Schiefe & 141 \\
+					Wölbung & 87 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cfin05e_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {5,15,40,50,100},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=4,
+				ymax=101
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=40,
+    		  		upper quartile=50,
+      			lower quartile=15,
+    	  			upper whisker=100,
+	    		  	lower whisker=5
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cfin05e\_r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cfin05e_r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+						& & 112 & 0.4 \\	
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 2971 & 10.54  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+							-989 & filterbedingt fehlend & 588 & 2.09  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cfin05e\_r}
+			\end{table}
+	
+			%HISTOGRAM FOR CONTINOUS DATA, IF THERE ARE MORE THAN 10 BINs
+			
+			\begin{figure}[!ht]
+			\label{histogram:cfin05e_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}[
+			    /pgf/number format/.cd,
+		    	    use comma,		    	    
+	    	    		1000 sep={},
+	    	    		ylabel={Absolute Häufigkeit},
+			    xlabel={Werte},
+			    ybar,
+			    ymin=0,
+			    axis y line*=left,
+			    axis x line*=bottom
+			]
+			\addplot +[
+				fill=dzhwblue, 
+				draw=white,
+			    hist={
+			        bins=21,
+			        data min=4.5,
+			        data max=100.5
+			    }   
+			] table[row sep=\\,y index=0] {
+				data\\
+						5\\ 
+						5\\ 
+						7\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						12\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						20\\ 
+						20\\ 
+						20\\ 
+						20\\ 
+						20\\ 
+						20\\ 
+						25\\ 
+						25\\ 
+						25\\ 
+						25\\ 
+						25\\ 
+						25\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						33\\ 
+						35\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						40\\ 
+						41\\ 
+						44\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						55\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						70\\ 
+						70\\ 
+						75\\ 
+						75\\ 
+						75\\ 
+						80\\ 
+						80\\ 
+						80\\ 
+						80\\ 
+						80\\ 
+						80\\ 
+						90\\ 
+						90\\ 
+						90\\ 
+						100\\ 
+						100\\ 
+			};
+			\end{axis}
+			\end{tikzpicture}	
+			\caption{Histogramm der Variable cfin05e\_r}	
+			\end{figure}	
+	\newpage

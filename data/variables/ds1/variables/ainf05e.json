@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Informationsquelle Zukunft: HS-Lehrer(innen)",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "25",
+			"relatedQuestionStrings" : {
+				"de" : "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nHochschullehrer/innen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 116,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 10485,
+		"totalValidRelativeFrequency" : 37.2,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "4",
+			"standardDeviation" : null,
+			"deviance" : "3.07206877520545",
+			"meanDeviation" : "538.1838",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 4.68,
+				"absoluteFrequency" : 1318
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 10.52,
+				"absoluteFrequency" : 2966
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 47.59,
+				"absoluteFrequency" : 13413
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr hilfreich",
+					"en" : null
+				},
+				"relativeFrequency" : 2.61,
+				"absoluteFrequency" : 735,
+				"validRelativeFrequency" : 7.01
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 7.05,
+				"absoluteFrequency" : 1987,
+				"validRelativeFrequency" : 18.95
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 9.49,
+				"absoluteFrequency" : 2674,
+				"validRelativeFrequency" : 25.5
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 9.67,
+				"absoluteFrequency" : 2726,
+				"validRelativeFrequency" : 26
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "nicht hilfreich",
+					"en" : null
+				},
+				"relativeFrequency" : 8.38,
+				"absoluteFrequency" : 2363,
+				"validRelativeFrequency" : 22.54
+			}
+		]
+	}
+}

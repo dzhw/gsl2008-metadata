@@ -1,0 +1,156 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "verhältnis",
+		"en" : "ratio"
+	},
+	"label" : {
+		"de" : "5. Prüfungsfach: wöchentliche Stundenzahl",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "4",
+			"relatedQuestionStrings" : {
+				"de" : "Bitte nennen Sie Ihre Prüfungsfächer und geben Sie zusätzlich an, mit welcher wöchentlichen Stundenzahl diese in Ihrem Abschlussjahr unterrichtet wurden.\nStunden je Woche",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 186,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1711,
+		"totalValidRelativeFrequency" : 6.07,
+		"histogram" : {
+			"numberOfBins" : 8,
+			"start" : 0.5,
+			"end" : 9.5
+		},
+		"statistics" : {
+			"meanValue" : 2.8077,
+			"minimum" : "1",
+			"maximum" : "9",
+			"skewness" : 0.7008,
+			"kurtosis" : 4.0227,
+			"median" : "3",
+			"mode" : "2",
+			"standardDeviation" : 0.91439,
+			"deviance" : "2.29018324760006",
+			"meanDeviation" : "17.7912",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 7
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 14.98,
+				"absoluteFrequency" : 4222
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 21,
+				"validRelativeFrequency" : 1.23
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 2.84,
+				"absoluteFrequency" : 801,
+				"validRelativeFrequency" : 46.81
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 1.41,
+				"absoluteFrequency" : 398,
+				"validRelativeFrequency" : 23.26
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 1.7,
+				"absoluteFrequency" : 480,
+				"validRelativeFrequency" : 28.05
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 6,
+				"validRelativeFrequency" : 0.35
+			},
+			{
+				"value" : "6",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 2,
+				"validRelativeFrequency" : 0.12
+			},
+			{
+				"value" : "8",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 2,
+				"validRelativeFrequency" : 0.12
+			},
+			{
+				"value" : "9",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 0.06
+			}
+		]
+	}
+}

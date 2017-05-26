@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Persönlichkeit: Dinge tun, die man danach bereut",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "1.6",
+			"relatedQuestionStrings" : {
+				"de" : "Wenn Sie sich beschreiben müssten: Inwieweit treffen die folgenden Aussagen auf Sie zu?\nManchmal mache ich Sachen, die ich hinterher bereue.",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 448,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3667,
+		"totalValidRelativeFrequency" : 13.01,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "4",
+			"standardDeviation" : null,
+			"deviance" : "2.79619747774993",
+			"meanDeviation" : "564.8706",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 4
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "trifft voll zu",
+					"en" : null
+				},
+				"relativeFrequency" : 0.58,
+				"absoluteFrequency" : 163,
+				"validRelativeFrequency" : 4.45
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 3.08,
+				"absoluteFrequency" : 867,
+				"validRelativeFrequency" : 23.64
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 3.99,
+				"absoluteFrequency" : 1125,
+				"validRelativeFrequency" : 30.68
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 4.43,
+				"absoluteFrequency" : 1248,
+				"validRelativeFrequency" : 34.03
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "trifft gar nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 0.94,
+				"absoluteFrequency" : 264,
+				"validRelativeFrequency" : 7.2
+			}
+		]
+	}
+}

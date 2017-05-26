@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Risikobereitschaft: Privatleben",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "1.7",
+			"relatedQuestionStrings" : {
+				"de" : "Sind Sie ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden?\na) Im Privatleben?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 451,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3667,
+		"totalValidRelativeFrequency" : 13.01,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "4",
+			"standardDeviation" : null,
+			"deviance" : "2.70276715070313",
+			"meanDeviation" : "637.518",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 4
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr risikobereit",
+					"en" : null
+				},
+				"relativeFrequency" : 0.25,
+				"absoluteFrequency" : 71,
+				"validRelativeFrequency" : 1.94
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 3.02,
+				"absoluteFrequency" : 850,
+				"validRelativeFrequency" : 23.18
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 4.14,
+				"absoluteFrequency" : 1167,
+				"validRelativeFrequency" : 31.82
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 4.54,
+				"absoluteFrequency" : 1280,
+				"validRelativeFrequency" : 34.91
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "gar nicht risikobereit",
+					"en" : null
+				},
+				"relativeFrequency" : 1.06,
+				"absoluteFrequency" : 299,
+				"validRelativeFrequency" : 8.15
+			}
+		]
+	}
+}

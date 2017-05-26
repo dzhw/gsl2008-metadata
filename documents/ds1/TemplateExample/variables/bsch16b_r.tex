@@ -1,0 +1,119 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{bsch16b\_r}
+	\label{subSection:bsch16b_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bsch16b_r}
+			Name & bsch16b\_r \\
+			Label & 3. Prüfungsfach: wöchentliche Stundenzahl \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:bsch16b_r}
+					Arithmetisches Mittel & 3.7288 \\
+					Standardabweichung & 35 \\
+					Minimum & 1 \\
+					Unteres Quartil & 3 \\
+					Median & 4 \\
+					Oberes Quartil & 4 \\
+					Maximum & 9 \\
+					Schiefe & 145 \\
+					Wölbung & 152 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:bsch16b_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {1.5,3,4,4,5.5},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=0.5,
+				ymax=6.5
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=4,
+    		  		upper quartile=4,
+      			lower quartile=3,
+    	  			upper whisker=5.5,
+	    		  	lower whisker=1.5
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{bsch16b\_r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:bsch16b_r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							1 &  & 8 & 0.03 \\
+							2 &  & 222 & 0.79 \\
+							3 &  & 1926 & 6.83 \\
+							4 &  & 2622 & 9.3 \\
+							5 &  & 486 & 1.72 \\
+							6 &  & 156 & 0.55 \\
+							7 &  & 6 & 0.02 \\
+							8 &  & 20 & 0.07 \\
+							9 &  & 4 & 0.01 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 483 & 1.71  \\
+							-995 & keine Teilnahme (Panel) & 22249 & 78.95  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable bsch16b\_r}
+			\end{table}
+	
+	\newpage

@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Interessenbereich: sich Problemen Anderer widmen",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "16",
+			"relatedQuestionStrings" : {
+				"de" : "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\nsich mit den Problemen anderer beschäftigen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 222,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5919,
+		"totalValidRelativeFrequency" : 21,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.74967739182554",
+			"meanDeviation" : "971.103",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.05,
+				"absoluteFrequency" : 14
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 4.53,
+				"absoluteFrequency" : 1276,
+				"validRelativeFrequency" : 21.56
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 8.8,
+				"absoluteFrequency" : 2479,
+				"validRelativeFrequency" : 41.88
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 4.85,
+				"absoluteFrequency" : 1367,
+				"validRelativeFrequency" : 23.1
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 2.2,
+				"absoluteFrequency" : 621,
+				"validRelativeFrequency" : 10.49
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.62,
+				"absoluteFrequency" : 176,
+				"validRelativeFrequency" : 2.97
+			}
+		]
+	}
+}

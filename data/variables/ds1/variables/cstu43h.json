@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Motiv MA: Qualifizierung für Spezialgebiet",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "5.5",
+			"relatedQuestionStrings" : {
+				"de" : "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\nmich für ein bestimmtes berufliches Spezialgebiet qualifizieren",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1188,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1638,
+		"totalValidRelativeFrequency" : 5.81,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.79743972077449",
+			"meanDeviation" : "228.3204",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.31,
+				"absoluteFrequency" : 88
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 6.9,
+				"absoluteFrequency" : 1945
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr wichtig",
+					"en" : null
+				},
+				"relativeFrequency" : 2.01,
+				"absoluteFrequency" : 566,
+				"validRelativeFrequency" : 34.55
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 2.08,
+				"absoluteFrequency" : 585,
+				"validRelativeFrequency" : 35.71
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 0.9,
+				"absoluteFrequency" : 253,
+				"validRelativeFrequency" : 15.45
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.48,
+				"absoluteFrequency" : 135,
+				"validRelativeFrequency" : 8.24
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "unwichtig",
+					"en" : null
+				},
+				"relativeFrequency" : 0.35,
+				"absoluteFrequency" : 99,
+				"validRelativeFrequency" : 6.04
+			}
+		]
+	}
+}

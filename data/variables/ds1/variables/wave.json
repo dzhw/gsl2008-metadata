@@ -1,0 +1,79 @@
+{
+	"surveyNumbers" : [
+		1,
+		2,
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Teilnahme an den Wellen (Indikator)",
+		"en" : null
+	},
+	"indexInDataSet" : 2,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 28182,
+		"totalValidRelativeFrequency" : 100,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "3",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "1",
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.3091626241019",
+			"meanDeviation" : "2088.9834",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "1",
+			"lowWhisker" : 1,
+			"highWhisker" : 1
+		},
+		"missings" : [],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "Teilnahme nur 1.Welle",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249,
+				"validRelativeFrequency" : 78.95
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "Teilnahme 1+2.Welle",
+					"en" : null
+				},
+				"relativeFrequency" : 8.03,
+				"absoluteFrequency" : 2262,
+				"validRelativeFrequency" : 8.03
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "Teilnahme 1.+2.+3.Welle",
+					"en" : null
+				},
+				"relativeFrequency" : 13.03,
+				"absoluteFrequency" : 3671,
+				"validRelativeFrequency" : 13.03
+			}
+		]
+	}
+}

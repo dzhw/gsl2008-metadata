@@ -1,0 +1,231 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cbeg10\_g2r}
+	\label{subSection:cbeg10_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cbeg10_g2r}
+			Name & cbeg10\_g2r \\
+			Label & 10. Tätigkeit: Beginn (Monat)  \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert. 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cbeg10_g2r}
+					Arithmetisches Mittel & 8.1059 \\
+					Standardabweichung & 84 \\
+					Minimum & 2 \\
+					Unteres Quartil & 7 \\
+					Median & 9 \\
+					Oberes Quartil & 10 \\
+					Maximum & 12 \\
+					Schiefe & 45 \\
+					Wölbung & 92 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cbeg10_g2r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {2.5,7,9,10,12},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=1.5,
+				ymax=13
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=9,
+    		  		upper quartile=10,
+      			lower quartile=7,
+    	  			upper whisker=12,
+	    		  	lower whisker=2.5
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cbeg10\_g2r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cbeg10_g2r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+						& & 85 & 0.3 \\	
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 3586 & 12.72  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cbeg10\_g2r}
+			\end{table}
+	
+			%HISTOGRAM FOR CONTINOUS DATA, IF THERE ARE MORE THAN 10 BINs
+			
+			\begin{figure}[!ht]
+			\label{histogram:cbeg10_g2r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}[
+			    /pgf/number format/.cd,
+		    	    use comma,		    	    
+	    	    		1000 sep={},
+	    	    		ylabel={Absolute Häufigkeit},
+			    xlabel={Werte},
+			    ybar,
+			    ymin=0,
+			    axis y line*=left,
+			    axis x line*=bottom
+			]
+			\addplot +[
+				fill=dzhwblue, 
+				draw=white,
+			    hist={
+			        bins=11,
+			        data min=1.5,
+			        data max=12.5
+			    }   
+			] table[row sep=\\,y index=0] {
+				data\\
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						3\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						5\\ 
+						5\\ 
+						5\\ 
+						5\\ 
+						6\\ 
+						6\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						11\\ 
+						11\\ 
+						11\\ 
+						11\\ 
+						11\\ 
+						11\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+			};
+			\end{axis}
+			\end{tikzpicture}	
+			\caption{Histogramm der Variable cbeg10\_g2r}	
+			\end{figure}	
+	\newpage

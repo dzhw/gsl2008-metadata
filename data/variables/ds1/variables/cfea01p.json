@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Sorgen Studium: kein Masterstudienplatz bekommen",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.15",
+			"relatedQuestionStrings" : {
+				"de" : "Wenn Sie an Ihr derzeitiges Studium denken, was bereitet Ihnen persönlich Sorge?\nkeinen Masterstudienplatz zu bekommen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1153,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1799,
+		"totalValidRelativeFrequency" : 6.38,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "5",
+			"mode" : "5",
+			"standardDeviation" : null,
+			"deviance" : "2.05100352508048",
+			"meanDeviation" : "63.7518",
+			"firstQuartile" : "4",
+			"thirdQuartile" : "5",
+			"lowWhisker" : 2.5,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 4.56,
+				"absoluteFrequency" : 1284
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 0.33,
+				"absoluteFrequency" : 92,
+				"validRelativeFrequency" : 5.11
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 0.48,
+				"absoluteFrequency" : 135,
+				"validRelativeFrequency" : 7.5
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 0.45,
+				"absoluteFrequency" : 128,
+				"validRelativeFrequency" : 7.12
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.68,
+				"absoluteFrequency" : 192,
+				"validRelativeFrequency" : 10.67
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 4.44,
+				"absoluteFrequency" : 1252,
+				"validRelativeFrequency" : 69.59
+			}
+		]
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "8. Tätigkeit: Hochschulart (FH/Uni; ohne Saarland)",
+		"en" : null
+	},
+	"indexInDataSet" : 657,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 195,
+		"totalValidRelativeFrequency" : 0.69,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.09260933431342",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 12.26,
+				"absoluteFrequency" : 3454
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 21
+			},
+			{
+				"code" : -967,
+				"label" : {
+					"de" : "anonymisiert",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "Universität",
+					"en" : null
+				},
+				"relativeFrequency" : 0.53,
+				"absoluteFrequency" : 149,
+				"validRelativeFrequency" : 76.41
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "Fachhochschule",
+					"en" : null
+				},
+				"relativeFrequency" : 0.16,
+				"absoluteFrequency" : 46,
+				"validRelativeFrequency" : 23.59
+			}
+		]
+	}
+}

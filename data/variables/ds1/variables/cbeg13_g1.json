@@ -1,0 +1,86 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "intervall",
+		"en" : "interval"
+	},
+	"label" : {
+		"de" : "13. Tätigkeit: Beginn (Jahr)",
+		"en" : null
+	},
+	"indexInDataSet" : 751,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 9,
+		"totalValidRelativeFrequency" : 0.03,
+		"histogram" : {
+			"numberOfBins" : 2,
+			"start" : 2010.5,
+			"end" : 2012.5
+		},
+		"statistics" : {
+			"meanValue" : 2011.7,
+			"minimum" : "2011",
+			"maximum" : "2012",
+			"skewness" : -0.70711,
+			"kurtosis" : 1.5,
+			"median" : "2012",
+			"mode" : "2012",
+			"standardDeviation" : 0.5,
+			"deviance" : "1.27302833658963",
+			"meanDeviation" : "2.2239",
+			"firstQuartile" : "2011",
+			"thirdQuartile" : "2012",
+			"lowWhisker" : 2011,
+			"highWhisker" : 2012
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 12.99,
+				"absoluteFrequency" : 3662
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "2011",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 3,
+				"validRelativeFrequency" : 33.33
+			},
+			{
+				"value" : "2012",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 6,
+				"validRelativeFrequency" : 66.67
+			}
+		]
+	}
+}

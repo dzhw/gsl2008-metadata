@@ -1,0 +1,74 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{bstu12\_r}
+	\label{subSection:bstu12_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bstu12_r}
+			Name & bstu12\_r \\
+			Label & 2. Qualifikation: Studium beabsichtigt? (wenn berufstätig) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if inrange(bact01,1,9) | bact01==33 | inrange(bact02,4,6)  \\
+ \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:bstu12_r}
+			Nummer & 23 \\
+			Einleitung der Frage & - \\
+			Fragetext & Beabsichtigen Sie danach die Aufnahme eines Studiums? \\
+			Ausfüllanweisung & Bitte nur eine Antwort ankreuzen. \\
+		\end{tabular}
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:bstu12_r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & ja, auf jeden Fall & 233 & 0.83 & 17.57 \\
+								2 & ja, wahrscheinlich & 289 & 1.03 & 21.79 \\
+								3 & eventuell & 391 & 1.39 & 29.49 \\
+								4 & nein, wahrscheinlich nicht & 354 & 1.26 & 26.7 \\
+								5 & nein, auf keinen Fall & 59 & 0.21 & 4.45 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-995 & keine Teilnahme (Panel) & 22249 & 78.95 & - \\						
+							-989 & filterbedingt fehlend & 4607 & 16.35 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{1326} & \textbf{4.71} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable bstu12\_r}
+			\end{table}
+
+	
+	\newpage

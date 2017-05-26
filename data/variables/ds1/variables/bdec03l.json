@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Aspekt gegen Studium: gewohnte Umgebung verlassen",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "32",
+			"relatedQuestionStrings" : {
+				"de" : "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\nfür ein Studium die gewohnte Umgebung, Freunde und Familie verlassen zu müssen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 361,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5844,
+		"totalValidRelativeFrequency" : 20.74,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "4",
+			"mode" : "4",
+			"standardDeviation" : null,
+			"deviance" : "3.10178486079564",
+			"meanDeviation" : "364.7196",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.32,
+				"absoluteFrequency" : 89
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 1.83,
+				"absoluteFrequency" : 515,
+				"validRelativeFrequency" : 8.81
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 3.65,
+				"absoluteFrequency" : 1029,
+				"validRelativeFrequency" : 17.61
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 4.52,
+				"absoluteFrequency" : 1275,
+				"validRelativeFrequency" : 21.82
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 5.66,
+				"absoluteFrequency" : 1596,
+				"validRelativeFrequency" : 27.31
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 5.07,
+				"absoluteFrequency" : 1429,
+				"validRelativeFrequency" : 24.45
+			}
+		]
+	}
+}

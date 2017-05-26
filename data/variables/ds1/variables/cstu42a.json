@@ -1,0 +1,155 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "verhältnis",
+		"en" : "ratio"
+	},
+	"label" : {
+		"de" : "Entscheidungszeitpunkt Masterstudium (Angabe Semester)",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "5.4",
+			"relatedQuestionStrings" : {
+				"de" : "Wann haben Sie sich für das Masterstudium entschieden?\nerst später im Studium , und zwar im … Semester",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1180,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 442,
+		"totalValidRelativeFrequency" : 1.57,
+		"histogram" : {
+			"numberOfBins" : 7,
+			"start" : 2.5,
+			"end" : 9.5
+		},
+		"statistics" : {
+			"meanValue" : 5.5249,
+			"minimum" : "3",
+			"maximum" : "9",
+			"skewness" : 0.24352,
+			"kurtosis" : 2.8036,
+			"median" : "6",
+			"mode" : "6",
+			"standardDeviation" : 1.2797,
+			"deviance" : "3.29075719127262",
+			"meanDeviation" : "48.9258",
+			"firstQuartile" : "5",
+			"thirdQuartile" : "6",
+			"lowWhisker" : 3.5,
+			"highWhisker" : 7.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 4.56,
+				"absoluteFrequency" : 1284
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 6.9,
+				"absoluteFrequency" : 1945
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 20,
+				"validRelativeFrequency" : 4.52
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.27,
+				"absoluteFrequency" : 76,
+				"validRelativeFrequency" : 17.19
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.44,
+				"absoluteFrequency" : 124,
+				"validRelativeFrequency" : 28.05
+			},
+			{
+				"value" : "6",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.48,
+				"absoluteFrequency" : 135,
+				"validRelativeFrequency" : 30.54
+			},
+			{
+				"value" : "7",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.19,
+				"absoluteFrequency" : 53,
+				"validRelativeFrequency" : 11.99
+			},
+			{
+				"value" : "8",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.1,
+				"absoluteFrequency" : 29,
+				"validRelativeFrequency" : 6.56
+			},
+			{
+				"value" : "9",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 5,
+				"validRelativeFrequency" : 1.13
+			}
+		]
+	}
+}

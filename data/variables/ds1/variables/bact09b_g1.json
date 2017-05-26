@@ -1,0 +1,106 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Alternative Qualifizierung: berufliche Tätigkeit (Nennung Beruf) (KldB-1992-Beru",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "30",
+			"relatedQuestionStrings" : {
+				"de" : "Was werden/wollen Sie statt dessen tun?\netwas anderes, und zwar:",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 323,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3,
+		"totalValidRelativeFrequency" : 0.01,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "multimodal",
+			"standardDeviation" : null,
+			"deviance" : "2.19722457733622",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 21.04,
+				"absoluteFrequency" : 5930
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "290",
+				"label" : {
+					"de" : "Werkzeugmechaniker/Werkzeugmechanikerinnen, Werkzeugmacher/Werkzeugmacherinnen o.n.F.",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 33.33
+			},
+			{
+				"value" : "787",
+				"label" : {
+					"de" : "Verwaltungsfachleute (mittlerer Dienst), a.n.g.",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 33.33
+			},
+			{
+				"value" : "833",
+				"label" : {
+					"de" : "Bildende Künstler/Künstlerinnen (freie Kunst)",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 33.33
+			}
+		]
+	}
+}

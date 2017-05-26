@@ -1,0 +1,130 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cend08\_g1r}
+	\label{subSection:cend08_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cend08_g1r}
+			Name & cend08\_g1r \\
+			Label & 8. Tätigkeit: Ende (Jahr)  \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert. 
+				 \\	
+			 \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cend08_g1r}
+			Nummer & 2.1 \\
+			Einleitung der Frage & - \\
+			Fragetext & Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.
+Zeitraum
+Ende
+Monat/Jahr \\
+			Ausfüllanweisung & Geben Sie bitte alle bisherigen Tätigkeiten – z. B. Studium, Berufsausbildung, Erwerbstätigkeit, aber auch Praktikum, Haushaltstätigkeit,
+Erziehungszeit, Arbeitslosigkeit – mit ihren jeweiligen Anfangs- und Endterminen an. Tragen Sie die Tätigkeiten in die entsprechenden Spalten ein bzw. machen Sie die entsprechenden „Kreuze“. Verwenden Sie immer dann eine neue Zeile, wenn sich eine Änderung der Tätigkeit – beispielsweise auch Wechsel des Studienfachs oder der Hochschule – ergeben hat. Wichtig ist für uns, dass im zeitlichen Ablauf keine Lücken entstehen. Wenn sich wesentliche Tätigkeiten zeitlich überschneiden, geben Sie jede in einer eigenen Zeile an. \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cend08_g1r}
+					Arithmetisches Mittel & 2011.8 \\
+					Standardabweichung & 13 \\
+					Minimum & 2010 \\
+					Unteres Quartil & 2012 \\
+					Median & 2012 \\
+					Oberes Quartil & 2012 \\
+					Maximum & 2012 \\
+					Schiefe & 101 \\
+					Wölbung & 163 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cend08_g1r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {2012,2012,2012,2012,2012},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=2011,
+				ymax=2013
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=2012,
+    		  		upper quartile=2012,
+      			lower quartile=2012,
+    	  			upper whisker=2012,
+	    		  	lower whisker=2012
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cend08\_g1r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cend08_g1r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							2010 &  & 8 & 0.03 \\
+							2011 &  & 45 & 0.16 \\
+							2012 &  & 227 & 0.81 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 3391 & 12.03  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cend08\_g1r}
+			\end{table}
+	
+	\newpage

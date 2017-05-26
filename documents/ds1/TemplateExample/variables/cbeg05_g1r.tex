@@ -1,0 +1,131 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cbeg05\_g1r}
+	\label{subSection:cbeg05_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cbeg05_g1r}
+			Name & cbeg05\_g1r \\
+			Label & 5. Tätigkeit: Beginn (Jahr)  \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+					Generierungsbeschreibung & Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert. 
+				 \\	
+			 \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cbeg05_g1r}
+			Nummer & 2.1 \\
+			Einleitung der Frage & - \\
+			Fragetext & Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.
+Zeitraum
+Beginn
+Monat/Jahr \\
+			Ausfüllanweisung & Geben Sie bitte alle bisherigen Tätigkeiten – z. B. Studium, Berufsausbildung, Erwerbstätigkeit, aber auch Praktikum, Haushaltstätigkeit,
+Erziehungszeit, Arbeitslosigkeit – mit ihren jeweiligen Anfangs- und Endterminen an. Tragen Sie die Tätigkeiten in die entsprechenden Spalten ein bzw. machen Sie die entsprechenden „Kreuze“. Verwenden Sie immer dann eine neue Zeile, wenn sich eine Änderung der Tätigkeit – beispielsweise auch Wechsel des Studienfachs oder der Hochschule – ergeben hat. Wichtig ist für uns, dass im zeitlichen Ablauf keine Lücken entstehen. Wenn sich wesentliche Tätigkeiten zeitlich überschneiden, geben Sie jede in einer eigenen Zeile an. \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cbeg05_g1r}
+					Arithmetisches Mittel & 2010.9 \\
+					Standardabweichung & 46 \\
+					Minimum & 2009 \\
+					Unteres Quartil & 2010 \\
+					Median & 2011 \\
+					Oberes Quartil & 2012 \\
+					Maximum & 2012 \\
+					Schiefe & 19 \\
+					Wölbung & 28 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cbeg05_g1r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {2009,2010,2011,2012,2012},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=2008,
+				ymax=2013
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=2011,
+    		  		upper quartile=2012,
+      			lower quartile=2010,
+    	  			upper whisker=2012,
+	    		  	lower whisker=2009
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cbeg05\_g1r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cbeg05_g1r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							2009 &  & 270 & 0.96 \\
+							2010 &  & 302 & 1.07 \\
+							2011 &  & 403 & 1.43 \\
+							2012 &  & 613 & 2.18 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 2083 & 7.39  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cbeg05\_g1r}
+			\end{table}
+	
+	\newpage

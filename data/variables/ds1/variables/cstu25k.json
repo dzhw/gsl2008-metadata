@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Bewertung Hauptfach: Ausstattung EDV-Arbeitsplätze",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.4",
+			"relatedQuestionStrings" : {
+				"de" : "Wie bewerten Sie folgende Aspekte Ihres derzeitigen 1. Hauptstudienfachs?\nAusstattung mit EDV-Arbeitsplätzen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 977,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3003,
+		"totalValidRelativeFrequency" : 10.66,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.97636611004468",
+			"meanDeviation" : "323.2068",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.28,
+				"absoluteFrequency" : 80
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr gut",
+					"en" : null
+				},
+				"relativeFrequency" : 2.38,
+				"absoluteFrequency" : 671,
+				"validRelativeFrequency" : 22.34
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 3.58,
+				"absoluteFrequency" : 1009,
+				"validRelativeFrequency" : 33.6
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 2.49,
+				"absoluteFrequency" : 701,
+				"validRelativeFrequency" : 23.34
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 1.61,
+				"absoluteFrequency" : 453,
+				"validRelativeFrequency" : 15.08
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "sehr schlecht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.6,
+				"absoluteFrequency" : 169,
+				"validRelativeFrequency" : 5.63
+			}
+		]
+	}
+}

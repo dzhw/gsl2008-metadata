@@ -1,0 +1,39 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{bstu09\_g2a}
+	\label{subSection:bstu09_g2a}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bstu09_g2a}
+			Name & bstu09\_g2a \\
+			Label & 1. Qualifikation: Staat einer ausl. Hochschule \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				not-accessible,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & gen bstu09\_g3 = bstu09\_g4 if bstu09\_g4\textgreater{}=9000 \& bstu09\_g4\textless{}=9206
+recode bstu09\_g2 (9000 = 9990)
+replace bstu09\_g2 = -988 if (bstu09\_g4\textless{}=9000 \& bstu09\_g4\textgreater{}=1) | (bstu09\_g4\textgreater{}=81101 \& bstu09\_g4\textless{}=81712) \\
+				 \\
+					Generierungsbeschreibung & Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländische Hochschulen, deutschen Hochschulen wurden auf trifft nicht zu gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9).
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+	
+	\newpage

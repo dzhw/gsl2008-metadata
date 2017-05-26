@@ -1,0 +1,96 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Alternative Qualifizierung: Art der Ausbildung",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "30",
+			"relatedQuestionStrings" : {
+				"de" : "Was werden/wollen Sie statt dessen tun?\neine (andere) Berufsausbildung absolvieren, und zwar:",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 315,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 12,
+		"totalValidRelativeFrequency" : 0.04,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "13",
+			"standardDeviation" : null,
+			"deviance" : "1.12467028923762",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 21.01,
+				"absoluteFrequency" : 5921
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "11",
+				"label" : {
+					"de" : "Berufsfachschule",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 3,
+				"validRelativeFrequency" : 25
+			},
+			{
+				"value" : "13",
+				"label" : {
+					"de" : "betriebliche Ausbildung (Lehre)",
+					"en" : null
+				},
+				"relativeFrequency" : 0.03,
+				"absoluteFrequency" : 9,
+				"validRelativeFrequency" : 75
+			}
+		]
+	}
+}

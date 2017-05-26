@@ -1,0 +1,95 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cstu29b\_g1r}
+	\label{subSection:cstu29b_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cstu29b_g1r}
+			Name & cstu29b\_g1r \\
+			Label & Wechsel Hochschule: zu Bundesland der HS \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & gen cstu29b\_g1 = cstu29b\_g3
+replace cstu29b\_g1  = 9990 if cstu29b\_g3\textgreater{}=9000 \& cstu29b\_g3\textless{}=9206 \\
+				 \\
+					Generierungsbeschreibung & Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer, Länder von ausländische Hochschulen wurden auf trifft nicht zu gesetzt. Für die Zuordnung von Hochschulen zu Bundesländern wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) verwendet (cl-destatis-hochschule-2008).
+				 \\	
+			 \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cstu29b_g1r}
+			Nummer & 4.8 \\
+			Einleitung der Frage & - \\
+			Fragetext & Von welcher Hochschule zu welcher Hochschule haben Sie gewechselt bzw. werden Sie wechseln?
+zu: \\
+			Ausfüllanweisung & Bei mehreren Wechseln bitte den letzten angeben. \\
+		\end{tabular}
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:cstu29b_g1r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Schleswig-Holstein & 12 & 0.04 & 1.9 \\
+								2 & Hamburg & 24 & 0.09 & 3.81 \\
+								3 & Niedersachsen & 43 & 0.15 & 6.83 \\
+								4 & Bremen & 8 & 0.03 & 1.27 \\
+								5 & Nordrhein-Westfalen & 107 & 0.38 & 16.98 \\
+								6 & Hessen & 39 & 0.14 & 6.19 \\
+								7 & Rheinland-Pfalz & 44 & 0.16 & 6.98 \\
+								8 & Baden-Württemberg & 110 & 0.39 & 17.46 \\
+								9 & Bayern & 65 & 0.23 & 10.32 \\
+								10 & Saarland & 3 & 0.01 & 0.48 \\
+								11 & Berlin & 24 & 0.09 & 3.81 \\
+								12 & Brandenburg & 21 & 0.07 & 3.33 \\
+								13 & Mecklenburg-Vorpommern & 16 & 0.06 & 2.54 \\
+								14 & Sachsen & 30 & 0.11 & 4.76 \\
+								15 & Sachsen-Anhalt & 22 & 0.08 & 3.49 \\
+								16 & Thüringen & 29 & 0.1 & 4.6 \\
+								9990 & Hochschulen im Ausland & 33 & 0.12 & 5.24 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-999 & weiß nicht & 1 & 0 & - \\						
+							-998 & keine Angabe & 1 & 0 & - \\						
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97 & - \\						
+							-989 & filterbedingt fehlend & 3037 & 10.78 & - \\						
+							-969 & unbekannter fehlender Wert & 2 & 0.01 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{630} & \textbf{2.24} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable cstu29b\_g1r}
+			\end{table}
+
+	
+	\newpage

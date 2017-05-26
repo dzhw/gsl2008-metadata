@@ -1,0 +1,117 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Stärke: naturwissenschaftlich",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "06",
+			"relatedQuestionStrings" : {
+				"de" : "Kein Mensch ist auf allen Gebieten gleich leistungsstark. In welchen der folgenden Bereiche liegen Ihre Stärken, in welchen Ihre Schwächen?\nim naturwissenschaftlichen Bereich",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 53,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 27987,
+		"totalValidRelativeFrequency" : 99.31,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.94206788020063",
+			"meanDeviation" : "4575.3036",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.69,
+				"absoluteFrequency" : 195
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "stark",
+					"en" : null
+				},
+				"relativeFrequency" : 16.55,
+				"absoluteFrequency" : 4664,
+				"validRelativeFrequency" : 16.66
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 31.79,
+				"absoluteFrequency" : 8960,
+				"validRelativeFrequency" : 32.01
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 30.66,
+				"absoluteFrequency" : 8642,
+				"validRelativeFrequency" : 30.88
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 14.7,
+				"absoluteFrequency" : 4143,
+				"validRelativeFrequency" : 14.8
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "schwach",
+					"en" : null
+				},
+				"relativeFrequency" : 5.6,
+				"absoluteFrequency" : 1578,
+				"validRelativeFrequency" : 5.64
+			}
+		]
+	}
+}

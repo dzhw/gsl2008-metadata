@@ -1,0 +1,84 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cstu37\_g1r}
+	\label{subSection:cstu37_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cstu37_g1r}
+			Name & cstu37\_g1r \\
+			Label & künftiges Studium: Bundesland der HS \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & gen cstu37\_g1 = cstu37\_g3
+replace cstu37\_g1  = 9990 if cstu37\_g3\textgreater{}=9000 \& cstu37\_g3\textless{}=9206 \\
+				 \\
+					Generierungsbeschreibung & Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer, Länder von ausländische Hochschulen wurden auf trifft nicht zu gesetzt. Für die Zuordnung von Hochschulen zu Bundesländern wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) verwendet (cl-destatis-hochschule-2008).
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:cstu37_g1r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Schleswig-Holstein & 27 & 0.1 & 1.62 \\
+								2 & Hamburg & 59 & 0.21 & 3.55 \\
+								3 & Niedersachsen & 129 & 0.46 & 7.76 \\
+								4 & Bremen & 40 & 0.14 & 2.41 \\
+								5 & Nordrhein-Westfalen & 322 & 1.14 & 19.36 \\
+								6 & Hessen & 101 & 0.36 & 6.07 \\
+								7 & Rheinland-Pfalz & 94 & 0.33 & 5.65 \\
+								8 & Baden-Württemberg & 174 & 0.62 & 10.46 \\
+								9 & Bayern & 218 & 0.77 & 13.11 \\
+								10 & Saarland & 14 & 0.05 & 0.84 \\
+								11 & Berlin & 114 & 0.4 & 6.86 \\
+								12 & Brandenburg & 35 & 0.12 & 2.1 \\
+								13 & Mecklenburg-Vorpommern & 28 & 0.1 & 1.68 \\
+								14 & Sachsen & 97 & 0.34 & 5.83 \\
+								15 & Sachsen-Anhalt & 40 & 0.14 & 2.41 \\
+								16 & Thüringen & 51 & 0.18 & 3.07 \\
+								9990 & Hochschulen im Ausland & 120 & 0.43 & 7.22 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-999 & weiß nicht & 211 & 0.75 & - \\						
+							-998 & keine Angabe & 274 & 0.97 & - \\						
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97 & - \\						
+							-989 & filterbedingt fehlend & 1518 & 5.39 & - \\						
+							-969 & unbekannter fehlender Wert & 5 & 0.02 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{1663} & \textbf{5.9} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable cstu37\_g1r}
+			\end{table}
+
+	
+	\newpage

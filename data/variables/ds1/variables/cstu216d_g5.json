@@ -1,0 +1,113 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "6. Tätigkeit: Hochschulart (FH/Uni; ohne Saarland)",
+		"en" : null
+	},
+	"indexInDataSet" : 613,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 570,
+		"totalValidRelativeFrequency" : 2.02,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.17033770755816",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 10.73,
+				"absoluteFrequency" : 3023
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 0.26,
+				"absoluteFrequency" : 72
+			},
+			{
+				"code" : -967,
+				"label" : {
+					"de" : "anonymisiert",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 2
+			},
+			{
+				"code" : -943,
+				"label" : {
+					"de" : "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 4
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "Universität",
+					"en" : null
+				},
+				"relativeFrequency" : 1.47,
+				"absoluteFrequency" : 415,
+				"validRelativeFrequency" : 72.81
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "Fachhochschule",
+					"en" : null
+				},
+				"relativeFrequency" : 0.55,
+				"absoluteFrequency" : 155,
+				"validRelativeFrequency" : 27.19
+			}
+		]
+	}
+}

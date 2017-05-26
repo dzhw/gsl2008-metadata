@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Ziel: sicherer Arbeitsplatz",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "47",
+			"relatedQuestionStrings" : {
+				"de" : "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\nMir geht es darum, einen sicheren Arbeitsplatz zu haben",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 416,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5915,
+		"totalValidRelativeFrequency" : 20.99,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "1",
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.98400585360393",
+			"meanDeviation" : "713.1306",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "2",
+			"lowWhisker" : 1,
+			"highWhisker" : 3.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.06,
+				"absoluteFrequency" : 18
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 12.53,
+				"absoluteFrequency" : 3532,
+				"validRelativeFrequency" : 59.71
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 6.05,
+				"absoluteFrequency" : 1705,
+				"validRelativeFrequency" : 28.83
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 1.84,
+				"absoluteFrequency" : 518,
+				"validRelativeFrequency" : 8.76
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.44,
+				"absoluteFrequency" : 123,
+				"validRelativeFrequency" : 2.08
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.13,
+				"absoluteFrequency" : 37,
+				"validRelativeFrequency" : 0.63
+			}
+		]
+	}
+}

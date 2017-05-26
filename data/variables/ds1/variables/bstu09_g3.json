@@ -1,0 +1,112 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "1. Qualifikation: Staat einer ausl. Hochschule",
+		"en" : null
+	},
+	"indexInDataSet" : 282,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 106,
+		"totalValidRelativeFrequency" : 0.38,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "9990",
+			"standardDeviation" : null,
+			"deviance" : "0",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -999,
+				"label" : {
+					"de" : "weiß nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.25,
+				"absoluteFrequency" : 70
+			},
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.65,
+				"absoluteFrequency" : 183
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 5.23,
+				"absoluteFrequency" : 1473
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 14.55,
+				"absoluteFrequency" : 4100
+			},
+			{
+				"code" : -969,
+				"label" : {
+					"de" : "unbekannter fehlender Wert",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "9990",
+				"label" : {
+					"de" : "Hochschulen im Ausland",
+					"en" : null
+				},
+				"relativeFrequency" : 0.38,
+				"absoluteFrequency" : 106,
+				"validRelativeFrequency" : 100
+			}
+		]
+	}
+}

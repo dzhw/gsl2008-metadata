@@ -1,0 +1,87 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{cjob07b\_r}
+	\label{subSection:cjob07b_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cjob07b_r}
+			Name & cjob07b\_r \\
+			Label & Vollzeitbeschäftigung: Stunden pro Woche \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if cjob04==2 \\
+ \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cjob07b_r}
+			Nummer & 7.2 \\
+			Einleitung der Frage & - \\
+			Fragetext & Ist Ihre Tätigkeit…?
+eine Vollzeitbeschäftigung mit … Std./Woche \\
+			Ausfüllanweisung & - \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			Keine statistischen Daten, da die Variable ausschließlich fehlende Werte enthält.
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cjob07b_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {37.5,39,40,40,41.5},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=36.5,
+				ymax=42.5
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=40,
+    		  		upper quartile=40,
+      			lower quartile=39,
+    	  			upper whisker=41.5,
+	    		  	lower whisker=37.5
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cjob07b\_r Verteilungen}
+			\end{minipage}
+
+	
+	\newpage

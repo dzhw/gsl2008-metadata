@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Sorgen Studium: Zeitmangel durch Nebenjob",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.15",
+			"relatedQuestionStrings" : {
+				"de" : "Wenn Sie an Ihr derzeitiges Studium denken, was bereitet Ihnen persönlich Sorge?\nwegen der nötigen Erwerbsarbeit nicht mehr genügend Zeit für das Studium zu haben",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1143,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1826,
+		"totalValidRelativeFrequency" : 6.48,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "5",
+			"mode" : "5",
+			"standardDeviation" : null,
+			"deviance" : "2.60612334099643",
+			"meanDeviation" : "200.151",
+			"firstQuartile" : "3",
+			"thirdQuartile" : "5",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 4.46,
+				"absoluteFrequency" : 1257
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 0.31,
+				"absoluteFrequency" : 88,
+				"validRelativeFrequency" : 4.82
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 0.61,
+				"absoluteFrequency" : 173,
+				"validRelativeFrequency" : 9.47
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 0.79,
+				"absoluteFrequency" : 223,
+				"validRelativeFrequency" : 12.21
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 1.44,
+				"absoluteFrequency" : 406,
+				"validRelativeFrequency" : 22.23
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 3.32,
+				"absoluteFrequency" : 936,
+				"validRelativeFrequency" : 51.26
+			}
+		]
+	}
+}

@@ -1,0 +1,73 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{adem05c\_g2r}
+	\label{subSection:adem05c_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:adem05c_g2r}
+			Name & adem05c\_g2r \\
+			Label & Sprache Elternhaus: eine andere und zwar (Nennung) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode adem05c\_g1 (54 = 1) (69 = 2) (50 = 3) (13 = 4)
+(24 = 5) (-998 = -998) (-989 = -989) (-988 = -988) 
+(nonmissing = 6) , gen(adem05c\_g2) \\
+				 \\
+					Generierungsbeschreibung & Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt. Ausgewiesen werden nur die häufig gesprochenen Sprachen, alle andere werden unter sonstige angeführt.
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:adem05c_g2r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Russisch & 3 & 0.01 & 13.04 \\
+								2 & Türkisch & 2 & 0.01 & 8.7 \\
+								3 & Polnisch & 1 & 0 & 4.35 \\
+								4 & Englisch & 5 & 0.02 & 21.74 \\
+								7 & Französisch & 1 & 0 & 4.35 \\
+								8 & Persisch (Farsi/Dari) & 2 & 0.01 & 8.7 \\
+								13 & Portugiesisch & 1 & 0 & 4.35 \\
+								20 & sonstige Sprachen & 8 & 0.03 & 34.78 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 742 & 2.63 & - \\						
+							-988 & trifft nicht zu & 27417 & 97.29 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{23} & \textbf{0.08} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable adem05c\_g2r}
+			\end{table}
+
+	
+	\newpage

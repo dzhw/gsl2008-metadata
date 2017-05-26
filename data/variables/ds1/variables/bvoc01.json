@@ -1,0 +1,107 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Ausbildung abgeschlossen? (vor/mit Erwerb HR)",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "7",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie bereits vor oder mit Erwerb der Hochschulreife eine Berufsausbildung abgeschlossen?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 193,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5933,
+		"totalValidRelativeFrequency" : 21.05,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "3",
+			"standardDeviation" : null,
+			"deviance" : "1.03056848200946",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja, vor Hochschulreife",
+					"en" : null
+				},
+				"relativeFrequency" : 2.51,
+				"absoluteFrequency" : 706,
+				"validRelativeFrequency" : 11.9
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "ja, mit Hochschulreife",
+					"en" : null
+				},
+				"relativeFrequency" : 0.7,
+				"absoluteFrequency" : 197,
+				"validRelativeFrequency" : 3.32
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "nein",
+					"en" : null
+				},
+				"relativeFrequency" : 17.82,
+				"absoluteFrequency" : 5023,
+				"validRelativeFrequency" : 84.66
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "zur Zeit Ausbildung/Praktikum für volle Fachhochschulreife",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 7,
+				"validRelativeFrequency" : 0.12
+			}
+		]
+	}
+}

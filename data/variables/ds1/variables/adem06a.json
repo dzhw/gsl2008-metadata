@@ -1,0 +1,117 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "höchster beruflicher Abschluss: Vater",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "33",
+			"relatedQuestionStrings" : {
+				"de" : "Geben Sie bitte en jeweils höchsten beruflichen Abschluss Ihrer Eltern an.\nVater",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 161,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 26757,
+		"totalValidRelativeFrequency" : 94.94,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "4",
+			"standardDeviation" : null,
+			"deviance" : "2.81001018849404",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 5.06,
+				"absoluteFrequency" : 1425
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "Uni-Abschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 26.28,
+				"absoluteFrequency" : 7405,
+				"validRelativeFrequency" : 27.68
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "FH-Abschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 12.26,
+				"absoluteFrequency" : 3454,
+				"validRelativeFrequency" : 12.91
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "Meisterprüfung, Technikerabschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 19.27,
+				"absoluteFrequency" : 5432,
+				"validRelativeFrequency" : 20.3
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "Lehre",
+					"en" : null
+				},
+				"relativeFrequency" : 34.71,
+				"absoluteFrequency" : 9783,
+				"validRelativeFrequency" : 36.56
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "kein beruflicher Abschluss",
+					"en" : null
+				},
+				"relativeFrequency" : 2.42,
+				"absoluteFrequency" : 683,
+				"validRelativeFrequency" : 2.55
+			}
+		]
+	}
+}

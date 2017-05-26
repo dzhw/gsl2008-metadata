@@ -1,0 +1,116 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Ausbildung begonnen (werde demnächst Ausbildung beginnen)",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "3.1",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie nach dem Abitur/der Fachhochschulreife eine berufliche Ausbildung aufgenommen?\nnein, aber ich werde demnächst eine Ausbildung aufnehmen\n(bitte zutreffende Ziffer angeben)",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 928,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 15,
+		"totalValidRelativeFrequency" : 0.05,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.16651002103702",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 12.97,
+				"absoluteFrequency" : 3656
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja, betriebliche Ausbildung/Lehre",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 6,
+				"validRelativeFrequency" : 40
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "ja, an Berufsfachschule/Schule des Gesundheitswesens",
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 7,
+				"validRelativeFrequency" : 46.67
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "ja, im Rahmen eines dualen Studiums",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 6.67
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "ja, an Fachakademie",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 6.67
+			}
+		]
+	}
+}

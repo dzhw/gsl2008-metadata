@@ -1,0 +1,68 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cstu27a\_g2r}
+	\label{subSection:cstu27a_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cstu27a_g2r}
+			Name & cstu27a\_g2r \\
+			Label & Wechsel Studiengang: von Studienart (FH/Uni) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode cstu27a\_g1  (01 39 46 48 50 55 56 58 59= 1) (02/07 10 33 47 49 51= 2) (08 09 11/16 36 57 = 3) (17/18 34 52 = 4) (19/29 35 37 38 41 53 54 99= 5) , gen(cstu27a\_g2) \\
+				 \\
+					Generierungsbeschreibung & Die Tätigkeitsgruppen wurden aus den codierten Tätigkeitsarten (Art des Studiums, der Ausbildung, der Erwerbstätigkeit) generiert. Für die Zuordnung der Tätigkeiten wurde eine projekteigene Codierliste verwendet, welches zw. Fachhochschul- und Universitäts-Studium unterscheidet.
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:cstu27a_g2r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Studium an Fachhochschule & 60 & 0.21 & 13.48 \\
+								2 & Studium an Universität & 378 & 1.34 & 84.94 \\
+								3 & Berufsausbildung & 6 & 0.02 & 1.35 \\
+								4 & Berufstätigkeit & 1 & 0 & 0.22 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 7 & 0.02 & - \\						
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97 & - \\						
+							-989 & filterbedingt fehlend & 3219 & 11.42 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{445} & \textbf{1.58} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable cstu27a\_g2r}
+			\end{table}
+
+	
+	\newpage

@@ -1,0 +1,78 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{erstterm\_aip}
+	\label{subSection:erstterm_aip}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:erstterm_aip}
+			Name & erstterm\_aip \\
+			Label & Zeitpkt Beginn d gepl (1.) Quali \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				not-accessible,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if inrange(bact01,1,15) | inrange(bact02,4,6)  \\
+ \\
+					Generierungsbeschreibung & Diese Variable enthält die Angabe zu Jahr/Monat in umgekehrter Reihenfolge als ursprünglich erfasst (Monat/Jahr). 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			Keine statistischen Daten, da die Variable ausschließlich fehlende Werte enthält.
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:erstterm_aip}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {200910,200910,200910,200910,200910},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=200909,
+				ymax=200911
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=200910,
+    		  		upper quartile=200910,
+      			lower quartile=200910,
+    	  			upper whisker=200910,
+	    		  	lower whisker=200910
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{erstterm\_aip Verteilungen}
+			\end{minipage}
+
+	
+	\newpage

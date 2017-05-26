@@ -1,0 +1,96 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Schwierigkeit: Zugangsbeschränkung",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "17",
+			"relatedQuestionStrings" : {
+				"de" : "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\nZugangsbeschränkungen (z.B. NC, Aufnahmeprüfungen) in dem von mir angestrebten Studienfach",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 93,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 25882,
+		"totalValidRelativeFrequency" : 91.84,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "0",
+			"standardDeviation" : null,
+			"deviance" : "1.27354547598032",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 1.24,
+				"absoluteFrequency" : 349
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 6.92,
+				"absoluteFrequency" : 1951
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "0",
+				"label" : {
+					"de" : "nicht genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 61.19,
+				"absoluteFrequency" : 17245,
+				"validRelativeFrequency" : 66.63
+			},
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 30.65,
+				"absoluteFrequency" : 8637,
+				"validRelativeFrequency" : 33.37
+			}
+		]
+	}
+}

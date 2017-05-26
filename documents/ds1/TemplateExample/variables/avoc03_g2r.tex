@@ -1,0 +1,123 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{avoc03\_g2r}
+	\label{subSection:avoc03_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:avoc03_g2r}
+			Name & avoc03\_g2r \\
+			Label & Ausbildungsberuf (Berufsbereich) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode avoc03\_g1  ///
+(011 012 013 014 023 024 031 032 051 052 053 061 062 = 1 ) ///
+(101 112 121 131 135 141 142 145 150 152 ///
+153 161 162 164 171 172 173 174 175 176 ///
+178 179 181 185 191 194 201 211 212 213 ///
+220 221 222 224 225 229 231 233 234 235 ///
+241 245 250 252 254 255 256 259 261 264 ///
+265 266 267 268 269 270 273 274 276 278 ///
+281 282 283 287 290 292 293 294 295 300 ///
+302 303 304 305 307 308 309 310 311 312 ///
+313 314 315 316 317 318 321 322 323 331 ///
+332 341 344 349 351 352 353 354 358 359 ///
+361 371 372 373 374 376 378 391 392 393 ///
+401 411 421 423 424 431 435 440 441 442 ///
+443 460 461 463 465 466 471 472 480 481 ///
+482 483 484 485 486 487 488 491 492 501 ///
+502 505 506 510 511 512 514 521 522 523 ///
+531 540 541 544 545 546 549 550 = 2 ) ///
+(600 601 602 603 604 605 606 607 608 609 ///
+611 612 620 621 622 623 624 625 626 627 ///
+628 629 631 632 633 634 635 641 642 651 ///
+652 = 3 ) ///
+(660 661 662 663 670 671 672 673 674 675 ///
+676 677 678 683 685 686 687 689 = 4 ) ///
+(691 692 693 695 701 702 703 704 705 706 = 5) ///
+750 751 752 753 754 755 756 757 761 763 ///
+764 765 771 772 773 774 775 776 777 778 ///
+779 780 781 782 783 784 785 786 787 788 ///
+789 941 942 = 6 ) ///
+(791 792 793 794 795 796 801 802 803 804 ///
+805 811 812 813 814 = 7 ) ///
+821 822 823 831 832 833 834 835 836 837 ///
+838 839 = 8 ) ///
+(841 842 843 844 851 852 853 854 855 856 ///
+857 858 859 = 9 ) ///
+(861 862 863 864 865 866 867 868 869 870 ///
+871 872 873 874 875 876 877 878 879 880 ///
+881 882 883 884 885 886 887 891 894 = 10 ) ///  ///
+(901 902 911 912 914 915 921 923 931 934 ///
+935 936 937 = 11 ) ///
+(070 071 072 080 711 712 713 714 715 716 ///
+721 723 724 726 731 732 735 741 742 743 ///
+744 962 971 981 982 983 991 992 993 994 ///
+995 996 997 = 12 ) ///
+(002 = 13 ) ///
+(001 003 000 = 14 ) ///
+(999 = 15 ) ///
+, gen(avoc03\_g2) 
+ \\
+				 \\
+					Generierungsbeschreibung & Die Berufsbereiche wurden aus den codierten Berufsangaben generiert. Die Zuordnung ergibt sich auf Grundlage der Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992. 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:avoc03_g2r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & land- \& forstwirtschaftliche Berufe & 60 & 0.21 & 1.01 \\
+								2 & Fertigungsberufe & 1684 & 5.98 & 28.3 \\
+								3 & technische Berufe & 640 & 2.27 & 10.76 \\
+								4 & Warenkaufleute & 275 & 0.98 & 4.62 \\
+								5 & Bank- \& Versicherungsberufe & 212 & 0.75 & 3.56 \\
+								6 & Organisations-, Verwaltungs- \& Büroberufe & 1443 & 5.12 & 24.25 \\
+								7 & Ordnungs- \& Sicherheitsberufe & 12 & 0.04 & 0.2 \\
+								8 & Berufe im Kommunikationsbereich & 293 & 1.04 & 4.92 \\
+								9 & Gesundheitsberufe & 260 & 0.92 & 4.37 \\
+								10 & Sozial- \& Erziehungsberufe & 825 & 2.93 & 13.87 \\
+								11 & allg. Dienstleistungsberufe & 192 & 0.68 & 3.23 \\
+								12 & sonstige Berufe & 54 & 0.19 & 0.91 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 218 & 0.77 & - \\						
+							-989 & filterbedingt fehlend & 22014 & 78.11 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{5950} & \textbf{21.11} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable avoc03\_g2r}
+			\end{table}
+
+	
+	\newpage

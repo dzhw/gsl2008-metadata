@@ -1,0 +1,67 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{bstu14\_g3r}
+	\label{subSection:bstu14_g3r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bstu14_g3r}
+			Name & bstu14\_g3r \\
+			Label & 2. Qualifikation: Staat einer ausl. Hochschule \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & gen bstu14\_g2 = bstu14\_g4 if bstu14\_g4\textgreater{}=9000 \& bstu14\_g4\textless{}=9206
+recode bstu14\_g2 (9000 = 9990)
+replace bstu14\_g2 = -988 if (bstu14\_g4\textless{}=9000 \& bstu14\_g4\textgreater{}=1) | (bstu14\_g4\textgreater{}=81101 \& bstu14\_g4\textless{}=81712) \\
+				 \\
+					Generierungsbeschreibung & Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländische Hochschulen, deutschen Hochschulen wurden auf trifft nicht zu gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9). Die Variable enthält nur die fünf häufigsten Staaten, alle anderen Staaten wurden auf sonstige Staaten gesetzt. 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:bstu14_g3r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						& & 0 & 0 & 0 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 281 & 1 & - \\						
+							-995 & keine Teilnahme (Panel) & 22350 & 79.31 & - \\						
+							-989 & filterbedingt fehlend & 5017 & 17.8 & - \\						
+							-988 & trifft nicht zu & 534 & 1.89 & - \\						
+					
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable bstu14\_g3r}
+			\end{table}
+
+	
+	\newpage

@@ -1,0 +1,87 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Geburtsland: Deutschland?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "31",
+			"relatedQuestionStrings" : {
+				"de" : "Sind Sie in Deutschland geboren?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 152,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 27810,
+		"totalValidRelativeFrequency" : 98.68,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "0.561779103699563",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 1.32,
+				"absoluteFrequency" : 372
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "in Deutschland geboren",
+					"en" : null
+				},
+				"relativeFrequency" : 90.7,
+				"absoluteFrequency" : 25561,
+				"validRelativeFrequency" : 91.91
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "nicht in Deutschland geboren",
+					"en" : null
+				},
+				"relativeFrequency" : 7.98,
+				"absoluteFrequency" : 2249,
+				"validRelativeFrequency" : 8.09
+			}
+		]
+	}
+}

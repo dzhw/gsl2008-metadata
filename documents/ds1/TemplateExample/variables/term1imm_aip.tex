@@ -1,0 +1,78 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	%	
+	%	
+	%
+	
+	\subsection{term1imm\_aip}
+	\label{subSection:term1imm_aip}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:term1imm_aip}
+			Name & term1imm\_aip \\
+			Label & Termin Erstimmatrikulation \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				not-accessible,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if cstu22==2 \\
+ \\
+					Generierungsbeschreibung & Diese Variable enthält die Angabe zu Jahr/Monat in umgekehrter Reihenfolge als ursprünglich erfasst (Monat/Jahr). 
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			Keine statistischen Daten, da die Variable ausschließlich fehlende Werte enthält.
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:term1imm_aip}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {200800,200810,200810,200910,201060},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=200799,
+				ymax=201061
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=200810,
+    		  		upper quartile=200910,
+      			lower quartile=200810,
+    	  			upper whisker=201060,
+	    		  	lower whisker=200800
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{term1imm\_aip Verteilungen}
+			\end{minipage}
+
+	
+	\newpage

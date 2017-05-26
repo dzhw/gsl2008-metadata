@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Zukunft: Optimismus hinsichtlich persönlicher Situation",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "8.6",
+			"relatedQuestionStrings" : {
+				"de" : "Wenn Sie Ihren Blick in die Zukunft richten, wie optimistisch sind Sie hinsichtlich…\nIhrer persönlichen Situation?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1277,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3610,
+		"totalValidRelativeFrequency" : 12.81,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.15894629047597",
+			"meanDeviation" : "647.8962",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "2",
+			"lowWhisker" : 1,
+			"highWhisker" : 3.5
+		},
+		"missings" : [
+			{
+				"code" : -999,
+				"label" : {
+					"de" : "weiß nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.11,
+				"absoluteFrequency" : 30
+			},
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.11,
+				"absoluteFrequency" : 31
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "optimistisch",
+					"en" : null
+				},
+				"relativeFrequency" : 3.24,
+				"absoluteFrequency" : 913,
+				"validRelativeFrequency" : 25.29
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 7.26,
+				"absoluteFrequency" : 2046,
+				"validRelativeFrequency" : 56.68
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 1.89,
+				"absoluteFrequency" : 533,
+				"validRelativeFrequency" : 14.76
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.34,
+				"absoluteFrequency" : 96,
+				"validRelativeFrequency" : 2.66
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "pessimistisch",
+					"en" : null
+				},
+				"relativeFrequency" : 0.08,
+				"absoluteFrequency" : 22,
+				"validRelativeFrequency" : 0.61
+			}
+		]
+	}
+}

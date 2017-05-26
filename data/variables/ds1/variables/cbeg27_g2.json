@@ -1,0 +1,95 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "7. Job: Beginn (Monat)",
+		"en" : null
+	},
+	"indexInDataSet" : 1095,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 2,
+		"totalValidRelativeFrequency" : 0.01,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "2",
+			"maximum" : "3",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2.5",
+			"mode" : "multimodal",
+			"standardDeviation" : null,
+			"deviance" : "1.38629436111989",
+			"meanDeviation" : "0",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 2,
+			"highWhisker" : 3
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 10.91,
+				"absoluteFrequency" : 3076
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.1,
+				"absoluteFrequency" : 593
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "Februar",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 50
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "März",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 50
+			}
+		]
+	}
+}

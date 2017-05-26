@@ -1,0 +1,77 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{asch08\_g2r}
+	\label{subSection:asch08_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:asch08_g2r}
+			Name & asch08\_g2r \\
+			Label & Schwerpunktfach Berufsschüler (1. Welle aggregiert) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode asch08\_g1 (101/108 = 1) (121/134 = 2) (141/144 = 3) 
+(151/153 = 4) (161/179 = 5) (301/328 = 6) (351/366 = 7) 
+(401/409 = 8) (451/474 = 9) (501/514 773 = 10) (551/561 = 11) 
+(601/614 = 12) (652/665 = 13) (701/708 = 14) (751/753 = 15)
+, gen(asch08\_g2) \\
+				 \\
+					Generierungsbeschreibung & Diese Variable enthält die offen erfasste Angabe zum fachlichen Schwerpunkt an beruflichen Schulen in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-10).
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:asch08_g2r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								6 & Technik (berufsbildende Schule) & 1793 & 6.36 & 20.35 \\
+								7 & Bauwesen (berufsbildende Schule) & 240 & 0.85 & 2.72 \\
+								8 & Informatik (berufsbildende Schule) & 609 & 2.16 & 6.91 \\
+								9 & Wirtschaft (und Verwaltung) (berufsbildende Schule) & 3123 & 11.08 & 35.45 \\
+								10 & Landwirtschaft/ Naturwissenschaften (berufsbildende Schule) & 192 & 0.68 & 2.18 \\
+								11 & Gestaltung (berufsbildende Schule) & 589 & 2.09 & 6.69 \\
+								12 & Ernährung/Hauswirtschaft/Gesundheit (berufsbildende Schule) & 514 & 1.82 & 5.83 \\
+								13 & Sozialwesen (berufsbildende Schule) & 1641 & 5.82 & 18.63 \\
+								14 & Sprachen (berufsbildende Schule) & 88 & 0.31 & 1 \\
+								15 & Medien (und Kommunikation) (berufsbildende Schule) & 21 & 0.07 & 0.24 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 3051 & 10.83 & - \\						
+							-988 & trifft nicht zu & 16321 & 57.91 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{8810} & \textbf{31.26} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable asch08\_g2r}
+			\end{table}
+
+	
+	\newpage

@@ -1,0 +1,107 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Eltern zu Kostenbeteiligung am Studium gefragt?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "20",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie sich mit Ihren Eltern schon über deren Beteiligung an diesen Kosten verständigt?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 99,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 27810,
+		"totalValidRelativeFrequency" : 98.68,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "4",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.69173097355587",
+			"meanDeviation" : "1921.4496",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 1.32,
+				"absoluteFrequency" : 372
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "ja",
+					"en" : null
+				},
+				"relativeFrequency" : 27.89,
+				"absoluteFrequency" : 7861,
+				"validRelativeFrequency" : 28.27
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "ja,aber noch nicht abschließend",
+					"en" : null
+				},
+				"relativeFrequency" : 32.82,
+				"absoluteFrequency" : 9249,
+				"validRelativeFrequency" : 33.26
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "nein, noch nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 23.62,
+				"absoluteFrequency" : 6657,
+				"validRelativeFrequency" : 23.94
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "nein, werde ich nicht tun",
+					"en" : null
+				},
+				"relativeFrequency" : 14.35,
+				"absoluteFrequency" : 4043,
+				"validRelativeFrequency" : 14.54
+			}
+		]
+	}
+}

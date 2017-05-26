@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Bewertung Hauptfach: Betreuung/Beratung durch Lehrende",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.4",
+			"relatedQuestionStrings" : {
+				"de" : "Wie bewerten Sie folgende Aspekte Ihres derzeitigen 1. Hauptstudienfachs?\nBetreuung und Beratung durch Lehrende",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 967,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3020,
+		"totalValidRelativeFrequency" : 10.72,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.6990414768163",
+			"meanDeviation" : "449.2278",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.22,
+				"absoluteFrequency" : 63
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr gut",
+					"en" : null
+				},
+				"relativeFrequency" : 1.37,
+				"absoluteFrequency" : 386,
+				"validRelativeFrequency" : 12.78
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 4.56,
+				"absoluteFrequency" : 1286,
+				"validRelativeFrequency" : 42.58
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 3.1,
+				"absoluteFrequency" : 875,
+				"validRelativeFrequency" : 28.97
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 1.38,
+				"absoluteFrequency" : 388,
+				"validRelativeFrequency" : 12.85
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "sehr schlecht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.3,
+				"absoluteFrequency" : 85,
+				"validRelativeFrequency" : 2.81
+			}
+		]
+	}
+}

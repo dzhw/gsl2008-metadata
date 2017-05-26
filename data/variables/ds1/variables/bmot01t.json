@@ -1,0 +1,145 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Bedeutung für Werdegang: Rat von Verwandten, Freunden, Bekannten",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "31",
+			"relatedQuestionStrings" : {
+				"de" : "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\nRat von Verwandten, Freunden, Bekannten",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 344,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5653,
+		"totalValidRelativeFrequency" : 20.06,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "6",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "4",
+			"mode" : "6",
+			"standardDeviation" : null,
+			"deviance" : "3.37556711961623",
+			"meanDeviation" : "286.8831",
+			"firstQuartile" : "3",
+			"thirdQuartile" : "6",
+			"lowWhisker" : 1,
+			"highWhisker" : 6
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.47,
+				"absoluteFrequency" : 133
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 0.52,
+				"absoluteFrequency" : 147
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr bedeutend",
+					"en" : null
+				},
+				"relativeFrequency" : 0.72,
+				"absoluteFrequency" : 202,
+				"validRelativeFrequency" : 3.57
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 2.7,
+				"absoluteFrequency" : 762,
+				"validRelativeFrequency" : 13.48
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 3.92,
+				"absoluteFrequency" : 1104,
+				"validRelativeFrequency" : 19.53
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 3.62,
+				"absoluteFrequency" : 1021,
+				"validRelativeFrequency" : 18.06
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "5",
+					"en" : null
+				},
+				"relativeFrequency" : 4.08,
+				"absoluteFrequency" : 1149,
+				"validRelativeFrequency" : 20.33
+			},
+			{
+				"value" : "6",
+				"label" : {
+					"de" : "bedeutungslos",
+					"en" : null
+				},
+				"relativeFrequency" : 5.02,
+				"absoluteFrequency" : 1415,
+				"validRelativeFrequency" : 25.03
+			}
+		]
+	}
+}

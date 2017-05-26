@@ -1,0 +1,115 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "intervall",
+		"en" : "interval"
+	},
+	"label" : {
+		"de" : "Studienabschluss: Jahr",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.11",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie bereits ein Studium abgeschlossen?\nja, und zwar:\n(Jahr)",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1014,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 1356,
+		"totalValidRelativeFrequency" : 4.81,
+		"histogram" : {
+			"numberOfBins" : 3,
+			"start" : 2009.5,
+			"end" : 2012.5
+		},
+		"statistics" : {
+			"meanValue" : 2011.6,
+			"minimum" : "2010",
+			"maximum" : "2012",
+			"skewness" : -0.4155,
+			"kurtosis" : 1.3572,
+			"median" : "2012",
+			"mode" : "2012",
+			"standardDeviation" : 0.49889,
+			"deviance" : "1.39035050105739",
+			"meanDeviation" : "358.7892",
+			"firstQuartile" : "2011",
+			"thirdQuartile" : "2012",
+			"lowWhisker" : 2010,
+			"highWhisker" : 2012
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 6.13,
+				"absoluteFrequency" : 1727
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "2010",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.01,
+				"absoluteFrequency" : 4,
+				"validRelativeFrequency" : 0.29
+			},
+			{
+				"value" : "2011",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 1.97,
+				"absoluteFrequency" : 555,
+				"validRelativeFrequency" : 40.93
+			},
+			{
+				"value" : "2012",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 2.83,
+				"absoluteFrequency" : 797,
+				"validRelativeFrequency" : 58.78
+			}
+		]
+	}
+}

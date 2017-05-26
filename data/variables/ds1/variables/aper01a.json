@@ -1,0 +1,117 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Persönlichkeit: zurückhaltend",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "26",
+			"relatedQuestionStrings" : {
+				"de" : "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\nIch bin eher zurückhaltend, reserviert.",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 133,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 27216,
+		"totalValidRelativeFrequency" : 96.57,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "3",
+			"standardDeviation" : null,
+			"deviance" : "2.92816285927032",
+			"meanDeviation" : "4769.5242",
+			"firstQuartile" : "3",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1.5,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 3.43,
+				"absoluteFrequency" : 966
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "trifft voll und ganz zu",
+					"en" : null
+				},
+				"relativeFrequency" : 3.76,
+				"absoluteFrequency" : 1059,
+				"validRelativeFrequency" : 3.89
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 16.8,
+				"absoluteFrequency" : 4734,
+				"validRelativeFrequency" : 17.39
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 29.43,
+				"absoluteFrequency" : 8294,
+				"validRelativeFrequency" : 30.47
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 29,
+				"absoluteFrequency" : 8173,
+				"validRelativeFrequency" : 30.03
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "trifft überhaupt nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 17.59,
+				"absoluteFrequency" : 4956,
+				"validRelativeFrequency" : 18.21
+			}
+		]
+	}
+}

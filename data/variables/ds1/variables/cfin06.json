@@ -1,0 +1,145 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Geld neben dem Studium verdient?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.13",
+			"relatedQuestionStrings" : {
+				"de" : "Haben Sie in den letzten Jahren neben dem Studium Geld verdient?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1027,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3044,
+		"totalValidRelativeFrequency" : 10.8,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "6",
+			"standardDeviation" : null,
+			"deviance" : "2.94905421465329",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.14,
+				"absoluteFrequency" : 39
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "nein, war nicht erforderlich",
+					"en" : null
+				},
+				"relativeFrequency" : 0.89,
+				"absoluteFrequency" : 252,
+				"validRelativeFrequency" : 8.28
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "nein, wegen Studienbelastung nicht möglich",
+					"en" : null
+				},
+				"relativeFrequency" : 1.14,
+				"absoluteFrequency" : 320,
+				"validRelativeFrequency" : 10.51
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "nein, keinen Job gefunden",
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 21,
+				"validRelativeFrequency" : 0.69
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "ja, gelegentlich",
+					"en" : null
+				},
+				"relativeFrequency" : 3.34,
+				"absoluteFrequency" : 941,
+				"validRelativeFrequency" : 30.91
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "ja, häufig",
+					"en" : null
+				},
+				"relativeFrequency" : 1.42,
+				"absoluteFrequency" : 399,
+				"validRelativeFrequency" : 13.11
+			},
+			{
+				"value" : "6",
+				"label" : {
+					"de" : "ja, laufend",
+					"en" : null
+				},
+				"relativeFrequency" : 3.94,
+				"absoluteFrequency" : 1111,
+				"validRelativeFrequency" : 36.5
+			}
+		]
+	}
+}

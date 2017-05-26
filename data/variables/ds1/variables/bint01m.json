@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Interessenbereich: technische Zeichnungen erstellen",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "16",
+			"relatedQuestionStrings" : {
+				"de" : "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\ntechnische Zeichnungen erstellen",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 231,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5917,
+		"totalValidRelativeFrequency" : 21,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "4",
+			"mode" : "5",
+			"standardDeviation" : null,
+			"deviance" : "2.98384340040654",
+			"meanDeviation" : "613.7964",
+			"firstQuartile" : "3",
+			"thirdQuartile" : "5",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.06,
+				"absoluteFrequency" : 16
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr stark",
+					"en" : null
+				},
+				"relativeFrequency" : 1.5,
+				"absoluteFrequency" : 424,
+				"validRelativeFrequency" : 7.17
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 3.03,
+				"absoluteFrequency" : 855,
+				"validRelativeFrequency" : 14.45
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 3.79,
+				"absoluteFrequency" : 1069,
+				"validRelativeFrequency" : 18.07
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 5.26,
+				"absoluteFrequency" : 1483,
+				"validRelativeFrequency" : 25.06
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "überhaupt nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 7.4,
+				"absoluteFrequency" : 2086,
+				"validRelativeFrequency" : 35.25
+			}
+		]
+	}
+}

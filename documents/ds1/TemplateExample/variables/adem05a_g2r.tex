@@ -1,0 +1,71 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{adem05a\_g2r}
+	\label{subSection:adem05a_g2r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:adem05a_g2r}
+			Name & adem05a\_g2r \\
+			Label & Sprache Elternhaus: deutsch und andere (Nennung) \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+					Generierungsregel & recode adem05a\_g1 (54 = 1) (69 = 2) (50 = 3) (13 = 4)
+(24 = 5) (-998 = -998) (-989 = -989) (-988 = -988) 
+(nonmissing = 6) , gen(adem05a\_g2) \\
+				 \\
+					Generierungsbeschreibung & Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt. Ausgewiesen werden nur die häufig gesprochenen Sprachen, alle andere werden unter sonstige angeführt.
+				 \\	
+			 \\
+		\end{tabular}
+
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:adem05a_g2r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Russisch & 885 & 3.14 & 26.71 \\
+								2 & Türkisch & 580 & 2.06 & 17.51 \\
+								3 & Polnisch & 424 & 1.5 & 12.8 \\
+								4 & Englisch & 265 & 0.94 & 8 \\
+								5 & Italienisch & 104 & 0.37 & 3.14 \\
+								6 & Sonstige Sprachen & 1055 & 3.74 & 31.84 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 402 & 1.43 & - \\						
+							-988 & trifft nicht zu & 24467 & 86.82 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{3313} & \textbf{11.76} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable adem05a\_g2r}
+			\end{table}
+
+	
+	\newpage

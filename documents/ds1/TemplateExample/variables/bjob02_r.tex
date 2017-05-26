@@ -1,0 +1,620 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{bjob02\_r}
+	\label{subSection:bjob02_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bjob02_r}
+			Name & bjob02\_r \\
+			Label & Berufstätigkeit vor HR: Dauer (in Monaten) \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			 \\
+ \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:bjob02_r}
+			Nummer & 10 \\
+			Einleitung der Frage & - \\
+			Fragetext & Waren Sie vor Erwerb der Hochschulreife erwerbstätig?
+Wenn ja, geben Sie bitte die Dauer in Monaten an: ohne Ausbildungszeiten) \\
+			Ausfüllanweisung & - \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:bjob02_r}
+					Arithmetisches Mittel & 30.989 \\
+					Standardabweichung & 143 \\
+					Minimum & 1 \\
+					Unteres Quartil & 6 \\
+					Median & 17 \\
+					Oberes Quartil & 36 \\
+					Maximum & 264 \\
+					Schiefe & 171 \\
+					Wölbung & 46 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:bjob02_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {1,6,17,36,81},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=0,
+				ymax=82
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=17,
+    		  		upper quartile=36,
+      			lower quartile=6,
+    	  			upper whisker=81,
+	    		  	lower whisker=1
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{bjob02\_r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:bjob02_r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+						& & 465 & 1.65 \\	
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 34 & 0.12  \\
+							-995 & keine Teilnahme (Panel) & 22249 & 78.95  \\
+							-988 & trifft nicht zu & 5434 & 19.28  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable bjob02\_r}
+			\end{table}
+	
+			%HISTOGRAM FOR CONTINOUS DATA, IF THERE ARE MORE THAN 10 BINs
+			
+			\begin{figure}[!ht]
+			\label{histogram:bjob02_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}[
+			    /pgf/number format/.cd,
+		    	    use comma,		    	    
+	    	    		1000 sep={},
+	    	    		ylabel={Absolute Häufigkeit},
+			    xlabel={Werte},
+			    ybar,
+			    ymin=0,
+			    axis y line*=left,
+			    axis x line*=bottom
+			]
+			\addplot +[
+				fill=dzhwblue, 
+				draw=white,
+			    hist={
+			        bins=25,
+			        data min=0.5,
+			        data max=264.5
+			    }   
+			] table[row sep=\\,y index=0] {
+				data\\
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						1\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						2\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						3\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						4\\ 
+						5\\ 
+						5\\ 
+						5\\ 
+						5\\ 
+						5\\ 
+						5\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						6\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						7\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						8\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						9\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						10\\ 
+						11\\ 
+						11\\ 
+						11\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						12\\ 
+						13\\ 
+						13\\ 
+						13\\ 
+						13\\ 
+						13\\ 
+						13\\ 
+						13\\ 
+						13\\ 
+						14\\ 
+						14\\ 
+						14\\ 
+						14\\ 
+						14\\ 
+						14\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						15\\ 
+						16\\ 
+						16\\ 
+						17\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						18\\ 
+						19\\ 
+						19\\ 
+						19\\ 
+						19\\ 
+						19\\ 
+						19\\ 
+						19\\ 
+						19\\ 
+						20\\ 
+						20\\ 
+						20\\ 
+						20\\ 
+						21\\ 
+						22\\ 
+						22\\ 
+						22\\ 
+						23\\ 
+						23\\ 
+						23\\ 
+						23\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						24\\ 
+						25\\ 
+						25\\ 
+						26\\ 
+						27\\ 
+						27\\ 
+						28\\ 
+						29\\ 
+						29\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						30\\ 
+						35\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						36\\ 
+						37\\ 
+						37\\ 
+						38\\ 
+						39\\ 
+						39\\ 
+						40\\ 
+						40\\ 
+						42\\ 
+						42\\ 
+						42\\ 
+						42\\ 
+						42\\ 
+						42\\ 
+						42\\ 
+						45\\ 
+						45\\ 
+						46\\ 
+						46\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						48\\ 
+						50\\ 
+						50\\ 
+						50\\ 
+						51\\ 
+						52\\ 
+						52\\ 
+						54\\ 
+						56\\ 
+						56\\ 
+						59\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						60\\ 
+						61\\ 
+						63\\ 
+						65\\ 
+						66\\ 
+						66\\ 
+						66\\ 
+						72\\ 
+						72\\ 
+						72\\ 
+						72\\ 
+						72\\ 
+						72\\ 
+						75\\ 
+						75\\ 
+						84\\ 
+						84\\ 
+						84\\ 
+						84\\ 
+						84\\ 
+						84\\ 
+						84\\ 
+						84\\ 
+						84\\ 
+						86\\ 
+						90\\ 
+						92\\ 
+						94\\ 
+						96\\ 
+						96\\ 
+						96\\ 
+						96\\ 
+						99\\ 
+						100\\ 
+						108\\ 
+						109\\ 
+						112\\ 
+						115\\ 
+						120\\ 
+						120\\ 
+						120\\ 
+						120\\ 
+						120\\ 
+						120\\ 
+						120\\ 
+						132\\ 
+						140\\ 
+						140\\ 
+						141\\ 
+						144\\ 
+						144\\ 
+						144\\ 
+						150\\ 
+						156\\ 
+						156\\ 
+						168\\ 
+						190\\ 
+						216\\ 
+						216\\ 
+						228\\ 
+						240\\ 
+						240\\ 
+						264\\ 
+			};
+			\end{axis}
+			\end{tikzpicture}	
+			\caption{Histogramm der Variable bjob02\_r}	
+			\end{figure}	
+	\newpage

@@ -1,0 +1,87 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Hochschulreife: erhöht gesellschaftliche Anerkennung",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "07",
+			"relatedQuestionStrings" : {
+				"de" : "Welche Aussagen zur Bedeutung der Hochschulreife treffen auf Sie persönlich am meisten zu?\nMit der Hochschulreife wird man gesellschaftlich mehr anerkannt.",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 61,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 26026,
+		"totalValidRelativeFrequency" : 92.35,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "0",
+			"standardDeviation" : null,
+			"deviance" : "0.777669960207303",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 7.65,
+				"absoluteFrequency" : 2156
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "0",
+				"label" : {
+					"de" : "nicht genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 80.22,
+				"absoluteFrequency" : 22609,
+				"validRelativeFrequency" : 86.87
+			},
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "genannt",
+					"en" : null
+				},
+				"relativeFrequency" : 12.12,
+				"absoluteFrequency" : 3417,
+				"validRelativeFrequency" : 13.13
+			}
+		]
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "intervall",
+		"en" : "interval"
+	},
+	"label" : {
+		"de" : "4. Job: Ende (Jahr)",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.14",
+			"relatedQuestionStrings" : {
+				"de" : "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.\nZeitraum\nEnde Monat/Jahr",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1063,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 272,
+		"totalValidRelativeFrequency" : 0.97,
+		"histogram" : {
+			"numberOfBins" : 4,
+			"start" : 2008.5,
+			"end" : 2012.5
+		},
+		"statistics" : {
+			"meanValue" : 2011.7,
+			"minimum" : "2009",
+			"maximum" : "2012",
+			"skewness" : -2.0139,
+			"kurtosis" : 6.7145,
+			"median" : "2012",
+			"mode" : "2012",
+			"standardDeviation" : 0.55115,
+			"deviance" : "1.32284986992392",
+			"meanDeviation" : "36.3237",
+			"firstQuartile" : "2012",
+			"thirdQuartile" : "2012",
+			"lowWhisker" : 2012,
+			"highWhisker" : 2012
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 7.87,
+				"absoluteFrequency" : 2218
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 4.19,
+				"absoluteFrequency" : 1181
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "2009",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 0.37
+			},
+			{
+				"value" : "2010",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.04,
+				"absoluteFrequency" : 11,
+				"validRelativeFrequency" : 4.04
+			},
+			{
+				"value" : "2011",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.18,
+				"absoluteFrequency" : 50,
+				"validRelativeFrequency" : 18.38
+			},
+			{
+				"value" : "2012",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0.75,
+				"absoluteFrequency" : 210,
+				"validRelativeFrequency" : 77.21
+			}
+		]
+	}
+}

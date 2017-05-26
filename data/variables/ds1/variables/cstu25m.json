@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "Bewertung Hauptfach: Arbeitsaufwand",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.4",
+			"relatedQuestionStrings" : {
+				"de" : "Wie bewerten Sie folgende Aspekte Ihres derzeitigen 1. Hauptstudienfachs?\nAngemessenheit des Arbeitsaufwandess inklusive Vor- und Nachbereitungszeit (Workload)",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 979,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3013,
+		"totalValidRelativeFrequency" : 10.69,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "3",
+			"mode" : "2",
+			"standardDeviation" : null,
+			"deviance" : "2.86051406354305",
+			"meanDeviation" : "582.6618",
+			"firstQuartile" : "2",
+			"thirdQuartile" : "3",
+			"lowWhisker" : 1,
+			"highWhisker" : 4.5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.25,
+				"absoluteFrequency" : 70
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.09,
+				"absoluteFrequency" : 588
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "sehr gut",
+					"en" : null
+				},
+				"relativeFrequency" : 0.96,
+				"absoluteFrequency" : 270,
+				"validRelativeFrequency" : 8.96
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 3.62,
+				"absoluteFrequency" : 1019,
+				"validRelativeFrequency" : 33.82
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 3.46,
+				"absoluteFrequency" : 975,
+				"validRelativeFrequency" : 32.36
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 2.03,
+				"absoluteFrequency" : 571,
+				"validRelativeFrequency" : 18.95
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "sehr schlecht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.63,
+				"absoluteFrequency" : 178,
+				"validRelativeFrequency" : 5.91
+			}
+		]
+	}
+}

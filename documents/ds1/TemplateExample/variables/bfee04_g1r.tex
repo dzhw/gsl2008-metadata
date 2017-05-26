@@ -1,0 +1,83 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{bfee04\_g1r}
+	\label{subSection:bfee04_g1r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:bfee04_g1r}
+			Name & bfee04\_g1r \\
+			Label & Studiengebühren: Grund für Nichtzahlung \\
+			Beschreibung & - \\
+			Skalenniveau & nominal \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if inlist(bfee01,1,2,4,5,6) \\
+ \\
+					Generierungsbeschreibung & Diese Variable enthält die offen erfassten Gründe für die Nichtzahlung von Studiengebühren in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.
+
+				 \\	
+			 \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:bfee04_g1r}
+			Nummer & 36 \\
+			Einleitung der Frage & - \\
+			Fragetext & Zahlen Sie derzeit Studiengebühren?
+nein, ich zahle keine Studiengebühren und rechne auch in absehbarer Zeit nicht damit, weil \\
+			Ausfüllanweisung & Nicht Semesterbeiträge (Verwaltungsgebühren/Semesterticket). Bitte nur eine Antwort. \\
+		\end{tabular}
+
+
+
+
+
+			%TABLE FOR THE NOMINAL / ORDINAL VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+				\label{tableValues:bfee04_g1r}
+				\centering
+				\begin{tabular}{C{1cm}L{6cm}rrR{1.5cm}}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} & \textbf{gültige Prozent} \\
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\										
+						
+								1 & Geschwister & 2 & 0.01 & 0.19 \\
+								4 & Erstwohnsitz & 5 & 0.02 & 0.47 \\
+								6 & Kosten trägt Arbeitgeber & 43 & 0.15 & 4.05 \\
+								7 & Studium an ausländischer HS & 8 & 0.03 & 0.75 \\
+								8 & noch nicht im Studium & 435 & 1.54 & 40.96 \\
+								9 & steht nicht fest, ob/wann Studiengebühren & 12 & 0.04 & 1.13 \\
+								10 & HS ohne Studiengebühren gewählt & 556 & 1.97 & 52.35 \\
+								20 & sonstiges & 1 & 0 & 0.09 \\
+
+					\midrule
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 & keine Angabe & 123 & 0.44 & - \\						
+							-995 & keine Teilnahme (Panel) & 22249 & 78.95 & - \\						
+							-989 & filterbedingt fehlend & 4748 & 16.85 & - \\						
+					
+					\midrule
+						\multicolumn{2}{l}{\textbf{Summe (gültig)}} & \textbf{1062} & \textbf{3.77} & \textbf{100}\\
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} & \textbf{-} \\			
+					\bottomrule		
+				\end{tabular}
+				\caption{Werte der Variable bfee04\_g1r}
+			\end{table}
+
+	
+	\newpage

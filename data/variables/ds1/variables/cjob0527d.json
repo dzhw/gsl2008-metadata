@@ -1,0 +1,95 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "verhältnis",
+		"en" : "ratio"
+	},
+	"label" : {
+		"de" : "7. Job: Netto-Monatseinkommen",
+		"en" : null
+	},
+	"indexInDataSet" : 1103,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 2,
+		"totalValidRelativeFrequency" : 0.01,
+		"histogram" : {
+			"numberOfBins" : 2,
+			"start" : 350,
+			"end" : 2950
+		},
+		"statistics" : {
+			"meanValue" : 1650,
+			"minimum" : "1000",
+			"maximum" : "2300",
+			"skewness" : 0,
+			"kurtosis" : 1,
+			"median" : "1650",
+			"mode" : "multimodal",
+			"standardDeviation" : 919.24,
+			"deviance" : "1.38629436111989",
+			"meanDeviation" : "0",
+			"firstQuartile" : "1000",
+			"thirdQuartile" : "2300",
+			"lowWhisker" : 1000,
+			"highWhisker" : 2300
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 10.91,
+				"absoluteFrequency" : 3076
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 2.1,
+				"absoluteFrequency" : 593
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1000",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 50
+			},
+			{
+				"value" : "2300",
+				"label" : {
+					"de" : "",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1,
+				"validRelativeFrequency" : 50
+			}
+		]
+	}
+}

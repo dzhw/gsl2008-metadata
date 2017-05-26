@@ -1,0 +1,140 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "1. Qualifikation: Hochschulart (FH/Uni; ohne Saarland)",
+		"en" : null
+	},
+	"indexInDataSet" : 285,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 3753,
+		"totalValidRelativeFrequency" : 13.32,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.19883342744276",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -999,
+				"label" : {
+					"de" : "weiß nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.25,
+				"absoluteFrequency" : 70
+			},
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.65,
+				"absoluteFrequency" : 183
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 5.23,
+				"absoluteFrequency" : 1473
+			},
+			{
+				"code" : -988,
+				"label" : {
+					"de" : "trifft nicht zu",
+					"en" : null
+				},
+				"relativeFrequency" : 0.38,
+				"absoluteFrequency" : 106
+			},
+			{
+				"code" : -969,
+				"label" : {
+					"de" : "unbekannter fehlender Wert",
+					"en" : null
+				},
+				"relativeFrequency" : 0,
+				"absoluteFrequency" : 1
+			},
+			{
+				"code" : -967,
+				"label" : {
+					"de" : "anonymisiert",
+					"en" : null
+				},
+				"relativeFrequency" : 0.11,
+				"absoluteFrequency" : 32
+			},
+			{
+				"code" : -943,
+				"label" : {
+					"de" : "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)",
+					"en" : null
+				},
+				"relativeFrequency" : 1.12,
+				"absoluteFrequency" : 315
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "Universität",
+					"en" : null
+				},
+				"relativeFrequency" : 9.5,
+				"absoluteFrequency" : 2676,
+				"validRelativeFrequency" : 71.3
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "Fachhochschule",
+					"en" : null
+				},
+				"relativeFrequency" : 3.82,
+				"absoluteFrequency" : 1077,
+				"validRelativeFrequency" : 28.7
+			}
+		]
+	}
+}

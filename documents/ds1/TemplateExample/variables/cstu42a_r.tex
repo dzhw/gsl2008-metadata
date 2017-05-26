@@ -1,0 +1,129 @@
+%EVERY VARIABLE HAS A OWN PAGE
+	
+	% 	
+	%
+	
+	\subsection{cstu42a\_r}
+	\label{subSection:cstu42a_r}
+
+	%TABLE FOR THE VARIABLE DETAILS
+	\noindent\textbf{Variable:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableVariable:cstu42a_r}
+			Name & cstu42a\_r \\
+			Label & Entscheidungszeitpunkt Masterstudium (Semester) \\
+			Beschreibung & - \\
+			Skalenniveau & kontinuierlich \\
+			Zugangswege &
+				remote-desktop-suf,
+				onsite-suf,
+ \\
+			Panelvariablen & -
+			 \\
+			Eingangsfilter & if (cstu22==2 \& inrange(cstu33\_g1,4,5)) | cstu40a\_g1\textless{}0 \\
+ \\
+		\end{tabular}
+
+		%TABLE FOR QUESTION DETAILS
+		\vspace*{1 cm}
+		\noindent\textbf{Frage:}\\
+		\begin{tabular}{lL{11.3cm}}
+			\label{tableQuestion:cstu42a_r}
+			Nummer & 5.4 \\
+			Einleitung der Frage & - \\
+			Fragetext & Wann haben Sie sich für das Masterstudium entschieden?
+erst später im Studium , und zwar im … Semester \\
+			Ausfüllanweisung & - \\
+		\end{tabular}
+
+
+
+
+		%TABLE FOR THE METRIC STATISTICS
+		\vspace*{1 cm}
+		\noindent\begin{minipage}[l]{.4\linewidth}
+		\noindent\textbf{Statistische Daten:}\\
+			\begin{tabular}{ll}
+				\label{tableStatistics:cstu42a_r}
+					Arithmetisches Mittel & 5.5249 \\
+					Standardabweichung & 54 \\
+					Minimum & 3 \\
+					Unteres Quartil & 5 \\
+					Median & 6 \\
+					Oberes Quartil & 6 \\
+					Maximum & 9 \\
+					Schiefe & 127 \\
+					Wölbung & 91 \\
+			\end{tabular}
+		\end{minipage}%				
+			%BOXPLOT, IMPORTANT: No space between end / start minimpage. if not: no side by side orientation of table and figure		
+			\begin{minipage}[l]{.55\linewidth}
+			\label{boxPlot:cstu42a_r}
+			\center
+			\begin{tikzpicture}
+			\begin{axis}
+	    		[
+    				/pgf/number format/.cd,
+		    	    use comma,
+	    	    		1000 sep={},
+    				ytick = {3.5,5,6,6,7.5},
+    				boxplot/draw direction=y,
+  				boxplot/draw direction=y,
+  				boxplot/every box/.style={fill=dzhwblue,draw=dzhwblue},
+  				boxplot/every whisker/.style={dzhwblue},
+  				boxplot/every median/.style={white},
+	    			width=0.35\textwidth,
+		      	height=0.6\textwidth,
+    				hide x axis,
+				axis y line*=left,
+				ymin=2.5,
+				ymax=8.5
+    			]
+    			\addplot+[
+    				boxplot prepared={
+	      		median=6,
+    		  		upper quartile=6,
+      			lower quartile=5,
+    	  			upper whisker=7.5,
+	    		  	lower whisker=3.5
+    				},
+    			] coordinates {};
+	  		\end{axis}
+			\end{tikzpicture}
+			\captionof{figure}{cstu42a\_r Verteilungen}
+			\end{minipage}
+
+
+			%TABLE FOR THE CONTINOUS VALUES
+			\vspace*{1 cm}
+			\noindent\textbf{Werte:}\\
+			\begin{table}[!ht]
+			\label{tableValues:cstu42a_r}
+				\centering
+				\begin{tabular}{C{1.7cm}L{6cm}rr}
+					\toprule
+					\textbf{Code} & \textbf{Wertelabel} & \textbf{Häufigkeiten} & \textbf{Prozent} \\
+					\midrule
+					
+					\multicolumn{4}{l}{\textbf{Gültige Werte}}\\
+							3 &  & 20 & 0.07 \\
+							4 &  & 76 & 0.27 \\
+							5 &  & 124 & 0.44 \\
+							6 &  & 135 & 0.48 \\
+							7 &  & 53 & 0.19 \\
+							8 &  & 29 & 0.1 \\
+							9 &  & 5 & 0.02 \\
+						
+					\midrule
+					\multicolumn{4}{l}{\textbf{Fehlende Werte}}\\	
+							-998 & keine Angabe & 1284 & 4.56  \\
+							-995 & keine Teilnahme (Panel) & 24511 & 86.97  \\
+							-989 & filterbedingt fehlend & 1945 & 6.9  \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{28182} & \textbf{100} \\
+				\bottomrule					
+				\end{tabular}
+				\caption{Werte der Variable cstu42a\_r}
+			\end{table}
+	
+	\newpage

@@ -1,0 +1,135 @@
+{
+	"surveyNumbers" : [
+		3
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "ordinal",
+		"en" : "ordinal"
+	},
+	"label" : {
+		"de" : "3. Job: Nähe zu Studieninhalten",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 3,
+			"questionNumber" : "4.14",
+			"relatedQuestionStrings" : {
+				"de" : "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.\nNähe zu Studieninhalten",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 1060,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 605,
+		"totalValidRelativeFrequency" : 2.15,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : "1",
+			"maximum" : "5",
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : "2",
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "2.93056430752742",
+			"meanDeviation" : "120.0906",
+			"firstQuartile" : "1",
+			"thirdQuartile" : "4",
+			"lowWhisker" : 1,
+			"highWhisker" : 5
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 6.69,
+				"absoluteFrequency" : 1885
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 86.97,
+				"absoluteFrequency" : 24511
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 4.19,
+				"absoluteFrequency" : 1181
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "in hohem Maße",
+					"en" : null
+				},
+				"relativeFrequency" : 0.77,
+				"absoluteFrequency" : 218,
+				"validRelativeFrequency" : 36.03
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "2",
+					"en" : null
+				},
+				"relativeFrequency" : 0.49,
+				"absoluteFrequency" : 137,
+				"validRelativeFrequency" : 22.64
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "3",
+					"en" : null
+				},
+				"relativeFrequency" : 0.19,
+				"absoluteFrequency" : 54,
+				"validRelativeFrequency" : 8.93
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "4",
+					"en" : null
+				},
+				"relativeFrequency" : 0.17,
+				"absoluteFrequency" : 48,
+				"validRelativeFrequency" : 7.93
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "gar nicht",
+					"en" : null
+				},
+				"relativeFrequency" : 0.53,
+				"absoluteFrequency" : 148,
+				"validRelativeFrequency" : 24.46
+			}
+		]
+	}
+}

@@ -1,0 +1,126 @@
+{
+	"surveyNumbers" : [
+		2
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Studienwunsch während der Schulzeit?",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 2,
+			"questionNumber" : "11",
+			"relatedQuestionStrings" : {
+				"de" : "Hatten Sie bis zum Abgang von der Schule, an der Sie die Hochschulereife erworben haben, den Wunsch zu studieren?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 198,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 5916,
+		"totalValidRelativeFrequency" : 20.99,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "2.46103960271573",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.06,
+				"absoluteFrequency" : 17
+			},
+			{
+				"code" : -995,
+				"label" : {
+					"de" : "keine Teilnahme (Panel)",
+					"en" : null
+				},
+				"relativeFrequency" : 78.95,
+				"absoluteFrequency" : 22249
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "so bald wie möglich",
+					"en" : null
+				},
+				"relativeFrequency" : 12.43,
+				"absoluteFrequency" : 3502,
+				"validRelativeFrequency" : 59.2
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "nach Berufsausbildung",
+					"en" : null
+				},
+				"relativeFrequency" : 1.81,
+				"absoluteFrequency" : 510,
+				"validRelativeFrequency" : 8.62
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "nach anderer Tätigkeit",
+					"en" : null
+				},
+				"relativeFrequency" : 3.03,
+				"absoluteFrequency" : 854,
+				"validRelativeFrequency" : 14.44
+			},
+			{
+				"value" : "4",
+				"label" : {
+					"de" : "war noch unentschlossen",
+					"en" : null
+				},
+				"relativeFrequency" : 1.99,
+				"absoluteFrequency" : 561,
+				"validRelativeFrequency" : 9.48
+			},
+			{
+				"value" : "5",
+				"label" : {
+					"de" : "nein, ich wollte nicht studieren",
+					"en" : null
+				},
+				"relativeFrequency" : 1.74,
+				"absoluteFrequency" : 489,
+				"validRelativeFrequency" : 8.27
+			}
+		]
+	}
+}

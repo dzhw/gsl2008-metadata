@@ -1,0 +1,106 @@
+{
+	"surveyNumbers" : [
+		1
+	],
+	"dataType" : {
+		"de" : "numerisch",
+		"en" : "numeric"
+	},
+	"scaleLevel" : {
+		"de" : "nominal",
+		"en" : "nominal"
+	},
+	"label" : {
+		"de" : "Art der Ausbildung",
+		"en" : null
+	},
+	"relatedQuestions" : [
+		{
+			"instrumentNumber" : 1,
+			"questionNumber" : "09",
+			"relatedQuestionStrings" : {
+				"de" : "Um welche Art von Ausbildung handelt es sich dabei?",
+				"en" : null
+			}
+		}
+	],
+	"indexInDataSet" : 65,
+	"distribution" : {
+		"totalAbsoluteFrequency" : 28182,
+		"totalValidAbsoluteFrequency" : 6097,
+		"totalValidRelativeFrequency" : 21.63,
+		"histogram" : {
+			"numberOfBins" : null,
+			"start" : null,
+			"end" : null
+		},
+		"statistics" : {
+			"meanValue" : null,
+			"minimum" : null,
+			"maximum" : null,
+			"skewness" : null,
+			"kurtosis" : null,
+			"median" : null,
+			"mode" : "1",
+			"standardDeviation" : null,
+			"deviance" : "1.44136893032473",
+			"meanDeviation" : null,
+			"firstQuartile" : null,
+			"thirdQuartile" : null,
+			"lowWhisker" : null,
+			"highWhisker" : null
+		},
+		"missings" : [
+			{
+				"code" : -998,
+				"label" : {
+					"de" : "keine Angabe",
+					"en" : null
+				},
+				"relativeFrequency" : 0.25,
+				"absoluteFrequency" : 71
+			},
+			{
+				"code" : -989,
+				"label" : {
+					"de" : "filterbedingt fehlend",
+					"en" : null
+				},
+				"relativeFrequency" : 78.11,
+				"absoluteFrequency" : 22014
+			}
+		],
+		"validResponses" : [
+			{
+				"value" : "1",
+				"label" : {
+					"de" : "betriebliche Ausbildung",
+					"en" : null
+				},
+				"relativeFrequency" : 12.23,
+				"absoluteFrequency" : 3446,
+				"validRelativeFrequency" : 56.52
+			},
+			{
+				"value" : "2",
+				"label" : {
+					"de" : "schulische Berufsausbildung",
+					"en" : null
+				},
+				"relativeFrequency" : 9.25,
+				"absoluteFrequency" : 2608,
+				"validRelativeFrequency" : 42.78
+			},
+			{
+				"value" : "3",
+				"label" : {
+					"de" : "Beamtenausbildung",
+					"en" : null
+				},
+				"relativeFrequency" : 0.15,
+				"absoluteFrequency" : 43,
+				"validRelativeFrequency" : 0.71
+			}
+		]
+	}
+}
