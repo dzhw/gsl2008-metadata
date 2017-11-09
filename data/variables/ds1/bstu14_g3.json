@@ -1,0 +1,111 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "2. Qualifikation: Staat einer ausl. Hochschule"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 298,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9). Staaten mit nur einer Hochschule wurden als sonstige Staaten zusammengefasst."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.1,
+    "statistics": {
+      "deviance": "0",
+      "mode": "9990"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 29,
+        "label": {
+          "en": null,
+          "de": "Hochschulen im Ausland"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 100,
+        "value": "9990"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 29,
+    "missings": [
+      {
+        "absoluteFrequency": 101,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.36,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 252,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.89,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 5017,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 17.8,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 534,
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 1.89,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

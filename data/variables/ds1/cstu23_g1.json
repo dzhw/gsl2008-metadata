@@ -1,0 +1,145 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "Erstimmatrikulation: Jahr"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 963,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 10.94,
+    "statistics": {
+      "firstQuartile": "2008",
+      "deviance": "2.05848227770733",
+      "highWhisker": 2010.5,
+      "lowWhisker": 2008,
+      "skewness": 1.9206,
+      "minimum": "2008",
+      "thirdQuartile": "2009",
+      "meanDeviation": "68.1996",
+      "meanValue": 2008.6173,
+      "maximum": "2012",
+      "mode": "2008",
+      "median": "2008",
+      "standardDeviation": 0.9777,
+      "kurtosis": 6.3313
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1859,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 6.6,
+        "validRelativeFrequency": 60.3,
+        "value": "2008"
+      },
+      {
+        "absoluteFrequency": 879,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 3.12,
+        "validRelativeFrequency": 28.51,
+        "value": "2009"
+      },
+      {
+        "absoluteFrequency": 107,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.38,
+        "validRelativeFrequency": 3.47,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 142,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.5,
+        "validRelativeFrequency": 4.61,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 96,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.34,
+        "validRelativeFrequency": 3.11,
+        "value": "2012"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3083,
+    "missings": [
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 588,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie erstmals ein Studium aufgenommen?\n(Jahr)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

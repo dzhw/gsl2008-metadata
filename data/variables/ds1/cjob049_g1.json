@@ -1,0 +1,114 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "9. Tätigkeit: Beruf Erwerbstätigkeit (KldB-1992-Berufsklasse) (4-Steller)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 681,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Berufsangaben einer Erwerbstätigkeit in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.02,
+    "statistics": {
+      "deviance": "2.484906649788",
+      "mode": "7550"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Forstwirt(e/innen) (Waldfacharbeiter/innen), allgemein"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 16.67,
+        "value": "621"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Ingenieur(e/innen) im technischen Gesundheitswesen und Umweltschutz"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 16.67,
+        "value": "6083"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "Marketing-, Absatzfachleute, allgemein"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 50,
+        "value": "7550"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Erzieher/innen o.n.A."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 16.67,
+        "value": "8630"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 6,
+    "missings": [
+      {
+        "absoluteFrequency": 3665,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

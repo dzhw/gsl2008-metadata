@@ -1,0 +1,114 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "13. Tätigkeit: andere Tätigkeit (Art)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 771,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält einen vom Projekt vergebenen Code. Der Code bündelt die Informationen der Hochschulart bei einem Studium sowie der offen erfassten Angaben zur Art der Berufsausbildung oder zu anderen Tätigkeiten. Dabei wurde eine projekteigene Codierliste verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.03,
+    "statistics": {
+      "deviance": "2.54605667317925",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Fachhochschule"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 11.11,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": null,
+          "de": "Universität"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 44.44,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "Ausländische Hochschule"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 22.22,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "Uni + Praktikum"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 22.22,
+        "value": "49"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 9,
+    "missings": [
+      {
+        "absoluteFrequency": 3662,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.99,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

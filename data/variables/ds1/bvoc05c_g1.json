@@ -1,0 +1,171 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "3. Nennung Idee: Ausbildung/Berufstätigkeit (KldB-1992-Berufsordnung) (3-Steller"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 261,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfasste Angabe zum nächsten Schritt des nachschulischen Werdegangs in codierter Form. Als Codierliste für die Angaben zum (Ausbildungs-)Beruf wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.03,
+    "statistics": {
+      "deviance": "3.8123094930797",
+      "mode": "853"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Kaufleute o.n.A., Händler/Händlerinnen, a.n.g."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "670"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Datenverarbeitungsfachleute, Informatiker/Informatikerinnen o.n.A."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "774"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Bürofachkräfte, Kaufmännische Angestellte o.n.A."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "780"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Berufsfeuerwehr-, Brandschutzfachleute"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "802"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "Krankenschwestern/-pfleger, Hebammen/Entbindungspfleger"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 25,
+        "value": "853"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Therapeutische Berufe, a.n.g."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "859"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Erzieher/Erzieherinnen"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "863"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 8,
+    "missings": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 5821,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.66,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 103,
+        "label": {
+          "en": null,
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.37,
+        "code": -969
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "18",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?\nich habe mich noch nicht endgültig entschieden, werde aber wahrscheinlich …"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

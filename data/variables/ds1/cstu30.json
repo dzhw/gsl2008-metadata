@@ -1,0 +1,141 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Studium abge-/unterbrochen?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1009,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 10.92,
+    "statistics": {
+      "deviance": "0.778343835997385",
+      "mode": "4"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 73,
+        "label": {
+          "en": null,
+          "de": "ja, abgebrochen"
+        },
+        "relativeFrequency": 0.26,
+        "validRelativeFrequency": 2.37,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 177,
+        "label": {
+          "en": null,
+          "de": "ja, unterbrochen"
+        },
+        "relativeFrequency": 0.63,
+        "validRelativeFrequency": 5.75,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 33,
+        "label": {
+          "en": null,
+          "de": "nein, spiele aber mit Abbruchgedanken"
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 1.07,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 2795,
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "relativeFrequency": 9.92,
+        "validRelativeFrequency": 90.81,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3078,
+    "missings": [
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 588,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "Abbruch eines Studiums in weiter Definition Sinn (eines VerwFH/BA-Studiums)"
+        },
+        "relativeFrequency": 0.01,
+        "code": -947
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.9",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie Ihr Studium abgebrochen oder unterbrochen?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

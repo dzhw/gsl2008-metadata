@@ -1,0 +1,122 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Hochschulwechsel seit Beginn?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 994,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 10.92,
+    "statistics": {
+      "deviance": "1.08159442038547",
+      "mode": "3"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 611,
+        "label": {
+          "en": null,
+          "de": "ja"
+        },
+        "relativeFrequency": 2.17,
+        "validRelativeFrequency": 19.86,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 23,
+        "label": {
+          "en": null,
+          "de": "nein, aber demnächst"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 0.75,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 2443,
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "relativeFrequency": 8.67,
+        "validRelativeFrequency": 79.4,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3077,
+    "missings": [
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 588,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.7",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie im Verlauf Ihres Studiums die Hochschule gewechselt?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

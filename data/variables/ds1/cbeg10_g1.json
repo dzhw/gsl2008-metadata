@@ -1,0 +1,116 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "10. Tätigkeit: Beginn (Jahr)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 684,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.3,
+    "statistics": {
+      "firstQuartile": "2012",
+      "deviance": "1.38937012585061",
+      "highWhisker": 2012,
+      "lowWhisker": 2012,
+      "skewness": -1.7274,
+      "minimum": "2010",
+      "thirdQuartile": "2012",
+      "meanDeviation": "16.3086",
+      "meanValue": 2011.6941,
+      "maximum": "2012",
+      "mode": "2012",
+      "median": "2012",
+      "standardDeviation": 0.5778,
+      "kurtosis": 4.9122
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 5.88,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 16,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 18.82,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 64,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.23,
+        "validRelativeFrequency": 75.29,
+        "value": "2012"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 85,
+    "missings": [
+      {
+        "absoluteFrequency": 3586,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.72,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

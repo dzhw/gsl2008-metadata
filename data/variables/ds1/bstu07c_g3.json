@@ -1,0 +1,151 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "3. Nennung: Studienfach (Fächergruppe)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 260,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde aggregiert. Die Fächergruppen wurden aus den Fächercodes generiert. Die Zuordnung ergibt sich auf Grundlage des Destatis Schlüsselverzeichnisses für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (vgl. cl-destatis-studienfach-2008). Einige darin nicht enthaltenen Fächercodes wurden vom DZHW vergeben und zugeordnet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.05,
+    "statistics": {
+      "deviance": "2.9166384449287",
+      "mode": "multimodal"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": null,
+          "de": "Sprach- und Kulturwissenschaften"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 30.77,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": null,
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 30.77,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "Humanmedizin/Gesundheitswissenschaften"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 23.08,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Veterinärmedizin"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 7.69,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Kunst, Kunstwissenschaft"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 7.69,
+        "value": "9"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 13,
+    "missings": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 5821,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.66,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 96,
+        "label": {
+          "en": null,
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.34,
+        "code": -969
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

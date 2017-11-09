@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "(eigene) Kinder vorhanden?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1273,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 12.93,
+    "statistics": {
+      "deviance": "0.295179977132609",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 123,
+        "label": {
+          "en": null,
+          "de": "ja"
+        },
+        "relativeFrequency": 0.44,
+        "validRelativeFrequency": 3.38,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 3520,
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "relativeFrequency": 12.49,
+        "validRelativeFrequency": 96.62,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3643,
+    "missings": [
+      {
+        "absoluteFrequency": 28,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.1,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "8.4",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie Kinder?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

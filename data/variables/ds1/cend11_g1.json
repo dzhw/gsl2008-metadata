@@ -1,0 +1,106 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "11. Tätigkeit: Ende (Jahr) "
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 708,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.13,
+    "statistics": {
+      "firstQuartile": "2012",
+      "deviance": "1.04415412782648",
+      "highWhisker": 2012,
+      "lowWhisker": 2012,
+      "skewness": -1.3787,
+      "minimum": "2011",
+      "thirdQuartile": "2012",
+      "meanDeviation": "15.5673",
+      "meanValue": 2011.7838,
+      "maximum": "2012",
+      "mode": "2012",
+      "median": "2012",
+      "standardDeviation": 0.4173,
+      "kurtosis": 2.9009
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 21.62,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 29,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 78.38,
+        "value": "2012"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 37,
+    "missings": [
+      {
+        "absoluteFrequency": 3634,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.89,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

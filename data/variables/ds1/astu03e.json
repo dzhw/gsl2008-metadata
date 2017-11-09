@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "voraussichtliches Studienfach: Ziel Lehrerberuf?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 80,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 65.78,
+    "statistics": {
+      "deviance": "0.714129517569543",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2134,
+        "label": {
+          "en": null,
+          "de": "ja"
+        },
+        "relativeFrequency": 7.57,
+        "validRelativeFrequency": 11.51,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 16405,
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "relativeFrequency": 58.21,
+        "validRelativeFrequency": 88.49,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 18539,
+    "missings": [
+      {
+        "absoluteFrequency": 3840,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.63,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5803,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.59,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "14",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welches Studienfach wird dies voraussichtlich sein?\nIst Ihr Ziel der Lehrberuf?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

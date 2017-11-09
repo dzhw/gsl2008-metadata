@@ -1,0 +1,94 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Geburtsland: Deutschland?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 151,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 98.68,
+    "statistics": {
+      "deviance": "0.561779103699563",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 25561,
+        "label": {
+          "en": null,
+          "de": "in Deutschland geboren"
+        },
+        "relativeFrequency": 90.7,
+        "validRelativeFrequency": 91.91,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2249,
+        "label": {
+          "en": null,
+          "de": "nicht in Deutschland geboren"
+        },
+        "relativeFrequency": 7.98,
+        "validRelativeFrequency": 8.09,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 27810,
+    "missings": [
+      {
+        "absoluteFrequency": 372,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.32,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "31",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie in Deutschland geboren?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

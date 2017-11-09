@@ -1,0 +1,161 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Finanzierung Studiengebühren: andere Finanzierung (Nennung)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 376,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Nennungen anderer Finanzierungen der Studiengebühren in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.62,
+    "statistics": {
+      "deviance": "2.12046959581094",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 108,
+        "label": {
+          "en": null,
+          "de": "BAföG"
+        },
+        "relativeFrequency": 0.38,
+        "validRelativeFrequency": 61.71,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "Kosten trägt der Arbeitgeber"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 46,
+        "label": {
+          "en": null,
+          "de": "Duales Studium/Studiengebühren mit Gehalt"
+        },
+        "relativeFrequency": 0.16,
+        "validRelativeFrequency": 26.29,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "Ausbildung/Berufstätigkeit vor Studium"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 1.14,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": null,
+          "de": "sparsam leben/sparen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 3.43,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": null,
+          "de": "sonstiges"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 3.43,
+        "value": "20"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 175,
+    "missings": [
+      {
+        "absoluteFrequency": 57,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.2,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 5688,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.18,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": null,
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.05,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "37",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie bereits oder in Kürze Studiengebühren zahlen: Wie finanzieren Sie diese (voraussichtlich)?\nauf eine andere Art (bitte in Stichworten angeben)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

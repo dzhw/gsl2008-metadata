@@ -1,0 +1,143 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "Beginn nachschulische Tätigkeit: Jahr"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 263,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 6,
+    "statistics": {
+      "firstQuartile": "2009",
+      "deviance": "0.329840723260089",
+      "highWhisker": 2009,
+      "lowWhisker": 2009,
+      "skewness": 5.8407,
+      "minimum": "2009",
+      "thirdQuartile": "2009",
+      "meanDeviation": "71.1648",
+      "meanValue": 2009.0391,
+      "maximum": "2011",
+      "mode": "2009",
+      "median": "2009",
+      "standardDeviation": 0.2113,
+      "kurtosis": 40.038
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1630,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 5.78,
+        "validRelativeFrequency": 96.45,
+        "value": "2009"
+      },
+      {
+        "absoluteFrequency": 54,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.19,
+        "validRelativeFrequency": 3.2,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.36,
+        "value": "2011"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1690,
+    "missings": [
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.02,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 59,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.21,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 4177,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 14.82,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "19",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann wollen Sie mit diesem Studium/dieser Berufsausbildung bzw. Tätigkeit beginnen? (Monat)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

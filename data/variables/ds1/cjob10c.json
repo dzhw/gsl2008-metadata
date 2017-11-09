@@ -1,0 +1,150 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "berufliche Zufriedenheit: Einkommen"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1245,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.44,
+    "statistics": {
+      "firstQuartile": "2",
+      "deviance": "2.94161823103939",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "4",
+      "meanDeviation": "161.6034",
+      "maximum": "5",
+      "mode": "2",
+      "median": "3"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 113,
+        "label": {
+          "en": null,
+          "de": "sehr zufrieden"
+        },
+        "relativeFrequency": 0.4,
+        "validRelativeFrequency": 11.65,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 320,
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "relativeFrequency": 1.14,
+        "validRelativeFrequency": 32.99,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 291,
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "relativeFrequency": 1.03,
+        "validRelativeFrequency": 30,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 182,
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "relativeFrequency": 0.65,
+        "validRelativeFrequency": 18.76,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 64,
+        "label": {
+          "en": null,
+          "de": "gar nicht zufrieden"
+        },
+        "relativeFrequency": 0.23,
+        "validRelativeFrequency": 6.6,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 970,
+    "missings": [
+      {
+        "absoluteFrequency": 12,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.04,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2689,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.54,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "7.8",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind Sie mit Ihrer beruflichen Tätigkeit in Bezug auf …?\nVerdienst/Einkommen"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

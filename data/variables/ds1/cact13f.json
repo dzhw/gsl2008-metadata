@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Tätigkeit nach Ausbildung: keine weitere Qualifikation begonnen/geplant"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 951,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.36,
+    "statistics": {
+      "deviance": "0.984790251271641",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 763,
+        "label": {
+          "en": null,
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 2.71,
+        "validRelativeFrequency": 80.57,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 184,
+        "label": {
+          "en": null,
+          "de": "genannt"
+        },
+        "relativeFrequency": 0.65,
+        "validRelativeFrequency": 19.43,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 947,
+    "missings": [
+      {
+        "absoluteFrequency": 40,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.14,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2684,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.52,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "3.8",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach der Ausbildung eine weitere Qualifizierung begonnen bzw. planen Sie dies?\nnein"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

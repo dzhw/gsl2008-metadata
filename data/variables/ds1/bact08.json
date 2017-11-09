@@ -1,0 +1,150 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Abschluss von Ausbildung/Studium beabsichtigt?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 313,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 19.86,
+    "statistics": {
+      "firstQuartile": "1",
+      "deviance": "1.50920450373571",
+      "highWhisker": 1,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "1",
+      "meanDeviation": "229.803",
+      "maximum": "5",
+      "mode": "1",
+      "median": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4232,
+        "label": {
+          "en": null,
+          "de": "ja, sicher"
+        },
+        "relativeFrequency": 15.02,
+        "validRelativeFrequency": 75.63,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1008,
+        "label": {
+          "en": null,
+          "de": "ja, wahrscheinlich"
+        },
+        "relativeFrequency": 3.58,
+        "validRelativeFrequency": 18.01,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 219,
+        "label": {
+          "en": null,
+          "de": "eventuell"
+        },
+        "relativeFrequency": 0.78,
+        "validRelativeFrequency": 3.91,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 73,
+        "label": {
+          "en": null,
+          "de": "nein, wahrscheinlich nicht"
+        },
+        "relativeFrequency": 0.26,
+        "validRelativeFrequency": 1.3,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 64,
+        "label": {
+          "en": null,
+          "de": "auf keinen Fall"
+        },
+        "relativeFrequency": 0.23,
+        "validRelativeFrequency": 1.14,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5596,
+    "missings": [
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 334,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 1.19,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "29",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Beabsichtigen Sie, die in Frage 22 a) oder b) angegebene Qualifizierung abzuschließen?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

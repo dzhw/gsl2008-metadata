@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Grund gegen Aufnahme: unsichere Berufsaussichten"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 209,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 16.28,
+    "statistics": {
+      "deviance": "0.242265204754074",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4467,
+        "label": {
+          "en": null,
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 15.85,
+        "validRelativeFrequency": 97.38,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 120,
+        "label": {
+          "en": null,
+          "de": "genannt"
+        },
+        "relativeFrequency": 0.43,
+        "validRelativeFrequency": 2.62,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4587,
+    "missings": [
+      {
+        "absoluteFrequency": 55,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.2,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 1291,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 4.58,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "14",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Warum haben Sie sich nicht für einen ingenieurwissenschaftlichen Studiengang entschieden?\nweil mir die Berufsaussichten in der mich interessierenden Fachrichtung zu unsicher sind."
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "1. Tätigkeit: Bundesland der HS"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 498,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer; Länder von ausländische Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Zuordnung von Hochschulen zu Bundesländern wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.15,
+    "statistics": {
+      "deviance": "3.11330419290237",
+      "mode": "7"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Niedersachsen"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 2.38,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Bremen"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 2.38,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": null,
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 14.29,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Hessen"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 2.38,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 21,
+        "label": {
+          "en": null,
+          "de": "Rheinland-Pfalz"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 50,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 16.67,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "Bayern"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 7.14,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Berlin"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 2.38,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Mecklenburg-Vorpommern"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 2.38,
+        "value": "13"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 42,
+    "missings": [
+      {
+        "absoluteFrequency": 3628,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.87,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

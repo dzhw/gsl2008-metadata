@@ -1,0 +1,134 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "Studienabschluss: Jahr"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1013,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 4.81,
+    "statistics": {
+      "firstQuartile": "2011",
+      "deviance": "1.39035050105739",
+      "highWhisker": 2012,
+      "lowWhisker": 2010,
+      "skewness": -0.4155,
+      "minimum": "2010",
+      "thirdQuartile": "2012",
+      "meanDeviation": "358.7892",
+      "meanValue": 2011.5848,
+      "maximum": "2012",
+      "mode": "2012",
+      "median": "2012",
+      "standardDeviation": 0.4989,
+      "kurtosis": 1.3572
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.29,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 555,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 1.97,
+        "validRelativeFrequency": 40.93,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 797,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 2.83,
+        "validRelativeFrequency": 58.78,
+        "value": "2012"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1356,
+    "missings": [
+      {
+        "absoluteFrequency": 1727,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 6.13,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 588,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.11",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie bereits ein Studium abgeschlossen?\nja, und zwar:\n(Jahr)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

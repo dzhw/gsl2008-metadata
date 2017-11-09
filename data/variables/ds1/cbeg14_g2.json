@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "14. Tätigkeit: Beginn (Monat)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 773,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.01,
+    "statistics": {
+      "firstQuartile": "7",
+      "deviance": "2.19722457733622",
+      "highWhisker": 12,
+      "lowWhisker": 4,
+      "minimum": "4",
+      "thirdQuartile": "11",
+      "meanDeviation": "0",
+      "maximum": "12",
+      "mode": "multimodal",
+      "median": "10"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "April"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 33.33,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Oktober"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 33.33,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Dezember"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 33.33,
+        "value": "12"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3,
+    "missings": [
+      {
+        "absoluteFrequency": 3668,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.02,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

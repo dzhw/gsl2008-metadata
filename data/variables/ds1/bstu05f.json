@@ -1,0 +1,122 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Studienrichtung: medizinisch"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 203,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 4.28,
+    "statistics": {
+      "deviance": "2.16103433670955",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 505,
+        "label": {
+          "en": null,
+          "de": "an 1. Stelle"
+        },
+        "relativeFrequency": 1.79,
+        "validRelativeFrequency": 41.91,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 320,
+        "label": {
+          "en": null,
+          "de": "an 2. Stelle"
+        },
+        "relativeFrequency": 1.14,
+        "validRelativeFrequency": 26.56,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 380,
+        "label": {
+          "en": null,
+          "de": "an 3. Stelle"
+        },
+        "relativeFrequency": 1.35,
+        "validRelativeFrequency": 31.54,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1205,
+    "missings": [
+      {
+        "absoluteFrequency": 4575,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 16.23,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 153,
+        "label": {
+          "en": null,
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.54,
+        "code": -969
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "12",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche drei Studienrichtungen kommen bzw. kamen für Sie persönlich am ehesten infrage?\nmedizinische Studienrichtung"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

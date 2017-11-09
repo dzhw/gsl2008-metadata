@@ -1,0 +1,121 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Tätigkeit nach Ausbildung: Aufstiegsfortbildung"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 948,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 2.71,
+    "statistics": {
+      "deviance": "1.16649160802068",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 557,
+        "label": {
+          "en": null,
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 1.98,
+        "validRelativeFrequency": 73,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 206,
+        "label": {
+          "en": null,
+          "de": "genannt"
+        },
+        "relativeFrequency": 0.73,
+        "validRelativeFrequency": 27,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 763,
+    "missings": [
+      {
+        "absoluteFrequency": 40,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.14,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2684,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.52,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 184,
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.65,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "3.8",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach der Ausbildung eine weitere Qualifizierung begonnen bzw. planen Sie dies?\nja, eine berufliche Aufstiegsfortbildung (z. B. Techniker, Fachwirt, Meister)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Zeitpunkt Entscheidung Masterstudium"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1178,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 5.82,
+    "statistics": {
+      "deviance": "2.53579852587584",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 729,
+        "label": {
+          "en": null,
+          "de": "vor Beginn des vorangegangenen Studiums"
+        },
+        "relativeFrequency": 2.59,
+        "validRelativeFrequency": 44.42,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 263,
+        "label": {
+          "en": null,
+          "de": "in den ersten beiden Semestern"
+        },
+        "relativeFrequency": 0.93,
+        "validRelativeFrequency": 16.03,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 443,
+        "label": {
+          "en": null,
+          "de": "erst später im Studium"
+        },
+        "relativeFrequency": 1.57,
+        "validRelativeFrequency": 27,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 206,
+        "label": {
+          "en": null,
+          "de": "weiß ich nicht"
+        },
+        "relativeFrequency": 0.73,
+        "validRelativeFrequency": 12.55,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1641,
+    "missings": [
+      {
+        "absoluteFrequency": 85,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.3,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 1945,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "5.4",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie sich für das Masterstudium entschieden?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

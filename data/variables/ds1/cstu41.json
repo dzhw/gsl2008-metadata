@@ -1,0 +1,132 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Art des Masterstudiums"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1177,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 5.87,
+    "statistics": {
+      "deviance": "1.17872727383798",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1396,
+        "label": {
+          "en": null,
+          "de": "Vollzeitstudium"
+        },
+        "relativeFrequency": 4.95,
+        "validRelativeFrequency": 84.4,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 40,
+        "label": {
+          "en": null,
+          "de": "Teilzeitstudium"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 2.42,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 129,
+        "label": {
+          "en": null,
+          "de": "berufsbegleitendes Studium"
+        },
+        "relativeFrequency": 0.46,
+        "validRelativeFrequency": 7.8,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 89,
+        "label": {
+          "en": null,
+          "de": "weiß ich noch nicht"
+        },
+        "relativeFrequency": 0.32,
+        "validRelativeFrequency": 5.38,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1654,
+    "missings": [
+      {
+        "absoluteFrequency": 72,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.26,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 1945,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "5.3",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welcher Art ist das Studium bzw. wird es vorausichtlich sein?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

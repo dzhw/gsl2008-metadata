@@ -1,0 +1,179 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Wechsel Hochschule: von Hochschulart"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 999,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Die Hochschulart wurde aus den codierten Hochschulangaben generiert. Für die Zuordnung von Hochschulen zu der Hochschulart wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 2.07,
+    "statistics": {
+      "deviance": "1.54398496760734",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 397,
+        "label": {
+          "en": null,
+          "de": "Universität"
+        },
+        "relativeFrequency": 1.41,
+        "validRelativeFrequency": 67.98,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": "Pädagogische Hochschulen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.86,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Theologische/Kirchliche Hochschulen"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 0.17,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": "Kunsthochschulen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.86,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 168,
+        "label": {
+          "en": null,
+          "de": "Fachhochschule"
+        },
+        "relativeFrequency": 0.6,
+        "validRelativeFrequency": 28.77,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": null,
+          "de": "Verwaltungsfachhochschulen"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 1.37,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 584,
+    "missings": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 3037,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.78,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 33,
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.12,
+        "code": -988
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.01,
+        "code": -969
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": null,
+          "de": "kein Studium an Uni/PH/KunstHS/Theol.HS/FH/VerwFH, aber Studium an BA"
+        },
+        "relativeFrequency": 0.05,
+        "code": -944
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

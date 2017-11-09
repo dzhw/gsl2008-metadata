@@ -1,0 +1,75 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "alte/neue Bundesländer"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 3,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Bundesländer wurden anhand des Destatis-Bundeslandschlüssels (vgl. cl-destatis-bundesland-1990) zu alten und neuen Bundesländern zugeordnet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 100,
+    "statistics": {
+      "deviance": "1.1975131895117",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 20115,
+        "label": {
+          "en": null,
+          "de": "alte Länder"
+        },
+        "relativeFrequency": 71.38,
+        "validRelativeFrequency": 71.38,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 8067,
+        "label": {
+          "en": null,
+          "de": "neue Länder"
+        },
+        "relativeFrequency": 28.62,
+        "validRelativeFrequency": 28.62,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 28182,
+    "missings": null
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

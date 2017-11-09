@@ -1,0 +1,220 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Abbruch Studium: Monat"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1011,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.89,
+    "statistics": {
+      "firstQuartile": "3",
+      "deviance": "4.63154528784036",
+      "highWhisker": 12,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "9",
+      "meanDeviation": "14.0847",
+      "maximum": "12",
+      "mode": "3",
+      "median": "6.5"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 17,
+        "label": {
+          "en": null,
+          "de": "Januar"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 6.75,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 22,
+        "label": {
+          "en": null,
+          "de": "Februar"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 8.73,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 46,
+        "label": {
+          "en": null,
+          "de": "März"
+        },
+        "relativeFrequency": 0.16,
+        "validRelativeFrequency": 18.25,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 20,
+        "label": {
+          "en": null,
+          "de": "April"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 7.94,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": null,
+          "de": "Mai"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 3.17,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": null,
+          "de": "Juni"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 5.16,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 30,
+        "label": {
+          "en": null,
+          "de": "Juli"
+        },
+        "relativeFrequency": 0.11,
+        "validRelativeFrequency": 11.9,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 28,
+        "label": {
+          "en": null,
+          "de": "August"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 11.11,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 40,
+        "label": {
+          "en": null,
+          "de": "September"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 15.87,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 9,
+        "label": {
+          "en": null,
+          "de": "Oktober"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 3.57,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": "November"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 1.98,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 14,
+        "label": {
+          "en": null,
+          "de": "Dezember"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 5.56,
+        "value": "12"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 252,
+    "missings": [
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 3416,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 12.12,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.10",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie Ihr Studium abgebrochen oder unterbrochen?\n(Monat)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

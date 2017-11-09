@@ -1,0 +1,220 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Wechsel Hochschule: Monat"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1008,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 2.25,
+    "statistics": {
+      "firstQuartile": "4",
+      "deviance": "3.95715205309054",
+      "highWhisker": 12,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "9",
+      "meanDeviation": "41.5128",
+      "maximum": "12",
+      "mode": "9",
+      "median": "8"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "Januar"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 1.11,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 36,
+        "label": {
+          "en": null,
+          "de": "Februar"
+        },
+        "relativeFrequency": 0.13,
+        "validRelativeFrequency": 5.69,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 83,
+        "label": {
+          "en": null,
+          "de": "März"
+        },
+        "relativeFrequency": 0.29,
+        "validRelativeFrequency": 13.11,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 35,
+        "label": {
+          "en": null,
+          "de": "April"
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 5.53,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": null,
+          "de": "Mai"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 2.05,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 29,
+        "label": {
+          "en": null,
+          "de": "Juni"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 4.58,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 66,
+        "label": {
+          "en": null,
+          "de": "Juli"
+        },
+        "relativeFrequency": 0.23,
+        "validRelativeFrequency": 10.43,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 84,
+        "label": {
+          "en": null,
+          "de": "August"
+        },
+        "relativeFrequency": 0.3,
+        "validRelativeFrequency": 13.27,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 232,
+        "label": {
+          "en": null,
+          "de": "September"
+        },
+        "relativeFrequency": 0.82,
+        "validRelativeFrequency": 36.65,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 37,
+        "label": {
+          "en": null,
+          "de": "Oktober"
+        },
+        "relativeFrequency": 0.13,
+        "validRelativeFrequency": 5.85,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "November"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.47,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": null,
+          "de": "Dezember"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 1.26,
+        "value": "12"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 633,
+    "missings": [
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 3031,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.76,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.8",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Von welcher Hochschule zu welcher Hochschule haben Sie gewechselt bzw. werden Sie wechseln?\nZeitpunkt des Wechsels:\n(Monat)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

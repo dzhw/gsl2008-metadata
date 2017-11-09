@@ -1,0 +1,220 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Studienabschluss: Monat"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1014,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 4.81,
+    "statistics": {
+      "firstQuartile": "7",
+      "deviance": "3.66383346389172",
+      "highWhisker": 12,
+      "lowWhisker": 4,
+      "minimum": "1",
+      "thirdQuartile": "9",
+      "meanDeviation": "45.2193",
+      "maximum": "12",
+      "mode": "9",
+      "median": "9"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 11,
+        "label": {
+          "en": null,
+          "de": "Januar"
+        },
+        "relativeFrequency": 0.04,
+        "validRelativeFrequency": 0.81,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 58,
+        "label": {
+          "en": null,
+          "de": "Februar"
+        },
+        "relativeFrequency": 0.21,
+        "validRelativeFrequency": 4.28,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 114,
+        "label": {
+          "en": null,
+          "de": "März"
+        },
+        "relativeFrequency": 0.4,
+        "validRelativeFrequency": 8.41,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 22,
+        "label": {
+          "en": null,
+          "de": "April"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 1.62,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 28,
+        "label": {
+          "en": null,
+          "de": "Mai"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 2.06,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 51,
+        "label": {
+          "en": null,
+          "de": "Juni"
+        },
+        "relativeFrequency": 0.18,
+        "validRelativeFrequency": 3.76,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 133,
+        "label": {
+          "en": null,
+          "de": "Juli"
+        },
+        "relativeFrequency": 0.47,
+        "validRelativeFrequency": 9.81,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 187,
+        "label": {
+          "en": null,
+          "de": "August"
+        },
+        "relativeFrequency": 0.66,
+        "validRelativeFrequency": 13.79,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 621,
+        "label": {
+          "en": null,
+          "de": "September"
+        },
+        "relativeFrequency": 2.2,
+        "validRelativeFrequency": 45.8,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 74,
+        "label": {
+          "en": null,
+          "de": "Oktober"
+        },
+        "relativeFrequency": 0.26,
+        "validRelativeFrequency": 5.46,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": null,
+          "de": "November"
+        },
+        "relativeFrequency": 0.11,
+        "validRelativeFrequency": 2.29,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 26,
+        "label": {
+          "en": null,
+          "de": "Dezember"
+        },
+        "relativeFrequency": 0.09,
+        "validRelativeFrequency": 1.92,
+        "value": "12"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1356,
+    "missings": [
+      {
+        "absoluteFrequency": 1727,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 6.13,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 588,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.11",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie bereits ein Studium abgeschlossen?\nja, und zwar:\n(Monat)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "wenn schulisch: volle Hochschulreife angestrebt?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 14,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.01,
+    "statistics": {
+      "deviance": "1.12467028923762",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "ja"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 75,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 25,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4,
+    "missings": [
+      {
+        "absoluteFrequency": 28178,
+        "label": {
+          "en": null,
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 99.99,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "02",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie die Art der von Ihnen in diesem Schuljahr angestrebten Hochschulreife an.\nStreben Sie anschließend die volle Fachhochschulreife an?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

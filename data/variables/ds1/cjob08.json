@@ -1,0 +1,152 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Art des Beschäftigungsverhältnisses"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1229,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.43,
+    "statistics": {
+      "deviance": "1.67107753440239",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 646,
+        "label": {
+          "en": null,
+          "de": "unbefristet"
+        },
+        "relativeFrequency": 2.29,
+        "validRelativeFrequency": 66.74,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 273,
+        "label": {
+          "en": null,
+          "de": "befristet"
+        },
+        "relativeFrequency": 0.97,
+        "validRelativeFrequency": 28.2,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": "Honorar-/Werkvertrag"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.52,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": "ohne arbeitsvertragliche Regelung"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.52,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 12,
+        "label": {
+          "en": null,
+          "de": "sonstige Regelung"
+        },
+        "relativeFrequency": 0.04,
+        "validRelativeFrequency": 1.24,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 27,
+        "label": {
+          "en": null,
+          "de": "selbständig/freiberuflich"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 2.79,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 968,
+    "missings": [
+      {
+        "absoluteFrequency": 14,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2689,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.54,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "7.3",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ist Ihr Beschäftigungsverhältnis…?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "label": {
+    "en": null,
+    "de": "7. Job: Stunden pro Monat"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1101,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.01,
+    "statistics": {
+      "firstQuartile": "53.25",
+      "deviance": "1.38629436111989",
+      "highWhisker": 99,
+      "lowWhisker": 38,
+      "skewness": 0,
+      "minimum": "38",
+      "thirdQuartile": "83.75",
+      "meanDeviation": "0",
+      "meanValue": 68.5,
+      "maximum": "99",
+      "mode": "multimodal",
+      "median": "68.5",
+      "standardDeviation": 43.1335,
+      "kurtosis": 1
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 50,
+        "value": "38"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "99 und mehr Stunden"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 50,
+        "value": "99"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 2,
+    "missings": [
+      {
+        "absoluteFrequency": 3076,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.91,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 593,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.1,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

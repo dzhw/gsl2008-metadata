@@ -1,0 +1,141 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Einschätzung Berufsaussichten: qualifizierte Fachkräfte allgemein"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": "gsl2008-ds1-fut02",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 143,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 91.27,
+    "statistics": {
+      "firstQuartile": "2",
+      "deviance": "2.37015389251204",
+      "highWhisker": 4.5,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "3",
+      "meanDeviation": "5776.2096",
+      "maximum": "5",
+      "mode": "3",
+      "median": "3"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 652,
+        "label": {
+          "en": null,
+          "de": "sehr gut"
+        },
+        "relativeFrequency": 2.31,
+        "validRelativeFrequency": 2.53,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 6583,
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "relativeFrequency": 23.36,
+        "validRelativeFrequency": 25.59,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 13256,
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "relativeFrequency": 47.04,
+        "validRelativeFrequency": 51.54,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 4563,
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "relativeFrequency": 16.19,
+        "validRelativeFrequency": 17.74,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 667,
+        "label": {
+          "en": null,
+          "de": "sehr schlecht"
+        },
+        "relativeFrequency": 2.37,
+        "validRelativeFrequency": 2.59,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 25721,
+    "missings": [
+      {
+        "absoluteFrequency": 1709,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 6.06,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 752,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.67,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "27",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie…\n… allgemein die Berufsaussichten für Absolventen eines beruflichen Ausbildungsweges ohne Studium ein?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Ausbildung abgeschlossen? (vor/parallel zu Erwerb der Hochschulreife) "
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": "gsl2008-ds1-voc01",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 63,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 99.98,
+    "statistics": {
+      "deviance": "1.29564303550346",
+      "mode": "3"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4630,
+        "label": {
+          "en": null,
+          "de": "ja, vor Hochschulreife Berufsausbildung abgeschlossen"
+        },
+        "relativeFrequency": 16.43,
+        "validRelativeFrequency": 16.43,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1531,
+        "label": {
+          "en": null,
+          "de": "ja,  parallel zu Hochschulreife Berufsausbildung abschließen"
+        },
+        "relativeFrequency": 5.43,
+        "validRelativeFrequency": 5.43,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 22014,
+        "label": {
+          "en": null,
+          "de": "nein, weder noch"
+        },
+        "relativeFrequency": 78.11,
+        "validRelativeFrequency": 78.13,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 28175,
+    "missings": [
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "08",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie bereits eine Berufsausbilung abgeschlossen oder werden Sie dies mit Erwerb der Hochschulreife tun?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "Erwerb der Hochschulreife: Jahr"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 163,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 21.05,
+    "statistics": {
+      "firstQuartile": "2008",
+      "deviance": "0.00606436508879919",
+      "highWhisker": 2008,
+      "lowWhisker": 2008,
+      "skewness": -54.438,
+      "minimum": "2007",
+      "thirdQuartile": "2008",
+      "meanDeviation": "4395.1677",
+      "meanValue": 2007.9997,
+      "maximum": "2008",
+      "mode": "2008",
+      "median": "2008",
+      "standardDeviation": 0.0184,
+      "kurtosis": 2964.5003
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "2007"
+      },
+      {
+        "absoluteFrequency": 5931,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 21.05,
+        "validRelativeFrequency": 99.97,
+        "value": "2008"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5933,
+    "missings": [
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "02",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie diese Hochschulreife erworben? (Monat)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

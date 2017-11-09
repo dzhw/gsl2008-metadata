@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Mutter: Deutschland Geburtsland?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 390,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 20.84,
+    "statistics": {
+      "deviance": "0.690948797211821",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 5229,
+        "label": {
+          "en": null,
+          "de": "in Deutschland geboren"
+        },
+        "relativeFrequency": 18.55,
+        "validRelativeFrequency": 89.05,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 643,
+        "label": {
+          "en": null,
+          "de": "nicht in Deutschland geboren"
+        },
+        "relativeFrequency": 2.28,
+        "validRelativeFrequency": 10.95,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5872,
+    "missings": [
+      {
+        "absoluteFrequency": 61,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.22,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "41",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Geben Sie bitte an, ob Ihr Vater bzw. Ihre Mutter in Deutschland geboren sind.\nMutter"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

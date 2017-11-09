@@ -1,0 +1,122 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Arbeitszeit (Vollzeit/Teilzeit)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1225,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.45,
+    "statistics": {
+      "deviance": "0.801034875670607",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 865,
+        "label": {
+          "en": null,
+          "de": "Vollzeit"
+        },
+        "relativeFrequency": 3.07,
+        "validRelativeFrequency": 89.08,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 84,
+        "label": {
+          "en": null,
+          "de": "Teilzeit"
+        },
+        "relativeFrequency": 0.3,
+        "validRelativeFrequency": 8.65,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 22,
+        "label": {
+          "en": null,
+          "de": "ohne feste Vereinbarung"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 2.27,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 971,
+    "missings": [
+      {
+        "absoluteFrequency": 11,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.04,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2689,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.54,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "7.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ist Ihre Tätigkeit…?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

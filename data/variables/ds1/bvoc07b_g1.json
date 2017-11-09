@@ -1,0 +1,183 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Alternative Qualifizierung: Ausbildungsberuf (KldB-1992-Berufsordnung) (3-Stelle"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 315,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfasste Angabe zu einem alternativ geplanten beruflichen Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.04,
+    "statistics": {
+      "deviance": "4.5077151792027",
+      "mode": "multimodal"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Tier-, Pferde-, Fischwirte und -wirtinnen"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "23"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Elektrotechniker/Elektrotechnikerinnen"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "622"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Bankfachleute"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "691"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Handelsmakler/Handelsmaklerinnen, Immobilienkaufleute"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "704"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Fachgehilfen/Fachgehilfinnen in steuer- und wirtschaftsberatenden Berufen, Steuerfachleute, a.n.g."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "754"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Datenverarbeitungsfachleute, Informatiker/Informatikerinnen o.n.A."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "774"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "Industriekaufleute, Technische Kaufleute, Betriebswirte/Betriebswirtinnen (ohne Diplom), a.n.g."
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 16.67,
+        "value": "785"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Bildende Künstler/Künstlerinnen (angewandte Kunst)"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "834"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "Krankenschwestern/-pfleger, Hebammen/Entbindungspfleger"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 16.67,
+        "value": "853"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Therapeutische Berufe, a.n.g."
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 8.33,
+        "value": "859"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 12,
+    "missings": [
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 5921,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 21.01,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "30",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was werden/wollen Sie statt dessen tun?\neine (andere) Berufsausbildung absolvieren, und zwar:"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

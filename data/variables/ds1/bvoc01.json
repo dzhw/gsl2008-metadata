@@ -1,0 +1,114 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Ausbildung abgeschlossen? (vor/mit Erwerb HR)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": "gsl2008-ds1-voc01",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 192,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 21.05,
+    "statistics": {
+      "deviance": "1.03056848200946",
+      "mode": "3"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 706,
+        "label": {
+          "en": null,
+          "de": "ja, vor Hochschulreife"
+        },
+        "relativeFrequency": 2.51,
+        "validRelativeFrequency": 11.9,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 197,
+        "label": {
+          "en": null,
+          "de": "ja, mit Hochschulreife"
+        },
+        "relativeFrequency": 0.7,
+        "validRelativeFrequency": 3.32,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 5023,
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "relativeFrequency": 17.82,
+        "validRelativeFrequency": 84.66,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "zur Zeit Ausbildung/Praktikum für volle Fachhochschulreife"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.12,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5933,
+    "missings": [
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "07",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie bereits vor oder mit Erwerb der Hochschulreife eine Berufsausbildung abgeschlossen?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

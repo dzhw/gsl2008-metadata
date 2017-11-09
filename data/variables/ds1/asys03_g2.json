@@ -1,0 +1,75 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Schulart (ermittelt: allgemeinb. vs. berufl. Schulen)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 8,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen, die anhand einer projekteigenen Codierung (vgl. cl-dzhw-6) generiert wurden, wurden zu zwei Schulformen aggregiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 100,
+    "statistics": {
+      "deviance": "1.21842758663684",
+      "mode": "18"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 19782,
+        "label": {
+          "en": null,
+          "de": "allgemeinbildene Schulen"
+        },
+        "relativeFrequency": 70.19,
+        "validRelativeFrequency": 70.19,
+        "value": "18"
+      },
+      {
+        "absoluteFrequency": 8400,
+        "label": {
+          "en": null,
+          "de": "berufliche Schulen"
+        },
+        "relativeFrequency": 29.81,
+        "validRelativeFrequency": 29.81,
+        "value": "19"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 28182,
+    "missings": null
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

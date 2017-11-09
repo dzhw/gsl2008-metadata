@@ -1,0 +1,145 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "3. Tätigkeit: Beginn (Jahr)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 530,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 11.82,
+    "statistics": {
+      "firstQuartile": "2009",
+      "deviance": "3.00114485568006",
+      "highWhisker": 2012,
+      "lowWhisker": 2008,
+      "skewness": 0.3549,
+      "minimum": "2008",
+      "thirdQuartile": "2011",
+      "meanDeviation": "547.0794",
+      "meanValue": 2009.62,
+      "maximum": "2012",
+      "mode": "2009",
+      "median": "2009",
+      "standardDeviation": 1.3059,
+      "kurtosis": 1.8497
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 761,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 2.7,
+        "validRelativeFrequency": 22.84,
+        "value": "2008"
+      },
+      {
+        "absoluteFrequency": 1130,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 4.01,
+        "validRelativeFrequency": 33.91,
+        "value": "2009"
+      },
+      {
+        "absoluteFrequency": 356,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 1.26,
+        "validRelativeFrequency": 10.68,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 784,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 2.78,
+        "validRelativeFrequency": 23.53,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 301,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 1.07,
+        "validRelativeFrequency": 9.03,
+        "value": "2012"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3332,
+    "missings": [
+      {
+        "absoluteFrequency": 339,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.2,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "2.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nZeitraum\nBeginn\nMonat/Jahr"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

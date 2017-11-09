@@ -1,0 +1,150 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Einschätzung: allg. Berufsaussichten nach Studium"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": "gsl2008-ds1-fut01",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 400,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 20.4,
+    "statistics": {
+      "firstQuartile": "2",
+      "deviance": "2.08666758025545",
+      "highWhisker": 2,
+      "lowWhisker": 2,
+      "minimum": "1",
+      "thirdQuartile": "2",
+      "meanDeviation": "1264.6578",
+      "maximum": "5",
+      "mode": "2",
+      "median": "2"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 980,
+        "label": {
+          "en": null,
+          "de": "sehr gut"
+        },
+        "relativeFrequency": 3.48,
+        "validRelativeFrequency": 17.04,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 3395,
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "relativeFrequency": 12.05,
+        "validRelativeFrequency": 59.04,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1232,
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "relativeFrequency": 4.37,
+        "validRelativeFrequency": 21.43,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 127,
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "relativeFrequency": 0.45,
+        "validRelativeFrequency": 2.21,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 16,
+        "label": {
+          "en": null,
+          "de": "sehr schlecht"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 0.28,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5750,
+    "missings": [
+      {
+        "absoluteFrequency": 170,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.6,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "46",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie …\n… allgemein die Berufsaussichten für Absolventen eines Studiums ein?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

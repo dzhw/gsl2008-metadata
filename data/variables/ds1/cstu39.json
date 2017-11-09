@@ -1,0 +1,122 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Aufnahme Masterstudium (geplant/realisiert)?"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1170,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 11.54,
+    "statistics": {
+      "deviance": "2.01475011716658",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1658,
+        "label": {
+          "en": null,
+          "de": "ja"
+        },
+        "relativeFrequency": 5.88,
+        "validRelativeFrequency": 50.98,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1051,
+        "label": {
+          "en": null,
+          "de": "nein"
+        },
+        "relativeFrequency": 3.73,
+        "validRelativeFrequency": 32.32,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 543,
+        "label": {
+          "en": null,
+          "de": "weiß ich noch nicht"
+        },
+        "relativeFrequency": 1.93,
+        "validRelativeFrequency": 16.7,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3252,
+    "missings": [
+      {
+        "absoluteFrequency": 68,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.24,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 351,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 1.25,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "5.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben sie einen Masterstudiengang aufgenommen oder planen Sie dies?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

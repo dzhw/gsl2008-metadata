@@ -1,0 +1,150 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Einschätzung: pers. Berufsaussichten"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": "gsl2008-ds1-fut03",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 402,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 19.91,
+    "statistics": {
+      "firstQuartile": "2",
+      "deviance": "2.18772723931512",
+      "highWhisker": 2,
+      "lowWhisker": 2,
+      "minimum": "1",
+      "thirdQuartile": "2",
+      "meanDeviation": "1438.122",
+      "maximum": "5",
+      "mode": "2",
+      "median": "2"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1168,
+        "label": {
+          "en": null,
+          "de": "sehr gut"
+        },
+        "relativeFrequency": 4.14,
+        "validRelativeFrequency": 20.82,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 3159,
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "relativeFrequency": 11.21,
+        "validRelativeFrequency": 56.31,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1109,
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "relativeFrequency": 3.94,
+        "validRelativeFrequency": 19.77,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 139,
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "relativeFrequency": 0.49,
+        "validRelativeFrequency": 2.48,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 35,
+        "label": {
+          "en": null,
+          "de": "sehr schlecht"
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 0.62,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5610,
+    "missings": [
+      {
+        "absoluteFrequency": 311,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 1.1,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 12,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.04,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "46",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie …\n… Ihre persönlichen Berufsaussichten ein?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

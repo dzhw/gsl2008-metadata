@@ -1,0 +1,154 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "Abbruch Studium: Jahr"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1010,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.89,
+    "statistics": {
+      "firstQuartile": "2009",
+      "deviance": "2.89295550402003",
+      "highWhisker": 2012,
+      "lowWhisker": 2008,
+      "skewness": 0.1866,
+      "minimum": "2008",
+      "thirdQuartile": "2011",
+      "meanDeviation": "29.652",
+      "meanValue": 2010.246,
+      "maximum": "2012",
+      "mode": "2010",
+      "median": "2010",
+      "standardDeviation": 1.1304,
+      "kurtosis": 1.9306
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 2.38,
+        "value": "2008"
+      },
+      {
+        "absoluteFrequency": 72,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.26,
+        "validRelativeFrequency": 28.57,
+        "value": "2009"
+      },
+      {
+        "absoluteFrequency": 75,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.27,
+        "validRelativeFrequency": 29.76,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 52,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.18,
+        "validRelativeFrequency": 20.63,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 47,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.17,
+        "validRelativeFrequency": 18.65,
+        "value": "2012"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 252,
+    "missings": [
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 3416,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 12.12,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "4.10",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie Ihr Studium abgebrochen oder unterbrochen?\n(Jahr)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

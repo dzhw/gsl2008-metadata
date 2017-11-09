@@ -1,0 +1,184 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": null,
+    "de": "Beginn Berufsausbildung: Jahr"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 928,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.5,
+    "statistics": {
+      "firstQuartile": "2008",
+      "deviance": "2.27684698897973",
+      "highWhisker": 2010.5,
+      "lowWhisker": 2008,
+      "skewness": 2.0106,
+      "minimum": "2008",
+      "thirdQuartile": "2009",
+      "meanDeviation": "50.4084",
+      "meanValue": 2008.7005,
+      "maximum": "2015",
+      "mode": "2008",
+      "median": "2008",
+      "standardDeviation": 1.1426,
+      "kurtosis": 7.0234
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 601,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 2.13,
+        "validRelativeFrequency": 61.02,
+        "value": "2008"
+      },
+      {
+        "absoluteFrequency": 226,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.8,
+        "validRelativeFrequency": 22.94,
+        "value": "2009"
+      },
+      {
+        "absoluteFrequency": 74,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.26,
+        "validRelativeFrequency": 7.51,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 37,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.13,
+        "validRelativeFrequency": 3.76,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 33,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 3.35,
+        "value": "2012"
+      },
+      {
+        "absoluteFrequency": 12,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.04,
+        "validRelativeFrequency": 1.22,
+        "value": "2013"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 0.1,
+        "value": "2014"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 0.1,
+        "value": "2015"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 985,
+    "missings": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.01,
+        "code": -999
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2684,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.52,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "3.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie diese Ausbildung aufgenommen bzw. wann werden Sie diese Ausbildung aufnehmen?\n(Jahr)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

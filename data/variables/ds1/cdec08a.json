@@ -1,0 +1,141 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Risikobereitschaft: Privatleben"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 450,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 13.01,
+    "statistics": {
+      "firstQuartile": "2",
+      "deviance": "2.70276715070313",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "4",
+      "meanDeviation": "637.518",
+      "maximum": "5",
+      "mode": "4",
+      "median": "3"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 71,
+        "label": {
+          "en": null,
+          "de": "sehr risikobereit"
+        },
+        "relativeFrequency": 0.25,
+        "validRelativeFrequency": 1.94,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 850,
+        "label": {
+          "en": null,
+          "de": "2"
+        },
+        "relativeFrequency": 3.02,
+        "validRelativeFrequency": 23.18,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1167,
+        "label": {
+          "en": null,
+          "de": "3"
+        },
+        "relativeFrequency": 4.14,
+        "validRelativeFrequency": 31.82,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 1280,
+        "label": {
+          "en": null,
+          "de": "4"
+        },
+        "relativeFrequency": 4.54,
+        "validRelativeFrequency": 34.91,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 299,
+        "label": {
+          "en": null,
+          "de": "gar nicht risikobereit"
+        },
+        "relativeFrequency": 1.06,
+        "validRelativeFrequency": 8.15,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3667,
+    "missings": [
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "1.7",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden?\na) Im Privatleben?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

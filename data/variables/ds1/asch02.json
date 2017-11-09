@@ -1,0 +1,104 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Art der Hochschulreife (angestrebt)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": "gsl2008-ds1-sch02",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 13,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 100,
+    "statistics": {
+      "deviance": "1.35911527954056",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 19908,
+        "label": {
+          "en": null,
+          "de": "allg. HS-Reife"
+        },
+        "relativeFrequency": 70.64,
+        "validRelativeFrequency": 70.64,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 362,
+        "label": {
+          "en": null,
+          "de": "fachgebundene HS-Reife"
+        },
+        "relativeFrequency": 1.28,
+        "validRelativeFrequency": 1.28,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 7796,
+        "label": {
+          "en": null,
+          "de": "Fachhochschulreife"
+        },
+        "relativeFrequency": 27.66,
+        "validRelativeFrequency": 27.66,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 116,
+        "label": {
+          "en": null,
+          "de": "fachgebundene FH-Reife"
+        },
+        "relativeFrequency": 0.41,
+        "validRelativeFrequency": 0.41,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 28182,
+    "missings": null
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "02",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie die Art der von Ihnen in diesem Schuljahr angestrebten Hochschulreife an."
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

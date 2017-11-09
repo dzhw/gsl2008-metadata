@@ -1,0 +1,113 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Art der Ausbildung"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": "gsl2008-ds1-voc02",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 64,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 21.63,
+    "statistics": {
+      "deviance": "1.44136893032473",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 3446,
+        "label": {
+          "en": null,
+          "de": "betriebliche Ausbildung"
+        },
+        "relativeFrequency": 12.23,
+        "validRelativeFrequency": 56.52,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2608,
+        "label": {
+          "en": null,
+          "de": "schulische Berufsausbildung"
+        },
+        "relativeFrequency": 9.25,
+        "validRelativeFrequency": 42.78,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 43,
+        "label": {
+          "en": null,
+          "de": "Beamtenausbildung"
+        },
+        "relativeFrequency": 0.15,
+        "validRelativeFrequency": 0.71,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 6097,
+    "missings": [
+      {
+        "absoluteFrequency": 71,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.25,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22014,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 78.11,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "09",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um welche Art von Ausbildung handelt es sich dabei?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Schulart (ermittelt und aggregiert)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 7,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen, die anhand einer projekteigenen Codierung (vgl. cl-dzhw-6) generiert wurden, wurden von neun zu sieben Schulformen aggregiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 100,
+    "statistics": {
+      "deviance": "3.0099333737783",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 14095,
+        "label": {
+          "en": null,
+          "de": "Gymnasium"
+        },
+        "relativeFrequency": 50.01,
+        "validRelativeFrequency": 50.01,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1438,
+        "label": {
+          "en": null,
+          "de": "Gesamtschule/Waldorfschule"
+        },
+        "relativeFrequency": 5.1,
+        "validRelativeFrequency": 5.1,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 3454,
+        "label": {
+          "en": null,
+          "de": "Fachgymnasium"
+        },
+        "relativeFrequency": 12.26,
+        "validRelativeFrequency": 12.26,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 4907,
+        "label": {
+          "en": null,
+          "de": "Fachoberschule"
+        },
+        "relativeFrequency": 17.41,
+        "validRelativeFrequency": 17.41,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 1882,
+        "label": {
+          "en": null,
+          "de": "Berufsfachschule"
+        },
+        "relativeFrequency": 6.68,
+        "validRelativeFrequency": 6.68,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 795,
+        "label": {
+          "en": null,
+          "de": "Abendgymnasium/Kolleg"
+        },
+        "relativeFrequency": 2.82,
+        "validRelativeFrequency": 2.82,
+        "value": "14"
+      },
+      {
+        "absoluteFrequency": 1611,
+        "label": {
+          "en": null,
+          "de": "Fachschule/-akademie"
+        },
+        "relativeFrequency": 5.72,
+        "validRelativeFrequency": 5.72,
+        "value": "15"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 28182,
+    "missings": null
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

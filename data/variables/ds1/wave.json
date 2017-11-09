@@ -1,0 +1,93 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": null,
+    "de": "Teilnahme an den Wellen (Indikator)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1, 2, 3],
+  "indexInDataSet": 1,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält einen vom Projekt vergebenen Code. Der Code gibt an, an welcher Befragungswelle die Befragten teilgenommen haben."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 100,
+    "statistics": {
+      "firstQuartile": "1",
+      "deviance": "1.3091626241019",
+      "highWhisker": 1,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "1",
+      "meanDeviation": "2088.9834",
+      "maximum": "3",
+      "mode": "1",
+      "median": "1"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "Teilnahme nur 1.Welle"
+        },
+        "relativeFrequency": 78.95,
+        "validRelativeFrequency": 78.95,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2262,
+        "label": {
+          "en": null,
+          "de": "Teilnahme 1+2.Welle"
+        },
+        "relativeFrequency": 8.03,
+        "validRelativeFrequency": 8.03,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 3671,
+        "label": {
+          "en": null,
+          "de": "Teilnahme 1.+2.+3.Welle"
+        },
+        "relativeFrequency": 13.03,
+        "validRelativeFrequency": 13.03,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 28182,
+    "missings": null
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "8. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsklasse) (4-Steller)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 657,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.03,
+    "statistics": {
+      "deviance": "4.15888308335967",
+      "mode": "multimodal"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Forstwirt(e/innen) (Waldfacharbeiter/innen), allgemein"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "621"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Filialleiter/innen (Verkaufsstellenleiter/innen)"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "6763"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Industriekaufleute"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "7851"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Hebammen/Entbindungspfleger"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "8536"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Medizinisch-technische Laboratoriumsassistent(en/innen), Medizinische Laboranten(en/innen)"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "8571"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Beschäftigungs- und Arbeitstherapeut(en/innen)"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "8594"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Hochschuldozent(en/innen) und -assistent(en/innen)"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "8712"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Kosmetiker/innen, allgemein"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 12.5,
+        "value": "9020"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 8,
+    "missings": [
+      {
+        "absoluteFrequency": 3663,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 24511,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "code": -995
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "2.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nBerufliche Ausbildung\nArt der Ausbildung und Ausbildungsberuf\n(z. B. betriebliche Ausbildung Bürokauffrau/mann)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

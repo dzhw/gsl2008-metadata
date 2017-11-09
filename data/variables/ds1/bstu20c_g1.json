@@ -1,0 +1,202 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": null,
+    "de": "Alternative Qualifizierung: Studienabschluss (Examen)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 320,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfasste Angabe zu einem alternativ geplanten Studium in codierter Form. Für die Vercodung der Abschlussart wurde eine projekteigene Codierliste verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.33,
+    "statistics": {
+      "deviance": "3.55014020409474",
+      "mode": "4"
+    },
+    "totalAbsoluteFrequency": 28182,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "B.A./Diplom an Berufsakademie"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.15,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": "B.A./Diplom an Verwaltungsfachhochschule"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.15,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 20,
+        "label": {
+          "en": null,
+          "de": "B.A. an Fachhochschule"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 21.51,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 35,
+        "label": {
+          "en": null,
+          "de": "B.A. an Universität (außer LA)"
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 37.63,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": "LA Grund-, Haupt-, Realschule"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 5.38,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": "LA Gymnasium"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 7.53,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "LA berufsbildende Schule"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 1.08,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 16,
+        "label": {
+          "en": null,
+          "de": "Staatsexamen"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 17.2,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Diplom FH"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 1.08,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": "Diplom Uni"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 3.23,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "Abschluss im Ausland"
+        },
+        "relativeFrequency": 0,
+        "validRelativeFrequency": 1.08,
+        "value": "15"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 93,
+    "missings": [
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 22249,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 5835,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.7,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "30",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was werden/wollen Sie statt dessen tun?\nein (anderes) Studium absolvieren, und zwar:"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}
