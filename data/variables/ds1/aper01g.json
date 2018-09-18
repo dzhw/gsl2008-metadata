@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Persönlichkeit: kritisch gegenüber anderen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 138,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\r\nIch neige dazu, andere zu kritisieren."
+      },
+      "questionNumber": "26",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.9,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "5949.674",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.1,
+        "absoluteFrequency": 874,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1531,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll und ganz zu"
         },
-        "relativeFrequency": 5.43,
         "validRelativeFrequency": 5.61,
+        "relativeFrequency": 5.43,
+        "absoluteFrequency": 1531,
         "value": "1"
       },
       {
-        "absoluteFrequency": 5876,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 20.85,
         "validRelativeFrequency": 21.52,
+        "relativeFrequency": 20.85,
+        "absoluteFrequency": 5876,
         "value": "2"
       },
       {
-        "absoluteFrequency": 10230,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 36.3,
         "validRelativeFrequency": 37.46,
+        "relativeFrequency": 36.3,
+        "absoluteFrequency": 10230,
         "value": "3"
       },
       {
-        "absoluteFrequency": 7808,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 27.71,
         "validRelativeFrequency": 28.59,
+        "relativeFrequency": 27.71,
+        "absoluteFrequency": 7808,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1863,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft überhaupt nicht zu"
         },
-        "relativeFrequency": 6.61,
         "validRelativeFrequency": 6.82,
+        "relativeFrequency": 6.61,
+        "absoluteFrequency": 1863,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 96.9,
     "totalValidAbsoluteFrequency": 27308,
-    "missings": [
-      {
-        "absoluteFrequency": 874,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.1,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "26",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\nIch neige dazu, andere zu kritisieren."
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 138,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "personality: critical of other people",
+    "de": "Persönlichkeit: kritisch gegenüber anderen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

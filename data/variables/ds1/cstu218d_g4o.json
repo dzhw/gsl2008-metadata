@@ -1,131 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "8. Tätigkeit: Hochschulart"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu218d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.26,
+        "absoluteFrequency": 3454,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 9.68,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 67.74,
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 147,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "college of education",
+          "de": "Pädagogische Hochschulen"
+        },
+        "validRelativeFrequency": 0.92,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "art colleges",
+          "de": "Kunsthochschulen"
+        },
+        "validRelativeFrequency": 0.46,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 21.2,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 46,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.77,
+    "totalValidAbsoluteFrequency": 217,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 655,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Hochschulart wurde aus den codierten Hochschulangaben generiert. Für die Zuordnung von Hochschulen zu der Hochschulart wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The type of higher education institution was generated from the coded data on institutions of higher education. The Destatis key directory for student and examination statistics (winter semester 2007/08) (see cl-destatis-studienfach-2008) was used for the classification. In the official statistics, missing universities were added and allocated from the project.",
+      "de": "Die Hochschulart wurde aus den codierten Hochschulangaben generiert. Für die Zuordnung von Hochschulen zu der Hochschulart wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.7,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 0.52,
-        "validRelativeFrequency": 75,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Pädagogische Hochschulen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.02,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kunsthochschulen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.51,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 46,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 23.47,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 196,
-    "missings": [
-      {
-        "absoluteFrequency": 3454,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.26,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.07,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu218d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 655,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "8th activity: type of higher education institution",
+    "de": "8. Tätigkeit: Hochschulart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

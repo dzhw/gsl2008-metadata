@@ -1,351 +1,364 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "anderer Werdegang (1.Nennung)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Würden Sie aus heutiger Sicht nach der Schule wieder den gleichen Ausbildungs- und Berufsweg wählen?\r\nnein, ich würde etwas anderes machen\r\nund zwar: (z.B. Studium, Berufsausbildung, …)"
+      },
+      "questionNumber": "1.5",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.03,
+        "absoluteFrequency": 854,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 75.58,
+        "relativeFrequency": 7.55,
+        "absoluteFrequency": 2129,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "first vocational training, then studies",
+          "de": "erst Ausbildung, dann Studium"
+        },
+        "validRelativeFrequency": 2.73,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 77,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "first studies, then vocational training",
+          "de": "erst Studium, dann Ausbildung"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "vocational training only, no studies",
+          "de": "nur Ausbildung ohne Studium"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "studies only, no vocational training",
+          "de": "nur Studium ohne Ausbildung"
+        },
+        "validRelativeFrequency": 0.89,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 25,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "first (further) (transitional job ) (e.g. abroad), then studies",
+          "de": "zunächst (weitere) Übergangstätigkeit (z. B. Ausland), dann Studium"
+        },
+        "validRelativeFrequency": 1.67,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 47,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "first (further) (transitional job ) (e.g. abroad), then vocational training",
+          "de": "zunächst (weitere) Übergangstätigkeit (z. B. Ausland), dann Ausbildung"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "other amended sequences in the development stages",
+          "de": "sonstige veränderte Abfolge in den Bildungsetappen"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "other type without further details",
+          "de": "andere Art  ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "other type of vocational training",
+          "de": "andere Berufsausbildungsart"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": "other degree",
+          "de": "anderer Studienabschluss"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "22"
+      },
+      {
+        "label": {
+          "en": "other type of higher education institution",
+          "de": "andere Hochschulart"
+        },
+        "validRelativeFrequency": 0.6,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "dual qualification/dual study programme or conversely no dual qualification",
+          "de": "Doppelqualifikation/Duales Studium oder umgekehrt keine Doppelqualifikation"
+        },
+        "validRelativeFrequency": 1.46,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 41,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "studies abroad",
+          "de": "Studium im Ausland"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": "degree (instead of vocational training)",
+          "de": "Studium (statt Ausbildung)"
+        },
+        "validRelativeFrequency": 2.17,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 61,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": "vocational training (instead of degree)",
+          "de": "Ausbildung (statt Studium)"
+        },
+        "validRelativeFrequency": 1.56,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 44,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": "extra-occupational/part-time and vice versa",
+          "de": "Berufsbegleitend/Teilzeit und andersrum"
+        },
+        "validRelativeFrequency": 0.21,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": "other changes in the type/direction of the educational path",
+          "de": "sonstige Änderungen in der Art/Ausrichtung des Bildungsweges"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "29"
+      },
+      {
+        "label": {
+          "en": "training for another career",
+          "de": "Ausbildung zu einem anderen Beruf"
+        },
+        "validRelativeFrequency": 1.31,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 37,
+        "value": "31"
+      },
+      {
+        "label": {
+          "en": "other studies not specified",
+          "de": "anderes Studium ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 1.88,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 53,
+        "value": "32"
+      },
+      {
+        "label": {
+          "en": "other subject",
+          "de": "anderes Studienfach"
+        },
+        "validRelativeFrequency": 3.37,
+        "relativeFrequency": 0.34,
+        "absoluteFrequency": 95,
+        "value": "33"
+      },
+      {
+        "label": {
+          "en": "if changed/wrong path: current course of study/job",
+          "de": "bei Wechsel/Irrweg: direkt aktuellen Studiengang/Beruf"
+        },
+        "validRelativeFrequency": 1.99,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 56,
+        "value": "34"
+      },
+      {
+        "label": {
+          "en": "other focus area",
+          "de": "anderen Schwerpunkt"
+        },
+        "validRelativeFrequency": 0.57,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": "miscellaneous other content",
+          "de": "sonstige andere Inhalte"
+        },
+        "validRelativeFrequency": 0.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "39"
+      },
+      {
+        "label": {
+          "en": "emphasis on miscellaneous other details",
+          "de": "Betonung von sonstigen anderen Details"
+        },
+        "validRelativeFrequency": 1.35,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 38,
+        "value": "40"
+      },
+      {
+        "label": {
+          "en": "answer of uncertainty about revising educational path",
+          "de": "Angabe von Unsicherheit, den Bildungsweg zu wiederholen"
+        },
+        "validRelativeFrequency": 1.03,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 29,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": "other information on other training",
+          "de": "sonstige Angaben zu anderer Ausbildung"
+        },
+        "validRelativeFrequency": 0.53,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 15,
+        "value": "90"
+      }
+    ],
+    "totalValidRelativeFrequency": 10,
+    "totalValidAbsoluteFrequency": 2817,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 440,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Nennungen anderer Werdegänge in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The variable contains the openly recorded entries on other career paths in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Nennungen anderer Werdegänge in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 2.44,
-    "statistics": {
-      "mode": "33"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 77,
-        "label": {
-          "en": null,
-          "de": "erst Ausbildung, dann Studium"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 11.19,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "erst Studium, dann Ausbildung"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.15,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "nur Ausbildung ohne Studium"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 1.16,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": null,
-          "de": "nur Studium ohne Ausbildung"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 3.63,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 47,
-        "label": {
-          "en": null,
-          "de": "zunächst (weitere) Übergangstätigkeit (z. B. Ausland), dann Studium"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 6.83,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "zunächst (weitere) Übergangstätigkeit (z. B. Ausland), dann Ausbildung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.58,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "sonstige veränderte Abfolge in den Bildungsetappen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.58,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "andere Art  ohne nähere Angabe"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.15,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "andere Berufsausbildungsart"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.29,
-        "value": "21"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "anderer Studienabschluss"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.29,
-        "value": "22"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "andere Hochschulart"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 2.47,
-        "value": "23"
-      },
-      {
-        "absoluteFrequency": 41,
-        "label": {
-          "en": null,
-          "de": "Doppelqualifikation/Duales Studium oder umgekehrt keine Doppelqualifikation"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 5.96,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Studium im Ausland"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.29,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 61,
-        "label": {
-          "en": null,
-          "de": "Studium (statt Ausbildung)"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 8.87,
-        "value": "26"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": null,
-          "de": "Ausbildung (statt Studium)"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 6.4,
-        "value": "27"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Berufsbegleitend/Teilzeit und andersrum"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.87,
-        "value": "28"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "sonstige Änderungen in der Art/Ausrichtung des Bildungsweges"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.58,
-        "value": "29"
-      },
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": null,
-          "de": "Ausbildung zu einem anderen Beruf"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 5.38,
-        "value": "31"
-      },
-      {
-        "absoluteFrequency": 53,
-        "label": {
-          "en": null,
-          "de": "anderes Studium ohne nähere Angabe"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 7.7,
-        "value": "32"
-      },
-      {
-        "absoluteFrequency": 95,
-        "label": {
-          "en": null,
-          "de": "anderes Studienfach"
-        },
-        "relativeFrequency": 0.34,
-        "validRelativeFrequency": 13.81,
-        "value": "33"
-      },
-      {
-        "absoluteFrequency": 56,
-        "label": {
-          "en": null,
-          "de": "bei Wechsel/Irrweg: direkt aktuellen Studiengang/Beruf"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 8.14,
-        "value": "34"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "anderen Schwerpunkt"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 2.33,
-        "value": "35"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "sonstige andere Inhalte"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "39"
-      },
-      {
-        "absoluteFrequency": 38,
-        "label": {
-          "en": null,
-          "de": "Betonung von sonstigen anderen Details"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 5.52,
-        "value": "40"
-      },
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": null,
-          "de": "Angabe von Unsicherheit, den Bildungsweg zu wiederholen"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 4.22,
-        "value": "50"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": "sonstige Angaben zu anderer Ausbildung"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 2.18,
-        "value": "90"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 688,
-    "missings": [
-      {
-        "absoluteFrequency": 854,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.03,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2129,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 7.55,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Würden Sie aus heutiger Sicht nach der Schule wieder den gleichen Ausbildungs- und Berufsweg wählen?\nnein, ich würde etwas anderes machen\nund zwar: (z.B. Studium, Berufsausbildung, …)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 440,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "other career path (1st entry)",
+    "de": "anderer Werdegang (1.Nennung)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

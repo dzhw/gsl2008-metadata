@@ -1,102 +1,115 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ihre Staatsangehörigkeit"
+      },
+      "questionNumber": "30",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.25,
+        "absoluteFrequency": 353,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "invalid multiple answer",
+          "de": "ungültige Mehrfachnennung"
+        },
+        "validRelativeFrequency": 1.03,
+        "relativeFrequency": 1.02,
+        "absoluteFrequency": 287,
+        "value": "-965"
+      },
+      {
+        "label": {
+          "en": "German",
+          "de": "deutsch"
+        },
+        "validRelativeFrequency": 95.39,
+        "relativeFrequency": 94.19,
+        "absoluteFrequency": 26546,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "other than German",
+          "de": "eine andere als deutsch"
+        },
+        "validRelativeFrequency": 3.58,
+        "relativeFrequency": 3.53,
+        "absoluteFrequency": 996,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.75,
+    "totalValidAbsoluteFrequency": 27829,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 148,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "nationality: German",
+    "de": "Staatsangehörigkeit: deutsch"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Staatsangehörigkeit: deutsch"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 148,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 97.73,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 26546,
-        "label": {
-          "en": null,
-          "de": "deutsch"
-        },
-        "relativeFrequency": 94.19,
-        "validRelativeFrequency": 96.38,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 996,
-        "label": {
-          "en": null,
-          "de": "eine andere als deutsch"
-        },
-        "relativeFrequency": 3.53,
-        "validRelativeFrequency": 3.62,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 27542,
-    "missings": [
-      {
-        "absoluteFrequency": 353,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.25,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 287,
-        "label": {
-          "en": null,
-          "de": "ungültige Mehrfachnennung"
-        },
-        "relativeFrequency": 1.02,
-        "code": -965
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "30",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ihre Staatsangehörigkeit"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

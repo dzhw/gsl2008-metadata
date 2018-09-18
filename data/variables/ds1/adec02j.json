@@ -1,102 +1,115 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\r\netwas anderes:"
+      },
+      "questionNumber": "17",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.24,
+        "absoluteFrequency": 349,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 7.01,
+        "relativeFrequency": 6.92,
+        "absoluteFrequency": 1951,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 89.08,
+        "relativeFrequency": 87.98,
+        "absoluteFrequency": 24794,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 3.91,
+        "relativeFrequency": 3.86,
+        "absoluteFrequency": 1088,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.76,
+    "totalValidAbsoluteFrequency": 27833,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-adec02j",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 93,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "difficulty: other",
+    "de": "Schwierigkeit: andere"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Schwierigkeit: andere"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-adec02j",
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 93,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 91.84,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 24794,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 87.98,
-        "validRelativeFrequency": 95.8,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 1088,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 3.86,
-        "validRelativeFrequency": 4.2,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 25882,
-    "missings": [
-      {
-        "absoluteFrequency": 349,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.24,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 1951,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 6.92,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\netwas anderes:"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

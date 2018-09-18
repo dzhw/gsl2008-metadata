@@ -1,159 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Bedeutung für Werdegang: Menschen helfen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-mot01w",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 346,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\r\njetzt oder später anderen Menschen helfen können"
+      },
+      "questionNumber": "31",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.06,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 6,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "153.4491",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "6",
-      "mode": "1",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.48,
+        "absoluteFrequency": 134,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 147,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1141,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr bedeutend"
         },
-        "relativeFrequency": 4.05,
         "validRelativeFrequency": 20.19,
+        "relativeFrequency": 4.05,
+        "absoluteFrequency": 1141,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1100,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 3.9,
         "validRelativeFrequency": 19.46,
+        "relativeFrequency": 3.9,
+        "absoluteFrequency": 1100,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1095,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.89,
         "validRelativeFrequency": 19.37,
+        "relativeFrequency": 3.89,
+        "absoluteFrequency": 1095,
         "value": "3"
       },
       {
-        "absoluteFrequency": 939,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 3.33,
         "validRelativeFrequency": 16.61,
+        "relativeFrequency": 3.33,
+        "absoluteFrequency": 939,
         "value": "4"
       },
       {
-        "absoluteFrequency": 823,
         "label": {
           "en": null,
           "de": "5"
         },
-        "relativeFrequency": 2.92,
         "validRelativeFrequency": 14.56,
+        "relativeFrequency": 2.92,
+        "absoluteFrequency": 823,
         "value": "5"
       },
       {
-        "absoluteFrequency": 554,
         "label": {
-          "en": null,
+          "en": "unimportant",
           "de": "bedeutungslos"
         },
-        "relativeFrequency": 1.97,
         "validRelativeFrequency": 9.8,
+        "relativeFrequency": 1.97,
+        "absoluteFrequency": 554,
         "value": "6"
       }
     ],
+    "totalValidRelativeFrequency": 20.06,
     "totalValidAbsoluteFrequency": 5652,
-    "missings": [
-      {
-        "absoluteFrequency": 134,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.48,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 0.52,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "31",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\njetzt oder später anderen Menschen helfen können"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-mot01w",
+  "surveyNumbers": [2],
+  "indexInDataSet": 346,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "importance for career: helping people",
+    "de": "Bedeutung für Werdegang: Menschen helfen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

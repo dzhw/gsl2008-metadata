@@ -1,232 +1,244 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, welcher der unten genannten Berufsgruppen Ihre Eltern angehören.\r\nVater"
+      },
+      "questionNumber": "43",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "8",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.44,
+        "absoluteFrequency": 124,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "self-employed person - small business",
+          "de": "kleine(r) Selbständige(r)"
+        },
+        "validRelativeFrequency": 9.07,
+        "relativeFrequency": 1.87,
+        "absoluteFrequency": 527,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "self employed person - medium-sized business",
+          "de": "mittlere(r) Selbständigige(r)"
+        },
+        "validRelativeFrequency": 5.27,
+        "relativeFrequency": 1.09,
+        "absoluteFrequency": 306,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "self-employed person - large enterprise",
+          "de": "große(r) Selbständige(r)"
+        },
+        "validRelativeFrequency": 1.03,
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 60,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "freelancer",
+          "de": "Freiberufler(in)"
+        },
+        "validRelativeFrequency": 4.42,
+        "relativeFrequency": 0.91,
+        "absoluteFrequency": 257,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Executive employee",
+          "de": "ausführende(r) Angestellte(r)"
+        },
+        "validRelativeFrequency": 7.39,
+        "relativeFrequency": 1.52,
+        "absoluteFrequency": 429,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "mid-level employee",
+          "de": "mittlere(r) Angestellte(r)"
+        },
+        "validRelativeFrequency": 11.91,
+        "relativeFrequency": 2.46,
+        "absoluteFrequency": 692,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "senior employee",
+          "de": "Angestellte(r) in gehobener Position"
+        },
+        "validRelativeFrequency": 9.64,
+        "relativeFrequency": 1.99,
+        "absoluteFrequency": 560,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Management employee",
+          "de": "leitende(r) Angestellte(r)"
+        },
+        "validRelativeFrequency": 15.42,
+        "relativeFrequency": 3.18,
+        "absoluteFrequency": 896,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "public official in simple/intermediate service",
+          "de": "Beamte(r) einfacher/mittlerer Dienst"
+        },
+        "validRelativeFrequency": 3.05,
+        "relativeFrequency": 0.63,
+        "absoluteFrequency": 177,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "public official in higher intermediate service",
+          "de": "Beamte(r) gehobener Dienst"
+        },
+        "validRelativeFrequency": 6.11,
+        "relativeFrequency": 1.26,
+        "absoluteFrequency": 355,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "public official in higher civil service",
+          "de": "Beamte(r) höherer Dienst"
+        },
+        "validRelativeFrequency": 3.87,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 225,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Unskilled/trained employee",
+          "de": "ungelernte(r)/ angelernte(r) Arbeiter(in)"
+        },
+        "validRelativeFrequency": 4.56,
+        "relativeFrequency": 0.94,
+        "absoluteFrequency": 265,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "Specialist (with apprenticeship)",
+          "de": "Facharbeiter(in)"
+        },
+        "validRelativeFrequency": 14.49,
+        "relativeFrequency": 2.99,
+        "absoluteFrequency": 842,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "chief/foreman",
+          "de": "Meister(in) / Polier(in)"
+        },
+        "validRelativeFrequency": 3.6,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 209,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "never been employed",
+          "de": "nie berufstätig gewesen"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "15"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.61,
+    "totalValidAbsoluteFrequency": 5809,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 393,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "father: occupational field",
+    "de": "Vater: Berufsbereich"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Vater: Berufsbereich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 393,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.61,
-    "statistics": {
-      "mode": "8"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 527,
-        "label": {
-          "en": null,
-          "de": "kleine(r) Selbständige(r)"
-        },
-        "relativeFrequency": 1.87,
-        "validRelativeFrequency": 9.07,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 306,
-        "label": {
-          "en": null,
-          "de": "mittlere(r) Selbständigige(r)"
-        },
-        "relativeFrequency": 1.09,
-        "validRelativeFrequency": 5.27,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 60,
-        "label": {
-          "en": null,
-          "de": "große(r) Selbständige(r)"
-        },
-        "relativeFrequency": 0.21,
-        "validRelativeFrequency": 1.03,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 257,
-        "label": {
-          "en": null,
-          "de": "Freiberufler(in)"
-        },
-        "relativeFrequency": 0.91,
-        "validRelativeFrequency": 4.42,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 429,
-        "label": {
-          "en": null,
-          "de": "ausführende(r) Angestellte(r)"
-        },
-        "relativeFrequency": 1.52,
-        "validRelativeFrequency": 7.39,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 692,
-        "label": {
-          "en": null,
-          "de": "mittlere(r) Angestellte(r)"
-        },
-        "relativeFrequency": 2.46,
-        "validRelativeFrequency": 11.91,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 560,
-        "label": {
-          "en": null,
-          "de": "Angestellte(r) in gehobener Position"
-        },
-        "relativeFrequency": 1.99,
-        "validRelativeFrequency": 9.64,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 896,
-        "label": {
-          "en": null,
-          "de": "leitende(r) Angestellte(r)"
-        },
-        "relativeFrequency": 3.18,
-        "validRelativeFrequency": 15.42,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 177,
-        "label": {
-          "en": null,
-          "de": "Beamte(r) einfacher/mittlerer Dienst"
-        },
-        "relativeFrequency": 0.63,
-        "validRelativeFrequency": 3.05,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 355,
-        "label": {
-          "en": null,
-          "de": "Beamte(r) gehobener Dienst"
-        },
-        "relativeFrequency": 1.26,
-        "validRelativeFrequency": 6.11,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 225,
-        "label": {
-          "en": null,
-          "de": "Beamte(r) höherer Dienst"
-        },
-        "relativeFrequency": 0.8,
-        "validRelativeFrequency": 3.87,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 265,
-        "label": {
-          "en": null,
-          "de": "ungelernte(r)/ angelernte(r) Arbeiter(in)"
-        },
-        "relativeFrequency": 0.94,
-        "validRelativeFrequency": 4.56,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 842,
-        "label": {
-          "en": null,
-          "de": "Facharbeiter(in)"
-        },
-        "relativeFrequency": 2.99,
-        "validRelativeFrequency": 14.49,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 209,
-        "label": {
-          "en": null,
-          "de": "Meister(in) / Polier(in)"
-        },
-        "relativeFrequency": 0.74,
-        "validRelativeFrequency": 3.6,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "nie berufstätig gewesen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.15,
-        "value": "15"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5809,
-    "missings": [
-      {
-        "absoluteFrequency": 124,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.44,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "43",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, welcher der unten genannten Berufsgruppen Ihre Eltern angehören.\nVater"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

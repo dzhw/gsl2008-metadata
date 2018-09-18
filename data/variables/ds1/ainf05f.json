@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: zentrale Studienberatung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 116,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInstitutionen/Personen\r\nZentrale Studienberatung"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 38.42,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 0,
+      "mode": "-988",
       "highWhisker": 5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "4",
-      "meanDeviation": "600.453",
+      "lowWhisker": -988,
+      "thirdQuartile": "3",
+      "firstQuartile": "-988",
+      "standardDeviation": null,
+      "median": "-988",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "-988",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.54,
+        "absoluteFrequency": 1279,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1082,
         "label": {
-          "en": null,
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 54.76,
+        "relativeFrequency": 46.52,
+        "absoluteFrequency": 13109,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
+        "validRelativeFrequency": 4.52,
         "relativeFrequency": 3.84,
-        "validRelativeFrequency": 9.99,
+        "absoluteFrequency": 1082,
         "value": "1"
       },
       {
-        "absoluteFrequency": 2572,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 10.74,
         "relativeFrequency": 9.13,
-        "validRelativeFrequency": 23.75,
+        "absoluteFrequency": 2572,
         "value": "2"
       },
       {
-        "absoluteFrequency": 3132,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 13.08,
         "relativeFrequency": 11.11,
-        "validRelativeFrequency": 28.93,
+        "absoluteFrequency": 3132,
         "value": "3"
       },
       {
-        "absoluteFrequency": 2167,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 9.05,
         "relativeFrequency": 7.69,
-        "validRelativeFrequency": 20.01,
+        "absoluteFrequency": 2167,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1875,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
+        "validRelativeFrequency": 7.83,
         "relativeFrequency": 6.65,
-        "validRelativeFrequency": 17.32,
+        "absoluteFrequency": 1875,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 10828,
-    "missings": [
-      {
-        "absoluteFrequency": 1279,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.54,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 13109,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 46.52,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 84.94,
+    "totalValidAbsoluteFrequency": 23937,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nZentrale Studienberatung"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 116,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: Central Student Counselling Service",
+    "de": "Informationsquelle Zukunft: zentrale Studienberatung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

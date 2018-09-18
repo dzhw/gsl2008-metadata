@@ -1,251 +1,265 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Staatsangehörigkeit: andere"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-adem03b",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ihre Staatsangehörigkeit:"
+      },
+      "questionNumber": "30",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 1.25,
+        "absoluteFrequency": 353,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 95.39,
+        "relativeFrequency": 94.19,
+        "absoluteFrequency": 26546,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "validRelativeFrequency": 0.08,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 22,
+        "value": "-969"
+      },
+      {
+        "label": {
+          "en": "Turkey",
+          "de": "Türkei"
+        },
+        "validRelativeFrequency": 1.24,
+        "relativeFrequency": 1.22,
+        "absoluteFrequency": 345,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Former Yugoslavia",
+          "de": "ehemaliges Jugoslawien"
+        },
+        "validRelativeFrequency": 0.42,
+        "relativeFrequency": 0.41,
+        "absoluteFrequency": 116,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Italy",
+          "de": "Italien"
+        },
+        "validRelativeFrequency": 0.33,
+        "relativeFrequency": 0.32,
+        "absoluteFrequency": 91,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "France",
+          "de": "Frankreich"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 75,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Poland",
+          "de": "Polen"
+        },
+        "validRelativeFrequency": 0.23,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 65,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Russia",
+          "de": "Russland"
+        },
+        "validRelativeFrequency": 0.22,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 61,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Greece",
+          "de": "Griechenland"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 46,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Spain/Portugal",
+          "de": "Spanien/Portugal"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 42,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Belarus/Ukraine/Moldova",
+          "de": "Weißrussland/Ukraine/Moldawien"
+        },
+        "validRelativeFrequency": 0.16,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 45,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "rest of Europe",
+          "de": "restliches Europa"
+        },
+        "validRelativeFrequency": 0.52,
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 146,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Africa",
+          "de": "Afrika"
+        },
+        "validRelativeFrequency": 0.08,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Latin America",
+          "de": "Lateinamerika"
+        },
+        "validRelativeFrequency": 0.08,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 22,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "United States and Canada",
+          "de": "Vereinigte Staaten und Kanada"
+        },
+        "validRelativeFrequency": 0.18,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 51,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Asia",
+          "de": "Asien"
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.47,
+        "absoluteFrequency": 132,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Australia",
+          "de": "Australien"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "rest of the world",
+          "de": "Rest der Welt"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "16"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.75,
+    "totalValidAbsoluteFrequency": 27829,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 150,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Sie basiert auf offen erfassten Angaben zur anderen Staatsbürgerschaft in codierter Form. Dazu wurde anhand der offenen Nennungen (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste (vgl. cl-dzhw-17) angelegt. Ausgewiesen werden nur die häufig Staatsbürgerschaften, alle andere werden unter sonstige angeführt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated as part of the anonymisation. It is based on the openly collected data on other nationalities in coded form. A code list (see cl-dzhw-17) was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts). Only the main nationalities are shown, while all others are cited under ‘other’.",
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Sie basiert auf offen erfassten Angaben zur anderen Staatsbürgerschaft in codierter Form. Dazu wurde anhand der offenen Nennungen (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste (vgl. cl-dzhw-17) angelegt. Ausgewiesen werden nur die häufig Staatsbürgerschaften, alle andere werden unter sonstige angeführt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 4.47,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 345,
-        "label": {
-          "en": null,
-          "de": "Türkei"
-        },
-        "relativeFrequency": 1.22,
-        "validRelativeFrequency": 27.36,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 116,
-        "label": {
-          "en": null,
-          "de": "ehemaliges Jugoslawien"
-        },
-        "relativeFrequency": 0.41,
-        "validRelativeFrequency": 9.2,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 91,
-        "label": {
-          "en": null,
-          "de": "Italien"
-        },
-        "relativeFrequency": 0.32,
-        "validRelativeFrequency": 7.22,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 75,
-        "label": {
-          "en": null,
-          "de": "Frankreich"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 5.95,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 65,
-        "label": {
-          "en": null,
-          "de": "Polen"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 5.15,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 61,
-        "label": {
-          "en": null,
-          "de": "Russland"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 4.84,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 46,
-        "label": {
-          "en": null,
-          "de": "Griechenland"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 3.65,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 42,
-        "label": {
-          "en": null,
-          "de": "Spanien/Portugal"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 3.33,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": null,
-          "de": "Weißrussland/Ukraine/Moldawien"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 3.57,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 146,
-        "label": {
-          "en": null,
-          "de": "restliches Europa"
-        },
-        "relativeFrequency": 0.52,
-        "validRelativeFrequency": 11.58,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "Afrika"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 1.67,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": null,
-          "de": "Lateinamerika"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 1.74,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 51,
-        "label": {
-          "en": null,
-          "de": "Vereinigte Staaten und Kanada"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 4.04,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 132,
-        "label": {
-          "en": null,
-          "de": "Asien"
-        },
-        "relativeFrequency": 0.47,
-        "validRelativeFrequency": 10.47,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Australien"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.08,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Rest der Welt"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.16,
-        "value": "16"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1261,
-    "missings": [
-      {
-        "absoluteFrequency": 353,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 1.25,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 26546,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 94.19,
-        "code": -988
-      },
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.08,
-        "code": -969
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "30",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ihre Staatsangehörigkeit:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-adem03b",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 150,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "nationality: other",
+    "de": "Staatsangehörigkeit: andere"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,122 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "13. Tätigkeit: Bundesland der HS"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2113d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.99,
+        "absoluteFrequency": 3662,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 22.22,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "North Rhine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "validRelativeFrequency": 44.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.03,
+    "totalValidAbsoluteFrequency": 9,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 762,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer; Länder von ausländische Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Zuordnung von Hochschulen zu Bundesländern wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The federal states were generated from the coded data on institutions of higher education. The generated data only includes federal states; countries of foreign universities were placed under ‘not applicable’. The Destatis key directory for student and examination statistics (winter semester 2007/08) (see cl-destatis-studienfach-2008) was used for the allocation of higher education institutions to federal states.",
+      "de": "Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer; Länder von ausländische Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Zuordnung von Hochschulen zu Bundesländern wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.02,
-    "statistics": {
-      "mode": "5"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Nordrhein-Westfalen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 57.14,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Hessen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Rheinland-Pfalz"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bayern"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7,
-    "missings": [
-      {
-        "absoluteFrequency": 3662,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.99,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.01,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2113d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 762,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "13th activity: federal state of higher education institution",
+    "de": "13. Tätigkeit: Bundesland der HS"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

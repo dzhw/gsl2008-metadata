@@ -1,133 +1,145 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "9. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsklasse) (4-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc089",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "multimodal",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13,
+        "absoluteFrequency": 3665,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Garment tailors",
+          "de": "Bekleidungsschneider/innen"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3511"
+      },
+      {
+        "label": {
+          "en": "Computer scientists without further specification",
+          "de": "Informatiker/innen o.n.A."
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7742"
+      },
+      {
+        "label": {
+          "en": "Photographers, generally",
+          "de": "Fotograf(en/innen), allgemein"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8370"
+      },
+      {
+        "label": {
+          "en": "Social workers, social education workers without further specification",
+          "de": "Sozialarbeiter/innen, Sozialpädagog(en/innen) o.n.A."
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8610"
+      },
+      {
+        "label": {
+          "en": "High school teachers",
+          "de": "Gymnasiallehrer/innen"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8721"
+      },
+      {
+        "label": {
+          "en": "Pedicurists",
+          "de": "Fußpfleger/innen"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9023"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.02,
+    "totalValidAbsoluteFrequency": 6,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 679,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zum Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on qualified occupations in coded form. The 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992) was used as a code list.",
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.02,
-    "statistics": {
-      "mode": "multimodal"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bekleidungsschneider/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "3511"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Informatiker/innen o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "7742"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Fotograf(en/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "8370"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sozialarbeiter/innen, Sozialpädagog(en/innen) o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "8610"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Gymnasiallehrer/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "8721"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Fußpfleger/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "9023"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 6,
-    "missings": [
-      {
-        "absoluteFrequency": 3665,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc089",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 679,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "9th activity: qualified occupation (Ger. Class. of Occ. 1992) (4-dig.)",
+    "de": "9. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsklasse) (4-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

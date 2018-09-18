@@ -1,113 +1,125 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie begonnen, aktiv Informationen über Studien- und Ausbildungsmöglichkeiten einzuholen?"
+      },
+      "questionNumber": "24",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.1,
+        "absoluteFrequency": 310,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "before admission to upper secondary school/vocational school",
+          "de": "vor Eintritt in gymnasiale Oberstufe/berufsbildende Schule"
+        },
+        "validRelativeFrequency": 13.73,
+        "relativeFrequency": 13.58,
+        "absoluteFrequency": 3828,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "before starting upper secondary school/vocational school",
+          "de": "zu Beginn der gymnasialen Oberstufe/berufsbildende Schule"
+        },
+        "validRelativeFrequency": 30.98,
+        "relativeFrequency": 30.64,
+        "absoluteFrequency": 8636,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "in this academic year",
+          "de": "in diesem Schuljahr"
+        },
+        "validRelativeFrequency": 44.64,
+        "relativeFrequency": 44.15,
+        "absoluteFrequency": 12442,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "still not at all",
+          "de": "noch gar nicht"
+        },
+        "validRelativeFrequency": 10.64,
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.9,
+    "totalValidAbsoluteFrequency": 27872,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 105,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "start time of information procurement ",
+    "de": "Zeitpunkt Beginn der Informationsbeschaffung "
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Zeitpunkt Beginn der Informationsbeschaffung "
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 105,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 98.9,
-    "statistics": {
-      "mode": "3"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3828,
-        "label": {
-          "en": null,
-          "de": "vor Eintritt in gymnasiale Oberstufe/berufsbildende Schule"
-        },
-        "relativeFrequency": 13.58,
-        "validRelativeFrequency": 13.73,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 8636,
-        "label": {
-          "en": null,
-          "de": "zu Beginn der gymnasialen Oberstufe/berufsbildende Schule"
-        },
-        "relativeFrequency": 30.64,
-        "validRelativeFrequency": 30.98,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 12442,
-        "label": {
-          "en": null,
-          "de": "in diesem Schuljahr"
-        },
-        "relativeFrequency": 44.15,
-        "validRelativeFrequency": 44.64,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "noch gar nicht"
-        },
-        "relativeFrequency": 10.52,
-        "validRelativeFrequency": 10.64,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 27872,
-    "missings": [
-      {
-        "absoluteFrequency": 310,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.1,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "24",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wann haben Sie begonnen, aktiv Informationen über Studien- und Ausbildungsmöglichkeiten einzuholen?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: Wirtschafts-/Berufsverbände/Gewerkschaften"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 121,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInstitutionen/Personen\r\nWirtschafts- und Berufsverbände, Gewerkschaften, Kammern"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 18.63,
     "statistics": {
-      "firstQuartile": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "5",
-      "meanDeviation": "545.5968",
+      "meanDeviation": 0,
+      "mode": "-988",
+      "highWhisker": -988,
+      "lowWhisker": -988,
+      "thirdQuartile": "-988",
+      "firstQuartile": "-988",
+      "standardDeviation": null,
+      "median": "-988",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "-988",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5.09,
+        "absoluteFrequency": 1435,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 179,
         "label": {
-          "en": null,
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 77.92,
+        "relativeFrequency": 65.75,
+        "absoluteFrequency": 18531,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
+        "validRelativeFrequency": 0.75,
         "relativeFrequency": 0.64,
-        "validRelativeFrequency": 3.41,
+        "absoluteFrequency": 179,
         "value": "1"
       },
       {
-        "absoluteFrequency": 711,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 2.99,
         "relativeFrequency": 2.52,
-        "validRelativeFrequency": 13.54,
+        "absoluteFrequency": 711,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1444,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 6.07,
         "relativeFrequency": 5.12,
-        "validRelativeFrequency": 27.5,
+        "absoluteFrequency": 1444,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1274,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 5.36,
         "relativeFrequency": 4.52,
-        "validRelativeFrequency": 24.27,
+        "absoluteFrequency": 1274,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1642,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
+        "validRelativeFrequency": 6.9,
         "relativeFrequency": 5.83,
-        "validRelativeFrequency": 31.28,
+        "absoluteFrequency": 1642,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 5250,
-    "missings": [
-      {
-        "absoluteFrequency": 1435,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 5.09,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 18531,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 65.75,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 84.38,
+    "totalValidAbsoluteFrequency": 23781,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nWirtschafts- und Berufsverbände, Gewerkschaften, Kammern"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 121,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: trade/professional associations/trade unions",
+    "de": "Informationsquelle Zukunft: Wirtschafts-/Berufsverbände/Gewerkschaften"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

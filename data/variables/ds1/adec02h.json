@@ -1,102 +1,115 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\r\ndie Finanzierung eines Studiums/einer Ausbildung"
+      },
+      "questionNumber": "17",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.24,
+        "absoluteFrequency": 349,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 7.01,
+        "relativeFrequency": 6.92,
+        "absoluteFrequency": 1951,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 61.19,
+        "relativeFrequency": 60.44,
+        "absoluteFrequency": 17032,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 31.8,
+        "relativeFrequency": 31.4,
+        "absoluteFrequency": 8850,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.76,
+    "totalValidAbsoluteFrequency": 27833,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 91,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "difficulty: financing",
+    "de": "Schwierigkeit: Finanzierung"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Schwierigkeit: Finanzierung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 91,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 91.84,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 17032,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 60.44,
-        "validRelativeFrequency": 65.81,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 8850,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 31.4,
-        "validRelativeFrequency": 34.19,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 25882,
-    "missings": [
-      {
-        "absoluteFrequency": 349,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.24,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 1951,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 6.92,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\ndie Finanzierung eines Studiums/einer Ausbildung"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

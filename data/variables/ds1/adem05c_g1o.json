@@ -1,212 +1,225 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Sprache Elternhaus: nicht Deutsch, sondern (Nennung)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-adem05c",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Sprache wird in Ihrem Elternhaus normalerweise gesprochen?\r\nnicht Deutsch, sondern"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.63,
+        "absoluteFrequency": 742,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 99.92,
+        "relativeFrequency": 97.29,
+        "absoluteFrequency": 27417,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "Afghan (Pashto)",
+          "de": "Afghanisch (Paschtu)"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Chinese",
+          "de": "Chinesisch/Cantonesisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "English",
+          "de": "Englisch"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "French",
+          "de": "Französisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Kurdish",
+          "de": "Kurdisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": "Latvian",
+          "de": "Lettisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": "Persian (Farsi/Dari)",
+          "de": "Persisch (Farsi/Dari)"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "49"
+      },
+      {
+        "label": {
+          "en": "Polish",
+          "de": "Polnisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": "Portuguese",
+          "de": "Portugiesisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "51"
+      },
+      {
+        "label": {
+          "en": "Russian",
+          "de": "Russisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "54"
+      },
+      {
+        "label": {
+          "en": "Serbian",
+          "de": "Serbisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "57"
+      },
+      {
+        "label": {
+          "en": "Turkish",
+          "de": "Türkisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "69"
+      },
+      {
+        "label": {
+          "en": "Ukrainian",
+          "de": "Ukrainisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "71"
+      }
+    ],
+    "totalValidRelativeFrequency": 97.37,
+    "totalValidAbsoluteFrequency": 27440,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 158,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded languages spoken in the parental home in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.08,
-    "statistics": {
-      "mode": "13"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Afghanisch (Paschtu)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Chinesisch/Cantonesisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Englisch"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 21.74,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Französisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Kurdisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 13.04,
-        "value": "35"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Lettisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "38"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Persisch (Farsi/Dari)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 8.7,
-        "value": "49"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Polnisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "50"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Portugiesisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "51"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Russisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 13.04,
-        "value": "54"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Serbisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "57"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Türkisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 8.7,
-        "value": "69"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Ukrainisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 4.35,
-        "value": "71"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 23,
-    "missings": [
-      {
-        "absoluteFrequency": 742,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 2.63,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 27417,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 97.29,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Sprache wird in Ihrem Elternhaus normalerweise gesprochen?\nnicht Deutsch, sondern"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-adem05c",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 158,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "language parental home: not German, but (entry)",
+    "de": "Sprache Elternhaus: nicht Deutsch, sondern (Nennung)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

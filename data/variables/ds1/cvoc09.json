@@ -1,152 +1,165 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach dem Abitur/der Fachhochschulreife eine berufliche Ausbildung aufgenommen?"
+      },
+      "questionNumber": "3.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "7",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 0.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "yes, vocational training/apprenticeship",
+          "de": "ja, betriebliche Ausbildung/Lehre"
+        },
+        "validRelativeFrequency": 15.47,
+        "relativeFrequency": 2.02,
+        "absoluteFrequency": 568,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, at a vocational school/school of public heath",
+          "de": "ja, an Berufsfachschule/Schule des Gesundheitswesens"
+        },
+        "validRelativeFrequency": 7.9,
+        "relativeFrequency": 1.03,
+        "absoluteFrequency": 290,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "yes, as part of a dual studies programme",
+          "de": "ja, im Rahmen eines dualen Studiums"
+        },
+        "validRelativeFrequency": 2.29,
+        "relativeFrequency": 0.3,
+        "absoluteFrequency": 84,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "yes, training for middle-level civil servants",
+          "de": "ja, Beamtenausbildung für mittleren Dienst"
+        },
+        "validRelativeFrequency": 0.52,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 19,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "yes, at a professional academy",
+          "de": "ja, an Fachakademie"
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "no, but will start a training course in the near future",
+          "de": "nein, werde aber demnächst Ausbildung aufnehmen"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 15,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "no, neither already started nor planned",
+          "de": "nein, weder angefangen noch beabsichtigt"
+        },
+        "validRelativeFrequency": 73.11,
+        "relativeFrequency": 9.52,
+        "absoluteFrequency": 2684,
+        "value": "7"
+      }
+    ],
+    "totalValidRelativeFrequency": 13.03,
+    "totalValidAbsoluteFrequency": 3671,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 926,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "training started (after completion of HZB)?",
+    "de": "Ausbildung begonnen (nach Erwerb der HZB)?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Ausbildung begonnen (nach Erwerb der HZB)?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 926,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 13.01,
-    "statistics": {
-      "mode": "7"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 568,
-        "label": {
-          "en": null,
-          "de": "ja, betriebliche Ausbildung/Lehre"
-        },
-        "relativeFrequency": 2.02,
-        "validRelativeFrequency": 15.49,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 290,
-        "label": {
-          "en": null,
-          "de": "ja, an Berufsfachschule/Schule des Gesundheitswesens"
-        },
-        "relativeFrequency": 1.03,
-        "validRelativeFrequency": 7.91,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 84,
-        "label": {
-          "en": null,
-          "de": "ja, im Rahmen eines dualen Studiums"
-        },
-        "relativeFrequency": 0.3,
-        "validRelativeFrequency": 2.29,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": null,
-          "de": "ja, Beamtenausbildung für mittleren Dienst"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.52,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "ja, an Fachakademie"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.19,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": "nein, werde aber demnächst Ausbildung aufnehmen"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.41,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 2684,
-        "label": {
-          "en": null,
-          "de": "nein, weder angefangen noch beabsichtigt"
-        },
-        "relativeFrequency": 9.52,
-        "validRelativeFrequency": 73.19,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3667,
-    "missings": [
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.01,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "3.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie nach dem Abitur/der Fachhochschulreife eine berufliche Ausbildung aufgenommen?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

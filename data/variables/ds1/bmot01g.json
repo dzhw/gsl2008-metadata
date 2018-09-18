@@ -1,159 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Bedeutung für Werdegang: späteres Berufsspektrum"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-mot01g",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 330,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\r\ndas breite sich später eröffnende Berufsspektrum"
+      },
+      "questionNumber": "31",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.06,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 6,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "754.6434",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "6",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.47,
+        "absoluteFrequency": 132,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 147,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 2083,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr bedeutend"
         },
-        "relativeFrequency": 7.39,
         "validRelativeFrequency": 36.84,
+        "relativeFrequency": 7.39,
+        "absoluteFrequency": 2083,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1809,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 6.42,
         "validRelativeFrequency": 32,
+        "relativeFrequency": 6.42,
+        "absoluteFrequency": 1809,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1004,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.56,
         "validRelativeFrequency": 17.76,
+        "relativeFrequency": 3.56,
+        "absoluteFrequency": 1004,
         "value": "3"
       },
       {
-        "absoluteFrequency": 386,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.37,
         "validRelativeFrequency": 6.83,
+        "relativeFrequency": 1.37,
+        "absoluteFrequency": 386,
         "value": "4"
       },
       {
-        "absoluteFrequency": 227,
         "label": {
           "en": null,
           "de": "5"
         },
-        "relativeFrequency": 0.81,
         "validRelativeFrequency": 4.01,
+        "relativeFrequency": 0.81,
+        "absoluteFrequency": 227,
         "value": "5"
       },
       {
-        "absoluteFrequency": 145,
         "label": {
-          "en": null,
+          "en": "unimportant",
           "de": "bedeutungslos"
         },
-        "relativeFrequency": 0.51,
         "validRelativeFrequency": 2.56,
+        "relativeFrequency": 0.51,
+        "absoluteFrequency": 145,
         "value": "6"
       }
     ],
+    "totalValidRelativeFrequency": 20.06,
     "totalValidAbsoluteFrequency": 5654,
-    "missings": [
-      {
-        "absoluteFrequency": 132,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.47,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 0.52,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "31",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\ndas breite sich später eröffnende Berufsspektrum"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-mot01g",
+  "surveyNumbers": [2],
+  "indexInDataSet": 330,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "importance for career: later job spectrum",
+    "de": "Bedeutung für Werdegang: späteres Berufsspektrum"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

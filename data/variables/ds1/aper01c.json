@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Persönlichkeit: gründlich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 134,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\r\nIch erledige Aufgaben gründlich."
+      },
+      "questionNumber": "26",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.83,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "6097.934",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.17,
+        "absoluteFrequency": 893,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 7991,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll und ganz zu"
         },
-        "relativeFrequency": 28.35,
         "validRelativeFrequency": 29.28,
+        "relativeFrequency": 28.35,
+        "absoluteFrequency": 7991,
         "value": "1"
       },
       {
-        "absoluteFrequency": 12374,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 43.91,
         "validRelativeFrequency": 45.34,
+        "relativeFrequency": 43.91,
+        "absoluteFrequency": 12374,
         "value": "2"
       },
       {
-        "absoluteFrequency": 5400,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 19.16,
         "validRelativeFrequency": 19.79,
+        "relativeFrequency": 19.16,
+        "absoluteFrequency": 5400,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1287,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.57,
         "validRelativeFrequency": 4.72,
+        "relativeFrequency": 4.57,
+        "absoluteFrequency": 1287,
         "value": "4"
       },
       {
-        "absoluteFrequency": 237,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft überhaupt nicht zu"
         },
-        "relativeFrequency": 0.84,
         "validRelativeFrequency": 0.87,
+        "relativeFrequency": 0.84,
+        "absoluteFrequency": 237,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 96.83,
     "totalValidAbsoluteFrequency": 27289,
-    "missings": [
-      {
-        "absoluteFrequency": 893,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.17,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "26",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\nIch erledige Aufgaben gründlich."
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 134,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "personality: thorough",
+    "de": "Persönlichkeit: gründlich"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

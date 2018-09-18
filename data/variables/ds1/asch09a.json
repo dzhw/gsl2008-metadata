@@ -1,149 +1,155 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schwerpunkt: abwechslungsreich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 38,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Falls Sie eine berufliche Schule besuchen:\r\nDer Unterricht in meinem Schwerpunktfach war…\r\nabwechslungsreich"
+      },
+      "questionNumber": "05",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 27.34,
     "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "3",
-      "meanDeviation": "2044.505",
+      "meanDeviation": 0,
+      "mode": "-988",
+      "highWhisker": 5,
+      "lowWhisker": -999,
+      "thirdQuartile": "1",
+      "firstQuartile": "-988",
+      "standardDeviation": null,
+      "median": "-988",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "-999",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 14.65,
+        "absoluteFrequency": 4128,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1879,
         "label": {
-          "en": null,
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 29,
+        "value": "-999"
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 67.85,
+        "relativeFrequency": 57.91,
+        "absoluteFrequency": 16321,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "totally applicable",
           "de": "trifft voll zu"
         },
+        "validRelativeFrequency": 7.81,
         "relativeFrequency": 6.67,
-        "validRelativeFrequency": 24.39,
+        "absoluteFrequency": 1879,
         "value": "1"
       },
       {
-        "absoluteFrequency": 3284,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 13.65,
         "relativeFrequency": 11.65,
-        "validRelativeFrequency": 42.63,
+        "absoluteFrequency": 3284,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1875,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 7.79,
         "relativeFrequency": 6.65,
-        "validRelativeFrequency": 24.34,
+        "absoluteFrequency": 1875,
         "value": "3"
       },
       {
-        "absoluteFrequency": 496,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 2.06,
         "relativeFrequency": 1.76,
-        "validRelativeFrequency": 6.44,
+        "absoluteFrequency": 496,
         "value": "4"
       },
       {
-        "absoluteFrequency": 170,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft gar nicht zu"
         },
+        "validRelativeFrequency": 0.71,
         "relativeFrequency": 0.6,
-        "validRelativeFrequency": 2.21,
+        "absoluteFrequency": 170,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 7704,
-    "missings": [
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.1,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 4128,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 14.65,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 16321,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 57.91,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 85.35,
+    "totalValidAbsoluteFrequency": 24054,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "05",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Falls Sie eine berufliche Schule besuchen:\nDer Unterricht in meinem Schwerpunktfach war…\nabwechslungsreich"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 38,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "main area: varied",
+    "de": "Schwerpunkt: abwechslungsreich"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

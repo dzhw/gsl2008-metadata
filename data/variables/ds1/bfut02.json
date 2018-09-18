@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Einschätzung: allg. Berufsaussichten nach beruflicher Ausbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-fut02",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 401,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie …\r\n… allgemein die Berufsaussichten für Absolventen eines beruflichen Ausbildungsweges ohne ein Studium ein?"
+      },
+      "questionNumber": "46",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.43,
     "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "3",
-      "meanDeviation": "1120.846",
-      "maximum": "5",
+      "meanDeviation": 0,
       "mode": "3",
-      "median": "3"
+      "highWhisker": 4.5,
+      "lowWhisker": 0.5,
+      "thirdQuartile": "3",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "-999",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 118,
         "label": {
-          "en": null,
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "validRelativeFrequency": 2.72,
+        "relativeFrequency": 0.57,
+        "absoluteFrequency": 161,
+        "value": "-999"
+      },
+      {
+        "label": {
+          "en": "very good",
           "de": "sehr gut"
         },
+        "validRelativeFrequency": 1.99,
         "relativeFrequency": 0.42,
-        "validRelativeFrequency": 2.05,
+        "absoluteFrequency": 118,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1564,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 26.42,
         "relativeFrequency": 5.55,
-        "validRelativeFrequency": 27.16,
+        "absoluteFrequency": 1564,
         "value": "2"
       },
       {
-        "absoluteFrequency": 3136,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 52.98,
         "relativeFrequency": 11.13,
-        "validRelativeFrequency": 54.46,
+        "absoluteFrequency": 3136,
         "value": "3"
       },
       {
-        "absoluteFrequency": 874,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 14.77,
         "relativeFrequency": 3.1,
-        "validRelativeFrequency": 15.18,
+        "absoluteFrequency": 874,
         "value": "4"
       },
       {
-        "absoluteFrequency": 66,
         "label": {
-          "en": null,
+          "en": "very poor",
           "de": "sehr schlecht"
         },
+        "validRelativeFrequency": 1.12,
         "relativeFrequency": 0.23,
-        "validRelativeFrequency": 1.15,
+        "absoluteFrequency": 66,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 5758,
-    "missings": [
-      {
-        "absoluteFrequency": 161,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.57,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.05,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalValidRelativeFrequency": 21,
+    "totalValidAbsoluteFrequency": 5919,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "46",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie …\n… allgemein die Berufsaussichten für Absolventen eines beruflichen Ausbildungsweges ohne ein Studium ein?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-fut02",
+  "surveyNumbers": [2],
+  "indexInDataSet": 401,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "assessment: overall postgraduate job prospects after vocational training",
+    "de": "Einschätzung: allg. Berufsaussichten nach beruflicher Ausbildung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Motiv MA: Status Student/in"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1189,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\r\nden Status als Student/in aufrechterhalten"
+      },
+      "questionNumber": "5.5",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.81,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "124.5384",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.32,
+        "absoluteFrequency": 89,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "absoluteFrequency": 1945,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 104,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr wichtig"
         },
-        "relativeFrequency": 0.37,
         "validRelativeFrequency": 6.35,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 104,
         "value": "1"
       },
       {
-        "absoluteFrequency": 196,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 0.7,
         "validRelativeFrequency": 11.97,
+        "relativeFrequency": 0.7,
+        "absoluteFrequency": 196,
         "value": "2"
       },
       {
-        "absoluteFrequency": 280,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 0.99,
         "validRelativeFrequency": 17.1,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 280,
         "value": "3"
       },
       {
-        "absoluteFrequency": 334,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.19,
         "validRelativeFrequency": 20.4,
+        "relativeFrequency": 1.19,
+        "absoluteFrequency": 334,
         "value": "4"
       },
       {
-        "absoluteFrequency": 723,
         "label": {
-          "en": null,
+          "en": "not important",
           "de": "unwichtig"
         },
-        "relativeFrequency": 2.57,
         "validRelativeFrequency": 44.17,
+        "relativeFrequency": 2.57,
+        "absoluteFrequency": 723,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 5.81,
     "totalValidAbsoluteFrequency": 1637,
-    "missings": [
-      {
-        "absoluteFrequency": 89,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.32,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1945,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.9,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\nden Status als Student/in aufrechterhalten"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1189,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motive for MA: student status",
+    "de": "Motiv MA: Status Student/in"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

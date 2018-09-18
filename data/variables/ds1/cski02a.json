@@ -1,180 +1,184 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Veränderung seit Schulzeit: sozial-kommunikativ"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 430,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Kein Mensch ist auf allen Gebieten gleich leistungsstark. In welchen der folgenden Bereiche…\r\n(b) haben sich diese seit der Schule verändert?\r\nim sozial-kommunikativen Bereich"
+      },
+      "questionNumber": "1.4",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.95,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4,
       "lowWhisker": -2,
-      "minimum": "-4",
       "thirdQuartile": "3",
-      "meanDeviation": "597.4878",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "4",
-      "mode": "2",
-      "median": "2"
+      "minimum": "-4",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 22,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 3,
         "label": {
-          "en": null,
+          "en": "worsened",
           "de": "verschlechtert"
         },
-        "relativeFrequency": 0.01,
         "validRelativeFrequency": 0.08,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
         "value": "-4"
       },
       {
-        "absoluteFrequency": 5,
         "label": {
           "en": null,
           "de": "-3"
         },
-        "relativeFrequency": 0.02,
         "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
         "value": "-3"
       },
       {
-        "absoluteFrequency": 35,
         "label": {
           "en": null,
           "de": "-2"
         },
-        "relativeFrequency": 0.12,
         "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 35,
         "value": "-2"
       },
       {
-        "absoluteFrequency": 60,
         "label": {
           "en": null,
           "de": "-1"
         },
-        "relativeFrequency": 0.21,
         "validRelativeFrequency": 1.64,
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 60,
         "value": "-1"
       },
       {
-        "absoluteFrequency": 658,
         "label": {
-          "en": null,
+          "en": "stayed the same",
           "de": "gleich geblieben"
         },
-        "relativeFrequency": 2.33,
         "validRelativeFrequency": 18.03,
+        "relativeFrequency": 2.33,
+        "absoluteFrequency": 658,
         "value": "0"
       },
       {
-        "absoluteFrequency": 534,
         "label": {
           "en": null,
           "de": "1"
         },
-        "relativeFrequency": 1.89,
         "validRelativeFrequency": 14.63,
+        "relativeFrequency": 1.89,
+        "absoluteFrequency": 534,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1069,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 3.79,
         "validRelativeFrequency": 29.3,
+        "relativeFrequency": 3.79,
+        "absoluteFrequency": 1069,
         "value": "2"
       },
       {
-        "absoluteFrequency": 847,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.01,
         "validRelativeFrequency": 23.21,
+        "relativeFrequency": 3.01,
+        "absoluteFrequency": 847,
         "value": "3"
       },
       {
-        "absoluteFrequency": 438,
         "label": {
-          "en": null,
+          "en": "improved",
           "de": "verbessert"
         },
-        "relativeFrequency": 1.55,
         "validRelativeFrequency": 12,
+        "relativeFrequency": 1.55,
+        "absoluteFrequency": 438,
         "value": "4"
       }
     ],
+    "totalValidRelativeFrequency": 12.95,
     "totalValidAbsoluteFrequency": 3649,
-    "missings": [
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.08,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Kein Mensch ist auf allen Gebieten gleich leistungsstark. In welchen der folgenden Bereiche…\n(b) haben sich diese seit der Schule verändert?\nim sozial-kommunikativen Bereich"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 430,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "change since school: social communication",
+    "de": "Veränderung seit Schulzeit: sozial-kommunikativ"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

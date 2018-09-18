@@ -1,150 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Tätigkeit nach Ausbildung: Angabe Zusatzqualifikation"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach der Ausbildung eine weitere Qualifizierung begonnen bzw. planen Sie dies?\r\nja, eine sonstige Zusatzqualifikation, und zwar:"
+      },
+      "questionNumber": "3.8",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.46,
+        "absoluteFrequency": 693,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.52,
+        "absoluteFrequency": 2684,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 62.59,
+        "relativeFrequency": 0.65,
+        "absoluteFrequency": 184,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "trainer’s certificate",
+          "de": "Ausbilderschein"
+        },
+        "validRelativeFrequency": 6.8,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 20,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "continuous/further training/course gen.",
+          "de": "Fort-/Weiterbildung/Lehrgang allg."
+        },
+        "validRelativeFrequency": 12.24,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "professional specialisation",
+          "de": "fachliche Spezialisierung"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 42,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "additional foreign language qualification",
+          "de": "fremdsprachliche Zusatzqualifikation"
+        },
+        "validRelativeFrequency": 1.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "sonstiges"
+        },
+        "validRelativeFrequency": 3.06,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 1.04,
+    "totalValidAbsoluteFrequency": 294,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 950,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zu einer Zusatzqualifikation in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on additional qualifications in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Angaben zu einer Zusatzqualifikation in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.39,
-    "statistics": {
-      "mode": "3"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": null,
-          "de": "Ausbilderschein"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 18.18,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "Fort-/Weiterbildung/Lehrgang allg."
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 32.73,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 42,
-        "label": {
-          "en": null,
-          "de": "fachliche Spezialisierung"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 38.18,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "fremdsprachliche Zusatzqualifikation"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.73,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "sonstiges"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 8.18,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 110,
-    "missings": [
-      {
-        "absoluteFrequency": 693,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 2.46,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2684,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 9.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 184,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.65,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "3.8",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie nach der Ausbildung eine weitere Qualifizierung begonnen bzw. planen Sie dies?\nja, eine sonstige Zusatzqualifikation, und zwar:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 950,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "activity after education: description of additional qualification",
+    "de": "Tätigkeit nach Ausbildung: Angabe Zusatzqualifikation"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

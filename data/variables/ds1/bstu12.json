@@ -1,140 +1,144 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Beabsichtigen Sie danach die Aufnahme eines Studiums?"
+      },
+      "questionNumber": "23",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "3",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "4",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 16.35,
+        "absoluteFrequency": 4607,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, definitely",
+          "de": "ja, auf jeden Fall"
+        },
+        "validRelativeFrequency": 17.57,
+        "relativeFrequency": 0.83,
+        "absoluteFrequency": 233,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, likely",
+          "de": "ja, wahrscheinlich"
+        },
+        "validRelativeFrequency": 21.79,
+        "relativeFrequency": 1.03,
+        "absoluteFrequency": 289,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "possibly",
+          "de": "eventuell"
+        },
+        "validRelativeFrequency": 29.49,
+        "relativeFrequency": 1.39,
+        "absoluteFrequency": 391,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no, unlikely",
+          "de": "nein, wahrscheinlich nicht"
+        },
+        "validRelativeFrequency": 26.7,
+        "relativeFrequency": 1.26,
+        "absoluteFrequency": 354,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no, definitely not",
+          "de": "nein, auf keinen Fall"
+        },
+        "validRelativeFrequency": 4.45,
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 59,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 4.71,
+    "totalValidAbsoluteFrequency": 1326,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 294,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "2nd qualification: intended degree course? (if working)",
+    "de": "2. Qualifikation: Studium beabsichtigt? (wenn berufstätig)"
+  },
   "scaleLevel": {
     "en": "ordinal",
     "de": "ordinal"
   },
-  "label": {
-    "en": null,
-    "de": "2. Qualifikation: Studium beabsichtigt? (wenn berufstätig)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 294,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 4.71,
-    "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "4",
-      "meanDeviation": "96.369",
-      "maximum": "5",
-      "mode": "3",
-      "median": "3"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 233,
-        "label": {
-          "en": null,
-          "de": "ja, auf jeden Fall"
-        },
-        "relativeFrequency": 0.83,
-        "validRelativeFrequency": 17.57,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 289,
-        "label": {
-          "en": null,
-          "de": "ja, wahrscheinlich"
-        },
-        "relativeFrequency": 1.03,
-        "validRelativeFrequency": 21.79,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 391,
-        "label": {
-          "en": null,
-          "de": "eventuell"
-        },
-        "relativeFrequency": 1.39,
-        "validRelativeFrequency": 29.49,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 354,
-        "label": {
-          "en": null,
-          "de": "nein, wahrscheinlich nicht"
-        },
-        "relativeFrequency": 1.26,
-        "validRelativeFrequency": 26.7,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": null,
-          "de": "nein, auf keinen Fall"
-        },
-        "relativeFrequency": 0.21,
-        "validRelativeFrequency": 4.45,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1326,
-    "missings": [
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 4607,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 16.35,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "23",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Beabsichtigen Sie danach die Aufnahme eines Studiums?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

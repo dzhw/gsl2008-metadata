@@ -1,131 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "anderer Werdegang (3.Nennung)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Würden Sie aus heutiger Sicht nach der Schule wieder den gleichen Ausbildungs- und Berufsweg wählen?\r\nnein, ich würde etwas anderes machen\r\nund zwar: (z.B. Studium, Berufsausbildung, …)"
+      },
+      "questionNumber": "1.5",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5.45,
+        "absoluteFrequency": 1537,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 99.77,
+        "relativeFrequency": 7.55,
+        "absoluteFrequency": 2129,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "first (further) (transitional job ) (e.g. abroad), then studies",
+          "de": "zunächst (weitere) Übergangstätigkeit (z. B. Ausland), dann Studium"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "vocational training (instead of degree)",
+          "de": "Ausbildung (statt Studium)"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": "other subject",
+          "de": "anderes Studienfach"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "33"
+      },
+      {
+        "label": {
+          "en": "emphasis on miscellaneous other details",
+          "de": "Betonung von sonstigen anderen Details"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "40"
+      }
+    ],
+    "totalValidRelativeFrequency": 7.57,
+    "totalValidAbsoluteFrequency": 2134,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 442,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Nennungen anderer Werdegänge in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The variable contains the openly recorded entries on other career paths in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Nennungen anderer Werdegänge in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.02,
-    "statistics": {
-      "mode": "15"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "zunächst (weitere) Übergangstätigkeit (z. B. Ausland), dann Studium"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 40,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Ausbildung (statt Studium)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 20,
-        "value": "27"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "anderes Studienfach"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 20,
-        "value": "33"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Betonung von sonstigen anderen Details"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 20,
-        "value": "40"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5,
-    "missings": [
-      {
-        "absoluteFrequency": 1537,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 5.45,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2129,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 7.55,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Würden Sie aus heutiger Sicht nach der Schule wieder den gleichen Ausbildungs- und Berufsweg wählen?\nnein, ich würde etwas anderes machen\nund zwar: (z.B. Studium, Berufsausbildung, …)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 442,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "other career path (3rd entry)",
+    "de": "anderer Werdegang (3.Nennung)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

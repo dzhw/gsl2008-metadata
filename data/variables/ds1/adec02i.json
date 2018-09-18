@@ -1,102 +1,115 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\r\nZugangsbeschränkungen (z.B. NC, Aufnahmeprüfungen) in dem von mir angestrebten Studienfach"
+      },
+      "questionNumber": "17",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.24,
+        "absoluteFrequency": 349,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 7.01,
+        "relativeFrequency": 6.92,
+        "absoluteFrequency": 1951,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 61.96,
+        "relativeFrequency": 61.19,
+        "absoluteFrequency": 17245,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 31.03,
+        "relativeFrequency": 30.65,
+        "absoluteFrequency": 8637,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.76,
+    "totalValidAbsoluteFrequency": 27833,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 92,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "difficulty: access restriction",
+    "de": "Schwierigkeit: Zugangsbeschränkung"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Schwierigkeit: Zugangsbeschränkung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 92,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 91.84,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 17245,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 61.19,
-        "validRelativeFrequency": 66.63,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 8637,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 30.65,
-        "validRelativeFrequency": 33.37,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 25882,
-    "missings": [
-      {
-        "absoluteFrequency": 349,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.24,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 1951,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 6.92,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\nZugangsbeschränkungen (z.B. NC, Aufnahmeprüfungen) in dem von mir angestrebten Studienfach"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

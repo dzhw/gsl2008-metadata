@@ -1,121 +1,134 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche drei Studienrichtungen kommen bzw. kamen für Sie persönlich am ehesten infrage?\r\nrechtswissenschaftliche Studienrichtung"
+      },
+      "questionNumber": "12",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 17.28,
+        "absoluteFrequency": 4871,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "validRelativeFrequency": 8.19,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 87,
+        "value": "-969"
+      },
+      {
+        "label": {
+          "en": "in 1st place",
+          "de": "an 1. Stelle"
+        },
+        "validRelativeFrequency": 19.68,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 209,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "in 2nd place",
+          "de": "an 2. Stelle"
+        },
+        "validRelativeFrequency": 33.71,
+        "relativeFrequency": 1.27,
+        "absoluteFrequency": 358,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "in 3rd place",
+          "de": "an 3. Stelle"
+        },
+        "validRelativeFrequency": 38.42,
+        "relativeFrequency": 1.45,
+        "absoluteFrequency": 408,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.77,
+    "totalValidAbsoluteFrequency": 1062,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 202,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "study orientation: legal",
+    "de": "Studienrichtung: rechtswissenschaftlich"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Studienrichtung: rechtswissenschaftlich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 202,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 3.46,
-    "statistics": {
-      "mode": "3"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 209,
-        "label": {
-          "en": null,
-          "de": "an 1. Stelle"
-        },
-        "relativeFrequency": 0.74,
-        "validRelativeFrequency": 21.44,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 358,
-        "label": {
-          "en": null,
-          "de": "an 2. Stelle"
-        },
-        "relativeFrequency": 1.27,
-        "validRelativeFrequency": 36.72,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 408,
-        "label": {
-          "en": null,
-          "de": "an 3. Stelle"
-        },
-        "relativeFrequency": 1.45,
-        "validRelativeFrequency": 41.85,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 975,
-    "missings": [
-      {
-        "absoluteFrequency": 4871,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 17.28,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 87,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.31,
-        "code": -969
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche drei Studienrichtungen kommen bzw. kamen für Sie persönlich am ehesten infrage?\nrechtswissenschaftliche Studienrichtung"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,160 +1,174 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "5. Tätigkeit: Hochschulart"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu215d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 9.34,
+        "absoluteFrequency": 2631,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 9.13,
+        "relativeFrequency": 0.34,
+        "absoluteFrequency": 95,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "no university study at one of the institutions (Uni or college of edu. or theological college …), but BA study",
+          "de": "kein Studium an Uni/PH/KunstHS/Theol.HS/FH/VerwFH, aber Studium an BA"
+        },
+        "validRelativeFrequency": 0.29,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "-944"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 61.54,
+        "relativeFrequency": 2.27,
+        "absoluteFrequency": 640,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "college of education",
+          "de": "Pädagogische Hochschulen"
+        },
+        "validRelativeFrequency": 0.77,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "theological college",
+          "de": "Theologische/Kirchliche Hochschulen"
+        },
+        "validRelativeFrequency": 0.1,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "art colleges",
+          "de": "Kunsthochschulen"
+        },
+        "validRelativeFrequency": 0.87,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 26.54,
+        "relativeFrequency": 0.98,
+        "absoluteFrequency": 276,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "colleges of public administration",
+          "de": "Verwaltungsfachhochschulen"
+        },
+        "validRelativeFrequency": 0.77,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.69,
+    "totalValidAbsoluteFrequency": 1040,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 589,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Hochschulart wurde aus den codierten Hochschulangaben generiert. Für die Zuordnung von Hochschulen zu der Hochschulart wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The type of higher education institution was generated from the coded data on institutions of higher education. The Destatis key directory for student and examination statistics (winter semester 2007/08) (see cl-destatis-studienfach-2008) was used for the classification. In the official statistics, missing universities were added and allocated from the project.",
+      "de": "Die Hochschulart wurde aus den codierten Hochschulangaben generiert. Für die Zuordnung von Hochschulen zu der Hochschulart wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 3.34,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 640,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 2.27,
-        "validRelativeFrequency": 67.94,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Pädagogische Hochschulen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.85,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Theologische/Kirchliche Hochschulen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.11,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "Kunsthochschulen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.96,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 276,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 0.98,
-        "validRelativeFrequency": 29.3,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachhochschulen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.85,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 942,
-    "missings": [
-      {
-        "absoluteFrequency": 2631,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 9.34,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 95,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.34,
-        "code": -988
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "kein Studium an Uni/PH/KunstHS/Theol.HS/FH/VerwFH, aber Studium an BA"
-        },
-        "relativeFrequency": 0.01,
-        "code": -944
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu215d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 589,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "5th activity: type of higher education institution",
+    "de": "5. Tätigkeit: Hochschulart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

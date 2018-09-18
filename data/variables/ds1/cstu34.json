@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Studium künftig beabsichtigt?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Beabsichtigen Sie, künftig ein Studium aufzunehmen"
+      },
+      "questionNumber": "4.17",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "4",
+      "highWhisker": 5,
+      "lowWhisker": 1.5,
+      "thirdQuartile": "4",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.94,
+        "absoluteFrequency": 3083,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, absolutely",
+          "de": "ja, auf jeden Fall"
+        },
+        "validRelativeFrequency": 10.88,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 64,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, likely",
+          "de": "ja, wahrscheinlich"
+        },
+        "validRelativeFrequency": 10.37,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 61,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "possibly",
+          "de": "eventuell"
+        },
+        "validRelativeFrequency": 19.05,
+        "relativeFrequency": 0.4,
+        "absoluteFrequency": 112,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no, unlikely",
+          "de": "nein, wahrscheinlich nicht"
+        },
+        "validRelativeFrequency": 44.39,
+        "relativeFrequency": 0.93,
+        "absoluteFrequency": 261,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no, definitely not",
+          "de": "nein, auf keinen Fall"
+        },
+        "validRelativeFrequency": 15.31,
+        "relativeFrequency": 0.32,
+        "absoluteFrequency": 90,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 2.09,
+    "totalValidAbsoluteFrequency": 588,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1154,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Der Angabe zum Wunsch ein Erst-Studium aufzunehmen wurde aus der gemeinsam erfassten Angabe zu einem künftigen Studienwunsch (Erst-/weitere Studium) generiert. Da dies der Abfrage im Fragebogen/der Originalangabe der Befragten entspricht, wurde im Variablennamen auf den Zusatz _g verzichtet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The data on the desire to take on a first course of study was generated from the collectively gathered data on the desire for future studies (initial/further studies). As this corresponds to the request in the questionnaire/original data from respondents, the suffix ‘_g’ was eliminated from the variable names.",
+      "de": "Der Angabe zum Wunsch ein Erst-Studium aufzunehmen wurde aus der gemeinsam erfassten Angabe zu einem künftigen Studienwunsch (Erst-/weitere Studium) generiert. Da dies der Abfrage im Fragebogen/der Originalangabe der Befragten entspricht, wurde im Variablennamen auf den Zusatz _g verzichtet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 2.09,
-    "statistics": {
-      "firstQuartile": "3",
-      "highWhisker": 5,
-      "lowWhisker": 1.5,
-      "minimum": "1",
-      "thirdQuartile": "4",
-      "meanDeviation": "38.5476",
-      "maximum": "5",
-      "mode": "4",
-      "median": "4"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 64,
-        "label": {
-          "en": null,
-          "de": "ja, auf jeden Fall"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 10.88,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 61,
-        "label": {
-          "en": null,
-          "de": "ja, wahrscheinlich"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 10.37,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 112,
-        "label": {
-          "en": null,
-          "de": "eventuell"
-        },
-        "relativeFrequency": 0.4,
-        "validRelativeFrequency": 19.05,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 261,
-        "label": {
-          "en": null,
-          "de": "nein, wahrscheinlich nicht"
-        },
-        "relativeFrequency": 0.93,
-        "validRelativeFrequency": 44.39,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 90,
-        "label": {
-          "en": null,
-          "de": "nein, auf keinen Fall"
-        },
-        "relativeFrequency": 0.32,
-        "validRelativeFrequency": 15.31,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 588,
-    "missings": [
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3083,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.94,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Beabsichtigen Sie, künftig ein Studium aufzunehmen"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1154,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "further studies planned?",
+    "de": "Studium künftig beabsichtigt?"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

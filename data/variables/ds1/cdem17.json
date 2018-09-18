@@ -1,112 +1,124 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ihr Familienstand?"
+      },
+      "questionNumber": "8.3",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 32,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "married",
+          "de": "verheiratet"
+        },
+        "validRelativeFrequency": 4.09,
+        "relativeFrequency": 0.53,
+        "absoluteFrequency": 149,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "in a permanent relationship",
+          "de": "in fester Beziehung"
+        },
+        "validRelativeFrequency": 57.46,
+        "relativeFrequency": 7.42,
+        "absoluteFrequency": 2091,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "not in a permanent relationship",
+          "de": "ohne feste Beziehung"
+        },
+        "validRelativeFrequency": 38.44,
+        "relativeFrequency": 4.96,
+        "absoluteFrequency": 1399,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 12.91,
+    "totalValidAbsoluteFrequency": 3639,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1272,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "marital status",
+    "de": "Familienstand"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Familienstand"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1272,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 12.91,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 149,
-        "label": {
-          "en": null,
-          "de": "verheiratet"
-        },
-        "relativeFrequency": 0.53,
-        "validRelativeFrequency": 4.09,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2091,
-        "label": {
-          "en": null,
-          "de": "in fester Beziehung"
-        },
-        "relativeFrequency": 7.42,
-        "validRelativeFrequency": 57.46,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1399,
-        "label": {
-          "en": null,
-          "de": "ohne feste Beziehung"
-        },
-        "relativeFrequency": 4.96,
-        "validRelativeFrequency": 38.44,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3639,
-    "missings": [
-      {
-        "absoluteFrequency": 32,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.11,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "8.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ihr Familienstand?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: persönliche Beratung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 125,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInformationsangebote\r\npersönliche Beratung"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 51.93,
     "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
-      "minimum": "1",
+      "meanDeviation": 2.9652,
+      "mode": "-988",
+      "highWhisker": 5,
+      "lowWhisker": -988,
       "thirdQuartile": "3",
-      "meanDeviation": "2223.9",
+      "firstQuartile": "-988",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "-988",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.47,
+        "absoluteFrequency": 1260,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 2602,
         "label": {
-          "en": null,
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 38.91,
+        "relativeFrequency": 33.08,
+        "absoluteFrequency": 9322,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
+        "validRelativeFrequency": 10.86,
         "relativeFrequency": 9.23,
-        "validRelativeFrequency": 17.78,
+        "absoluteFrequency": 2602,
         "value": "1"
       },
       {
-        "absoluteFrequency": 4994,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 20.85,
         "relativeFrequency": 17.72,
-        "validRelativeFrequency": 34.13,
+        "absoluteFrequency": 4994,
         "value": "2"
       },
       {
-        "absoluteFrequency": 4105,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 17.14,
         "relativeFrequency": 14.57,
-        "validRelativeFrequency": 28.05,
+        "absoluteFrequency": 4105,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1831,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 7.64,
         "relativeFrequency": 6.5,
-        "validRelativeFrequency": 12.51,
+        "absoluteFrequency": 1831,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1102,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
+        "validRelativeFrequency": 4.6,
         "relativeFrequency": 3.91,
-        "validRelativeFrequency": 7.53,
+        "absoluteFrequency": 1102,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 14634,
-    "missings": [
-      {
-        "absoluteFrequency": 1260,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.47,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 9322,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 33.08,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 85,
+    "totalValidAbsoluteFrequency": 23956,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInformationsangebote\npersönliche Beratung"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 125,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: personal consultation",
+    "de": "Informationsquelle Zukunft: persönliche Beratung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Einschätzung: pers. Berufsaussichten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-fut03",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 402,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie …\r\n… Ihre persönlichen Berufsaussichten ein?"
+      },
+      "questionNumber": "46",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 19.91,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 0,
+      "mode": "2",
       "highWhisker": 2,
       "lowWhisker": 2,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "1438.122",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "-999",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 12,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1168,
         "label": {
-          "en": null,
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "validRelativeFrequency": 5.25,
+        "relativeFrequency": 1.1,
+        "absoluteFrequency": 311,
+        "value": "-999"
+      },
+      {
+        "label": {
+          "en": "very good",
           "de": "sehr gut"
         },
+        "validRelativeFrequency": 19.73,
         "relativeFrequency": 4.14,
-        "validRelativeFrequency": 20.82,
+        "absoluteFrequency": 1168,
         "value": "1"
       },
       {
-        "absoluteFrequency": 3159,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 53.35,
         "relativeFrequency": 11.21,
-        "validRelativeFrequency": 56.31,
+        "absoluteFrequency": 3159,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1109,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 18.73,
         "relativeFrequency": 3.94,
-        "validRelativeFrequency": 19.77,
+        "absoluteFrequency": 1109,
         "value": "3"
       },
       {
-        "absoluteFrequency": 139,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 2.35,
         "relativeFrequency": 0.49,
-        "validRelativeFrequency": 2.48,
+        "absoluteFrequency": 139,
         "value": "4"
       },
       {
-        "absoluteFrequency": 35,
         "label": {
-          "en": null,
+          "en": "very poor",
           "de": "sehr schlecht"
         },
+        "validRelativeFrequency": 0.59,
         "relativeFrequency": 0.12,
-        "validRelativeFrequency": 0.62,
+        "absoluteFrequency": 35,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 5610,
-    "missings": [
-      {
-        "absoluteFrequency": 311,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 1.1,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.04,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalValidRelativeFrequency": 21.01,
+    "totalValidAbsoluteFrequency": 5921,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "46",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie …\n… Ihre persönlichen Berufsaussichten ein?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-fut03",
+  "surveyNumbers": [2],
+  "indexInDataSet": 402,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "assessment: personal job prospects",
+    "de": "Einschätzung: pers. Berufsaussichten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

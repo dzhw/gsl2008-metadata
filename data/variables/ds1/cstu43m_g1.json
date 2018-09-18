@@ -1,161 +1,173 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Motiv MA: Nennung sonstiger Motive"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\r\nSonstiges, und zwar:"
+      },
+      "questionNumber": "5.5",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "20",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5.86,
+        "absoluteFrequency": 1652,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "absoluteFrequency": 1945,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "required for teaching profession",
+          "de": "notwendig für Lehrerberuf"
+        },
+        "validRelativeFrequency": 4.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "too low acceptance of BA degree",
+          "de": "zu geringe Akzeptanz des B.A.-Abschlusses"
+        },
+        "validRelativeFrequency": 12.16,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "requirement for promotional work",
+          "de": "Voraussetzung für Promotion"
+        },
+        "validRelativeFrequency": 9.46,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "higher regard",
+          "de": "höheres Ansehen"
+        },
+        "validRelativeFrequency": 8.11,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "higher income",
+          "de": "höheres Einkommen"
+        },
+        "validRelativeFrequency": 16.22,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 12,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "period of stay abroad",
+          "de": "Auslandsaufenthalt"
+        },
+        "validRelativeFrequency": 10.81,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "sonstiges"
+        },
+        "validRelativeFrequency": 39.19,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 29,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.26,
+    "totalValidAbsoluteFrequency": 74,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1192,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten sonstiger genannter Motive für ein Masterstudium in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on so-called reasons for taking on a master’s degree in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten sonstiger genannter Motive für ein Masterstudium in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.26,
-    "statistics": {
-      "mode": "20"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "notwendig für Lehrerberuf"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 4.05,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "zu geringe Akzeptanz des B.A.-Abschlusses"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 12.16,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Voraussetzung für Promotion"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 9.46,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "höheres Ansehen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 8.11,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": null,
-          "de": "höheres Einkommen"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 16.22,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Auslandsaufenthalt"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 10.81,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": null,
-          "de": "sonstiges"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 39.19,
-        "value": "20"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 74,
-    "missings": [
-      {
-        "absoluteFrequency": 1652,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 5.86,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1945,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.9,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\nSonstiges, und zwar:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1192,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motive for MA: name other reasons",
+    "de": "Motiv MA: Nennung sonstiger Motive"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

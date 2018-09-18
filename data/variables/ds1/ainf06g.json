@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: Hochschulranking"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 129,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInformationsangebote\r\nHochschulrankings"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 27.54,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 0,
+      "mode": "-988",
       "highWhisker": 5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "4",
-      "meanDeviation": "775.3998",
+      "lowWhisker": -988,
+      "thirdQuartile": "2",
+      "firstQuartile": "-988",
+      "standardDeviation": null,
+      "median": "-988",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "-988",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5.46,
+        "absoluteFrequency": 1540,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 695,
         "label": {
-          "en": null,
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 67.22,
+        "relativeFrequency": 56.47,
+        "absoluteFrequency": 15914,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
+        "validRelativeFrequency": 2.94,
         "relativeFrequency": 2.47,
-        "validRelativeFrequency": 8.95,
+        "absoluteFrequency": 695,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1936,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 8.18,
         "relativeFrequency": 6.87,
-        "validRelativeFrequency": 24.94,
+        "absoluteFrequency": 1936,
         "value": "2"
       },
       {
-        "absoluteFrequency": 2459,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 10.39,
         "relativeFrequency": 8.73,
-        "validRelativeFrequency": 31.68,
+        "absoluteFrequency": 2459,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1413,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 5.97,
         "relativeFrequency": 5.01,
-        "validRelativeFrequency": 18.2,
+        "absoluteFrequency": 1413,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1259,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
+        "validRelativeFrequency": 5.32,
         "relativeFrequency": 4.47,
-        "validRelativeFrequency": 16.22,
+        "absoluteFrequency": 1259,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 7762,
-    "missings": [
-      {
-        "absoluteFrequency": 1540,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 5.46,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 15914,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 56.47,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 84.01,
+    "totalValidAbsoluteFrequency": 23676,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInformationsangebote\nHochschulrankings"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 129,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: higher education institution ranking",
+    "de": "Informationsquelle Zukunft: Hochschulranking"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

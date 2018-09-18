@@ -1,122 +1,134 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach dem Abitur/der Fachhochschulreife eine berufliche Ausbildung aufgenommen?\r\nnein, aber ich werde demnächst eine Ausbildung aufnehmen\r\n(bitte zutreffende Ziffer angeben)"
+      },
+      "questionNumber": "3.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.97,
+        "absoluteFrequency": 3656,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, vocational training/apprenticeship",
+          "de": "ja, betriebliche Ausbildung/Lehre"
+        },
+        "validRelativeFrequency": 40,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, at a vocational school/school of public heath",
+          "de": "ja, an Berufsfachschule/Schule des Gesundheitswesens"
+        },
+        "validRelativeFrequency": 46.67,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "yes, as part of a dual studies programme",
+          "de": "ja, im Rahmen eines dualen Studiums"
+        },
+        "validRelativeFrequency": 6.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "yes, at a professional academy",
+          "de": "ja, an Fachakademie"
+        },
+        "validRelativeFrequency": 6.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.05,
+    "totalValidAbsoluteFrequency": 15,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 927,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "training started (starting training in the near future)",
+    "de": "Ausbildung begonnen (werde demnächst Ausbildung beginnen)"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Ausbildung begonnen (werde demnächst Ausbildung beginnen)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 927,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.05,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "ja, betriebliche Ausbildung/Lehre"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 40,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "ja, an Berufsfachschule/Schule des Gesundheitswesens"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 46.67,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "ja, im Rahmen eines dualen Studiums"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 6.67,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "ja, an Fachakademie"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 6.67,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 15,
-    "missings": [
-      {
-        "absoluteFrequency": 3656,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.97,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "3.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie nach dem Abitur/der Fachhochschulreife eine berufliche Ausbildung aufgenommen?\nnein, aber ich werde demnächst eine Ausbildung aufnehmen\n(bitte zutreffende Ziffer angeben)"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

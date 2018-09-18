@@ -1,124 +1,136 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schulart (ermittelt und aggregiert)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-asys03",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "grammar school",
+          "de": "Gymnasium"
+        },
+        "validRelativeFrequency": 50.01,
+        "relativeFrequency": 50.01,
+        "absoluteFrequency": 14095,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "comprehensive school/Waldorf School",
+          "de": "Gesamtschule/Waldorfschule"
+        },
+        "validRelativeFrequency": 5.1,
+        "relativeFrequency": 5.1,
+        "absoluteFrequency": 1438,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "specialised grammar school",
+          "de": "Fachgymnasium"
+        },
+        "validRelativeFrequency": 12.26,
+        "relativeFrequency": 12.26,
+        "absoluteFrequency": 3454,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "technical college",
+          "de": "Fachoberschule"
+        },
+        "validRelativeFrequency": 17.41,
+        "relativeFrequency": 17.41,
+        "absoluteFrequency": 4907,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "vocational school",
+          "de": "Berufsfachschule"
+        },
+        "validRelativeFrequency": 6.68,
+        "relativeFrequency": 6.68,
+        "absoluteFrequency": 1882,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "evening school/college",
+          "de": "Abendgymnasium/Kolleg"
+        },
+        "validRelativeFrequency": 2.82,
+        "relativeFrequency": 2.82,
+        "absoluteFrequency": 795,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "technical institute/professional academy",
+          "de": "Fachschule/-akademie"
+        },
+        "validRelativeFrequency": 5.72,
+        "relativeFrequency": 5.72,
+        "absoluteFrequency": 1611,
+        "value": "15"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 28182,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 7,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen, die anhand einer projekteigenen Codierung (vgl. cl-dzhw-6) generiert wurden, wurden von neun zu sieben Schulformen aggregiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated as part of the anonymisation. The types of school, which were generated using a project-specific encoding (see cl-dzhw-6), were aggregated into two school types.",
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen, die anhand einer projekteigenen Codierung (vgl. cl-dzhw-6) generiert wurden, wurden von neun zu sieben Schulformen aggregiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 100,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 14095,
-        "label": {
-          "en": null,
-          "de": "Gymnasium"
-        },
-        "relativeFrequency": 50.01,
-        "validRelativeFrequency": 50.01,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1438,
-        "label": {
-          "en": null,
-          "de": "Gesamtschule/Waldorfschule"
-        },
-        "relativeFrequency": 5.1,
-        "validRelativeFrequency": 5.1,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3454,
-        "label": {
-          "en": null,
-          "de": "Fachgymnasium"
-        },
-        "relativeFrequency": 12.26,
-        "validRelativeFrequency": 12.26,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 4907,
-        "label": {
-          "en": null,
-          "de": "Fachoberschule"
-        },
-        "relativeFrequency": 17.41,
-        "validRelativeFrequency": 17.41,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1882,
-        "label": {
-          "en": null,
-          "de": "Berufsfachschule"
-        },
-        "relativeFrequency": 6.68,
-        "validRelativeFrequency": 6.68,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 795,
-        "label": {
-          "en": null,
-          "de": "Abendgymnasium/Kolleg"
-        },
-        "relativeFrequency": 2.82,
-        "validRelativeFrequency": 2.82,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 1611,
-        "label": {
-          "en": null,
-          "de": "Fachschule/-akademie"
-        },
-        "relativeFrequency": 5.72,
-        "validRelativeFrequency": 5.72,
-        "value": "15"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 28182,
-    "missings": null
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-asys03",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 7,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of school (identified + aggregated)",
+    "de": "Schulart (ermittelt und aggregiert)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

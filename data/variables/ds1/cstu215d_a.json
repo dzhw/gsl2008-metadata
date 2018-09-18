@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "5. Tätigkeit: Hochschule/Berufsakademie"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu215d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\r\nStudium\r\nName und Ort der Hochschule/Berufsakademie\r\n(z. B. \"Uni Köln\", \"FH Merseburg\" oder \"BA Mosbach\")"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 585,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/2008) verwendet (vgl. cl-destatis-hochschule-2008). Die Codes einiger ehemaliger Hochschulen wurden aus älteren Verzeichnissen ergänzt, wenn die Befragten diese angaben. Für die Hochschulen im Ausland wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on institutions of higher education in coded form. The Destatis key directory for student and examination statistics (winter semester 2007/2008) (see cl-destatis-hochschule-2008) was used as a code list. The codes of some of the former universities were added from older lists if the respondents entered these. A project-specific code list (see cl-dzhw-9) was used for the foreign institutions of higher education.",
+      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/2008) verwendet (vgl. cl-destatis-hochschule-2008). Die Codes einiger ehemaliger Hochschulen wurden aus älteren Verzeichnissen ergänzt, wenn die Befragten diese angaben. Für die Hochschulen im Ausland wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 3.69,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 1040,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nStudium\nName und Ort der Hochschule/Berufsakademie\n(z. B. \"Uni Köln\", \"FH Merseburg\" oder \"BA Mosbach\")"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu215d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 585,
+  "accessWays": ["not-accessible"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "5th activity: institute of higher education/vocational academy",
+    "de": "5. Tätigkeit: Hochschule/Berufsakademie"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

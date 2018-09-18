@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Motiv MA: Zeit zur Berufsfindung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1183,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\r\nZeit für die Berufsfindung gewinnen"
+      },
+      "questionNumber": "5.5",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.81,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "44.478",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 88,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "absoluteFrequency": 1945,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 231,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr wichtig"
         },
-        "relativeFrequency": 0.82,
         "validRelativeFrequency": 14.1,
+        "relativeFrequency": 0.82,
+        "absoluteFrequency": 231,
         "value": "1"
       },
       {
-        "absoluteFrequency": 318,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 1.13,
         "validRelativeFrequency": 19.41,
+        "relativeFrequency": 1.13,
+        "absoluteFrequency": 318,
         "value": "2"
       },
       {
-        "absoluteFrequency": 337,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 1.2,
         "validRelativeFrequency": 20.57,
+        "relativeFrequency": 1.2,
+        "absoluteFrequency": 337,
         "value": "3"
       },
       {
-        "absoluteFrequency": 367,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.3,
         "validRelativeFrequency": 22.41,
+        "relativeFrequency": 1.3,
+        "absoluteFrequency": 367,
         "value": "4"
       },
       {
-        "absoluteFrequency": 385,
         "label": {
-          "en": null,
+          "en": "not important",
           "de": "unwichtig"
         },
-        "relativeFrequency": 1.37,
         "validRelativeFrequency": 23.5,
+        "relativeFrequency": 1.37,
+        "absoluteFrequency": 385,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 5.81,
     "totalValidAbsoluteFrequency": 1638,
-    "missings": [
-      {
-        "absoluteFrequency": 88,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.31,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1945,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.9,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\nZeit für die Berufsfindung gewinnen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1183,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motive for MA: time to look for work",
+    "de": "Motiv MA: Zeit zur Berufsfindung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

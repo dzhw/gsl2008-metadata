@@ -1,113 +1,125 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "9. Tätigkeit: Beruf Erwerbstätigkeit (KldB-1992-Berufsklasse) (4-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cjob049",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "7550",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13,
+        "absoluteFrequency": 3665,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Foresters (forestry workers), general",
+          "de": "Forstwirt(e/innen) (Waldfacharbeiter/innen), allgemein"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "621"
+      },
+      {
+        "label": {
+          "en": "Engineers in technical healthcare and environmental protection",
+          "de": "Ingenieur(e/innen) im technischen Gesundheitswesen und Umweltschutz"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6083"
+      },
+      {
+        "label": {
+          "en": "Marketing, sales professionals, generally",
+          "de": "Marketing-, Absatzfachleute, allgemein"
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "7550"
+      },
+      {
+        "label": {
+          "en": "Educators without further specification",
+          "de": "Erzieher/innen o.n.A."
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8630"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.02,
+    "totalValidAbsoluteFrequency": 6,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 681,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Berufsangaben einer Erwerbstätigkeit in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on employment in coded form. The 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992) was used as a code list.",
+      "de": "Diese Variable enthält die offen erfassten Berufsangaben einer Erwerbstätigkeit in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.02,
-    "statistics": {
-      "mode": "7550"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Forstwirt(e/innen) (Waldfacharbeiter/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "621"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Ingenieur(e/innen) im technischen Gesundheitswesen und Umweltschutz"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "6083"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Marketing-, Absatzfachleute, allgemein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 50,
-        "value": "7550"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Erzieher/innen o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "8630"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 6,
-    "missings": [
-      {
-        "absoluteFrequency": 3665,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cjob049",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 681,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "9th activity: occupation gainf. activ. (Ger. Class. of Occ. 1992) (4-dig.)",
+    "de": "9. Tätigkeit: Beruf Erwerbstätigkeit (KldB-1992-Berufsklasse) (4-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

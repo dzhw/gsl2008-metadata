@@ -1,131 +1,135 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Falls Sie für die Zeit nach der Schule über die Aufnahme einer Berufsausbildung (z.B. Lehre) nachdenken, wie konkret sind diese Überlegungen?"
+      },
+      "questionNumber": "15",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "5",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "thirdQuartile": "5",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.46,
+        "absoluteFrequency": 2948,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, certain",
+          "de": "ja, sicher"
+        },
+        "validRelativeFrequency": 16.71,
+        "relativeFrequency": 14.96,
+        "absoluteFrequency": 4216,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, likely",
+          "de": "ja, wahrscheinlich"
+        },
+        "validRelativeFrequency": 11.73,
+        "relativeFrequency": 10.5,
+        "absoluteFrequency": 2959,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "possibly",
+          "de": "eventuell"
+        },
+        "validRelativeFrequency": 16.33,
+        "relativeFrequency": 14.62,
+        "absoluteFrequency": 4121,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no, unlikely",
+          "de": "nein, wahrscheinlich nicht"
+        },
+        "validRelativeFrequency": 26.05,
+        "relativeFrequency": 23.32,
+        "absoluteFrequency": 6573,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no way",
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 29.19,
+        "relativeFrequency": 26.13,
+        "absoluteFrequency": 7365,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 89.54,
+    "totalValidAbsoluteFrequency": 25234,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 82,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "intended education?",
+    "de": "Ausbildung beabsichtigt?"
+  },
   "scaleLevel": {
     "en": "ordinal",
     "de": "ordinal"
   },
-  "label": {
-    "en": null,
-    "de": "Ausbildung beabsichtigt?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 82,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 89.54,
-    "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "5",
-      "meanDeviation": "1863.628",
-      "maximum": "5",
-      "mode": "5",
-      "median": "4"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4216,
-        "label": {
-          "en": null,
-          "de": "ja, sicher"
-        },
-        "relativeFrequency": 14.96,
-        "validRelativeFrequency": 16.71,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2959,
-        "label": {
-          "en": null,
-          "de": "ja, wahrscheinlich"
-        },
-        "relativeFrequency": 10.5,
-        "validRelativeFrequency": 11.73,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 4121,
-        "label": {
-          "en": null,
-          "de": "eventuell"
-        },
-        "relativeFrequency": 14.62,
-        "validRelativeFrequency": 16.33,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 6573,
-        "label": {
-          "en": null,
-          "de": "nein, wahrscheinlich nicht"
-        },
-        "relativeFrequency": 23.32,
-        "validRelativeFrequency": 26.05,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 7365,
-        "label": {
-          "en": null,
-          "de": "auf keinen Fall"
-        },
-        "relativeFrequency": 26.13,
-        "validRelativeFrequency": 29.19,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 25234,
-    "missings": [
-      {
-        "absoluteFrequency": 2948,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 10.46,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "15",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Falls Sie für die Zeit nach der Schule über die Aufnahme einer Berufsausbildung (z.B. Lehre) nachdenken, wie konkret sind diese Überlegungen?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

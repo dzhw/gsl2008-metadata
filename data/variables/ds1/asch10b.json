@@ -1,93 +1,105 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Aussagen zur Bedeutung der Hochschulreife treffen auf Sie persönlich am meisten zu?\r\nDie Hochschulreife ist für mich vor allem als unerlässliche Voraussetzung für die Aufnahme eines Studiums wichtig."
+      },
+      "questionNumber": "07",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 7.65,
+        "absoluteFrequency": 2156,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 43.64,
+        "relativeFrequency": 40.3,
+        "absoluteFrequency": 11357,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 56.36,
+        "relativeFrequency": 52.05,
+        "absoluteFrequency": 14669,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 92.35,
+    "totalValidAbsoluteFrequency": 26026,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 54,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification: requirement for degree course",
+    "de": "Hochschulreife: Voraussetzung für Studium"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Hochschulreife: Voraussetzung für Studium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 54,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 92.35,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 11357,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 40.3,
-        "validRelativeFrequency": 43.64,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 14669,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 52.05,
-        "validRelativeFrequency": 56.36,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 26026,
-    "missings": [
-      {
-        "absoluteFrequency": 2156,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 7.65,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "07",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Aussagen zur Bedeutung der Hochschulreife treffen auf Sie persönlich am meisten zu?\nDie Hochschulreife ist für mich vor allem als unerlässliche Voraussetzung für die Aufnahme eines Studiums wichtig."
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

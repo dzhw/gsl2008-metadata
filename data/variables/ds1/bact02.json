@@ -1,142 +1,154 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?"
+      },
+      "questionNumber": "18",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 13.75,
+        "absoluteFrequency": 3874,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "degree course",
+          "de": "Studium"
+        },
+        "validRelativeFrequency": 70.86,
+        "relativeFrequency": 5.18,
+        "absoluteFrequency": 1459,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "vocational training",
+          "de": "berufliche Ausbildung"
+        },
+        "validRelativeFrequency": 12.97,
+        "relativeFrequency": 0.95,
+        "absoluteFrequency": 267,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "occupation",
+          "de": "Berufstätigkeit"
+        },
+        "validRelativeFrequency": 9.03,
+        "relativeFrequency": 0.66,
+        "absoluteFrequency": 186,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "other activity",
+          "de": "sonstige Tätigkeit"
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "not decided yet",
+          "de": "noch nicht entschieden"
+        },
+        "validRelativeFrequency": 5.44,
+        "relativeFrequency": 0.4,
+        "absoluteFrequency": 112,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "still no idea",
+          "de": "noch keine Vorstellung"
+        },
+        "validRelativeFrequency": 1.51,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 31,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 7.31,
+    "totalValidAbsoluteFrequency": 2059,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 243,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "chosen post-school career path",
+    "de": "gewählter nachschulischer Werdegang"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "gewählter nachschulischer Werdegang"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 243,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 7.31,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1459,
-        "label": {
-          "en": null,
-          "de": "Studium"
-        },
-        "relativeFrequency": 5.18,
-        "validRelativeFrequency": 70.86,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 267,
-        "label": {
-          "en": null,
-          "de": "berufliche Ausbildung"
-        },
-        "relativeFrequency": 0.95,
-        "validRelativeFrequency": 12.97,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 186,
-        "label": {
-          "en": null,
-          "de": "Berufstätigkeit"
-        },
-        "relativeFrequency": 0.66,
-        "validRelativeFrequency": 9.03,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "sonstige Tätigkeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.19,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 112,
-        "label": {
-          "en": null,
-          "de": "noch nicht entschieden"
-        },
-        "relativeFrequency": 0.4,
-        "validRelativeFrequency": 5.44,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 31,
-        "label": {
-          "en": null,
-          "de": "noch keine Vorstellung"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 1.51,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2059,
-    "missings": [
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3874,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 13.75,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

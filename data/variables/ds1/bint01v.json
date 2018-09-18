@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Interessenbereich: Versorgung von Kranken/Verletzten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 239,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\r\nsich um Kranke bzw. Verletzte kümmern"
+      },
+      "questionNumber": "16",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.99,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "444.78",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 18,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 724,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 2.57,
         "validRelativeFrequency": 12.24,
+        "relativeFrequency": 2.57,
+        "absoluteFrequency": 724,
         "value": "1"
       },
       {
-        "absoluteFrequency": 947,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 3.36,
         "validRelativeFrequency": 16.01,
+        "relativeFrequency": 3.36,
+        "absoluteFrequency": 947,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1361,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 4.83,
         "validRelativeFrequency": 23.01,
+        "relativeFrequency": 4.83,
+        "absoluteFrequency": 1361,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1636,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 5.81,
         "validRelativeFrequency": 27.66,
+        "relativeFrequency": 5.81,
+        "absoluteFrequency": 1636,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1247,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 4.42,
         "validRelativeFrequency": 21.08,
+        "relativeFrequency": 4.42,
+        "absoluteFrequency": 1247,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.99,
     "totalValidAbsoluteFrequency": 5915,
-    "missings": [
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.06,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\nsich um Kranke bzw. Verletzte kümmern"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 239,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "area of interest: care for sick/injured people",
+    "de": "Interessenbereich: Versorgung von Kranken/Verletzten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

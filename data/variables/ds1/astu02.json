@@ -1,141 +1,154 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Art von Studium käme am ehesten für Sie in Frage? Ein Studium an einer…"
+      },
+      "questionNumber": "13",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.32,
+        "absoluteFrequency": 371,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.59,
+        "absoluteFrequency": 5803,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "invalid multiple answer",
+          "de": "ungültige Mehrfachnennung"
+        },
+        "validRelativeFrequency": 2.2,
+        "relativeFrequency": 1.72,
+        "absoluteFrequency": 484,
+        "value": "-965"
+      },
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "FH"
+        },
+        "validRelativeFrequency": 27.71,
+        "relativeFrequency": 21.64,
+        "absoluteFrequency": 6098,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "University (incl. art/music college/teacher training college and theological/technical universities)",
+          "de": "Universität (inkl. Kunst-/Musik-/pädagogische-/theologische-/technische Hochschule)"
+        },
+        "validRelativeFrequency": 51.11,
+        "relativeFrequency": 39.92,
+        "absoluteFrequency": 11249,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Vocational academy",
+          "de": "Berufsakademie"
+        },
+        "validRelativeFrequency": 6.61,
+        "relativeFrequency": 5.16,
+        "absoluteFrequency": 1455,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "college of public administration",
+          "de": "Verwaltungsfachhochschule"
+        },
+        "validRelativeFrequency": 1.57,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 346,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no idea yet",
+          "de": "noch keine Vorstellung"
+        },
+        "validRelativeFrequency": 10.8,
+        "relativeFrequency": 8.43,
+        "absoluteFrequency": 2376,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 78.09,
+    "totalValidAbsoluteFrequency": 22008,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 67,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "type of higher education institution of a potential degree course",
+    "de": "Art der Hochschule eines möglichen Studiums"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Art der Hochschule eines möglichen Studiums"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 67,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 76.37,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 6098,
-        "label": {
-          "en": null,
-          "de": "FH"
-        },
-        "relativeFrequency": 21.64,
-        "validRelativeFrequency": 28.33,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 11249,
-        "label": {
-          "en": null,
-          "de": "Universität (inkl. Kunst-/Musik-/pädagogische-/theologische-/technische Hochschule)"
-        },
-        "relativeFrequency": 39.92,
-        "validRelativeFrequency": 52.26,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1455,
-        "label": {
-          "en": null,
-          "de": "Berufsakademie"
-        },
-        "relativeFrequency": 5.16,
-        "validRelativeFrequency": 6.76,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 346,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachhochschule"
-        },
-        "relativeFrequency": 1.23,
-        "validRelativeFrequency": 1.61,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2376,
-        "label": {
-          "en": null,
-          "de": "noch keine Vorstellung"
-        },
-        "relativeFrequency": 8.43,
-        "validRelativeFrequency": 11.04,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 21524,
-    "missings": [
-      {
-        "absoluteFrequency": 371,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.32,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 5803,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 20.59,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 484,
-        "label": {
-          "en": null,
-          "de": "ungültige Mehrfachnennung"
-        },
-        "relativeFrequency": 1.72,
-        "code": -965
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "13",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Art von Studium käme am ehesten für Sie in Frage? Ein Studium an einer…"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,93 +1,105 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Aussagen zur Bedeutung der Hochschulreife treffen auf Sie persönlich am meisten zu?\r\nDie Hochschulreife ermöglicht mir den Aufstieg in meinem bereits erlernten Beruf."
+      },
+      "questionNumber": "07",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 7.65,
+        "absoluteFrequency": 2156,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 91.75,
+        "relativeFrequency": 84.73,
+        "absoluteFrequency": 23880,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 8.25,
+        "relativeFrequency": 7.61,
+        "absoluteFrequency": 2146,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 92.35,
+    "totalValidAbsoluteFrequency": 26026,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 59,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification: enables professional advancement",
+    "de": "Hochschulreife: ermöglicht beruflichen Aufstieg"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Hochschulreife: ermöglicht beruflichen Aufstieg"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 59,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 92.35,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 23880,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 84.73,
-        "validRelativeFrequency": 91.75,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 2146,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 7.61,
-        "validRelativeFrequency": 8.25,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 26026,
-    "missings": [
-      {
-        "absoluteFrequency": 2156,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 7.65,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "07",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Aussagen zur Bedeutung der Hochschulreife treffen auf Sie persönlich am meisten zu?\nDie Hochschulreife ermöglicht mir den Aufstieg in meinem bereits erlernten Beruf."
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

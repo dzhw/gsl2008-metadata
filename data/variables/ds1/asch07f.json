@@ -1,149 +1,155 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Englisch (Fach): verständlich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 34,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Der Unterricht der letzten beiden Schuljahre kann unter verschiedenen Gesichtspunkten bewertet werden:\r\nDer Unterricht im Fach Englisch war…\r\nverständlich"
+      },
+      "questionNumber": "04",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 94.19,
     "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "3",
-      "meanDeviation": "5109.04",
-      "maximum": "5",
+      "meanDeviation": 1.4826,
       "mode": "2",
-      "median": "2"
+      "highWhisker": 5,
+      "lowWhisker": -2,
+      "thirdQuartile": "3",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "-999",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.82,
+        "absoluteFrequency": 232,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 5946,
         "label": {
-          "en": null,
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "validRelativeFrequency": 0.48,
+        "relativeFrequency": 0.48,
+        "absoluteFrequency": 134,
+        "value": "-999"
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 4.55,
+        "relativeFrequency": 4.51,
+        "absoluteFrequency": 1271,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "totally applicable",
           "de": "trifft voll zu"
         },
+        "validRelativeFrequency": 21.27,
         "relativeFrequency": 21.1,
-        "validRelativeFrequency": 22.4,
+        "absoluteFrequency": 5946,
         "value": "1"
       },
       {
-        "absoluteFrequency": 10106,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 36.16,
         "relativeFrequency": 35.86,
-        "validRelativeFrequency": 38.07,
+        "absoluteFrequency": 10106,
         "value": "2"
       },
       {
-        "absoluteFrequency": 6869,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 24.58,
         "relativeFrequency": 24.37,
-        "validRelativeFrequency": 25.88,
+        "absoluteFrequency": 6869,
         "value": "3"
       },
       {
-        "absoluteFrequency": 2500,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 8.94,
         "relativeFrequency": 8.87,
-        "validRelativeFrequency": 9.42,
+        "absoluteFrequency": 2500,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1124,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft gar nicht zu"
         },
+        "validRelativeFrequency": 4.02,
         "relativeFrequency": 3.99,
-        "validRelativeFrequency": 4.23,
+        "absoluteFrequency": 1124,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 26545,
-    "missings": [
-      {
-        "absoluteFrequency": 134,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.48,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 232,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.82,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 1271,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 4.51,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 99.18,
+    "totalValidAbsoluteFrequency": 27950,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "04",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Der Unterricht der letzten beiden Schuljahre kann unter verschiedenen Gesichtspunkten bewertet werden:\nDer Unterricht im Fach Englisch war…\nverständlich"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 34,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "English (subject): intelligible",
+    "de": "Englisch (Fach): verständlich"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

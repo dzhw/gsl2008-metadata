@@ -1,171 +1,184 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Alternative Qualifizierung: Art des Studiums"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was werden/wollen Sie statt dessen tun?\r\nein (anderes) Studium absolvieren, und zwar:"
+      },
+      "questionNumber": "30",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.7,
+        "absoluteFrequency": 5835,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "studies not specified",
+          "de": "Studium ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 2.04,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "-946"
+      },
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 21.43,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 63.27,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 62,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "technical university",
+          "de": "technische HS"
+        },
+        "validRelativeFrequency": 3.06,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "college of education",
+          "de": "pädagogische HS"
+        },
+        "validRelativeFrequency": 2.04,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "art/music college",
+          "de": "Kunst- oder Musik-HS"
+        },
+        "validRelativeFrequency": 3.06,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Vocational academy",
+          "de": "Berufsakademie"
+        },
+        "validRelativeFrequency": 2.04,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "college of public administration",
+          "de": "Verwaltungsfachhochschule"
+        },
+        "validRelativeFrequency": 2.04,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "higher education institution abroad",
+          "de": "ausländische HS"
+        },
+        "validRelativeFrequency": 1.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.35,
+    "totalValidAbsoluteFrequency": 98,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 316,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Arten des Studiums in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on types of study in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Arten des Studiums in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.34,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 21.88,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 62,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 64.58,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "technische HS"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.12,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "pädagogische HS"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.08,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Kunst- oder Musik-HS"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.12,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Berufsakademie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.08,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachhochschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.08,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "ausländische HS"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.04,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 96,
-    "missings": [
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 5835,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 20.7,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Studium ohne nähere Angabe"
-        },
-        "relativeFrequency": 0.01,
-        "code": -946
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "30",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was werden/wollen Sie statt dessen tun?\nein (anderes) Studium absolvieren, und zwar:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 316,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "alternative qualification: degree type",
+    "de": "Alternative Qualifizierung: Art des Studiums"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

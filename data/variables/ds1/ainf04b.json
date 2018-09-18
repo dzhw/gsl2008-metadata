@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: Zeitungen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 107,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nMedien\r\nZeitungen, Zeitschriften, Magazine"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 72.08,
     "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "4",
-      "meanDeviation": "3433.702",
-      "maximum": "5",
+      "meanDeviation": 1.4826,
       "mode": "3",
-      "median": "3"
+      "highWhisker": 5,
+      "lowWhisker": -1,
+      "thirdQuartile": "4",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "-988",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.89,
+        "absoluteFrequency": 1097,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1495,
         "label": {
-          "en": null,
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 15.78,
+        "relativeFrequency": 13.51,
+        "absoluteFrequency": 3806,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
+        "validRelativeFrequency": 6.2,
         "relativeFrequency": 5.3,
-        "validRelativeFrequency": 7.36,
+        "absoluteFrequency": 1495,
         "value": "1"
       },
       {
-        "absoluteFrequency": 5735,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 23.78,
         "relativeFrequency": 20.35,
-        "validRelativeFrequency": 28.23,
+        "absoluteFrequency": 5735,
         "value": "2"
       },
       {
-        "absoluteFrequency": 6870,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 28.48,
         "relativeFrequency": 24.38,
-        "validRelativeFrequency": 33.82,
+        "absoluteFrequency": 6870,
         "value": "3"
       },
       {
-        "absoluteFrequency": 4554,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 18.88,
         "relativeFrequency": 16.16,
-        "validRelativeFrequency": 22.42,
+        "absoluteFrequency": 4554,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1659,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
+        "validRelativeFrequency": 6.88,
         "relativeFrequency": 5.89,
-        "validRelativeFrequency": 8.17,
+        "absoluteFrequency": 1659,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 20313,
-    "missings": [
-      {
-        "absoluteFrequency": 1097,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.89,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 3806,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 13.51,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 85.58,
+    "totalValidAbsoluteFrequency": 24119,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nMedien\nZeitungen, Zeitschriften, Magazine"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 107,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: newspapers",
+    "de": "Informationsquelle Zukunft: Zeitungen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

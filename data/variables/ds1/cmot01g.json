@@ -1,150 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Motiv Tätigkeit (Dez 2012): späteres Berufsspektrum"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-mot01g",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 467,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Diese Frage bezieht sich auf den Zeitpunkt Dezember 2012. Wie bedeutend sind die folgenden Gründe und Motive für die Ausübung Ihrer derzeitigen Tätigkeit (Studium/Ausbildung/Erwerbstätigkeit)?\r\ndas breite sich später eröffnende Berufsspektrum"
+      },
+      "questionNumber": "1.9",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.94,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 6,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "357.3066",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "6",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1075,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr bedeutend"
         },
-        "relativeFrequency": 3.81,
         "validRelativeFrequency": 29.47,
+        "relativeFrequency": 3.81,
+        "absoluteFrequency": 1075,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1207,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 4.28,
         "validRelativeFrequency": 33.09,
+        "relativeFrequency": 4.28,
+        "absoluteFrequency": 1207,
         "value": "2"
       },
       {
-        "absoluteFrequency": 613,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 2.18,
         "validRelativeFrequency": 16.8,
+        "relativeFrequency": 2.18,
+        "absoluteFrequency": 613,
         "value": "3"
       },
       {
-        "absoluteFrequency": 311,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.1,
         "validRelativeFrequency": 8.53,
+        "relativeFrequency": 1.1,
+        "absoluteFrequency": 311,
         "value": "4"
       },
       {
-        "absoluteFrequency": 241,
         "label": {
           "en": null,
           "de": "5"
         },
-        "relativeFrequency": 0.86,
         "validRelativeFrequency": 6.61,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 241,
         "value": "5"
       },
       {
-        "absoluteFrequency": 201,
         "label": {
-          "en": null,
+          "en": "unimportant",
           "de": "bedeutungslos"
         },
-        "relativeFrequency": 0.71,
         "validRelativeFrequency": 5.51,
+        "relativeFrequency": 0.71,
+        "absoluteFrequency": 201,
         "value": "6"
       }
     ],
+    "totalValidRelativeFrequency": 12.94,
     "totalValidAbsoluteFrequency": 3648,
-    "missings": [
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.08,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Diese Frage bezieht sich auf den Zeitpunkt Dezember 2012. Wie bedeutend sind die folgenden Gründe und Motive für die Ausübung Ihrer derzeitigen Tätigkeit (Studium/Ausbildung/Erwerbstätigkeit)?\ndas breite sich später eröffnende Berufsspektrum"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-mot01g",
+  "surveyNumbers": [3],
+  "indexInDataSet": 467,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "occupational motives (Dec 2012): later job spectrum",
+    "de": "Motiv Tätigkeit (Dez 2012): späteres Berufsspektrum"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

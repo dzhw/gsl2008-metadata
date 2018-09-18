@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Studiengebühren (persönliche Folgen): geringere Studiendauer"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 379,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit treffen folgende Aussagen auf Sie persönlich zu?\r\nStudiengebühren werden mich dazu veranlassen, so schnell wie möglich einen Studienabschluss zu erwerben"
+      },
+      "questionNumber": "38",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 15.51,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "597.4878",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 209,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 4.8,
+        "absoluteFrequency": 1353,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1178,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll und ganz zu"
         },
-        "relativeFrequency": 4.18,
         "validRelativeFrequency": 26.95,
+        "relativeFrequency": 4.18,
+        "absoluteFrequency": 1178,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1497,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 5.31,
         "validRelativeFrequency": 34.25,
+        "relativeFrequency": 5.31,
+        "absoluteFrequency": 1497,
         "value": "2"
       },
       {
-        "absoluteFrequency": 901,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.2,
         "validRelativeFrequency": 20.61,
+        "relativeFrequency": 3.2,
+        "absoluteFrequency": 901,
         "value": "3"
       },
       {
-        "absoluteFrequency": 498,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.77,
         "validRelativeFrequency": 11.39,
+        "relativeFrequency": 1.77,
+        "absoluteFrequency": 498,
         "value": "4"
       },
       {
-        "absoluteFrequency": 297,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft überhaupt nicht zu"
         },
-        "relativeFrequency": 1.05,
         "validRelativeFrequency": 6.79,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 297,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 15.51,
     "totalValidAbsoluteFrequency": 4371,
-    "missings": [
-      {
-        "absoluteFrequency": 209,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.74,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1353,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 4.8,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "38",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit treffen folgende Aussagen auf Sie persönlich zu?\nStudiengebühren werden mich dazu veranlassen, so schnell wie möglich einen Studienabschluss zu erwerben"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 379,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "tuition fees (personal consequences): shorter period of study",
+    "de": "Studiengebühren (persönliche Folgen): geringere Studiendauer"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

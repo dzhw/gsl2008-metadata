@@ -1,160 +1,164 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viele Bücher besitzen Ihre Eltern?"
+      },
+      "questionNumber": "40",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 2.9652,
+      "mode": "5",
+      "highWhisker": 7,
+      "lowWhisker": 1,
+      "thirdQuartile": "6",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "7",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 60,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "0 to 50",
+          "de": "0 bis 50"
+        },
+        "validRelativeFrequency": 11.37,
+        "relativeFrequency": 2.37,
+        "absoluteFrequency": 668,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "51 to 100",
+          "de": "51 bis 100"
+        },
+        "validRelativeFrequency": 14.18,
+        "relativeFrequency": 2.96,
+        "absoluteFrequency": 833,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "101 to 200",
+          "de": "101 bis 200"
+        },
+        "validRelativeFrequency": 16.11,
+        "relativeFrequency": 3.36,
+        "absoluteFrequency": 946,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "201 to 300",
+          "de": "201 bis 300"
+        },
+        "validRelativeFrequency": 15.77,
+        "relativeFrequency": 3.29,
+        "absoluteFrequency": 926,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "301 to 500",
+          "de": "301 bis 500"
+        },
+        "validRelativeFrequency": 16.84,
+        "relativeFrequency": 3.51,
+        "absoluteFrequency": 989,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "501 to 1000",
+          "de": "501 bis 1000"
+        },
+        "validRelativeFrequency": 15.27,
+        "relativeFrequency": 3.18,
+        "absoluteFrequency": 897,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "more than 1000",
+          "de": "mehr als 1000"
+        },
+        "validRelativeFrequency": 10.45,
+        "relativeFrequency": 2.18,
+        "absoluteFrequency": 614,
+        "value": "7"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.84,
+    "totalValidAbsoluteFrequency": 5873,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 383,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "books in parental home (number) ",
+    "de": "Bücher im Elternhaus (Anzahl) "
+  },
   "scaleLevel": {
     "en": "ordinal",
     "de": "ordinal"
   },
-  "label": {
-    "en": null,
-    "de": "Bücher im Elternhaus (Anzahl) "
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 383,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.84,
-    "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 7,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "6",
-      "meanDeviation": "94.8864",
-      "maximum": "7",
-      "mode": "5",
-      "median": "4"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 668,
-        "label": {
-          "en": null,
-          "de": "0 bis 50"
-        },
-        "relativeFrequency": 2.37,
-        "validRelativeFrequency": 11.37,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 833,
-        "label": {
-          "en": null,
-          "de": "51 bis 100"
-        },
-        "relativeFrequency": 2.96,
-        "validRelativeFrequency": 14.18,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 946,
-        "label": {
-          "en": null,
-          "de": "101 bis 200"
-        },
-        "relativeFrequency": 3.36,
-        "validRelativeFrequency": 16.11,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 926,
-        "label": {
-          "en": null,
-          "de": "201 bis 300"
-        },
-        "relativeFrequency": 3.29,
-        "validRelativeFrequency": 15.77,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 989,
-        "label": {
-          "en": null,
-          "de": "301 bis 500"
-        },
-        "relativeFrequency": 3.51,
-        "validRelativeFrequency": 16.84,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 897,
-        "label": {
-          "en": null,
-          "de": "501 bis 1000"
-        },
-        "relativeFrequency": 3.18,
-        "validRelativeFrequency": 15.27,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 614,
-        "label": {
-          "en": null,
-          "de": "mehr als 1000"
-        },
-        "relativeFrequency": 2.18,
-        "validRelativeFrequency": 10.45,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5873,
-    "missings": [
-      {
-        "absoluteFrequency": 60,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.21,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "40",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viele Bücher besitzen Ihre Eltern?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

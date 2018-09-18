@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: Berufstätige"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 122,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInstitutionen/Personen\r\nbei Berufstätigen in den mich interessierenden Bereichen"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 51.46,
     "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "3",
-      "meanDeviation": "3269.133",
+      "meanDeviation": 2.9652,
+      "mode": "-988",
+      "highWhisker": 5,
+      "lowWhisker": -988,
+      "thirdQuartile": "2",
+      "firstQuartile": "-988",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "-988",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.93,
+        "absoluteFrequency": 1388,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 3344,
         "label": {
-          "en": null,
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 39.14,
+        "relativeFrequency": 33.09,
+        "absoluteFrequency": 9326,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
+        "validRelativeFrequency": 14.03,
         "relativeFrequency": 11.87,
-        "validRelativeFrequency": 23.06,
+        "absoluteFrequency": 3344,
         "value": "1"
       },
       {
-        "absoluteFrequency": 5592,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 23.47,
         "relativeFrequency": 19.84,
-        "validRelativeFrequency": 38.56,
+        "absoluteFrequency": 5592,
         "value": "2"
       },
       {
-        "absoluteFrequency": 3601,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 15.11,
         "relativeFrequency": 12.78,
-        "validRelativeFrequency": 24.83,
+        "absoluteFrequency": 3601,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1139,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 4.78,
         "relativeFrequency": 4.04,
-        "validRelativeFrequency": 7.85,
+        "absoluteFrequency": 1139,
         "value": "4"
       },
       {
-        "absoluteFrequency": 826,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
+        "validRelativeFrequency": 3.47,
         "relativeFrequency": 2.93,
-        "validRelativeFrequency": 5.7,
+        "absoluteFrequency": 826,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 14502,
-    "missings": [
-      {
-        "absoluteFrequency": 1388,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.93,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 9326,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 33.09,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 84.55,
+    "totalValidAbsoluteFrequency": 23828,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nbei Berufstätigen in den mich interessierenden Bereichen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 122,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: professionals",
+    "de": "Informationsquelle Zukunft: Berufstätige"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

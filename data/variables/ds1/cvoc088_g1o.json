@@ -1,162 +1,174 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "8. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsklasse) (4-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc088",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\r\nBerufliche Ausbildung\r\nArt der Ausbildung und Ausbildungsberuf\r\n(z. B. betriebliche Ausbildung Bürokauffrau/mann)"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "multimodal",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13,
+        "absoluteFrequency": 3663,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Foresters (forestry workers), general",
+          "de": "Forstwirt(e/innen) (Waldfacharbeiter/innen), allgemein"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "621"
+      },
+      {
+        "label": {
+          "en": "Branch managers (outlet managers)",
+          "de": "Filialleiter/innen (Verkaufsstellenleiter/innen)"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6763"
+      },
+      {
+        "label": {
+          "en": "Industrial clerks",
+          "de": "Industriekaufleute"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7851"
+      },
+      {
+        "label": {
+          "en": "Midwives",
+          "de": "Hebammen/Entbindungspfleger"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8536"
+      },
+      {
+        "label": {
+          "en": "Medicotechnical, medical laboratory assistants",
+          "de": "Medizinisch-technische Laboratoriumsassistent(en/innen), Medizinische Laboranten(en/innen)"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8571"
+      },
+      {
+        "label": {
+          "en": "Occupational and work therapists",
+          "de": "Beschäftigungs- und Arbeitstherapeut(en/innen)"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8594"
+      },
+      {
+        "label": {
+          "en": "University lecturers and assistant professors",
+          "de": "Hochschuldozent(en/innen) und -assistent(en/innen)"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8712"
+      },
+      {
+        "label": {
+          "en": "Beauticians, generally",
+          "de": "Kosmetiker/innen, allgemein"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9020"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.03,
+    "totalValidAbsoluteFrequency": 8,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 657,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zum Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on qualified occupations in coded form. The 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992) was used as a code list.",
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.03,
-    "statistics": {
-      "mode": "multimodal"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Forstwirt(e/innen) (Waldfacharbeiter/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "621"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Filialleiter/innen (Verkaufsstellenleiter/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "6763"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Industriekaufleute"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "7851"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Hebammen/Entbindungspfleger"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "8536"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Medizinisch-technische Laboratoriumsassistent(en/innen), Medizinische Laboranten(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "8571"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Beschäftigungs- und Arbeitstherapeut(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "8594"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Hochschuldozent(en/innen) und -assistent(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "8712"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kosmetiker/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 12.5,
-        "value": "9020"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 8,
-    "missings": [
-      {
-        "absoluteFrequency": 3663,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nBerufliche Ausbildung\nArt der Ausbildung und Ausbildungsberuf\n(z. B. betriebliche Ausbildung Bürokauffrau/mann)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc088",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 657,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "8th activity: qualified occupation (Ger. Class. of Occ. 1992) (4-dig.)",
+    "de": "8. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsklasse) (4-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

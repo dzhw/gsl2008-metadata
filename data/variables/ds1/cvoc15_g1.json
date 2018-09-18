@@ -1,141 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Berufsausbildung abgebrochen?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie nach dem Abitur/der Fachhochschulreife eine der in Frage 3.1 angeführten Ausbildungen abgebrochen oder unterbrochen?"
+      },
+      "questionNumber": "3.7",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.52,
+        "absoluteFrequency": 2684,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, discontinued",
+          "de": "ja, abgebrochen"
+        },
+        "validRelativeFrequency": 4.67,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 45,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, interrupted",
+          "de": "ja, unterbrochen"
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "no, but possibly",
+          "de": "nein, aber evtl."
+        },
+        "validRelativeFrequency": 0.21,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no, neither",
+          "de": "nein, weder noch"
+        },
+        "validRelativeFrequency": 90.98,
+        "relativeFrequency": 3.11,
+        "absoluteFrequency": 877,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "educational change",
+          "de": "Ausbildungswechsel"
+        },
+        "validRelativeFrequency": 3.22,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 31,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.42,
+    "totalValidAbsoluteFrequency": 964,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 945,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Aus Sicht der Befragten ist ein Wechsel aus einer (unabgeschlossenen) Ausbildung in eine andere häufig ein Abbruch. Per Definition ist dies aber ein (Ausbildungs-/Studien-)Wechsel und die Angabe 1 \"ja, abgebrochen\" wurde vom Projekt auf 5 \"Wechsel\" umgesetzt, wenn durch andere Angaben im Fragebogen ein solcher Wechsel klar dokumentiert war."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "From the respondents’ perspective, a switch from one (unfinished) training course to another is usually seen as discontinuation. By definition, however, this is a change (of training/course of studies) and response 1 ‘yes, discontinued’ was converted from the project to 5 ‘change’ if such a change was clearly documented in other responses in the questionnaire.",
+      "de": "Aus Sicht der Befragten ist ein Wechsel aus einer (unabgeschlossenen) Ausbildung in eine andere häufig ein Abbruch. Per Definition ist dies aber ein (Ausbildungs-/Studien-)Wechsel und die Angabe 1 \"ja, abgebrochen\" wurde vom Projekt auf 5 \"Wechsel\" umgesetzt, wenn durch andere Angaben im Fragebogen ein solcher Wechsel  klar dokumentiert war."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 3.42,
-    "statistics": {
-      "mode": "4"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": null,
-          "de": "ja, abgebrochen"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 4.67,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "ja, unterbrochen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.93,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "nein, aber evtl."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.21,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 877,
-        "label": {
-          "en": null,
-          "de": "nein, weder noch"
-        },
-        "relativeFrequency": 3.11,
-        "validRelativeFrequency": 90.98,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 31,
-        "label": {
-          "en": null,
-          "de": "Ausbildungswechsel"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 3.22,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 964,
-    "missings": [
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.08,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2684,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 9.52,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "3.7",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie nach dem Abitur/der Fachhochschulreife eine der in Frage 3.1 angeführten Ausbildungen abgebrochen oder unterbrochen?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 945,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "discontinued vocational training?",
+    "de": "Berufsausbildung abgebrochen?"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

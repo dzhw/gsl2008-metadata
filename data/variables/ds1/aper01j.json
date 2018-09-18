@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Persönlichkeit: wenig künstlerisch"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 141,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\r\nIch habe nur weniges künstlerisches Interesse."
+      },
+      "questionNumber": "26",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.89,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "2238.726",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.11,
+        "absoluteFrequency": 877,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 3479,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll und ganz zu"
         },
-        "relativeFrequency": 12.34,
         "validRelativeFrequency": 12.74,
+        "relativeFrequency": 12.34,
+        "absoluteFrequency": 3479,
         "value": "1"
       },
       {
-        "absoluteFrequency": 3990,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 14.16,
         "validRelativeFrequency": 14.61,
+        "relativeFrequency": 14.16,
+        "absoluteFrequency": 3990,
         "value": "2"
       },
       {
-        "absoluteFrequency": 5500,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 19.52,
         "validRelativeFrequency": 20.14,
+        "relativeFrequency": 19.52,
+        "absoluteFrequency": 5500,
         "value": "3"
       },
       {
-        "absoluteFrequency": 5956,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 21.13,
         "validRelativeFrequency": 21.81,
+        "relativeFrequency": 21.13,
+        "absoluteFrequency": 5956,
         "value": "4"
       },
       {
-        "absoluteFrequency": 8380,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft überhaupt nicht zu"
         },
-        "relativeFrequency": 29.74,
         "validRelativeFrequency": 30.69,
+        "relativeFrequency": 29.74,
+        "absoluteFrequency": 8380,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 96.89,
     "totalValidAbsoluteFrequency": 27305,
-    "missings": [
-      {
-        "absoluteFrequency": 877,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.11,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "26",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\nIch habe nur weniges künstlerisches Interesse."
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 141,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "personality: slightly artistic",
+    "de": "Persönlichkeit: wenig künstlerisch"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

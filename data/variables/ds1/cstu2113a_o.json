@@ -1,123 +1,135 @@
 {
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "107",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 12.99,
+        "absoluteFrequency": 3662,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "English studies/English",
+          "de": "Anglistik/Englisch"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Medicine (general medicine)",
+          "de": "Medizin (Allgemein-Medizin)"
+        },
+        "validRelativeFrequency": 55.56,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "107"
+      },
+      {
+        "label": {
+          "en": "Psychology",
+          "de": "Psychologie"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "132"
+      },
+      {
+        "label": {
+          "en": "Media studies/communication/information science",
+          "de": "Medienkunde/Kommunikations-/Informationswissenschaft"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "133"
+      },
+      {
+        "label": {
+          "en": "Biotechnology",
+          "de": "Biotechnologie"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "282"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.03,
+    "totalValidAbsoluteFrequency": 9,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2113a",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 754,
+  "accessWays": ["onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "13th activity: 1st subject",
+    "de": "13. Tätigkeit: 1. Studienfach"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "13. Tätigkeit: 1. Studienfach"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2113a",
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 754,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.03,
-    "statistics": {
-      "mode": "107"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Anglistik/Englisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 11.11,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Medizin (Allgemein-Medizin)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 55.56,
-        "value": "107"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Psychologie"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 11.11,
-        "value": "132"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Medienkunde/Kommunikations-/Informationswissenschaft"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 11.11,
-        "value": "133"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Biotechnologie"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 11.11,
-        "value": "282"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 9,
-    "missings": [
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3662,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 12.99,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": null,
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

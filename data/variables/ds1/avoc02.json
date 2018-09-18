@@ -1,112 +1,124 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um welche Art von Ausbildung handelt es sich dabei?"
+      },
+      "questionNumber": "09",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 71,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 78.11,
+        "absoluteFrequency": 22014,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "vocational training",
+          "de": "betriebliche Ausbildung"
+        },
+        "validRelativeFrequency": 56.52,
+        "relativeFrequency": 12.23,
+        "absoluteFrequency": 3446,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "school-based vocational training",
+          "de": "schulische Berufsausbildung"
+        },
+        "validRelativeFrequency": 42.78,
+        "relativeFrequency": 9.25,
+        "absoluteFrequency": 2608,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "civil service training",
+          "de": "Beamtenausbildung"
+        },
+        "validRelativeFrequency": 0.71,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 43,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 21.63,
+    "totalValidAbsoluteFrequency": 6097,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-voc02",
+  "surveyNumbers": [1],
+  "indexInDataSet": 64,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "type of education",
+    "de": "Art der Ausbildung"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Art der Ausbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-voc02",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 64,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 21.63,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3446,
-        "label": {
-          "en": null,
-          "de": "betriebliche Ausbildung"
-        },
-        "relativeFrequency": 12.23,
-        "validRelativeFrequency": 56.52,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2608,
-        "label": {
-          "en": null,
-          "de": "schulische Berufsausbildung"
-        },
-        "relativeFrequency": 9.25,
-        "validRelativeFrequency": 42.78,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 43,
-        "label": {
-          "en": null,
-          "de": "Beamtenausbildung"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 0.71,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 6097,
-    "missings": [
-      {
-        "absoluteFrequency": 71,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.25,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22014,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 78.11,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "09",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Um welche Art von Ausbildung handelt es sich dabei?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

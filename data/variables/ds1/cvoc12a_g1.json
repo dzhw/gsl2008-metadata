@@ -1,162 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": null,
-    "de": "Ausbildung abgeschlossen: Abschlussjahr"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc12a",
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie diese Berufsausbildung bereits abgeschlossen?\r\nja, und zwar:\r\n(Jahr)"
+      },
+      "questionNumber": "3.4",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "2011",
+      "highWhisker": 2011,
+      "lowWhisker": 2011,
+      "thirdQuartile": "2011",
+      "firstQuartile": "2011",
+      "standardDeviation": 105.8961,
+      "median": "2011",
+      "kurtosis": 805.9372,
+      "skewness": -28.3708,
+      "maximum": "2012",
+      "minimum": "-999",
+      "meanValue": 2007.349
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.64,
+        "absoluteFrequency": 179,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.52,
+        "absoluteFrequency": 2684,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "-999"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "2008"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 15,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.36,
+        "absoluteFrequency": 101,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 61.39,
+        "relativeFrequency": 1.76,
+        "absoluteFrequency": 496,
+        "value": "2011"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 24.01,
+        "relativeFrequency": 0.69,
+        "absoluteFrequency": 194,
+        "value": "2012"
+      }
+    ],
+    "totalValidRelativeFrequency": 2.87,
+    "totalValidAbsoluteFrequency": 808,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 933,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The year was generated from the collectively gathered data on year and month.",
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 2.86,
-    "statistics": {
-      "firstQuartile": "2011",
-      "highWhisker": 2011,
-      "lowWhisker": 2011,
-      "skewness": -0.5606,
-      "minimum": "2008",
-      "thirdQuartile": "2011",
-      "meanDeviation": "137.8818",
-      "meanValue": 2011.0743,
-      "maximum": "2012",
-      "mode": "2011",
-      "median": "2011",
-      "standardDeviation": 0.6679,
-      "kurtosis": 4.0207
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.12,
-        "value": "2008"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 1.86,
-        "value": "2009"
-      },
-      {
-        "absoluteFrequency": 101,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.36,
-        "validRelativeFrequency": 12.52,
-        "value": "2010"
-      },
-      {
-        "absoluteFrequency": 496,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 1.76,
-        "validRelativeFrequency": 61.46,
-        "value": "2011"
-      },
-      {
-        "absoluteFrequency": 194,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.69,
-        "validRelativeFrequency": 24.04,
-        "value": "2012"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 807,
-    "missings": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 179,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.64,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2684,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 9.52,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "3.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie diese Berufsausbildung bereits abgeschlossen?\nja, und zwar:\n(Jahr)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc12a",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 933,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "training completed: graduation year",
+    "de": "Ausbildung abgeschlossen: Abschlussjahr"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

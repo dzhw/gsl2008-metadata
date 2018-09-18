@@ -1,162 +1,175 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "10. Tätigkeit: Staat einer ausl. Hochschule"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2110d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.77,
+        "absoluteFrequency": 3598,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 84.93,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 62,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "higher education institution in Australia",
+          "de": "HS in Australien"
+        },
+        "validRelativeFrequency": 1.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9014"
+      },
+      {
+        "label": {
+          "en": "higher education institution in France",
+          "de": "HS in Frankreich"
+        },
+        "validRelativeFrequency": 2.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "9049"
+      },
+      {
+        "label": {
+          "en": "higher education institution in the Netherlands",
+          "de": "HS in Niederlande, Königreich (Holland)"
+        },
+        "validRelativeFrequency": 4.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "9127"
+      },
+      {
+        "label": {
+          "en": "higher education institution in Austria",
+          "de": "HS in Österreich"
+        },
+        "validRelativeFrequency": 1.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9134"
+      },
+      {
+        "label": {
+          "en": "higher education institution in Romania",
+          "de": "HS in Rumänien"
+        },
+        "validRelativeFrequency": 1.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9147"
+      },
+      {
+        "label": {
+          "en": "higher education institution in Sweden",
+          "de": "HS in Schweden"
+        },
+        "validRelativeFrequency": 1.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9155"
+      },
+      {
+        "label": {
+          "en": "higher education institution in United States (USA)",
+          "de": "HS in Vereinigte Staaten (USA)"
+        },
+        "validRelativeFrequency": 1.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9201"
+      },
+      {
+        "label": {
+          "en": "Higher education institutions abroad",
+          "de": "Hochschulen im Ausland"
+        },
+        "validRelativeFrequency": 1.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9990"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.26,
+    "totalValidAbsoluteFrequency": 73,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 698,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9). Staaten mit nur einer Hochschule wurden als sonstige Staaten zusammengefasst."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The foreign countries were generated from the coded data on institutions of higher education. The generated data only includes the countries of foreign universities; German universities were placed under ‘not applicable’. A project-specific code list (see cl-dzhw-9) was used for the countries. Countries with only one college or university were pooled together as ‘other countries’.",
+      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9). Staaten mit nur einer Hochschule wurden als sonstige Staaten zusammengefasst."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.04,
-    "statistics": {
-      "mode": "9127"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "HS in Australien"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 9.09,
-        "value": "9014"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "HS in Frankreich"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 18.18,
-        "value": "9049"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "HS in Niederlande, Königreich (Holland)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 27.27,
-        "value": "9127"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "HS in Österreich"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 9.09,
-        "value": "9134"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "HS in Rumänien"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 9.09,
-        "value": "9147"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "HS in Schweden"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 9.09,
-        "value": "9155"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "HS in Vereinigte Staaten (USA)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 9.09,
-        "value": "9201"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Hochschulen im Ausland"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 9.09,
-        "value": "9990"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 11,
-    "missings": [
-      {
-        "absoluteFrequency": 3598,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.77,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 62,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.22,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2110d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 698,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "10th activity: country of a foreign institute of higher education",
+    "de": "10. Tätigkeit: Staat einer ausl. Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

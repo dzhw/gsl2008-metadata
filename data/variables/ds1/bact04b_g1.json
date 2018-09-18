@@ -1,240 +1,253 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "2. Nennung Idee: Art der Tätigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?\r\nich habe mich noch nicht endgültig entschieden, werde aber wahrscheinlich …"
+      },
+      "questionNumber": "18",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "13",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 35,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.53,
+        "absoluteFrequency": 5786,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "studies not specified",
+          "de": "Studium ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "-946"
+      },
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 21.43,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 24,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "technical university",
+          "de": "technische HS"
+        },
+        "validRelativeFrequency": 0.89,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "college of education",
+          "de": "pädagogische HS"
+        },
+        "validRelativeFrequency": 1.79,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "art/music college",
+          "de": "Kunst- oder Musik-HS"
+        },
+        "validRelativeFrequency": 0.89,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Vocational academy",
+          "de": "Berufsakademie"
+        },
+        "validRelativeFrequency": 1.79,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "college of public administration",
+          "de": "Verwaltungsfachhochschule"
+        },
+        "validRelativeFrequency": 0.89,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "higher education institution abroad",
+          "de": "ausländische HS"
+        },
+        "validRelativeFrequency": 0.89,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "vocational school",
+          "de": "Berufsfachschule"
+        },
+        "validRelativeFrequency": 4.46,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "training for the civil service (clerical trade)",
+          "de": "Ausbildung zum Beamten (mittlerer Dienst)"
+        },
+        "validRelativeFrequency": 1.79,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "vocational training (apprenticeship)",
+          "de": "betriebliche Ausbildung (Lehre)"
+        },
+        "validRelativeFrequency": 35.71,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 40,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "dependent work",
+          "de": "abhängige Berufstätigkeit"
+        },
+        "validRelativeFrequency": 4.46,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "self-employed occupation",
+          "de": "Berufstätigkeit als Selbständige(r)"
+        },
+        "validRelativeFrequency": 0.89,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "dual study course",
+          "de": "duales Studium"
+        },
+        "validRelativeFrequency": 2.68,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "39"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.4,
+    "totalValidAbsoluteFrequency": 112,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 251,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Ideen für Tätigkeitsarten in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded ideas for types of occupation in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Ideen für Tätigkeitsarten in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.34,
-    "statistics": {
-      "mode": "13"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 8.33,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 25,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "technische HS"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.04,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "pädagogische HS"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.08,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kunst- oder Musik-HS"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.04,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Berufsakademie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.08,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachhochschule"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.04,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "ausländische HS"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.04,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Berufsfachschule"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 5.21,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Ausbildung zum Beamten (mittlerer Dienst)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.08,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": null,
-          "de": "betriebliche Ausbildung (Lehre)"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 41.67,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "abhängige Berufstätigkeit"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 5.21,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Berufstätigkeit als Selbständige(r)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.04,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "duales Studium"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.12,
-        "value": "39"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 96,
-    "missings": [
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.12,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 5786,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 20.53,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "Studium ohne nähere Angabe"
-        },
-        "relativeFrequency": 0.06,
-        "code": -946
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?\nich habe mich noch nicht endgültig entschieden, werde aber wahrscheinlich …"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 251,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd entry idea: occupation type",
+    "de": "2. Nennung Idee: Art der Tätigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

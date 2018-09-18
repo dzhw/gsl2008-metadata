@@ -1,222 +1,235 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Sprache Elternhaus: Deutsch und andere (Nennung)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-adem05a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Sprache wird in Ihrem Elternhaus normalerweise gesprochen?"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.43,
+        "absoluteFrequency": 402,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 88.07,
+        "relativeFrequency": 86.82,
+        "absoluteFrequency": 24467,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "Russian",
+          "de": "Russisch"
+        },
+        "validRelativeFrequency": 3.19,
+        "relativeFrequency": 3.14,
+        "absoluteFrequency": 885,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Turkish",
+          "de": "Türkisch"
+        },
+        "validRelativeFrequency": 2.09,
+        "relativeFrequency": 2.06,
+        "absoluteFrequency": 580,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Polish",
+          "de": "Polnisch"
+        },
+        "validRelativeFrequency": 1.53,
+        "relativeFrequency": 1.5,
+        "absoluteFrequency": 424,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "English",
+          "de": "Englisch"
+        },
+        "validRelativeFrequency": 0.95,
+        "relativeFrequency": 0.94,
+        "absoluteFrequency": 265,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Italian",
+          "de": "Italienisch"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 104,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Spanish",
+          "de": "Spanisch"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.4,
+        "absoluteFrequency": 114,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "French",
+          "de": "Französisch"
+        },
+        "validRelativeFrequency": 0.35,
+        "relativeFrequency": 0.35,
+        "absoluteFrequency": 98,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Persian (Farsi/Dari)",
+          "de": "Persisch (Farsi/Dari)"
+        },
+        "validRelativeFrequency": 0.29,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 81,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Arabic",
+          "de": "Arabisch"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 77,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Croatian",
+          "de": "Kroatisch"
+        },
+        "validRelativeFrequency": 0.21,
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 58,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Greek",
+          "de": "Griechisch"
+        },
+        "validRelativeFrequency": 0.18,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 51,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Dutch",
+          "de": "Niederländisch"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 41,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "Portuguese",
+          "de": "Portugiesisch"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "other languages",
+          "de": "sonstige Sprachen"
+        },
+        "validRelativeFrequency": 1.8,
+        "relativeFrequency": 1.77,
+        "absoluteFrequency": 499,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.57,
+    "totalValidAbsoluteFrequency": 27780,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 155,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt. Ausgewiesen werden nur die häufig gesprochenen Sprachen, alle andere werden unter sonstige angeführt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated as part of the anonymisation. This variable contains the openly recorded languages spoken in the parental home in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts). Only the main spoken languages are shown, while all others are cited under ‘other’.",
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt. Ausgewiesen werden nur die häufig gesprochenen Sprachen, alle andere werden unter sonstige angeführt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 11.76,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 885,
-        "label": {
-          "en": null,
-          "de": "Russisch"
-        },
-        "relativeFrequency": 3.14,
-        "validRelativeFrequency": 26.71,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 580,
-        "label": {
-          "en": null,
-          "de": "Türkisch"
-        },
-        "relativeFrequency": 2.06,
-        "validRelativeFrequency": 17.51,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 424,
-        "label": {
-          "en": null,
-          "de": "Polnisch"
-        },
-        "relativeFrequency": 1.5,
-        "validRelativeFrequency": 12.8,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 265,
-        "label": {
-          "en": null,
-          "de": "Englisch"
-        },
-        "relativeFrequency": 0.94,
-        "validRelativeFrequency": 8,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 104,
-        "label": {
-          "en": null,
-          "de": "Italienisch"
-        },
-        "relativeFrequency": 0.37,
-        "validRelativeFrequency": 3.14,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 114,
-        "label": {
-          "en": null,
-          "de": "Spanisch"
-        },
-        "relativeFrequency": 0.4,
-        "validRelativeFrequency": 3.44,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 98,
-        "label": {
-          "en": null,
-          "de": "Französisch"
-        },
-        "relativeFrequency": 0.35,
-        "validRelativeFrequency": 2.96,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 81,
-        "label": {
-          "en": null,
-          "de": "Persisch (Farsi/Dari)"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 2.44,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 77,
-        "label": {
-          "en": null,
-          "de": "Arabisch"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 2.32,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 58,
-        "label": {
-          "en": null,
-          "de": "Kroatisch"
-        },
-        "relativeFrequency": 0.21,
-        "validRelativeFrequency": 1.75,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 51,
-        "label": {
-          "en": null,
-          "de": "Griechisch"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 1.54,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 41,
-        "label": {
-          "en": null,
-          "de": "Niederländisch"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 1.24,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "Portugiesisch"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 1.09,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 499,
-        "label": {
-          "en": null,
-          "de": "sonstige Sprachen"
-        },
-        "relativeFrequency": 1.77,
-        "validRelativeFrequency": 15.06,
-        "value": "20"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3313,
-    "missings": [
-      {
-        "absoluteFrequency": 402,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.43,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24467,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 86.82,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Sprache wird in Ihrem Elternhaus normalerweise gesprochen?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-adem05a",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 155,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "language parental home: German and other (entry)",
+    "de": "Sprache Elternhaus: Deutsch und andere (Nennung)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

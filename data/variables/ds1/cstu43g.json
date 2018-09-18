@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Motiv MA: nicht arbeitslos sein"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1186,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\r\nnicht arbeitslos sein"
+      },
+      "questionNumber": "5.5",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.82,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "42.9954",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 86,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "absoluteFrequency": 1945,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 195,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr wichtig"
         },
-        "relativeFrequency": 0.69,
         "validRelativeFrequency": 11.89,
+        "relativeFrequency": 0.69,
+        "absoluteFrequency": 195,
         "value": "1"
       },
       {
-        "absoluteFrequency": 183,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 0.65,
         "validRelativeFrequency": 11.16,
+        "relativeFrequency": 0.65,
+        "absoluteFrequency": 183,
         "value": "2"
       },
       {
-        "absoluteFrequency": 224,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 0.79,
         "validRelativeFrequency": 13.66,
+        "relativeFrequency": 0.79,
+        "absoluteFrequency": 224,
         "value": "3"
       },
       {
-        "absoluteFrequency": 253,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 0.9,
         "validRelativeFrequency": 15.43,
+        "relativeFrequency": 0.9,
+        "absoluteFrequency": 253,
         "value": "4"
       },
       {
-        "absoluteFrequency": 785,
         "label": {
-          "en": null,
+          "en": "not important",
           "de": "unwichtig"
         },
-        "relativeFrequency": 2.79,
         "validRelativeFrequency": 47.87,
+        "relativeFrequency": 2.79,
+        "absoluteFrequency": 785,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 5.82,
     "totalValidAbsoluteFrequency": 1640,
-    "missings": [
-      {
-        "absoluteFrequency": 86,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.31,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1945,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.9,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\nnicht arbeitslos sein"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1186,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motive for MA: alternative to being unemployed",
+    "de": "Motiv MA: nicht arbeitslos sein"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

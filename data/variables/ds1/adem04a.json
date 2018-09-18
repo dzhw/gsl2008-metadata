@@ -1,93 +1,105 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie in Deutschland geboren?"
+      },
+      "questionNumber": "31",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.32,
+        "absoluteFrequency": 372,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "born in Germany",
+          "de": "in Deutschland geboren"
+        },
+        "validRelativeFrequency": 91.91,
+        "relativeFrequency": 90.7,
+        "absoluteFrequency": 25561,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "not born in Germany",
+          "de": "nicht in Deutschland geboren"
+        },
+        "validRelativeFrequency": 8.09,
+        "relativeFrequency": 7.98,
+        "absoluteFrequency": 2249,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.68,
+    "totalValidAbsoluteFrequency": 27810,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 151,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "country of birth: Germany?",
+    "de": "Geburtsland: Deutschland?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Geburtsland: Deutschland?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 151,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 98.68,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 25561,
-        "label": {
-          "en": null,
-          "de": "in Deutschland geboren"
-        },
-        "relativeFrequency": 90.7,
-        "validRelativeFrequency": 91.91,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2249,
-        "label": {
-          "en": null,
-          "de": "nicht in Deutschland geboren"
-        },
-        "relativeFrequency": 7.98,
-        "validRelativeFrequency": 8.09,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 27810,
-    "missings": [
-      {
-        "absoluteFrequency": 372,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.32,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "31",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sind Sie in Deutschland geboren?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

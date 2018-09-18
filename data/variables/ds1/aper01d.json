@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Persönlichkeit: entspannt/ausgeglichen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 135,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\r\nIch bin entspannt, lasse mich durch Stress nicht aus der Ruhe bringen."
+      },
+      "questionNumber": "26",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 97.07,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "4975.606",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.93,
+        "absoluteFrequency": 827,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 3448,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll und ganz zu"
         },
-        "relativeFrequency": 12.23,
         "validRelativeFrequency": 12.6,
+        "relativeFrequency": 12.23,
+        "absoluteFrequency": 3448,
         "value": "1"
       },
       {
-        "absoluteFrequency": 9062,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 32.16,
         "validRelativeFrequency": 33.13,
+        "relativeFrequency": 32.16,
+        "absoluteFrequency": 9062,
         "value": "2"
       },
       {
-        "absoluteFrequency": 9597,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 34.05,
         "validRelativeFrequency": 35.08,
+        "relativeFrequency": 34.05,
+        "absoluteFrequency": 9597,
         "value": "3"
       },
       {
-        "absoluteFrequency": 4302,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 15.27,
         "validRelativeFrequency": 15.73,
+        "relativeFrequency": 15.27,
+        "absoluteFrequency": 4302,
         "value": "4"
       },
       {
-        "absoluteFrequency": 946,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft überhaupt nicht zu"
         },
-        "relativeFrequency": 3.36,
         "validRelativeFrequency": 3.46,
+        "relativeFrequency": 3.36,
+        "absoluteFrequency": 946,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 97.07,
     "totalValidAbsoluteFrequency": 27355,
-    "missings": [
-      {
-        "absoluteFrequency": 827,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 2.93,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "26",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\nIch bin entspannt, lasse mich durch Stress nicht aus der Ruhe bringen."
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 135,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "personality: easy-going/well-balanced",
+    "de": "Persönlichkeit: entspannt/ausgeglichen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

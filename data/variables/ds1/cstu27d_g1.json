@@ -1,211 +1,223 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Wechsel Studiengang: zu Studienart"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Von welchem zu welchem Studiengang haben Sie gewechselt bzw. haben Sie noch vor zu wechseln?\r\nzu:"
+      },
+      "questionNumber": "4.6",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 11.42,
+        "absoluteFrequency": 3219,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 18.43,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 82,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 63.6,
+        "relativeFrequency": 1,
+        "absoluteFrequency": 283,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "technical university",
+          "de": "Technische Hochschule"
+        },
+        "validRelativeFrequency": 8.09,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "college of education",
+          "de": "Pädagogische Hochschule"
+        },
+        "validRelativeFrequency": 1.57,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "art/music college",
+          "de": "Kunst-/Musikhochschule"
+        },
+        "validRelativeFrequency": 0.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Vocational academy",
+          "de": "Berufsakademie"
+        },
+        "validRelativeFrequency": 0.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "college of public administration (senior civil servant)",
+          "de": "VwFH (Beamte gehobener Dienst)"
+        },
+        "validRelativeFrequency": 0.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "foreign university",
+          "de": "Ausländische Hochschule"
+        },
+        "validRelativeFrequency": 3.82,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "studies at the German Armed Forces",
+          "de": "Studium Bundeswehr"
+        },
+        "validRelativeFrequency": 0.22,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "33"
+      },
+      {
+        "label": {
+          "en": "distance learning/occupation",
+          "de": "Fernstudium/Berufstätigkeit"
+        },
+        "validRelativeFrequency": 0.45,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "34"
+      },
+      {
+        "label": {
+          "en": "dual study course at university of applied sciences",
+          "de": "Duales FH-Studium"
+        },
+        "validRelativeFrequency": 0.45,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "39"
+      },
+      {
+        "label": {
+          "en": "cooperative state university (past BA in BW)",
+          "de": "Duale Hochschule (ehem. BA in BW)"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "59"
+      }
+    ],
+    "totalValidRelativeFrequency": 1.58,
+    "totalValidAbsoluteFrequency": 445,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 987,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde anhand einer projekteigenen Codierliste vercodet. Der Code enthält die Informationen der Studienart (Hochschulart)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was encoded using a project-specific code list. The code contains the information on type of studies (type of higher education institution).",
+      "de": "Diese Variable wurde anhand einer projekteigenen Codierliste vercodet. Der Code enthält die Informationen der Studienart (Hochschulart)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 1.58,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 82,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 18.43,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 283,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 1,
-        "validRelativeFrequency": 63.6,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "Technische Hochschule"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 8.09,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Pädagogische Hochschule"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.57,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Kunst-/Musikhochschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.9,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Berufsakademie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.9,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "VwFH (Beamte gehobener Dienst)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.9,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "Ausländische Hochschule"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 3.82,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Studium Bundeswehr"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.22,
-        "value": "33"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Fernstudium/Berufstätigkeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.45,
-        "value": "34"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Duales FH-Studium"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.45,
-        "value": "39"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Duale Hochschule (ehem. BA in BW)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "59"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 445,
-    "missings": [
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3219,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 11.42,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Von welchem zu welchem Studiengang haben Sie gewechselt bzw. haben Sie noch vor zu wechseln?\nzu:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 987,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "change of course: to mode of study",
+    "de": "Wechsel Studiengang: zu Studienart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

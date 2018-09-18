@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Bewertung Hauptfach: Atmosphäre Studierendenschaft"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 967,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie bewerten Sie folgende Aspekte Ihres derzeitigen 1. Hauptstudienfachs?\r\nAtmosphäre unter Studierenden"
+      },
+      "questionNumber": "4.4",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 10.71,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "566.3532",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 65,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "absoluteFrequency": 588,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 727,
         "label": {
-          "en": null,
+          "en": "very good",
           "de": "sehr gut"
         },
-        "relativeFrequency": 2.58,
         "validRelativeFrequency": 24.09,
+        "relativeFrequency": 2.58,
+        "absoluteFrequency": 727,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1488,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 5.28,
         "validRelativeFrequency": 49.3,
+        "relativeFrequency": 5.28,
+        "absoluteFrequency": 1488,
         "value": "2"
       },
       {
-        "absoluteFrequency": 578,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 2.05,
         "validRelativeFrequency": 19.15,
+        "relativeFrequency": 2.05,
+        "absoluteFrequency": 578,
         "value": "3"
       },
       {
-        "absoluteFrequency": 196,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 0.7,
         "validRelativeFrequency": 6.49,
+        "relativeFrequency": 0.7,
+        "absoluteFrequency": 196,
         "value": "4"
       },
       {
-        "absoluteFrequency": 29,
         "label": {
-          "en": null,
+          "en": "very poor",
           "de": "sehr schlecht"
         },
-        "relativeFrequency": 0.1,
         "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 29,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 10.71,
     "totalValidAbsoluteFrequency": 3018,
-    "missings": [
-      {
-        "absoluteFrequency": 65,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.23,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 588,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.09,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie bewerten Sie folgende Aspekte Ihres derzeitigen 1. Hauptstudienfachs?\nAtmosphäre unter Studierenden"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 967,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "rating of main subject: atmosphere among student population",
+    "de": "Bewertung Hauptfach: Atmosphäre Studierendenschaft"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

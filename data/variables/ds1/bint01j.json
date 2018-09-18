@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Interessenbereich: Pflege/Betreuung von Menschen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 227,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\r\nhilfsbedürftige Menschen pflegen und betreuen"
+      },
+      "questionNumber": "16",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 21,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "443.2974",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 15,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 655,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 2.32,
         "validRelativeFrequency": 11.07,
+        "relativeFrequency": 2.32,
+        "absoluteFrequency": 655,
         "value": "1"
       },
       {
-        "absoluteFrequency": 911,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 3.23,
         "validRelativeFrequency": 15.39,
+        "relativeFrequency": 3.23,
+        "absoluteFrequency": 911,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1308,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 4.64,
         "validRelativeFrequency": 22.1,
+        "relativeFrequency": 4.64,
+        "absoluteFrequency": 1308,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1607,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 5.7,
         "validRelativeFrequency": 27.15,
+        "relativeFrequency": 5.7,
+        "absoluteFrequency": 1607,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1437,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 5.1,
         "validRelativeFrequency": 24.28,
+        "relativeFrequency": 5.1,
+        "absoluteFrequency": 1437,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 21,
     "totalValidAbsoluteFrequency": 5918,
-    "missings": [
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.05,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\nhilfsbedürftige Menschen pflegen und betreuen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 227,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "area of interest: care/support of people",
+    "de": "Interessenbereich: Pflege/Betreuung von Menschen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

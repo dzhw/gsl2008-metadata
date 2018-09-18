@@ -1,1012 +1,1024 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "1. Prüfungsfach "
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-bsch14a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie Ihre Prüfungsfächer und geben Sie zusätzlich an, mit welcher wöchentlichen Stundenzahl diese in Ihrem Abschlussjahr unterrichtet wurden.\r\nPrüfungsfach 1"
+      },
+      "questionNumber": "04",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "106",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 71,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Biology",
+          "de": "Biologie"
+        },
+        "validRelativeFrequency": 8.31,
+        "relativeFrequency": 1.73,
+        "absoluteFrequency": 487,
+        "value": "101"
+      },
+      {
+        "label": {
+          "en": "Chemistry",
+          "de": "Chemie"
+        },
+        "validRelativeFrequency": 1.83,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 107,
+        "value": "102"
+      },
+      {
+        "label": {
+          "en": "data processing, computer science",
+          "de": "Datenverarbeitung, Informatik"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "103"
+      },
+      {
+        "label": {
+          "en": "Geography",
+          "de": "Erdkunde/Geografie"
+        },
+        "validRelativeFrequency": 0.75,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 44,
+        "value": "104"
+      },
+      {
+        "label": {
+          "en": "Mathematics",
+          "de": "Mathematik"
+        },
+        "validRelativeFrequency": 26.44,
+        "relativeFrequency": 5.5,
+        "absoluteFrequency": 1550,
+        "value": "106"
+      },
+      {
+        "label": {
+          "en": "Physics",
+          "de": "Physik"
+        },
+        "validRelativeFrequency": 2.44,
+        "relativeFrequency": 0.51,
+        "absoluteFrequency": 143,
+        "value": "107"
+      },
+      {
+        "label": {
+          "en": "ethics (values and norms)",
+          "de": "Ethik (Werte und Normen)"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "121"
+      },
+      {
+        "label": {
+          "en": "History",
+          "de": "Geschichte"
+        },
+        "validRelativeFrequency": 2.76,
+        "relativeFrequency": 0.57,
+        "absoluteFrequency": 162,
+        "value": "122"
+      },
+      {
+        "label": {
+          "en": "Education",
+          "de": "Pädagogik"
+        },
+        "validRelativeFrequency": 0.34,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 20,
+        "value": "123"
+      },
+      {
+        "label": {
+          "en": "Psychology",
+          "de": "Psychologie"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "125"
+      },
+      {
+        "label": {
+          "en": "religion",
+          "de": "Religion"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "126"
+      },
+      {
+        "label": {
+          "en": "social studies, politics, social studies, political world affairs",
+          "de": "Sozialkunde, Politik, Gemeinschaftskunde, Politische Weltkunde"
+        },
+        "validRelativeFrequency": 0.68,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 40,
+        "value": "127"
+      },
+      {
+        "label": {
+          "en": "sociology/social sciences",
+          "de": "Soziologie/Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "128"
+      },
+      {
+        "label": {
+          "en": "economics (not at a vocational school)",
+          "de": "Wirtschaft (nicht an BBS)"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "129"
+      },
+      {
+        "label": {
+          "en": "economics and law",
+          "de": "Wirtschaft und Recht"
+        },
+        "validRelativeFrequency": 0.29,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "130"
+      },
+      {
+        "label": {
+          "en": "social studies and history",
+          "de": "Sozialkunde und Geschichte"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "131"
+      },
+      {
+        "label": {
+          "en": "economics and politics",
+          "de": "Wirtschaft und Politik"
+        },
+        "validRelativeFrequency": 0.6,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 35,
+        "value": "132"
+      },
+      {
+        "label": {
+          "en": "performing arts/acting",
+          "de": "Darstellendes Spiel/Darstellung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "141"
+      },
+      {
+        "label": {
+          "en": "art/design/fine art",
+          "de": "Kunst/Gestaltung/Bildende Kunst"
+        },
+        "validRelativeFrequency": 1.19,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 70,
+        "value": "142"
+      },
+      {
+        "label": {
+          "en": "Music",
+          "de": "Musik"
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 18,
+        "value": "143"
+      },
+      {
+        "label": {
+          "en": "Sports",
+          "de": "Sport"
+        },
+        "validRelativeFrequency": 0.58,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 34,
+        "value": "144"
+      },
+      {
+        "label": {
+          "en": "German",
+          "de": "Deutsch"
+        },
+        "validRelativeFrequency": 23.75,
+        "relativeFrequency": 4.94,
+        "absoluteFrequency": 1392,
+        "value": "161"
+      },
+      {
+        "label": {
+          "en": "English",
+          "de": "Englisch"
+        },
+        "validRelativeFrequency": 12.44,
+        "relativeFrequency": 2.59,
+        "absoluteFrequency": 729,
+        "value": "165"
+      },
+      {
+        "label": {
+          "en": "French",
+          "de": "Französisch"
+        },
+        "validRelativeFrequency": 1.76,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 103,
+        "value": "166"
+      },
+      {
+        "label": {
+          "en": "Greek",
+          "de": "Griechisch"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "167"
+      },
+      {
+        "label": {
+          "en": "Italian",
+          "de": "Italienisch"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "169"
+      },
+      {
+        "label": {
+          "en": "Latin",
+          "de": "Latein"
+        },
+        "validRelativeFrequency": 1.07,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 63,
+        "value": "171"
+      },
+      {
+        "label": {
+          "en": "Russian",
+          "de": "Russisch"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "173"
+      },
+      {
+        "label": {
+          "en": "Spanish",
+          "de": "Spanisch"
+        },
+        "validRelativeFrequency": 0.39,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "value": "175"
+      },
+      {
+        "label": {
+          "en": "other languages",
+          "de": "andere Sprachen"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "179"
+      },
+      {
+        "label": {
+          "en": "automation technology",
+          "de": "Automatisierungstechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "301"
+      },
+      {
+        "label": {
+          "en": "chemical engineering",
+          "de": "Chemotechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "302"
+      },
+      {
+        "label": {
+          "en": "electrotechnology",
+          "de": "Elektrotechnik,"
+        },
+        "validRelativeFrequency": 0.56,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 33,
+        "value": "304"
+      },
+      {
+        "label": {
+          "en": "manufacturing technology, production technology, process technology",
+          "de": "Fertigungstechnik, Produktionstechnik, Verfahrenstechnik"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "306"
+      },
+      {
+        "label": {
+          "en": "automobile technology",
+          "de": "Kfz-Technik"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "309"
+      },
+      {
+        "label": {
+          "en": "engineering, engineering technology",
+          "de": "Maschinenbau, Maschinentechnik"
+        },
+        "validRelativeFrequency": 0.32,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 19,
+        "value": "310"
+      },
+      {
+        "label": {
+          "en": "mechanics",
+          "de": "Mechanik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "311"
+      },
+      {
+        "label": {
+          "en": "metal technology",
+          "de": "Metalltechnik"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "312"
+      },
+      {
+        "label": {
+          "en": "physical engineering",
+          "de": "Physikalische Technik"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "315"
+      },
+      {
+        "label": {
+          "en": "engineering, technology (for some disciplines: engineering and natural sciences)",
+          "de": "Technik, Technologie (bei FG z.T. Technik und Naturwissenschaften)"
+        },
+        "validRelativeFrequency": 1.06,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 62,
+        "value": "317"
+      },
+      {
+        "label": {
+          "en": "measurement, control and regulation technology",
+          "de": "Mess-, Steuer- und Regelungstechnik"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "320"
+      },
+      {
+        "label": {
+          "en": "supply engineering, power engineering, refrigeration, climate technology",
+          "de": "Versorgungstechnik, Energietechnik, Kältetechnik, Klimatechnik"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "322"
+      },
+      {
+        "label": {
+          "en": "materials engineering",
+          "de": "Werkstofftechnik"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "324"
+      },
+      {
+        "label": {
+          "en": "construction",
+          "de": "Konstruktion"
+        },
+        "validRelativeFrequency": 0.1,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "358"
+      },
+      {
+        "label": {
+          "en": "civil engineering, underground engineering, road construction",
+          "de": "Tiefbau, Tiefbaukonstruktion, Straßenbau"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "360"
+      },
+      {
+        "label": {
+          "en": "building technology",
+          "de": "Bautechnik"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "364"
+      },
+      {
+        "label": {
+          "en": "data processing",
+          "de": "Datenverarbeitung"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "402"
+      },
+      {
+        "label": {
+          "en": "computer science",
+          "de": "Informatik"
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "403"
+      },
+      {
+        "label": {
+          "en": "IT systems",
+          "de": "Informatiksysteme"
+        },
+        "validRelativeFrequency": 0.1,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "404"
+      },
+      {
+        "label": {
+          "en": "communications/information technology",
+          "de": "Kommunikations-/Informationstechnik"
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 18,
+        "value": "405"
+      },
+      {
+        "label": {
+          "en": "application development/systems/programming",
+          "de": "Anwendungsentwicklung, -systeme, Programmierung"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "406"
+      },
+      {
+        "label": {
+          "en": "process technology",
+          "de": "Prozesstechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "409"
+      },
+      {
+        "label": {
+          "en": "business management",
+          "de": "Betriebswirtschaft(slehre)"
+        },
+        "validRelativeFrequency": 1.13,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 66,
+        "value": "451"
+      },
+      {
+        "label": {
+          "en": "business administration/accounting/controlling",
+          "de": "Betriebswirtschaftslehre/Rechnungswesen/Controlling"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 68,
+        "value": "452"
+      },
+      {
+        "label": {
+          "en": "finance",
+          "de": "Finanzwirtschaft"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "455"
+      },
+      {
+        "label": {
+          "en": "Marketing",
+          "de": "Marketing"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "456"
+      },
+      {
+        "label": {
+          "en": "accounting",
+          "de": "Rechnungswesen"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "458"
+      },
+      {
+        "label": {
+          "en": "economics",
+          "de": "Volkswirtschaft(slehre)"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "462"
+      },
+      {
+        "label": {
+          "en": "economics and business management",
+          "de": "Volks- und Betriebswirtschaftslehre"
+        },
+        "validRelativeFrequency": 1.11,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 65,
+        "value": "463"
+      },
+      {
+        "label": {
+          "en": "economics and business management with accounting",
+          "de": "Volks- und Betriebswirtschaftslehre mit Rechnungswesen"
+        },
+        "validRelativeFrequency": 0.36,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "464"
+      },
+      {
+        "label": {
+          "en": "management, business studies, economic sciences (at technical college - business and administration + possibly administration of justice)",
+          "de": "Wirtschaft, Wirtschaftslehre, Wirtschaftswissenschaften  (bei FOS Wirtschaft und Verwaltung + evtl. Rechtspflege)"
+        },
+        "validRelativeFrequency": 1.31,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 77,
+        "value": "465"
+      },
+      {
+        "label": {
+          "en": "business informatics",
+          "de": "Wirtschaftsinformatik"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "467"
+      },
+      {
+        "label": {
+          "en": "economic theory and politics",
+          "de": "Wirtschaftstheorie und -politik"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "468"
+      },
+      {
+        "label": {
+          "en": "production management",
+          "de": "Produktionsmanagement"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "473"
+      },
+      {
+        "label": {
+          "en": "business organisation",
+          "de": "Betriebsorganisation"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "474"
+      },
+      {
+        "label": {
+          "en": "agricultural economics, agriculture, soil science, plant production, animal breeding",
+          "de": "Agrarwirtschaft, Landwirtschaft, Bodenkunde/Pflanzenproduktion, Tierzucht"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "502"
+      },
+      {
+        "label": {
+          "en": "Biotechnology",
+          "de": "Biotechnologie"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "509"
+      },
+      {
+        "label": {
+          "en": "design",
+          "de": "Gestaltung"
+        },
+        "validRelativeFrequency": 0.22,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "553"
+      },
+      {
+        "label": {
+          "en": "design technology",
+          "de": "Gestaltungstechnik"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "554"
+      },
+      {
+        "label": {
+          "en": "textile studies, textile technology",
+          "de": "Textillehre, Textiltechnologie"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "558"
+      },
+      {
+        "label": {
+          "en": "presentation technology",
+          "de": "Präsentationstechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "560"
+      },
+      {
+        "label": {
+          "en": "anatomy/pharmacology",
+          "de": "Anatomie/Pharmakologie"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "601"
+      },
+      {
+        "label": {
+          "en": "nutrition",
+          "de": "Ernährung"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "602"
+      },
+      {
+        "label": {
+          "en": "dietetics with chemistry",
+          "de": "Ernährungslehre mit Chemie"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "603"
+      },
+      {
+        "label": {
+          "en": "health, hygienics",
+          "de": "Gesundheit, Gesundheitslehre"
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 18,
+        "value": "604"
+      },
+      {
+        "label": {
+          "en": "food technology",
+          "de": "Lebensmitteltechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "607"
+      },
+      {
+        "label": {
+          "en": "pharmacy",
+          "de": "Pharmazie"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "609"
+      },
+      {
+        "label": {
+          "en": "sports medicine",
+          "de": "Sportmedizin"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "610"
+      },
+      {
+        "label": {
+          "en": "exercise",
+          "de": "Bewegung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "611"
+      },
+      {
+        "label": {
+          "en": "career studies and law",
+          "de": "Berufs- und Rechtskunde"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "653"
+      },
+      {
+        "label": {
+          "en": "didactics/methodology",
+          "de": "Didaktik/Methodik"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "654"
+      },
+      {
+        "label": {
+          "en": "therapeutic/curative education",
+          "de": "Heilpädagogik/Heilerziehung"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "656"
+      },
+      {
+        "label": {
+          "en": "Education",
+          "de": "Pädagogik/Erziehungswissenschaft"
+        },
+        "validRelativeFrequency": 0.6,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 35,
+        "value": "658"
+      },
+      {
+        "label": {
+          "en": "pedagogy and psychology",
+          "de": "Pädagogik und Psychologie"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 39,
+        "value": "659"
+      },
+      {
+        "label": {
+          "en": "Psychology",
+          "de": "Psychologie"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "660"
+      },
+      {
+        "label": {
+          "en": "social pedagogy",
+          "de": "Sozialpädagogik"
+        },
+        "validRelativeFrequency": 0.43,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 25,
+        "value": "661"
+      },
+      {
+        "label": {
+          "en": "social welfare, social economy",
+          "de": "Sozialwesen, Sozialwirtschaft"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 12,
+        "value": "662"
+      },
+      {
+        "label": {
+          "en": "care, nursing care, care for the elderly, home and family care",
+          "de": "Pflege, Krankenpflege, Altenpflege, Haus- und Familienpflege"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "663"
+      },
+      {
+        "label": {
+          "en": "German/communication (language/communication)",
+          "de": "Deutsch/Kommunikation (Sprache/Kommunikation)"
+        },
+        "validRelativeFrequency": 0.39,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "value": "701"
+      },
+      {
+        "label": {
+          "en": "English",
+          "de": "Englisch"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "702"
+      },
+      {
+        "label": {
+          "en": "French",
+          "de": "Französisch"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "703"
+      },
+      {
+        "label": {
+          "en": "media technology",
+          "de": "Medientechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "753"
+      },
+      {
+        "label": {
+          "en": "chemistry (inorganic/organic)",
+          "de": "Chemie (Anorganische/Organische)"
+        },
+        "validRelativeFrequency": 0.1,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "773"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.8,
+    "totalValidAbsoluteFrequency": 5862,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 171,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zum 1. Prüfungsfach in der Schule in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-7)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on the 1st exam subject at the school in coded form. This involved the use of a project-specific code list (see cl-dzhw-7).",
+      "de": "Diese Variable enthält die offen erfassten Angaben zum 1. Prüfungsfach in der Schule in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-7)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.8,
-    "statistics": {
-      "mode": "106"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 487,
-        "label": {
-          "en": null,
-          "de": "Biologie"
-        },
-        "relativeFrequency": 1.73,
-        "validRelativeFrequency": 8.31,
-        "value": "101"
-      },
-      {
-        "absoluteFrequency": 107,
-        "label": {
-          "en": null,
-          "de": "Chemie"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 1.83,
-        "value": "102"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Datenverarbeitung, Informatik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "103"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": null,
-          "de": "Erdkunde/Geografie"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 0.75,
-        "value": "104"
-      },
-      {
-        "absoluteFrequency": 1550,
-        "label": {
-          "en": null,
-          "de": "Mathematik"
-        },
-        "relativeFrequency": 5.5,
-        "validRelativeFrequency": 26.44,
-        "value": "106"
-      },
-      {
-        "absoluteFrequency": 143,
-        "label": {
-          "en": null,
-          "de": "Physik"
-        },
-        "relativeFrequency": 0.51,
-        "validRelativeFrequency": 2.44,
-        "value": "107"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Ethik (Werte und Normen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "121"
-      },
-      {
-        "absoluteFrequency": 162,
-        "label": {
-          "en": null,
-          "de": "Geschichte"
-        },
-        "relativeFrequency": 0.57,
-        "validRelativeFrequency": 2.76,
-        "value": "122"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": null,
-          "de": "Pädagogik"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.34,
-        "value": "123"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Psychologie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "125"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Religion"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.14,
-        "value": "126"
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": null,
-          "de": "Sozialkunde, Politik, Gemeinschaftskunde, Politische Weltkunde"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 0.68,
-        "value": "127"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "Soziologie/Sozialwissenschaften"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.17,
-        "value": "128"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "Wirtschaft (nicht an BBS)"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.15,
-        "value": "129"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "Wirtschaft und Recht"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.29,
-        "value": "130"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Sozialkunde und Geschichte"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "131"
-      },
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": null,
-          "de": "Wirtschaft und Politik"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 0.6,
-        "value": "132"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Darstellendes Spiel/Darstellung"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "141"
-      },
-      {
-        "absoluteFrequency": 70,
-        "label": {
-          "en": null,
-          "de": "Kunst/Gestaltung/Bildende Kunst"
-        },
-        "relativeFrequency": 0.25,
-        "validRelativeFrequency": 1.19,
-        "value": "142"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": "Musik"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.31,
-        "value": "143"
-      },
-      {
-        "absoluteFrequency": 34,
-        "label": {
-          "en": null,
-          "de": "Sport"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 0.58,
-        "value": "144"
-      },
-      {
-        "absoluteFrequency": 1392,
-        "label": {
-          "en": null,
-          "de": "Deutsch"
-        },
-        "relativeFrequency": 4.94,
-        "validRelativeFrequency": 23.75,
-        "value": "161"
-      },
-      {
-        "absoluteFrequency": 729,
-        "label": {
-          "en": null,
-          "de": "Englisch"
-        },
-        "relativeFrequency": 2.59,
-        "validRelativeFrequency": 12.44,
-        "value": "165"
-      },
-      {
-        "absoluteFrequency": 103,
-        "label": {
-          "en": null,
-          "de": "Französisch"
-        },
-        "relativeFrequency": 0.37,
-        "validRelativeFrequency": 1.76,
-        "value": "166"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Griechisch"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.12,
-        "value": "167"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Italienisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "169"
-      },
-      {
-        "absoluteFrequency": 63,
-        "label": {
-          "en": null,
-          "de": "Latein"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 1.07,
-        "value": "171"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Russisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "173"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "Spanisch"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.39,
-        "value": "175"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "andere Sprachen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "179"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Automatisierungstechnik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "301"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Chemotechnik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "302"
-      },
-      {
-        "absoluteFrequency": 33,
-        "label": {
-          "en": null,
-          "de": "Elektrotechnik,"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 0.56,
-        "value": "304"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Fertigungstechnik, Produktionstechnik, Verfahrenstechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "306"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Kfz-Technik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "309"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": null,
-          "de": "Maschinenbau, Maschinentechnik"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.32,
-        "value": "310"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Mechanik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "311"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Metalltechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.07,
-        "value": "312"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Physikalische Technik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "315"
-      },
-      {
-        "absoluteFrequency": 62,
-        "label": {
-          "en": null,
-          "de": "Technik, Technologie (bei FG z.T. Technik und Naturwissenschaften)"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 1.06,
-        "value": "317"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Mess-, Steuer- und Regelungstechnik"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.12,
-        "value": "320"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Versorgungstechnik, Energietechnik, Kältetechnik, Klimatechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "322"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Werkstofftechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "324"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Konstruktion"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.1,
-        "value": "358"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Tiefbau, Tiefbaukonstruktion, Straßenbau"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "360"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Bautechnik"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.09,
-        "value": "364"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "Datenverarbeitung"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.17,
-        "value": "402"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "Informatik"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.19,
-        "value": "403"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Informatiksysteme"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.1,
-        "value": "404"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": "Kommunikations-/Informationstechnik"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.31,
-        "value": "405"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Anwendungsentwicklung, -systeme, Programmierung"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.12,
-        "value": "406"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Prozesstechnik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "409"
-      },
-      {
-        "absoluteFrequency": 66,
-        "label": {
-          "en": null,
-          "de": "Betriebswirtschaft(slehre)"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 1.13,
-        "value": "451"
-      },
-      {
-        "absoluteFrequency": 68,
-        "label": {
-          "en": null,
-          "de": "Betriebswirtschaftslehre/Rechnungswesen/Controlling"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 1.16,
-        "value": "452"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Finanzwirtschaft"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "455"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Marketing"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "456"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Rechnungswesen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "458"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Volkswirtschaft(slehre)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "462"
-      },
-      {
-        "absoluteFrequency": 65,
-        "label": {
-          "en": null,
-          "de": "Volks- und Betriebswirtschaftslehre"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 1.11,
-        "value": "463"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "Volks- und Betriebswirtschaftslehre mit Rechnungswesen"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.36,
-        "value": "464"
-      },
-      {
-        "absoluteFrequency": 77,
-        "label": {
-          "en": null,
-          "de": "Wirtschaft, Wirtschaftslehre, Wirtschaftswissenschaften  (bei FOS Wirtschaft und Verwaltung + evtl. Rechtspflege)"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 1.31,
-        "value": "465"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Wirtschaftsinformatik"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.09,
-        "value": "467"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Wirtschaftstheorie und -politik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.07,
-        "value": "468"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Produktionsmanagement"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "473"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Betriebsorganisation"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.07,
-        "value": "474"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Agrarwirtschaft, Landwirtschaft, Bodenkunde/Pflanzenproduktion, Tierzucht"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "502"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Biotechnologie"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.14,
-        "value": "509"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "Gestaltung"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.22,
-        "value": "553"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "Gestaltungstechnik"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.27,
-        "value": "554"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Textillehre, Textiltechnologie"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "558"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Präsentationstechnik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "560"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Anatomie/Pharmakologie"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "601"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Ernährung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.07,
-        "value": "602"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "Ernährungslehre mit Chemie"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.15,
-        "value": "603"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": "Gesundheit, Gesundheitslehre"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.31,
-        "value": "604"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Lebensmitteltechnik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "607"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Pharmazie"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "609"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sportmedizin"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "610"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bewegung"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "611"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Berufs- und Rechtskunde"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "653"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Didaktik/Methodik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "654"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Heilpädagogik/Heilerziehung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "656"
-      },
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": null,
-          "de": "Pädagogik/Erziehungswissenschaft"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 0.6,
-        "value": "658"
-      },
-      {
-        "absoluteFrequency": 39,
-        "label": {
-          "en": null,
-          "de": "Pädagogik und Psychologie"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 0.67,
-        "value": "659"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Psychologie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "660"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": null,
-          "de": "Sozialpädagogik"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 0.43,
-        "value": "661"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": null,
-          "de": "Sozialwesen, Sozialwirtschaft"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.2,
-        "value": "662"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Pflege, Krankenpflege, Altenpflege, Haus- und Familienpflege"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.07,
-        "value": "663"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "Deutsch/Kommunikation (Sprache/Kommunikation)"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.39,
-        "value": "701"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "Englisch"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.27,
-        "value": "702"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Französisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "703"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Medientechnik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "753"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Chemie (Anorganische/Organische)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.1,
-        "value": "773"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5862,
-    "missings": [
-      {
-        "absoluteFrequency": 71,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.25,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "04",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie Ihre Prüfungsfächer und geben Sie zusätzlich an, mit welcher wöchentlichen Stundenzahl diese in Ihrem Abschlussjahr unterrichtet wurden.\nPrüfungsfach 1"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-bsch14a",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 171,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st exam subject ",
+    "de": "1. Prüfungsfach "
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

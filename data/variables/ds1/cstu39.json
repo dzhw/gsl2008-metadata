@@ -1,121 +1,133 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben sie einen Masterstudiengang aufgenommen oder planen Sie dies?"
+      },
+      "questionNumber": "5.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 68,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 1.25,
+        "absoluteFrequency": 351,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 50.98,
+        "relativeFrequency": 5.88,
+        "absoluteFrequency": 1658,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 32.32,
+        "relativeFrequency": 3.73,
+        "absoluteFrequency": 1051,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "don’t know yet",
+          "de": "weiß ich noch nicht"
+        },
+        "validRelativeFrequency": 16.7,
+        "relativeFrequency": 1.93,
+        "absoluteFrequency": 543,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 11.54,
+    "totalValidAbsoluteFrequency": 3252,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1170,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "admittance to master’s course (planned/realised)?",
+    "de": "Aufnahme Masterstudium (geplant/realisiert)?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Aufnahme Masterstudium (geplant/realisiert)?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1170,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 11.54,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1658,
-        "label": {
-          "en": null,
-          "de": "ja"
-        },
-        "relativeFrequency": 5.88,
-        "validRelativeFrequency": 50.98,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1051,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 3.73,
-        "validRelativeFrequency": 32.32,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 543,
-        "label": {
-          "en": null,
-          "de": "weiß ich noch nicht"
-        },
-        "relativeFrequency": 1.93,
-        "validRelativeFrequency": 16.7,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3252,
-    "missings": [
-      {
-        "absoluteFrequency": 68,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.24,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 351,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 1.25,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben sie einen Masterstudiengang aufgenommen oder planen Sie dies?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

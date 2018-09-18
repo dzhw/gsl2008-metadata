@@ -1,160 +1,173 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "5. Job: Arbeitsort (Staat im Ausland)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0525a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium."
+      },
+      "questionNumber": "4.14",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 8.53,
+        "absoluteFrequency": 2404,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 4.19,
+        "absoluteFrequency": 1181,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 93.02,
+        "relativeFrequency": 0.28,
+        "absoluteFrequency": 80,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "Argentinia",
+          "de": "Argentinien"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "People’s Republic of China",
+          "de": "China, Volksrepublik"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "34"
+      },
+      {
+        "label": {
+          "en": "Namibia",
+          "de": "Namibia, Republik"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "122"
+      },
+      {
+        "label": {
+          "en": "Austria",
+          "de": "Österreich"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "134"
+      },
+      {
+        "label": {
+          "en": "Switzerland",
+          "de": "Schweiz"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "156"
+      },
+      {
+        "label": {
+          "en": "Thailand",
+          "de": "Thailand, Königreich"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "181"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.31,
+    "totalValidAbsoluteFrequency": 86,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1077,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfasste Angaben zum Ort einer Arbeit im Studium im Ausland in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-19). Angaben zu einem Ort im Deutschland wurden in einer gesonderten Variable erfasst."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on the place of work during studies abroad in coded form. This involved the use of a project-specific code list (see cl-dzhw-19). Data on German locations were collected in a separate variable.",
+      "de": "Diese Variable enthält die offen erfasste Angaben zum Ort einer Arbeit im Studium im Ausland in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-19). Angaben zu einem Ort im Deutschland wurden in einer gesonderten Variable erfasst."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.02,
-    "statistics": {
-      "mode": "multimodal"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Argentinien"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "China, Volksrepublik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "34"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Namibia, Republik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "122"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Österreich"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "134"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Schweiz"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "156"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Thailand, Königreich"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 16.67,
-        "value": "181"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 6,
-    "missings": [
-      {
-        "absoluteFrequency": 2404,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 8.53,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1181,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 4.19,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 80,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.28,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium."
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0525a",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1077,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "5th job: place of work (foreign country)",
+    "de": "5. Job: Arbeitsort (Staat im Ausland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

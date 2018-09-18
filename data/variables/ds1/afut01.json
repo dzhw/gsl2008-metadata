@@ -1,140 +1,145 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Einschätzung Berufsaussichten: Akademiker allgemein"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-fut01",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 142,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie…\r\n… allgemein die Berufsaussichten für Absolventen eines Studiums ein?"
+      },
+      "questionNumber": "27",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 91.46,
     "statistics": {
-      "firstQuartile": "2",
-      "highWhisker": 4.5,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "3",
-      "meanDeviation": "5392.216",
-      "maximum": "5",
+      "meanDeviation": 1.4826,
       "mode": "2",
-      "median": "2"
+      "highWhisker": 4.5,
+      "lowWhisker": 0.5,
+      "thirdQuartile": "3",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "5",
+      "minimum": "-999",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.26,
+        "absoluteFrequency": 637,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 4674,
         "label": {
-          "en": null,
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "validRelativeFrequency": 6.42,
+        "relativeFrequency": 6.28,
+        "absoluteFrequency": 1769,
+        "value": "-999"
+      },
+      {
+        "label": {
+          "en": "very good",
           "de": "sehr gut"
         },
+        "validRelativeFrequency": 16.97,
         "relativeFrequency": 16.59,
-        "validRelativeFrequency": 18.13,
+        "absoluteFrequency": 4674,
         "value": "1"
       },
       {
-        "absoluteFrequency": 13303,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 48.3,
         "relativeFrequency": 47.2,
-        "validRelativeFrequency": 51.61,
+        "absoluteFrequency": 13303,
         "value": "2"
       },
       {
-        "absoluteFrequency": 6548,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 23.77,
         "relativeFrequency": 23.23,
-        "validRelativeFrequency": 25.4,
+        "absoluteFrequency": 6548,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1037,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 3.76,
         "relativeFrequency": 3.68,
-        "validRelativeFrequency": 4.02,
+        "absoluteFrequency": 1037,
         "value": "4"
       },
       {
-        "absoluteFrequency": 214,
         "label": {
-          "en": null,
+          "en": "very poor",
           "de": "sehr schlecht"
         },
+        "validRelativeFrequency": 0.78,
         "relativeFrequency": 0.76,
-        "validRelativeFrequency": 0.83,
+        "absoluteFrequency": 214,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 25776,
-    "missings": [
-      {
-        "absoluteFrequency": 1769,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 6.28,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 637,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 2.26,
-        "code": -998
-      }
-    ]
+    "totalValidRelativeFrequency": 97.74,
+    "totalValidAbsoluteFrequency": 27545,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "27",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie…\n… allgemein die Berufsaussichten für Absolventen eines Studiums ein?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-fut01",
+  "surveyNumbers": [1],
+  "indexInDataSet": 142,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "evaluation job prospects: graduates general",
+    "de": "Einschätzung Berufsaussichten: Akademiker allgemein"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

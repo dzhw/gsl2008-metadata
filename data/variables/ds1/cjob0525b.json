@@ -1,251 +1,263 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.\r\nArt der Tätigkeit\r\n(z. B. Praktikum, wissen. Hilfskraft, Aushilfsjob)"
+      },
+      "questionNumber": "4.14",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "7",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 8.52,
+        "absoluteFrequency": 2401,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 4.19,
+        "absoluteFrequency": 1181,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "research assistant/tutor/trainer",
+          "de": "wissenschaftliche Hilfskraft/Tutor/Übungsleiter"
+        },
+        "validRelativeFrequency": 11.24,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "undergraduate assistant",
+          "de": "studentische Hilfskraft"
+        },
+        "validRelativeFrequency": 15.73,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "working student/student job",
+          "de": "Werkstudent(in)/Studentenjob"
+        },
+        "validRelativeFrequency": 8.99,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "holiday job/summer job",
+          "de": "Ferienjob/Sommerjob"
+        },
+        "validRelativeFrequency": 3.37,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "temporary job/temp",
+          "de": "Aushilfsjob/Aushilfe"
+        },
+        "validRelativeFrequency": 16.85,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 15,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "bachelor thesis",
+          "de": "Bachelorarbeit"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "internship",
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 20.22,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 18,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "vocational training/student as part of dual degree course",
+          "de": "Ausbildung/Student im Rahmen vom dualen Studium"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "waiter/service",
+          "de": "Kellnern/Bedienung/Service"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "private tuition",
+          "de": "Nachhilfe"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "teacher/lecturer",
+          "de": "Lehrkraft/Dozent(in)"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "tour guide/promotion/events",
+          "de": "Reiseleiter/Promotion/Events"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "freelance occupation",
+          "de": "Freiberufliche Tätigkeit"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "casual work/side job",
+          "de": "Jobben/Nebenjob"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": "assistant",
+          "de": "Hilfskraft (Hiwi)"
+        },
+        "validRelativeFrequency": 6.74,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "98"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.32,
+    "totalValidAbsoluteFrequency": 89,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1078,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "5th job: occupation type",
+    "de": "5. Job: Art der Tätigkeit"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "5. Job: Art der Tätigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1078,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.32,
-    "statistics": {
-      "mode": "7"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "wissenschaftliche Hilfskraft/Tutor/Übungsleiter"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 11.24,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "studentische Hilfskraft"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 15.73,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Werkstudent(in)/Studentenjob"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 8.99,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Ferienjob/Sommerjob"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.37,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": "Aushilfsjob/Aushilfe"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 16.85,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Bachelorarbeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.25,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": "Praktikum"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 20.22,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Ausbildung/Student im Rahmen vom dualen Studium"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.25,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Kellnern/Bedienung/Service"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.25,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Nachhilfe"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.12,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Lehrkraft/Dozent(in)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.12,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Reiseleiter/Promotion/Events"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.25,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Freiberufliche Tätigkeit"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 1.12,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Jobben/Nebenjob"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.25,
-        "value": "21"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Hilfskraft (Hiwi)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 6.74,
-        "value": "30"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.25,
-        "value": "98"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 89,
-    "missings": [
-      {
-        "absoluteFrequency": 2401,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 8.52,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1181,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 4.19,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.\nArt der Tätigkeit\n(z. B. Praktikum, wissen. Hilfskraft, Aushilfsjob)"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

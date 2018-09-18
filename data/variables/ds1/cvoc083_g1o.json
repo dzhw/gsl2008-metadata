@@ -1,1141 +1,1154 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "3. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsklasse) (4-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc083",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\r\nBerufliche Ausbildung\r\nArt der Ausbildung und Ausbildungsberuf\r\n(z. B. betriebliche Ausbildung Bürokauffrau/mann)"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "8530",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.07,
+        "absoluteFrequency": 3402,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "-969"
+      },
+      {
+        "label": {
+          "en": "Farmers, general",
+          "de": "Landwirt(e/innen), allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "110"
+      },
+      {
+        "label": {
+          "en": "Livestock farmers (cattle)",
+          "de": "Tierwirt(e/innen) (Rinderhaltung)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "231"
+      },
+      {
+        "label": {
+          "en": "Ornamental plant, shrub gardeners",
+          "de": "Zierpflanzen-, Staudengärtner/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "513"
+      },
+      {
+        "label": {
+          "en": "Chemical plant workers, (specialist) chemical workers, general",
+          "de": "Chemiebetriebswerker/innen, Chemie(fach)arbeiter/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "1410"
+      },
+      {
+        "label": {
+          "en": "Foundry mechanics, die casters without designation",
+          "de": "Gießereimechaniker, Formgießer o.n.A."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": "Cutting mechanics",
+          "de": "Zerspanungsmechaniker/innen o.n.F."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "2200"
+      },
+      {
+        "label": {
+          "en": "Metal engineers (design technology)",
+          "de": "Metallbauer/innen (Konstruktionstechnik)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "2543"
+      },
+      {
+        "label": {
+          "en": "Industrial mechanics, mechanics without designation",
+          "de": "Industriemechaniker/innen o.n.F., Mechaniker/innen o.n.A."
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "2700"
+      },
+      {
+        "label": {
+          "en": "Aircraft mechanics, general",
+          "de": "Fluggerätmechaniker/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "2830"
+      },
+      {
+        "label": {
+          "en": "Industrial mechanics (technical and precision equipment), precision mechanics without designation",
+          "de": "Industriemechaniker/innen (Geräte- und Feinwerktechnik), Feinmechaniker/innen o.n.A."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3000"
+      },
+      {
+        "label": {
+          "en": "Gold smiths",
+          "de": "Goldschmied(e/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3021"
+      },
+      {
+        "label": {
+          "en": "Dental technicians",
+          "de": "Zahntechniker/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3031"
+      },
+      {
+        "label": {
+          "en": "Ophthalmic opticians",
+          "de": "Augenoptiker/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3041"
+      },
+      {
+        "label": {
+          "en": "Energy electronics technicians without further specification",
+          "de": "Energieelektroniker/innen o.n.A."
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "3110"
+      },
+      {
+        "label": {
+          "en": "Energy electronics technicians (operating technology)",
+          "de": "Energieelektroniker/innen (Betriebstechnik)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3112"
+      },
+      {
+        "label": {
+          "en": "Communication electronics technicians (radio)",
+          "de": "Kommunikationselektroniker/innen (Funktechnik)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3172"
+      },
+      {
+        "label": {
+          "en": "Tailors, generally",
+          "de": "Schneider/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3510"
+      },
+      {
+        "label": {
+          "en": "Cooks, generally",
+          "de": "Köch(e/innen), allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "4110"
+      },
+      {
+        "label": {
+          "en": "Interior designers, generally",
+          "de": "Raumausstatter/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "4910"
+      },
+      {
+        "label": {
+          "en": "Joiners, generally",
+          "de": "Tischler/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "5010"
+      },
+      {
+        "label": {
+          "en": "Industrial engineers",
+          "de": "Wirtschaftsingenieur(e/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6071"
+      },
+      {
+        "label": {
+          "en": "Safety engineers, technical experts",
+          "de": "Sicherheitsingenieur(e/innen), Technische Sachverständige"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6082"
+      },
+      {
+        "label": {
+          "en": "Electrotechnicians not mentioned otherwise",
+          "de": "Elektroniktechniker/innen, a.n.g."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6223"
+      },
+      {
+        "label": {
+          "en": "Production, operating, maintenance technicians in the electrical trade not mentioned otherwise",
+          "de": "Fertigungs-, Betriebs-, Montage-, Wartungstechniker/innen des Elektrofaches, a.n.g."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6228"
+      },
+      {
+        "label": {
+          "en": "Construction technicians in road construction and transportation",
+          "de": "Bautechniker/innen im Straßenbau und Verkehrswesen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6234"
+      },
+      {
+        "label": {
+          "en": "Chemistry lab assistants, generally",
+          "de": "Chemielaborant(en/innen), allgemein"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "6330"
+      },
+      {
+        "label": {
+          "en": "Technical draftspersons, generally",
+          "de": "Technische Zeichner/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6410"
+      },
+      {
+        "label": {
+          "en": "Architectural draftspersons in building construction (incl. Interior architecture)",
+          "de": "Bauzeichner/innen im Hochbau (einschl. raumbildender Ausbau)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6422"
+      },
+      {
+        "label": {
+          "en": "Assistants to the manager in commerce without further specification",
+          "de": "Betriebsassistent(en/innen) im Handel o.n.A."
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "6703"
+      },
+      {
+        "label": {
+          "en": "Wholesalers and retail salespersons",
+          "de": "Groß- und Außenhandelskaufleute"
+        },
+        "validRelativeFrequency": 2.23,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "6711"
+      },
+      {
+        "label": {
+          "en": "Wholesalers",
+          "de": "Großhandelskaufleute"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6712"
+      },
+      {
+        "label": {
+          "en": "Retail salespersons, generally",
+          "de": "Einzelhandelskaufleute, allgemein"
+        },
+        "validRelativeFrequency": 1.49,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "6720"
+      },
+      {
+        "label": {
+          "en": "Retail salespersons (textile, leather goods, shoes, sports articles)",
+          "de": "Einzelhandelskaufleute (Textil-, Lederwaren, Schuhe, Sportartikel)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6733"
+      },
+      {
+        "label": {
+          "en": "Retail salespersons (vehicles, parts and accessories)",
+          "de": "Einzelhandelskaufleute (Kraftfahrzeuge, Teile und Zubehör)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6735"
+      },
+      {
+        "label": {
+          "en": "Booksellers, generally",
+          "de": "Buchhändler/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "6740"
+      },
+      {
+        "label": {
+          "en": "Buyers, purchasing clerks",
+          "de": "Einkäufer/innen, Einkaufssachbearbeiter/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6771"
+      },
+      {
+        "label": {
+          "en": "Sales, distribution clerks",
+          "de": "Verkaufs-, Vertriebssachbearbeiter/innen"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "6781"
+      },
+      {
+        "label": {
+          "en": "Publishing house clerks, generally",
+          "de": "Verlagskaufleute, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6830"
+      },
+      {
+        "label": {
+          "en": "Banking, savings bank professionals, generally",
+          "de": "Bank-, Sparkassenfachleute, allgemein"
+        },
+        "validRelativeFrequency": 5.58,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 15,
+        "value": "6910"
+      },
+      {
+        "label": {
+          "en": "Insurance professionals, generally",
+          "de": "Versicherungsfachleute, allgemein"
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "6950"
+      },
+      {
+        "label": {
+          "en": "Insurance clerks",
+          "de": "Versicherungssachbearbeiter/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6955"
+      },
+      {
+        "label": {
+          "en": "Transportation consultants (goods traffic), generally",
+          "de": "Verkehrskaufleute (Güterverkehr), allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7010"
+      },
+      {
+        "label": {
+          "en": "Logistics managers",
+          "de": "Speditionskaufleute"
+        },
+        "validRelativeFrequency": 1.49,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "7011"
+      },
+      {
+        "label": {
+          "en": "Travel agents",
+          "de": "Reiseverkehrskaufleute"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7021"
+      },
+      {
+        "label": {
+          "en": "Advertising management assistants",
+          "de": "Werbekaufleute"
+        },
+        "validRelativeFrequency": 2.23,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "7031"
+      },
+      {
+        "label": {
+          "en": "Real estate brokers, real estate agents",
+          "de": "Immobilienmakler/innen, -kaufleute"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "7045"
+      },
+      {
+        "label": {
+          "en": "Signal box personnel",
+          "de": "Stellwerkspersonal"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7121"
+      },
+      {
+        "label": {
+          "en": "Aviators, pilots",
+          "de": "Flugzeugführer/innen, Pilot(en/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7261"
+      },
+      {
+        "label": {
+          "en": "Managers not mentioned otherwise",
+          "de": "Manager, a.n.g."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7503"
+      },
+      {
+        "label": {
+          "en": "Management assistants",
+          "de": "Direktionsassistent(en/innen)"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7518"
+      },
+      {
+        "label": {
+          "en": "Skilled assistants in tax and business consultancy occupations",
+          "de": "Fachgehilf(en/innen) in steuer- und wirtschaftsberatenden Berufen"
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "7541"
+      },
+      {
+        "label": {
+          "en": "Tax professionals not mentioned otherwise",
+          "de": "Steuerfachleute, a.n.g."
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7545"
+      },
+      {
+        "label": {
+          "en": "Marketing, sales professionals, generally",
+          "de": "Marketing-, Absatzfachleute, allgemein"
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "7550"
+      },
+      {
+        "label": {
+          "en": "Bookkeepers, generally",
+          "de": "Buchhalter/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7720"
+      },
+      {
+        "label": {
+          "en": "Computer scientists without further specification",
+          "de": "Informatiker/innen o.n.A."
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "7742"
+      },
+      {
+        "label": {
+          "en": "Software developers, generally",
+          "de": "Softwareentwickler/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7750"
+      },
+      {
+        "label": {
+          "en": "Office administrators, office clerks without further specification",
+          "de": "Bürokaufleute, Kontorist(en/innen) o.n.A."
+        },
+        "validRelativeFrequency": 4.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "7803"
+      },
+      {
+        "label": {
+          "en": "Commercial clerks without further specification",
+          "de": "Kaufmännische Angestellte o.n.A."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7804"
+      },
+      {
+        "label": {
+          "en": "Foreign language typists",
+          "de": "Fremdsprachenschreibkräfte"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7824"
+      },
+      {
+        "label": {
+          "en": "Industrial clerks",
+          "de": "Industriekaufleute"
+        },
+        "validRelativeFrequency": 4.83,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "7851"
+      },
+      {
+        "label": {
+          "en": "State-certified business economists without further specification",
+          "de": "Staatlich geprüfte Betriebswirt(e/innen) o.n.A."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7853"
+      },
+      {
+        "label": {
+          "en": "Legal and notarial assistants",
+          "de": "Rechtsanwalts- und Notargehilf(en/innen)"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7861"
+      },
+      {
+        "label": {
+          "en": "Administration professionals (clerical grade), generally",
+          "de": "Verwaltungsfachleute (mittlerer Dienst), allgemein"
+        },
+        "validRelativeFrequency": 2.97,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "7870"
+      },
+      {
+        "label": {
+          "en": "Administration professionals in clerical judicial service",
+          "de": "Verwaltungsfachleute im mittleren Justizdienst"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7871"
+      },
+      {
+        "label": {
+          "en": "Administration professionals in clerical tax, customs, financial administration service",
+          "de": "Verwaltungsfachleute im mittleren Steuer-, Zoll-, Finanzverwaltungsdienst"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7872"
+      },
+      {
+        "label": {
+          "en": "Administration professionals in clerical labour and social administration service",
+          "de": "Verwaltungsfachleute im mittleren Arbeits- und Sozialverwaltungsdienst"
+        },
+        "validRelativeFrequency": 1.49,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "7873"
+      },
+      {
+        "label": {
+          "en": "Administration professionals in clerical municipal administration service",
+          "de": "Verwaltungsfachleute im mittleren kommunalen Verwaltungsdienst"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7876"
+      },
+      {
+        "label": {
+          "en": "Administrative assistants without further specification",
+          "de": "Sachbearbeiter/innen o.n.A."
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "7880"
+      },
+      {
+        "label": {
+          "en": "Personnel officers, personnel consultants",
+          "de": "Personalsachbearbeiter/innen, Personalkaufleute"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7883"
+      },
+      {
+        "label": {
+          "en": "Reception office workers, information desk hands",
+          "de": "Empfangsbürokräfte, Auskunftsgehilf(en/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7888"
+      },
+      {
+        "label": {
+          "en": "Soldiers",
+          "de": "Soldaten"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8011"
+      },
+      {
+        "label": {
+          "en": "Border control, police officers (simple, clerical grade)",
+          "de": "Grenzschutz-, Polizeibedienstete (einfacher, mittlerer Dienst)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8014"
+      },
+      {
+        "label": {
+          "en": "Professional firefighters, generally",
+          "de": "Berufsfeuerwehrleute, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8020"
+      },
+      {
+        "label": {
+          "en": "Interpreters and translators",
+          "de": "Dolmetscher/innen und Übersetzer/innen"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "8220"
+      },
+      {
+        "label": {
+          "en": "Designers, graphic artists without further specification",
+          "de": "Designer/innen, Grafiker/innen o.n.A."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8340"
+      },
+      {
+        "label": {
+          "en": "Graphic, communication designers",
+          "de": "Grafik-, Kommunikationsdesigner/innen"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "8343"
+      },
+      {
+        "label": {
+          "en": "Other visual artists (applied arts)",
+          "de": "andere bildende Künstler/innen (angewandte Kunst)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8349"
+      },
+      {
+        "label": {
+          "en": "Other technical stage and studio occupations",
+          "de": "andere technische Bühnen- und Studioberufe"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8359"
+      },
+      {
+        "label": {
+          "en": "Photographers, generally",
+          "de": "Fotograf(en/innen), allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8370"
+      },
+      {
+        "label": {
+          "en": "Physiotherapists (non-physicians) without further specification",
+          "de": "Physiotherapeut(en/innen) (nicht Ärzte/Ärztinnen) o.n.A."
+        },
+        "validRelativeFrequency": 4.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "8520"
+      },
+      {
+        "label": {
+          "en": "Nurses, generally",
+          "de": "Krankenschwestern/-pfleger, allgemein"
+        },
+        "validRelativeFrequency": 7.81,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "8530"
+      },
+      {
+        "label": {
+          "en": "Baby nurses",
+          "de": "Säuglings-, Kinderkrankenschwestern/-pfleger"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "8532"
+      },
+      {
+        "label": {
+          "en": "Paramedics",
+          "de": "Sanitäter/innen"
+        },
+        "validRelativeFrequency": 2.23,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "8542"
+      },
+      {
+        "label": {
+          "en": "Doctor's assistants",
+          "de": "Arzthelfer/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8561"
+      },
+      {
+        "label": {
+          "en": "Veterinary assistants",
+          "de": "Tierarzthelfer/innen"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "8563"
+      },
+      {
+        "label": {
+          "en": "Medicotechnical assistants without further specialization",
+          "de": "Medizinisch-technische Assistent(en/innen) o.n.F."
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "8570"
+      },
+      {
+        "label": {
+          "en": "Medicotechnical, medical laboratory assistants",
+          "de": "Medizinisch-technische Laboratoriumsassistent(en/innen), Medizinische Laboranten(en/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8571"
+      },
+      {
+        "label": {
+          "en": "Veterinary technical assistants, veterinary laboratory assistants",
+          "de": "Veterinärmedizinisch-technische Assistent(en/innen), Veterinärmedizinische Laboranten(en/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8573"
+      },
+      {
+        "label": {
+          "en": "Pharmacotechnical assistants",
+          "de": "Pharmazeutisch-technische Assistent(en/innen)"
+        },
+        "validRelativeFrequency": 1.49,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "8580"
+      },
+      {
+        "label": {
+          "en": "Therapists for speech and hearing disorders",
+          "de": "Therapeut(en/innen) für Sprech- und Hörstörungen"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "8591"
+      },
+      {
+        "label": {
+          "en": "Occupational and work therapists",
+          "de": "Beschäftigungs- und Arbeitstherapeut(en/innen)"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "8594"
+      },
+      {
+        "label": {
+          "en": "Other social workers, social education workers",
+          "de": "andere Sozialarbeiter/innen, Sozialpädagog(en/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8619"
+      },
+      {
+        "label": {
+          "en": "Educators without further specification",
+          "de": "Erzieher/innen o.n.A."
+        },
+        "validRelativeFrequency": 4.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "8630"
+      },
+      {
+        "label": {
+          "en": "Educators in day nurseries",
+          "de": "Erzieher/innen in Kindertageseinrichtungen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8631"
+      },
+      {
+        "label": {
+          "en": "Home educators",
+          "de": "Heimerzieher/innen"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "8633"
+      },
+      {
+        "label": {
+          "en": "Geriatric nurses without further specification",
+          "de": "Altenpfleger/innen o.n.A."
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "8640"
+      },
+      {
+        "label": {
+          "en": "Health education nurses",
+          "de": "Heilerziehungspfleger/innen, Heilerzieher/innen"
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "8660"
+      },
+      {
+        "label": {
+          "en": "Primary school teachers",
+          "de": "Grundschullehrer/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8731"
+      },
+      {
+        "label": {
+          "en": "Education assistants",
+          "de": "Pädagogische Assistent(en/innen)"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8739"
+      },
+      {
+        "label": {
+          "en": "Gymnastics teachers",
+          "de": "Gymnastiklehrer/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8765"
+      },
+      {
+        "label": {
+          "en": "Business studies graduates without further specification",
+          "de": "Diplom-Kaufleute o.n.A."
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8813"
+      },
+      {
+        "label": {
+          "en": "Other economists",
+          "de": "andere Wirtschaftswissenschaftler/innen"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8819"
+      },
+      {
+        "label": {
+          "en": "Hairdressers, generally",
+          "de": "Friseur(e/innen), allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9010"
+      },
+      {
+        "label": {
+          "en": "Restaurant professionals, waiters, generally",
+          "de": "Restaurantfachleute, Kellner/innen, allgemein"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9120"
+      },
+      {
+        "label": {
+          "en": "Hotel professionals without further specification",
+          "de": "Hotelfachleute o.n.A."
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "9141"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.95,
+    "totalValidAbsoluteFrequency": 269,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 547,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zum Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on qualified occupations in coded form. The 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992) was used as a code list.",
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Ausbildungsberuf in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.94,
-    "statistics": {
-      "mode": "8530"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Landwirt(e/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "110"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Tierwirt(e/innen) (Rinderhaltung)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "231"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Zierpflanzen-, Staudengärtner/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "513"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Chemiebetriebswerker/innen, Chemie(fach)arbeiter/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "1410"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Gießereimechaniker, Formgießer o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "2010"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Zerspanungsmechaniker/innen o.n.F."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "2200"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Metallbauer/innen (Konstruktionstechnik)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "2543"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Industriemechaniker/innen o.n.F., Mechaniker/innen o.n.A."
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.88,
-        "value": "2700"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Fluggerätmechaniker/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "2830"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Industriemechaniker/innen (Geräte- und Feinwerktechnik), Feinmechaniker/innen o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "3000"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Goldschmied(e/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "3021"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Zahntechniker/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "3031"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Augenoptiker/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "3041"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Energieelektroniker/innen o.n.A."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "3110"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Energieelektroniker/innen (Betriebstechnik)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "3112"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kommunikationselektroniker/innen (Funktechnik)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "3172"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Schneider/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "3510"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Köch(e/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "4110"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Raumausstatter/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "4910"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Tischler/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "5010"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Wirtschaftsingenieur(e/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6071"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sicherheitsingenieur(e/innen), Technische Sachverständige"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6082"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Elektroniktechniker/innen, a.n.g."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6223"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Fertigungs-, Betriebs-, Montage-, Wartungstechniker/innen des Elektrofaches, a.n.g."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6228"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bautechniker/innen im Straßenbau und Verkehrswesen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6234"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Chemielaborant(en/innen), allgemein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "6330"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Technische Zeichner/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6410"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bauzeichner/innen im Hochbau (einschl. raumbildender Ausbau)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6422"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Betriebsassistent(en/innen) im Handel o.n.A."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "6703"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Groß- und Außenhandelskaufleute"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 2.26,
-        "value": "6711"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Großhandelskaufleute"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6712"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Einzelhandelskaufleute, allgemein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.5,
-        "value": "6720"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Einzelhandelskaufleute (Textil-, Lederwaren, Schuhe, Sportartikel)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6733"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Einzelhandelskaufleute (Kraftfahrzeuge, Teile und Zubehör)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6735"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Buchhändler/innen, allgemein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "6740"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Einkäufer/innen, Einkaufssachbearbeiter/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6771"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Verkaufs-, Vertriebssachbearbeiter/innen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "6781"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Verlagskaufleute, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6830"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": "Bank-, Sparkassenfachleute, allgemein"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 5.64,
-        "value": "6910"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Versicherungsfachleute, allgemein"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.88,
-        "value": "6950"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Versicherungssachbearbeiter/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "6955"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Verkehrskaufleute (Güterverkehr), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7010"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Speditionskaufleute"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.5,
-        "value": "7011"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Reiseverkehrskaufleute"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "7021"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Werbekaufleute"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 2.26,
-        "value": "7031"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Immobilienmakler/innen, -kaufleute"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.13,
-        "value": "7045"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Stellwerkspersonal"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7121"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Flugzeugführer/innen, Pilot(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7261"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Manager, a.n.g."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7503"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Direktionsassistent(en/innen)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "7518"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Fachgehilf(en/innen) in steuer- und wirtschaftsberatenden Berufen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.88,
-        "value": "7541"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Steuerfachleute, a.n.g."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "7545"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Marketing-, Absatzfachleute, allgemein"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.88,
-        "value": "7550"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Buchhalter/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7720"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Informatiker/innen o.n.A."
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.88,
-        "value": "7742"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Softwareentwickler/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7750"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "Bürokaufleute, Kontorist(en/innen) o.n.A."
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 4.14,
-        "value": "7803"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kaufmännische Angestellte o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7804"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Fremdsprachenschreibkräfte"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "7824"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "Industriekaufleute"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 4.89,
-        "value": "7851"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Staatlich geprüfte Betriebswirt(e/innen) o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7853"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Rechtsanwalts- und Notargehilf(en/innen)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "7861"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachleute (mittlerer Dienst), allgemein"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 3.01,
-        "value": "7870"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachleute im mittleren Justizdienst"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7871"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachleute im mittleren Steuer-, Zoll-, Finanzverwaltungsdienst"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "7872"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachleute im mittleren Arbeits- und Sozialverwaltungsdienst"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.5,
-        "value": "7873"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachleute im mittleren kommunalen Verwaltungsdienst"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7876"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Sachbearbeiter/innen o.n.A."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "7880"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Personalsachbearbeiter/innen, Personalkaufleute"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7883"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Empfangsbürokräfte, Auskunftsgehilf(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "7888"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Soldaten"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8011"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Grenzschutz-, Polizeibedienstete (einfacher, mittlerer Dienst)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8014"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Berufsfeuerwehrleute, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8020"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Dolmetscher/innen und Übersetzer/innen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "8220"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Designer/innen, Grafiker/innen o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8340"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Grafik-, Kommunikationsdesigner/innen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "8343"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "andere bildende Künstler/innen (angewandte Kunst)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8349"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "andere technische Bühnen- und Studioberufe"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8359"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Fotograf(en/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8370"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "Physiotherapeut(en/innen) (nicht Ärzte/Ärztinnen) o.n.A."
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 4.14,
-        "value": "8520"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "Krankenschwestern/-pfleger, allgemein"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 7.89,
-        "value": "8530"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Säuglings-, Kinderkrankenschwestern/-pfleger"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.13,
-        "value": "8532"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Sanitäter/innen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 2.26,
-        "value": "8542"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Arzthelfer/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8561"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Tierarzthelfer/innen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "8563"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Medizinisch-technische Assistent(en/innen) o.n.F."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "8570"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Medizinisch-technische Laboratoriumsassistent(en/innen), Medizinische Laboranten(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8571"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Veterinärmedizinisch-technische Assistent(en/innen), Veterinärmedizinische Laboranten(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8573"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Pharmazeutisch-technische Assistent(en/innen)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.5,
-        "value": "8580"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Therapeut(en/innen) für Sprech- und Hörstörungen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.13,
-        "value": "8591"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Beschäftigungs- und Arbeitstherapeut(en/innen)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "8594"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "andere Sozialarbeiter/innen, Sozialpädagog(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8619"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "Erzieher/innen o.n.A."
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 4.14,
-        "value": "8630"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Erzieher/innen in Kindertageseinrichtungen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8631"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Heimerzieher/innen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.13,
-        "value": "8633"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Altenpfleger/innen o.n.A."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "8640"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Heilerziehungspfleger/innen, Heilerzieher/innen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.88,
-        "value": "8660"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Grundschullehrer/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8731"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Pädagogische Assistent(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8739"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Gymnastiklehrer/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8765"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Diplom-Kaufleute o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8813"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "andere Wirtschaftswissenschaftler/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "8819"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Friseur(e/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "9010"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Restaurantfachleute, Kellner/innen, allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.38,
-        "value": "9120"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Hotelfachleute o.n.A."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.75,
-        "value": "9141"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 266,
-    "missings": [
-      {
-        "absoluteFrequency": 3402,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.07,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.01,
-        "code": -969
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nBerufliche Ausbildung\nArt der Ausbildung und Ausbildungsberuf\n(z. B. betriebliche Ausbildung Bürokauffrau/mann)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc083",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 547,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd activity: qualified occupation (Ger. Class. of Occ. 1992) (4-dig.)",
+    "de": "3. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsklasse) (4-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

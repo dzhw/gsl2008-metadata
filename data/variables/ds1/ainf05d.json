@@ -1,149 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: Schullehrer(innen)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 114,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInstitutionen/Personen\r\nSchullehrer/innen"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 59.36,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "-988",
       "highWhisker": 5,
-      "lowWhisker": 1.5,
-      "minimum": "1",
+      "lowWhisker": -988,
       "thirdQuartile": "4",
-      "meanDeviation": "1783.568",
+      "firstQuartile": "-988",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "-988",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.11,
+        "absoluteFrequency": 1159,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 821,
         "label": {
-          "en": null,
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 30.47,
+        "relativeFrequency": 26.01,
+        "absoluteFrequency": 7329,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
+        "validRelativeFrequency": 3.41,
         "relativeFrequency": 2.91,
-        "validRelativeFrequency": 4.91,
+        "absoluteFrequency": 821,
         "value": "1"
       },
       {
-        "absoluteFrequency": 3271,
         "label": {
           "en": null,
           "de": "2"
         },
+        "validRelativeFrequency": 13.6,
         "relativeFrequency": 11.61,
-        "validRelativeFrequency": 19.55,
+        "absoluteFrequency": 3271,
         "value": "2"
       },
       {
-        "absoluteFrequency": 5240,
         "label": {
           "en": null,
           "de": "3"
         },
+        "validRelativeFrequency": 21.78,
         "relativeFrequency": 18.59,
-        "validRelativeFrequency": 31.32,
+        "absoluteFrequency": 5240,
         "value": "3"
       },
       {
-        "absoluteFrequency": 4474,
         "label": {
           "en": null,
           "de": "4"
         },
+        "validRelativeFrequency": 18.6,
         "relativeFrequency": 15.88,
-        "validRelativeFrequency": 26.75,
+        "absoluteFrequency": 4474,
         "value": "4"
       },
       {
-        "absoluteFrequency": 2922,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
+        "validRelativeFrequency": 12.15,
         "relativeFrequency": 10.37,
-        "validRelativeFrequency": 17.47,
+        "absoluteFrequency": 2922,
         "value": "5"
       }
     ],
-    "totalValidAbsoluteFrequency": 16728,
-    "missings": [
-      {
-        "absoluteFrequency": 1159,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.11,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 7329,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 26.01,
-        "code": -988
-      }
-    ]
+    "totalValidRelativeFrequency": 85.36,
+    "totalValidAbsoluteFrequency": 24057,
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nSchullehrer/innen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 114,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: school teachers",
+    "de": "Informationsquelle Zukunft: Schullehrer(innen)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

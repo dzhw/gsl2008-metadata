@@ -1,692 +1,705 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Sprache Elternhaus: Deutsch und andere (Nennung)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-adem05a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Sprache wird in Ihrem Elternhaus normalerweise gesprochen?\r\nDeutsch sowie eine andere Sprache, und zwar:"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "-988",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.43,
+        "absoluteFrequency": 402,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 88.07,
+        "relativeFrequency": 86.82,
+        "absoluteFrequency": 24467,
+        "value": "-988"
+      },
+      {
+        "label": {
+          "en": "Afghan (Pashto)",
+          "de": "Afghanisch (Paschtu)"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Afrikaans",
+          "de": "Afrikaans"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Albanian",
+          "de": "Albanisch"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 24,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Arabic",
+          "de": "Arabisch"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 77,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Armenian",
+          "de": "Armenisch"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Bosnian",
+          "de": "Bosnisch"
+        },
+        "validRelativeFrequency": 0.08,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Bulgarian",
+          "de": "Bulgarisch"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Chinese",
+          "de": "Chinesisch/Cantonesisch"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 26,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Danish",
+          "de": "Dänisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "English",
+          "de": "Englisch"
+        },
+        "validRelativeFrequency": 0.95,
+        "relativeFrequency": 0.94,
+        "absoluteFrequency": 265,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Estonian",
+          "de": "Estnisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Finnish",
+          "de": "Finnisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "French",
+          "de": "Französisch"
+        },
+        "validRelativeFrequency": 0.35,
+        "relativeFrequency": 0.35,
+        "absoluteFrequency": 98,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Greek",
+          "de": "Griechisch"
+        },
+        "validRelativeFrequency": 0.18,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 51,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "Hebrew",
+          "de": "Hebräisch (Iwrit)"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "Hindu",
+          "de": "Hindu"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "Indonesian",
+          "de": "Indonesisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": "Islandic",
+          "de": "Isländisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "Italian",
+          "de": "Italienisch"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 104,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "Japanese",
+          "de": "Japanisch"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": "Yugoslavian",
+          "de": "Jugoslawisch"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": "Kazakh",
+          "de": "Kasachisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": "Kiswahili",
+          "de": "Kisuaheli"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "31"
+      },
+      {
+        "label": {
+          "en": "Croatian",
+          "de": "Kroatisch"
+        },
+        "validRelativeFrequency": 0.21,
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 58,
+        "value": "32"
+      },
+      {
+        "label": {
+          "en": "Korean",
+          "de": "Koreanisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "33"
+      },
+      {
+        "label": {
+          "en": "Kurdish",
+          "de": "Kurdisch"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 43,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": "Laotian",
+          "de": "Laotisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "36"
+      },
+      {
+        "label": {
+          "en": "Latin",
+          "de": "Latein"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "37"
+      },
+      {
+        "label": {
+          "en": "Latvian",
+          "de": "Lettisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": "Lithuanian",
+          "de": "Litauisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "39"
+      },
+      {
+        "label": {
+          "en": "Macedonian",
+          "de": "Mazedonisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "43"
+      },
+      {
+        "label": {
+          "en": "Mongolian",
+          "de": "Mongolisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "45"
+      },
+      {
+        "label": {
+          "en": "Dutch",
+          "de": "Niederländisch"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 41,
+        "value": "47"
+      },
+      {
+        "label": {
+          "en": "Norwegian",
+          "de": "Norwegisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "48"
+      },
+      {
+        "label": {
+          "en": "Persian (Farsi/Dari)",
+          "de": "Persisch (Farsi/Dari)"
+        },
+        "validRelativeFrequency": 0.29,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 81,
+        "value": "49"
+      },
+      {
+        "label": {
+          "en": "Polish",
+          "de": "Polnisch"
+        },
+        "validRelativeFrequency": 1.53,
+        "relativeFrequency": 1.5,
+        "absoluteFrequency": 424,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": "Portuguese",
+          "de": "Portugiesisch"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "value": "51"
+      },
+      {
+        "label": {
+          "en": "Rwandan",
+          "de": "Ruandisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "52"
+      },
+      {
+        "label": {
+          "en": "Romanian",
+          "de": "Rumänisch"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 38,
+        "value": "53"
+      },
+      {
+        "label": {
+          "en": "Russian",
+          "de": "Russisch"
+        },
+        "validRelativeFrequency": 3.19,
+        "relativeFrequency": 3.14,
+        "absoluteFrequency": 885,
+        "value": "54"
+      },
+      {
+        "label": {
+          "en": "Swedish",
+          "de": "Schwedisch"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "56"
+      },
+      {
+        "label": {
+          "en": "Serbian",
+          "de": "Serbisch"
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "57"
+      },
+      {
+        "label": {
+          "en": "Serbo-Croatian",
+          "de": "Serbokroatisch"
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "58"
+      },
+      {
+        "label": {
+          "en": "Slovakian",
+          "de": "Slowakisch"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "60"
+      },
+      {
+        "label": {
+          "en": "Slovenian",
+          "de": "Slowenisch"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "61"
+      },
+      {
+        "label": {
+          "en": "Somali",
+          "de": "Somali"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "62"
+      },
+      {
+        "label": {
+          "en": "Spanish (Castilian)",
+          "de": "Spanisch (Kastillisch)"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.4,
+        "absoluteFrequency": 114,
+        "value": "63"
+      },
+      {
+        "label": {
+          "en": "Swahili",
+          "de": "Swahili"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "64"
+      },
+      {
+        "label": {
+          "en": "Thai",
+          "de": "Thai"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "67"
+      },
+      {
+        "label": {
+          "en": "Czech",
+          "de": "Tschechisch"
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "68"
+      },
+      {
+        "label": {
+          "en": "Turkish",
+          "de": "Türkisch"
+        },
+        "validRelativeFrequency": 2.09,
+        "relativeFrequency": 2.06,
+        "absoluteFrequency": 580,
+        "value": "69"
+      },
+      {
+        "label": {
+          "en": "Ukrainian",
+          "de": "Ukrainisch"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "71"
+      },
+      {
+        "label": {
+          "en": "Hungarian",
+          "de": "Ungarisch"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 37,
+        "value": "72"
+      },
+      {
+        "label": {
+          "en": "Urdu (Pakistan)",
+          "de": "Urdu (Pakistan)"
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "73"
+      },
+      {
+        "label": {
+          "en": "Uzbek",
+          "de": "Usbekisch"
+        },
+        "validRelativeFrequency": 0,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "74"
+      },
+      {
+        "label": {
+          "en": "Vietnamese",
+          "de": "Vietnamesisch"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 37,
+        "value": "75"
+      },
+      {
+        "label": {
+          "en": "other African langs. (Tigre, Zulu, Swazi, Kimbundu, Luvena, Bantu etc.)",
+          "de": "sonstige afrikan. Spr. (Tigre, Zulu, Swazi, Kimbundu, Luvena, Bantu etc.)"
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "95"
+      },
+      {
+        "label": {
+          "en": "other Arabic langs. (Tigrinya, Nadeshdi, Hijazi etc.)",
+          "de": "sonstige arabische Spr. (Tigrinja, Nadschdi, Hedschasi etc.)"
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 18,
+        "value": "96"
+      },
+      {
+        "label": {
+          "en": "other Asian langs. (Minnan, Hakka etc.)",
+          "de": "sonstige asiatische Spr. (Minnan, Hakka etc.)"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "97"
+      },
+      {
+        "label": {
+          "en": "other Indian langs. (Bengali, Marathi, Sanskrit, Kashmiri etc.)",
+          "de": "sonstige indische Spr. (Bengali, Marathi, Sanskrit, Kaschmiri etc.)"
+        },
+        "validRelativeFrequency": 0.08,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "98"
+      },
+      {
+        "label": {
+          "en": "other languages",
+          "de": "sonstige Sprachen"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "99"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.57,
+    "totalValidAbsoluteFrequency": 27780,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 154,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded languages spoken in the parental home in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Sprachen in Elternhaus in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 11.76,
-    "statistics": {
-      "mode": "54"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "Afghanisch (Paschtu)"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.42,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Afrikaans"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.06,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": null,
-          "de": "Albanisch"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 0.72,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 77,
-        "label": {
-          "en": null,
-          "de": "Arabisch"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 2.32,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "Armenisch"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.27,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "Bosnisch"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.63,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Bulgarisch"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.24,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": null,
-          "de": "Chinesisch/Cantonesisch"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 0.78,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Dänisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.12,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 265,
-        "label": {
-          "en": null,
-          "de": "Englisch"
-        },
-        "relativeFrequency": 0.94,
-        "validRelativeFrequency": 8,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Estnisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Finnisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.12,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 98,
-        "label": {
-          "en": null,
-          "de": "Französisch"
-        },
-        "relativeFrequency": 0.35,
-        "validRelativeFrequency": 2.96,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 51,
-        "label": {
-          "en": null,
-          "de": "Griechisch"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 1.54,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Hebräisch (Iwrit)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.18,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Hindu"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.21,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Indonesisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.09,
-        "value": "21"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Isländisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "23"
-      },
-      {
-        "absoluteFrequency": 104,
-        "label": {
-          "en": null,
-          "de": "Italienisch"
-        },
-        "relativeFrequency": 0.37,
-        "validRelativeFrequency": 3.14,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Japanisch"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.21,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Jugoslawisch"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.18,
-        "value": "26"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kasachisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "28"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kisuaheli"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "31"
-      },
-      {
-        "absoluteFrequency": 58,
-        "label": {
-          "en": null,
-          "de": "Kroatisch"
-        },
-        "relativeFrequency": 0.21,
-        "validRelativeFrequency": 1.75,
-        "value": "32"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Koreanisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.12,
-        "value": "33"
-      },
-      {
-        "absoluteFrequency": 43,
-        "label": {
-          "en": null,
-          "de": "Kurdisch"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 1.3,
-        "value": "35"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Laotisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "36"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Latein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.12,
-        "value": "37"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Lettisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "38"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Litauisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.06,
-        "value": "39"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Mazedonisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.09,
-        "value": "43"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Mongolisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.06,
-        "value": "45"
-      },
-      {
-        "absoluteFrequency": 41,
-        "label": {
-          "en": null,
-          "de": "Niederländisch"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 1.24,
-        "value": "47"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Norwegisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.06,
-        "value": "48"
-      },
-      {
-        "absoluteFrequency": 81,
-        "label": {
-          "en": null,
-          "de": "Persisch (Farsi/Dari)"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 2.44,
-        "value": "49"
-      },
-      {
-        "absoluteFrequency": 424,
-        "label": {
-          "en": null,
-          "de": "Polnisch"
-        },
-        "relativeFrequency": 1.5,
-        "validRelativeFrequency": 12.8,
-        "value": "50"
-      },
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "Portugiesisch"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 1.09,
-        "value": "51"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Ruandisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "52"
-      },
-      {
-        "absoluteFrequency": 38,
-        "label": {
-          "en": null,
-          "de": "Rumänisch"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 1.15,
-        "value": "53"
-      },
-      {
-        "absoluteFrequency": 885,
-        "label": {
-          "en": null,
-          "de": "Russisch"
-        },
-        "relativeFrequency": 3.14,
-        "validRelativeFrequency": 26.71,
-        "value": "54"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Schwedisch"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.18,
-        "value": "56"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "Serbisch"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.51,
-        "value": "57"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "Serbokroatisch"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.48,
-        "value": "58"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Slowakisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.12,
-        "value": "60"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Slowenisch"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.18,
-        "value": "61"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Somali"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.09,
-        "value": "62"
-      },
-      {
-        "absoluteFrequency": 114,
-        "label": {
-          "en": null,
-          "de": "Spanisch (Kastillisch)"
-        },
-        "relativeFrequency": 0.4,
-        "validRelativeFrequency": 3.44,
-        "value": "63"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Swahili"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.06,
-        "value": "64"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Thai"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.21,
-        "value": "67"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "Tschechisch"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.48,
-        "value": "68"
-      },
-      {
-        "absoluteFrequency": 580,
-        "label": {
-          "en": null,
-          "de": "Türkisch"
-        },
-        "relativeFrequency": 2.06,
-        "validRelativeFrequency": 17.51,
-        "value": "69"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Ukrainisch"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.24,
-        "value": "71"
-      },
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": null,
-          "de": "Ungarisch"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 1.12,
-        "value": "72"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "Urdu (Pakistan)"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.51,
-        "value": "73"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Usbekisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.03,
-        "value": "74"
-      },
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": null,
-          "de": "Vietnamesisch"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 1.12,
-        "value": "75"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "sonstige afrikan. Spr. (Tigre, Zulu, Swazi, Kimbundu, Luvena, Bantu etc.)"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.48,
-        "value": "95"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": "sonstige arabische Spr. (Tigrinja, Nadschdi, Hedschasi etc.)"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.54,
-        "value": "96"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "sonstige asiatische Spr. (Minnan, Hakka etc.)"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.39,
-        "value": "97"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "sonstige indische Spr. (Bengali, Marathi, Sanskrit, Kaschmiri etc.)"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.63,
-        "value": "98"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "sonstige Sprachen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.24,
-        "value": "99"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3313,
-    "missings": [
-      {
-        "absoluteFrequency": 402,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.43,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24467,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 86.82,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Sprache wird in Ihrem Elternhaus normalerweise gesprochen?\nDeutsch sowie eine andere Sprache, und zwar:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-adem05a",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 154,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "language parental home: German and other (entry)",
+    "de": "Sprache Elternhaus: Deutsch und andere (Nennung)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

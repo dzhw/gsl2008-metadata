@@ -1,121 +1,133 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie das Masterstudium aufgenommen bzw. werden es voraussichtlich aufnehmen?"
+      },
+      "questionNumber": "5.6",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 77,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "absoluteFrequency": 1945,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, immediately afterwards",
+          "de": "direkt im Anschluss"
+        },
+        "validRelativeFrequency": 73.92,
+        "relativeFrequency": 4.33,
+        "absoluteFrequency": 1219,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "some time after previous course of study",
+          "de": "einige Zeit nach vorangegangenem Studium"
+        },
+        "validRelativeFrequency": 19.35,
+        "relativeFrequency": 1.13,
+        "absoluteFrequency": 319,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "don't know yet",
+          "de": "weiß ich noch nicht"
+        },
+        "validRelativeFrequency": 6.73,
+        "relativeFrequency": 0.39,
+        "absoluteFrequency": 111,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 5.85,
+    "totalValidAbsoluteFrequency": 1649,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1193,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "admittance to master’s course: time frame ",
+    "de": "Masteraufnahme: Zeitrahmen "
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Masteraufnahme: Zeitrahmen "
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1193,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5.85,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1219,
-        "label": {
-          "en": null,
-          "de": "direkt im Anschluss"
-        },
-        "relativeFrequency": 4.33,
-        "validRelativeFrequency": 73.92,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 319,
-        "label": {
-          "en": null,
-          "de": "einige Zeit nach vorangegangenem Studium"
-        },
-        "relativeFrequency": 1.13,
-        "validRelativeFrequency": 19.35,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 111,
-        "label": {
-          "en": null,
-          "de": "weiß ich noch nicht"
-        },
-        "relativeFrequency": 0.39,
-        "validRelativeFrequency": 6.73,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1649,
-    "missings": [
-      {
-        "absoluteFrequency": 77,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.27,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1945,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.9,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wann haben Sie das Masterstudium aufgenommen bzw. werden es voraussichtlich aufnehmen?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }
