@@ -12,7 +12,7 @@
   "distribution": {
     "statistics": {
       "meanDeviation": null,
-      "mode": "-988",
+      "mode": "1",
       "highWhisker": null,
       "lowWhisker": null,
       "thirdQuartile": null,
@@ -25,24 +25,24 @@
       "minimum": null,
       "meanValue": null
     },
-    "missings": null,
-    "validResponses": [
+    "missings": [
       {
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
-        "validRelativeFrequency": 99.99,
         "relativeFrequency": 99.99,
         "absoluteFrequency": 28178,
-        "value": "-988"
-      },
+        "code": -988
+      }
+    ],
+    "validResponses": [
       {
         "label": {
           "en": "yes",
           "de": "ja"
         },
-        "validRelativeFrequency": 0.01,
+        "validRelativeFrequency": 75,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 3,
         "value": "1"
@@ -52,14 +52,14 @@
           "en": "no",
           "de": "nein"
         },
-        "validRelativeFrequency": 0,
+        "validRelativeFrequency": 25,
         "relativeFrequency": 0,
         "absoluteFrequency": 1,
         "value": "3"
       }
     ],
-    "totalValidRelativeFrequency": 100,
-    "totalValidAbsoluteFrequency": 28182,
+    "totalValidRelativeFrequency": 0.01,
+    "totalValidAbsoluteFrequency": 4,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

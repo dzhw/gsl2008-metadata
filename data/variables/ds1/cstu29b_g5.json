@@ -55,6 +55,24 @@
       },
       {
         "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 70,
+        "code": -988
+      },
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "code": -969
+      },
+      {
+        "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
@@ -66,30 +84,10 @@
     "validResponses": [
       {
         "label": {
-          "en": "does not apply",
-          "de": "trifft nicht zu"
-        },
-        "validRelativeFrequency": 11.09,
-        "relativeFrequency": 0.25,
-        "absoluteFrequency": 70,
-        "value": "-988"
-      },
-      {
-        "label": {
-          "en": "unknown missing",
-          "de": "unbekannter fehlender Wert"
-        },
-        "validRelativeFrequency": 0.32,
-        "relativeFrequency": 0.01,
-        "absoluteFrequency": 2,
-        "value": "-969"
-      },
-      {
-        "label": {
           "en": "anonymized",
           "de": "anonymisiert"
         },
-        "validRelativeFrequency": 0.48,
+        "validRelativeFrequency": 0.54,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 3,
         "value": "-967"
@@ -99,7 +97,7 @@
           "en": "no study at a uni or uni of applied sciences, but study in a broader sense",
           "de": "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)"
         },
-        "validRelativeFrequency": 1.43,
+        "validRelativeFrequency": 1.61,
         "relativeFrequency": 0.03,
         "absoluteFrequency": 9,
         "value": "-943"
@@ -109,7 +107,7 @@
           "en": "university",
           "de": "Universität"
         },
-        "validRelativeFrequency": 65.61,
+        "validRelativeFrequency": 74.06,
         "relativeFrequency": 1.47,
         "absoluteFrequency": 414,
         "value": "1"
@@ -119,14 +117,14 @@
           "en": "university of applied sciences",
           "de": "Fachhochschule"
         },
-        "validRelativeFrequency": 21.08,
+        "validRelativeFrequency": 23.79,
         "relativeFrequency": 0.47,
         "absoluteFrequency": 133,
         "value": "2"
       }
     ],
-    "totalValidRelativeFrequency": 2.24,
-    "totalValidAbsoluteFrequency": 631,
+    "totalValidRelativeFrequency": 1.98,
+    "totalValidAbsoluteFrequency": 559,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
