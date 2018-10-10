@@ -28,6 +28,15 @@
     "missings": [
       {
         "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "code": -999
+      },
+      {
+        "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
@@ -70,35 +79,24 @@
         "relativeFrequency": 0.01,
         "absoluteFrequency": 2,
         "code": -969
-      }
-    ],
-    "validResponses": [
-      {
-        "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 0.17,
-        "relativeFrequency": 0,
-        "absoluteFrequency": 1,
-        "value": "-999"
       },
       {
         "label": {
           "en": "no university study at one of the institutions (Uni or college of edu. or theological college …), but BA study",
           "de": "kein Studium an Uni/PH/KunstHS/Theol.HS/FH/VerwFH, aber Studium an BA"
         },
-        "validRelativeFrequency": 2.17,
         "relativeFrequency": 0.05,
         "absoluteFrequency": 13,
-        "value": "-944"
-      },
+        "code": -944
+      }
+    ],
+    "validResponses": [
       {
         "label": {
           "en": "university",
           "de": "Universität"
         },
-        "validRelativeFrequency": 66.39,
+        "validRelativeFrequency": 67.98,
         "relativeFrequency": 1.41,
         "absoluteFrequency": 397,
         "value": "1"
@@ -108,7 +106,7 @@
           "en": "college of education",
           "de": "Pädagogische Hochschulen"
         },
-        "validRelativeFrequency": 0.84,
+        "validRelativeFrequency": 0.86,
         "relativeFrequency": 0.02,
         "absoluteFrequency": 5,
         "value": "2"
@@ -128,7 +126,7 @@
           "en": "art colleges",
           "de": "Kunsthochschulen"
         },
-        "validRelativeFrequency": 0.84,
+        "validRelativeFrequency": 0.86,
         "relativeFrequency": 0.02,
         "absoluteFrequency": 5,
         "value": "4"
@@ -138,7 +136,7 @@
           "en": "university of applied sciences",
           "de": "Fachhochschule"
         },
-        "validRelativeFrequency": 28.09,
+        "validRelativeFrequency": 28.77,
         "relativeFrequency": 0.6,
         "absoluteFrequency": 168,
         "value": "5"
@@ -148,14 +146,14 @@
           "en": "colleges of public administration",
           "de": "Verwaltungsfachhochschulen"
         },
-        "validRelativeFrequency": 1.34,
+        "validRelativeFrequency": 1.37,
         "relativeFrequency": 0.03,
         "absoluteFrequency": 8,
         "value": "6"
       }
     ],
-    "totalValidRelativeFrequency": 2.12,
-    "totalValidAbsoluteFrequency": 598,
+    "totalValidRelativeFrequency": 2.07,
+    "totalValidAbsoluteFrequency": 584,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

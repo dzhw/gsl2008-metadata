@@ -17,15 +17,24 @@
       "lowWhisker": 2009,
       "thirdQuartile": "2009",
       "firstQuartile": "2009",
-      "standardDeviation": 192.8512,
+      "standardDeviation": 0.2113,
       "median": "2009",
-      "kurtosis": 240.4321,
-      "skewness": -15.4736,
+      "kurtosis": 40.038,
+      "skewness": 5.8407,
       "maximum": "2011",
-      "minimum": "-999",
-      "meanValue": 1996.6311
+      "minimum": "2009",
+      "meanValue": 2009.0391
     },
     "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "code": -999
+      },
       {
         "label": {
           "en": "no answer",
@@ -57,20 +66,10 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 0.41,
-        "relativeFrequency": 0.02,
-        "absoluteFrequency": 7,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": null,
           "de": null
         },
-        "validRelativeFrequency": 96.05,
+        "validRelativeFrequency": 96.45,
         "relativeFrequency": 5.78,
         "absoluteFrequency": 1630,
         "value": "2009"
@@ -80,7 +79,7 @@
           "en": null,
           "de": null
         },
-        "validRelativeFrequency": 3.18,
+        "validRelativeFrequency": 3.2,
         "relativeFrequency": 0.19,
         "absoluteFrequency": 54,
         "value": "2010"
@@ -90,14 +89,14 @@
           "en": null,
           "de": null
         },
-        "validRelativeFrequency": 0.35,
+        "validRelativeFrequency": 0.36,
         "relativeFrequency": 0.02,
         "absoluteFrequency": 6,
         "value": "2011"
       }
     ],
-    "totalValidRelativeFrequency": 6.02,
-    "totalValidAbsoluteFrequency": 1697,
+    "totalValidRelativeFrequency": 6,
+    "totalValidAbsoluteFrequency": 1690,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

@@ -28,6 +28,15 @@
     "missings": [
       {
         "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.75,
+        "absoluteFrequency": 211,
+        "code": -999
+      },
+      {
+        "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
@@ -75,20 +84,10 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 12.03,
-        "relativeFrequency": 0.75,
-        "absoluteFrequency": 211,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": "Schleswig-Holstein",
           "de": "Schleswig-Holstein"
         },
-        "validRelativeFrequency": 1.54,
+        "validRelativeFrequency": 1.75,
         "relativeFrequency": 0.1,
         "absoluteFrequency": 27,
         "value": "1"
@@ -98,7 +97,7 @@
           "en": "Hamburg",
           "de": "Hamburg"
         },
-        "validRelativeFrequency": 3.36,
+        "validRelativeFrequency": 3.82,
         "relativeFrequency": 0.21,
         "absoluteFrequency": 59,
         "value": "2"
@@ -108,7 +107,7 @@
           "en": "Lower Saxony",
           "de": "Niedersachsen"
         },
-        "validRelativeFrequency": 7.35,
+        "validRelativeFrequency": 8.36,
         "relativeFrequency": 0.46,
         "absoluteFrequency": 129,
         "value": "3"
@@ -118,7 +117,7 @@
           "en": "Bremen",
           "de": "Bremen"
         },
-        "validRelativeFrequency": 2,
+        "validRelativeFrequency": 2.27,
         "relativeFrequency": 0.12,
         "absoluteFrequency": 35,
         "value": "4"
@@ -128,7 +127,7 @@
           "en": "North Rhine-Westphalia",
           "de": "Nordrhein-Westfalen"
         },
-        "validRelativeFrequency": 18.64,
+        "validRelativeFrequency": 21.19,
         "relativeFrequency": 1.16,
         "absoluteFrequency": 327,
         "value": "5"
@@ -138,7 +137,7 @@
           "en": "Hesse",
           "de": "Hessen"
         },
-        "validRelativeFrequency": 5.76,
+        "validRelativeFrequency": 6.55,
         "relativeFrequency": 0.36,
         "absoluteFrequency": 101,
         "value": "6"
@@ -148,7 +147,7 @@
           "en": "Rhineland-Palatinate",
           "de": "Rheinland-Pfalz"
         },
-        "validRelativeFrequency": 5.36,
+        "validRelativeFrequency": 6.09,
         "relativeFrequency": 0.33,
         "absoluteFrequency": 94,
         "value": "7"
@@ -158,7 +157,7 @@
           "en": "Baden-Wuerttemberg",
           "de": "Baden-Württemberg"
         },
-        "validRelativeFrequency": 9.86,
+        "validRelativeFrequency": 11.21,
         "relativeFrequency": 0.61,
         "absoluteFrequency": 173,
         "value": "8"
@@ -168,7 +167,7 @@
           "en": "Bavaria",
           "de": "Bayern"
         },
-        "validRelativeFrequency": 12.43,
+        "validRelativeFrequency": 14.13,
         "relativeFrequency": 0.77,
         "absoluteFrequency": 218,
         "value": "9"
@@ -178,7 +177,7 @@
           "en": "Saarland",
           "de": "Saarland"
         },
-        "validRelativeFrequency": 0.8,
+        "validRelativeFrequency": 0.91,
         "relativeFrequency": 0.05,
         "absoluteFrequency": 14,
         "value": "10"
@@ -188,7 +187,7 @@
           "en": "Berlin",
           "de": "Berlin"
         },
-        "validRelativeFrequency": 6.56,
+        "validRelativeFrequency": 7.45,
         "relativeFrequency": 0.41,
         "absoluteFrequency": 115,
         "value": "11"
@@ -198,7 +197,7 @@
           "en": "Brandenburg",
           "de": "Brandenburg"
         },
-        "validRelativeFrequency": 2,
+        "validRelativeFrequency": 2.27,
         "relativeFrequency": 0.12,
         "absoluteFrequency": 35,
         "value": "12"
@@ -208,7 +207,7 @@
           "en": "Mecklenburg-West Pomerania",
           "de": "Mecklenburg-Vorpommern"
         },
-        "validRelativeFrequency": 1.6,
+        "validRelativeFrequency": 1.81,
         "relativeFrequency": 0.1,
         "absoluteFrequency": 28,
         "value": "13"
@@ -218,7 +217,7 @@
           "en": "Saxony",
           "de": "Sachsen"
         },
-        "validRelativeFrequency": 5.53,
+        "validRelativeFrequency": 6.29,
         "relativeFrequency": 0.34,
         "absoluteFrequency": 97,
         "value": "14"
@@ -228,7 +227,7 @@
           "en": "Saxony-Anhalt",
           "de": "Sachsen-Anhalt"
         },
-        "validRelativeFrequency": 2.28,
+        "validRelativeFrequency": 2.59,
         "relativeFrequency": 0.14,
         "absoluteFrequency": 40,
         "value": "15"
@@ -238,14 +237,14 @@
           "en": "Thuringia",
           "de": "Thüringen"
         },
-        "validRelativeFrequency": 2.91,
+        "validRelativeFrequency": 3.31,
         "relativeFrequency": 0.18,
         "absoluteFrequency": 51,
         "value": "16"
       }
     ],
-    "totalValidRelativeFrequency": 6.22,
-    "totalValidAbsoluteFrequency": 1754,
+    "totalValidRelativeFrequency": 5.48,
+    "totalValidAbsoluteFrequency": 1543,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

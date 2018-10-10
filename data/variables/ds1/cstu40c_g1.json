@@ -28,6 +28,15 @@
     "missings": [
       {
         "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "code": -999
+      },
+      {
+        "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
@@ -57,20 +66,10 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 0.84,
-        "relativeFrequency": 0,
-        "absoluteFrequency": 1,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": "financing, degree course too expensive",
           "de": "Finanzierung, Studium zu teuer"
         },
-        "validRelativeFrequency": 10.92,
+        "validRelativeFrequency": 11.02,
         "relativeFrequency": 0.05,
         "absoluteFrequency": 13,
         "value": "1"
@@ -80,7 +79,7 @@
           "en": "age",
           "de": "Alter"
         },
-        "validRelativeFrequency": 2.52,
+        "validRelativeFrequency": 2.54,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 3,
         "value": "2"
@@ -90,7 +89,7 @@
           "en": "duration of studies too long, invest no further time",
           "de": "zu lange Studiendauer, keine weitere Zeit investieren"
         },
-        "validRelativeFrequency": 2.52,
+        "validRelativeFrequency": 2.54,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 3,
         "value": "3"
@@ -100,7 +99,7 @@
           "en": "too demanding/stressful",
           "de": "zu anstrengend/stressig"
         },
-        "validRelativeFrequency": 5.04,
+        "validRelativeFrequency": 5.08,
         "relativeFrequency": 0.02,
         "absoluteFrequency": 6,
         "value": "4"
@@ -110,7 +109,7 @@
           "en": "compatibility with job",
           "de": "Vereinbarkeit mit Job"
         },
-        "validRelativeFrequency": 5.04,
+        "validRelativeFrequency": 5.08,
         "relativeFrequency": 0.02,
         "absoluteFrequency": 6,
         "value": "5"
@@ -120,7 +119,7 @@
           "en": "compatibility with family",
           "de": "Vereinbarkeit mit Familie"
         },
-        "validRelativeFrequency": 11.76,
+        "validRelativeFrequency": 11.86,
         "relativeFrequency": 0.05,
         "absoluteFrequency": 14,
         "value": "6"
@@ -130,7 +129,7 @@
           "en": "beyond capabilities",
           "de": "übersteigt Fähigkeiten"
         },
-        "validRelativeFrequency": 3.36,
+        "validRelativeFrequency": 3.39,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 4,
         "value": "7"
@@ -140,7 +139,7 @@
           "en": "no suitable MA (at place of study, in field of study)",
           "de": "kein geeigneter M.A. (am Studienort, im Studiengang)"
         },
-        "validRelativeFrequency": 3.36,
+        "validRelativeFrequency": 3.39,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 4,
         "value": "9"
@@ -150,7 +149,7 @@
           "en": "unhappy with subject",
           "de": "unzufrieden mit Studienfach"
         },
-        "validRelativeFrequency": 1.68,
+        "validRelativeFrequency": 1.69,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 2,
         "value": "11"
@@ -160,7 +159,7 @@
           "en": "earn money soon",
           "de": "bald Geld verdienen"
         },
-        "validRelativeFrequency": 10.92,
+        "validRelativeFrequency": 11.02,
         "relativeFrequency": 0.05,
         "absoluteFrequency": 13,
         "value": "12"
@@ -170,7 +169,7 @@
           "en": "BA sufficient for job market",
           "de": "B.A. ausreichend für Arbeitsmarkt"
         },
-        "validRelativeFrequency": 10.92,
+        "validRelativeFrequency": 11.02,
         "relativeFrequency": 0.05,
         "absoluteFrequency": 13,
         "value": "13"
@@ -180,7 +179,7 @@
           "en": "gain professional experience",
           "de": "Berufserfahrung sammeln"
         },
-        "validRelativeFrequency": 6.72,
+        "validRelativeFrequency": 6.78,
         "relativeFrequency": 0.03,
         "absoluteFrequency": 8,
         "value": "14"
@@ -190,7 +189,7 @@
           "en": "MA too theoretical, practical experience more relevant",
           "de": "M.A. zu theoretisch, praktische Erfahrungen relevanter"
         },
-        "validRelativeFrequency": 6.72,
+        "validRelativeFrequency": 6.78,
         "relativeFrequency": 0.03,
         "absoluteFrequency": 8,
         "value": "15"
@@ -200,7 +199,7 @@
           "en": "state examination (e.g. medicine, teaching)",
           "de": "Staatsexamen (z.B. Medizin, Lehramt)"
         },
-        "validRelativeFrequency": 1.68,
+        "validRelativeFrequency": 1.69,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 2,
         "value": "16"
@@ -210,7 +209,7 @@
           "en": "other further professional training",
           "de": "andere berufliche Weiterbildung"
         },
-        "validRelativeFrequency": 4.2,
+        "validRelativeFrequency": 4.24,
         "relativeFrequency": 0.02,
         "absoluteFrequency": 5,
         "value": "19"
@@ -220,7 +219,7 @@
           "en": "no further motivation",
           "de": "keine weitere Motivation"
         },
-        "validRelativeFrequency": 5.04,
+        "validRelativeFrequency": 5.08,
         "relativeFrequency": 0.02,
         "absoluteFrequency": 6,
         "value": "20"
@@ -230,7 +229,7 @@
           "en": "too early for decision, not finished BA yet",
           "de": "zu früh für Entscheidung, B.A. noch nicht beendet"
         },
-        "validRelativeFrequency": 0.84,
+        "validRelativeFrequency": 0.85,
         "relativeFrequency": 0,
         "absoluteFrequency": 1,
         "value": "22"
@@ -240,7 +239,7 @@
           "en": "not started a degree course",
           "de": "kein Studium begonnen"
         },
-        "validRelativeFrequency": 1.68,
+        "validRelativeFrequency": 1.69,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 2,
         "value": "23"
@@ -250,7 +249,7 @@
           "en": "discontinuation/change of studies",
           "de": "Studienabbruch/Studiengangswechsel"
         },
-        "validRelativeFrequency": 0.84,
+        "validRelativeFrequency": 0.85,
         "relativeFrequency": 0,
         "absoluteFrequency": 1,
         "value": "24"
@@ -260,14 +259,14 @@
           "en": "other",
           "de": "sonstiges"
         },
-        "validRelativeFrequency": 3.36,
+        "validRelativeFrequency": 3.39,
         "relativeFrequency": 0.01,
         "absoluteFrequency": 4,
         "value": "98"
       }
     ],
     "totalValidRelativeFrequency": 0.42,
-    "totalValidAbsoluteFrequency": 119,
+    "totalValidAbsoluteFrequency": 118,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

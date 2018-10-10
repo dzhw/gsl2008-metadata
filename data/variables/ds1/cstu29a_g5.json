@@ -28,6 +28,15 @@
     "missings": [
       {
         "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "code": -999
+      },
+      {
+        "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
@@ -75,16 +84,6 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 0.17,
-        "relativeFrequency": 0,
-        "absoluteFrequency": 1,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": "anonymized",
           "de": "anonymisiert"
         },
@@ -98,7 +97,7 @@
           "en": "no study at a uni or uni of applied sciences, but study in a broader sense",
           "de": "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)"
         },
-        "validRelativeFrequency": 3.51,
+        "validRelativeFrequency": 3.52,
         "relativeFrequency": 0.07,
         "absoluteFrequency": 21,
         "value": "-943"
@@ -108,7 +107,7 @@
           "en": "university",
           "de": "Universität"
         },
-        "validRelativeFrequency": 67.73,
+        "validRelativeFrequency": 67.84,
         "relativeFrequency": 1.44,
         "absoluteFrequency": 405,
         "value": "1"
@@ -118,14 +117,14 @@
           "en": "university of applied sciences",
           "de": "Fachhochschule"
         },
-        "validRelativeFrequency": 28.09,
+        "validRelativeFrequency": 28.14,
         "relativeFrequency": 0.6,
         "absoluteFrequency": 168,
         "value": "2"
       }
     ],
     "totalValidRelativeFrequency": 2.12,
-    "totalValidAbsoluteFrequency": 598,
+    "totalValidAbsoluteFrequency": 597,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

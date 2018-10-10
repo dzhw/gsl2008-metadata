@@ -14,7 +14,7 @@
       "meanDeviation": 4.4478,
       "mode": "12",
       "highWhisker": 12,
-      "lowWhisker": -0.5,
+      "lowWhisker": 1,
       "thirdQuartile": "12",
       "firstQuartile": "7",
       "standardDeviation": null,
@@ -22,10 +22,19 @@
       "kurtosis": null,
       "skewness": null,
       "maximum": "12",
-      "minimum": "-999",
+      "minimum": "1",
       "meanValue": null
     },
     "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "code": -999
+      },
       {
         "label": {
           "en": "no answer",
@@ -57,20 +66,10 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 0.16,
-        "relativeFrequency": 0,
-        "absoluteFrequency": 1,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": "January",
           "de": "Januar"
         },
-        "validRelativeFrequency": 3.09,
+        "validRelativeFrequency": 3.1,
         "relativeFrequency": 0.07,
         "absoluteFrequency": 19,
         "value": "1"
@@ -80,7 +79,7 @@
           "en": "February",
           "de": "Februar"
         },
-        "validRelativeFrequency": 3.91,
+        "validRelativeFrequency": 3.92,
         "relativeFrequency": 0.09,
         "absoluteFrequency": 24,
         "value": "2"
@@ -90,7 +89,7 @@
           "en": "March",
           "de": "März"
         },
-        "validRelativeFrequency": 6.35,
+        "validRelativeFrequency": 6.36,
         "relativeFrequency": 0.14,
         "absoluteFrequency": 39,
         "value": "3"
@@ -120,7 +119,7 @@
           "en": "June",
           "de": "Juni"
         },
-        "validRelativeFrequency": 3.42,
+        "validRelativeFrequency": 3.43,
         "relativeFrequency": 0.07,
         "absoluteFrequency": 21,
         "value": "6"
@@ -130,7 +129,7 @@
           "en": "July",
           "de": "Juli"
         },
-        "validRelativeFrequency": 7.17,
+        "validRelativeFrequency": 7.18,
         "relativeFrequency": 0.16,
         "absoluteFrequency": 44,
         "value": "7"
@@ -140,7 +139,7 @@
           "en": "August",
           "de": "August"
         },
-        "validRelativeFrequency": 9.61,
+        "validRelativeFrequency": 9.62,
         "relativeFrequency": 0.21,
         "absoluteFrequency": 59,
         "value": "8"
@@ -150,7 +149,7 @@
           "en": "September",
           "de": "September"
         },
-        "validRelativeFrequency": 11.89,
+        "validRelativeFrequency": 11.91,
         "relativeFrequency": 0.26,
         "absoluteFrequency": 73,
         "value": "9"
@@ -160,7 +159,7 @@
           "en": "October",
           "de": "Oktober"
         },
-        "validRelativeFrequency": 5.86,
+        "validRelativeFrequency": 5.87,
         "relativeFrequency": 0.13,
         "absoluteFrequency": 36,
         "value": "10"
@@ -170,7 +169,7 @@
           "en": "November",
           "de": "November"
         },
-        "validRelativeFrequency": 2.93,
+        "validRelativeFrequency": 2.94,
         "relativeFrequency": 0.06,
         "absoluteFrequency": 18,
         "value": "11"
@@ -180,14 +179,14 @@
           "en": "December",
           "de": "Dezember"
         },
-        "validRelativeFrequency": 39.25,
+        "validRelativeFrequency": 39.31,
         "relativeFrequency": 0.86,
         "absoluteFrequency": 241,
         "value": "12"
       }
     ],
     "totalValidRelativeFrequency": 2.18,
-    "totalValidAbsoluteFrequency": 614,
+    "totalValidAbsoluteFrequency": 613,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

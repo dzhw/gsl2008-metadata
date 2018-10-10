@@ -17,15 +17,24 @@
       "lowWhisker": 2011,
       "thirdQuartile": "2011",
       "firstQuartile": "2011",
-      "standardDeviation": 105.8961,
+      "standardDeviation": 0.6679,
       "median": "2011",
-      "kurtosis": 805.9372,
-      "skewness": -28.3708,
+      "kurtosis": 4.0207,
+      "skewness": -0.5606,
       "maximum": "2012",
-      "minimum": "-999",
-      "meanValue": 2007.349
+      "minimum": "2008",
+      "meanValue": 2011.0743
     },
     "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "code": -999
+      },
       {
         "label": {
           "en": "no answer",
@@ -57,16 +66,6 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 0.12,
-        "relativeFrequency": 0,
-        "absoluteFrequency": 1,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": null,
           "de": null
         },
@@ -90,7 +89,7 @@
           "en": null,
           "de": null
         },
-        "validRelativeFrequency": 12.5,
+        "validRelativeFrequency": 12.52,
         "relativeFrequency": 0.36,
         "absoluteFrequency": 101,
         "value": "2010"
@@ -100,7 +99,7 @@
           "en": null,
           "de": null
         },
-        "validRelativeFrequency": 61.39,
+        "validRelativeFrequency": 61.46,
         "relativeFrequency": 1.76,
         "absoluteFrequency": 496,
         "value": "2011"
@@ -110,14 +109,14 @@
           "en": null,
           "de": null
         },
-        "validRelativeFrequency": 24.01,
+        "validRelativeFrequency": 24.04,
         "relativeFrequency": 0.69,
         "absoluteFrequency": 194,
         "value": "2012"
       }
     ],
-    "totalValidRelativeFrequency": 2.87,
-    "totalValidAbsoluteFrequency": 808,
+    "totalValidRelativeFrequency": 2.86,
+    "totalValidAbsoluteFrequency": 807,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

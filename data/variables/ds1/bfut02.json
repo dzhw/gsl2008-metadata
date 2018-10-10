@@ -14,7 +14,7 @@
       "meanDeviation": 0,
       "mode": "3",
       "highWhisker": 4.5,
-      "lowWhisker": 0.5,
+      "lowWhisker": 1,
       "thirdQuartile": "3",
       "firstQuartile": "2",
       "standardDeviation": null,
@@ -22,10 +22,19 @@
       "kurtosis": null,
       "skewness": null,
       "maximum": "5",
-      "minimum": "-999",
+      "minimum": "1",
       "meanValue": null
     },
     "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.57,
+        "absoluteFrequency": 161,
+        "code": -999
+      },
       {
         "label": {
           "en": "no answer",
@@ -48,20 +57,10 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 2.72,
-        "relativeFrequency": 0.57,
-        "absoluteFrequency": 161,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": "very good",
           "de": "sehr gut"
         },
-        "validRelativeFrequency": 1.99,
+        "validRelativeFrequency": 2.05,
         "relativeFrequency": 0.42,
         "absoluteFrequency": 118,
         "value": "1"
@@ -71,7 +70,7 @@
           "en": null,
           "de": "2"
         },
-        "validRelativeFrequency": 26.42,
+        "validRelativeFrequency": 27.16,
         "relativeFrequency": 5.55,
         "absoluteFrequency": 1564,
         "value": "2"
@@ -81,7 +80,7 @@
           "en": null,
           "de": "3"
         },
-        "validRelativeFrequency": 52.98,
+        "validRelativeFrequency": 54.46,
         "relativeFrequency": 11.13,
         "absoluteFrequency": 3136,
         "value": "3"
@@ -91,7 +90,7 @@
           "en": null,
           "de": "4"
         },
-        "validRelativeFrequency": 14.77,
+        "validRelativeFrequency": 15.18,
         "relativeFrequency": 3.1,
         "absoluteFrequency": 874,
         "value": "4"
@@ -101,14 +100,14 @@
           "en": "very poor",
           "de": "sehr schlecht"
         },
-        "validRelativeFrequency": 1.12,
+        "validRelativeFrequency": 1.15,
         "relativeFrequency": 0.23,
         "absoluteFrequency": 66,
         "value": "5"
       }
     ],
-    "totalValidRelativeFrequency": 21,
-    "totalValidAbsoluteFrequency": 5919,
+    "totalValidRelativeFrequency": 20.43,
+    "totalValidAbsoluteFrequency": 5758,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {

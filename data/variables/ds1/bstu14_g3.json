@@ -12,7 +12,7 @@
   "distribution": {
     "statistics": {
       "meanDeviation": null,
-      "mode": "-999",
+      "mode": "9990",
       "highWhisker": null,
       "lowWhisker": null,
       "thirdQuartile": null,
@@ -26,6 +26,15 @@
       "meanValue": null
     },
     "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.36,
+        "absoluteFrequency": 101,
+        "code": -999
+      },
       {
         "label": {
           "en": "no answer",
@@ -66,27 +75,17 @@
     "validResponses": [
       {
         "label": {
-          "en": "don't know",
-          "de": "weiß nicht"
-        },
-        "validRelativeFrequency": 77.69,
-        "relativeFrequency": 0.36,
-        "absoluteFrequency": 101,
-        "value": "-999"
-      },
-      {
-        "label": {
           "en": "Higher education institutions abroad",
           "de": "Hochschulen im Ausland"
         },
-        "validRelativeFrequency": 22.31,
+        "validRelativeFrequency": 100,
         "relativeFrequency": 0.1,
         "absoluteFrequency": 29,
         "value": "9990"
       }
     ],
-    "totalValidRelativeFrequency": 0.46,
-    "totalValidAbsoluteFrequency": 130,
+    "totalValidRelativeFrequency": 0.1,
+    "totalValidAbsoluteFrequency": 29,
     "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
