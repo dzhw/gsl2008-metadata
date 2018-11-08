@@ -1,0 +1,164 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bint01f (Interessenbereich: Dinge ordnen/verwalten)}
+	\label{section:bint01f}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-bint01f$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins2-16$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - zweite Welle:
+					  16
+ \\
+					%--
+					Fragetext: & Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\par  Dinge ordnen und verwalten \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bint01f}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr stark   } &
+
+
+					%1129 &
+					  \num{1129} &
+					%--
+					  \num[round-mode=places,round-precision=2]{19,08} &
+					    \num[round-mode=places,round-precision=2]{4,01} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%1804 &
+					  \num{1804} &
+					%--
+					  \num[round-mode=places,round-precision=2]{30,48} &
+					    \num[round-mode=places,round-precision=2]{6,4} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%1541 &
+					  \num{1541} &
+					%--
+					  \num[round-mode=places,round-precision=2]{26,04} &
+					    \num[round-mode=places,round-precision=2]{5,47} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%1027 &
+					  \num{1027} &
+					%--
+					  \num[round-mode=places,round-precision=2]{17,35} &
+					    \num[round-mode=places,round-precision=2]{3,64} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ überhaupt nicht   } &
+
+
+					%417 &
+					  \num{417} &
+					%--
+					  \num[round-mode=places,round-precision=2]{7,05} &
+					    \num[round-mode=places,round-precision=2]{1,48} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{5918}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{21}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{15} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,05} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{22249} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{78,95} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bint01f}
+				\label{tableValues:bint01f}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 3; 
+                	      Modus ($h$): 2
+                     \end{noten}
+
+

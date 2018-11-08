@@ -1,0 +1,169 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{ainf06d (Informationsquelle Zukunft: Informationstage an HS)}
+	\label{section:ainf06d}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-ainf06d$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins1-25$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - erste Welle:
+					  25
+ \\
+					%--
+					Fragetext: & Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\par  Informationsangebote\par  Informationstage an Hochschulen \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-ainf06d}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr hilfreich   } &
+
+
+					%3208 &
+					  \num{3208} &
+					%--
+					  \num[round-mode=places,round-precision=2]{21,07} &
+					    \num[round-mode=places,round-precision=2]{11,38} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%5179 &
+					  \num{5179} &
+					%--
+					  \num[round-mode=places,round-precision=2]{34,02} &
+					    \num[round-mode=places,round-precision=2]{18,38} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%3952 &
+					  \num{3952} &
+					%--
+					  \num[round-mode=places,round-precision=2]{25,96} &
+					    \num[round-mode=places,round-precision=2]{14,02} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%1871 &
+					  \num{1871} &
+					%--
+					  \num[round-mode=places,round-precision=2]{12,29} &
+					    \num[round-mode=places,round-precision=2]{6,64} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nicht hilfreich   } &
+
+
+					%1013 &
+					  \num{1013} &
+					%--
+					  \num[round-mode=places,round-precision=2]{6,65} &
+					    \num[round-mode=places,round-precision=2]{3,59} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{15223}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{54,02}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{1304} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{4,63} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2966} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{10,52} \\
+							-988 &
+							trifft nicht zu &
+							  \num{8689} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{30,83} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-ainf06d}
+				\label{tableValues:ainf06d}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 2; 
+                	      Modus ($h$): 2
+                     \end{noten}
+
+

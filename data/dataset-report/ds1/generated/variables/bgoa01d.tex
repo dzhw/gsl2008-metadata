@@ -1,0 +1,164 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bgoa01d (Ziel: hohes Einkommen)}
+	\label{section:bgoa01d}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-bgoa01d$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins2-47$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - zweite Welle:
+					  47
+ \\
+					%--
+					Fragetext: & Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\par  Mir geht es darum, ein möglichst hohes Einkommen zu erzielen \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bgoa01d}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr stark   } &
+
+
+					%1466 &
+					  \num{1466} &
+					%--
+					  \num[round-mode=places,round-precision=2]{24,79} &
+					    \num[round-mode=places,round-precision=2]{5,2} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%2247 &
+					  \num{2247} &
+					%--
+					  \num[round-mode=places,round-precision=2]{37,99} &
+					    \num[round-mode=places,round-precision=2]{7,97} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%1497 &
+					  \num{1497} &
+					%--
+					  \num[round-mode=places,round-precision=2]{25,31} &
+					    \num[round-mode=places,round-precision=2]{5,31} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%553 &
+					  \num{553} &
+					%--
+					  \num[round-mode=places,round-precision=2]{9,35} &
+					    \num[round-mode=places,round-precision=2]{1,96} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ überhaupt nicht   } &
+
+
+					%151 &
+					  \num{151} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2,55} &
+					    \num[round-mode=places,round-precision=2]{0,54} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{5914}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{20,99}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{19} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,07} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{22249} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{78,95} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bgoa01d}
+				\label{tableValues:bgoa01d}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 2; 
+                	      Modus ($h$): 2
+                     \end{noten}
+
+

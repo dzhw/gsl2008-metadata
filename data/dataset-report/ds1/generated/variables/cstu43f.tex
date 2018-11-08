@@ -1,0 +1,169 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{cstu43f (Motiv MA: etwas anderes machen als bisher)}
+	\label{section:cstu43f}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-cstu43f$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins3-5.5$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - dritte Welle:
+					  5.5
+ \\
+					%--
+					Fragetext: & Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\par  etwas ganz anderes machen als bisher \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-cstu43f}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr wichtig   } &
+
+
+					%36 &
+					  \num{36} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2,2} &
+					    \num[round-mode=places,round-precision=2]{0,13} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%70 &
+					  \num{70} &
+					%--
+					  \num[round-mode=places,round-precision=2]{4,27} &
+					    \num[round-mode=places,round-precision=2]{0,25} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%169 &
+					  \num{169} &
+					%--
+					  \num[round-mode=places,round-precision=2]{10,32} &
+					    \num[round-mode=places,round-precision=2]{0,6} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%359 &
+					  \num{359} &
+					%--
+					  \num[round-mode=places,round-precision=2]{21,92} &
+					    \num[round-mode=places,round-precision=2]{1,27} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ unwichtig   } &
+
+
+					%1004 &
+					  \num{1004} &
+					%--
+					  \num[round-mode=places,round-precision=2]{61,29} &
+					    \num[round-mode=places,round-precision=2]{3,56} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1638}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{5,81}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{88} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,31} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{24511} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{86,97} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{1945} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{6,9} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-cstu43f}
+				\label{tableValues:cstu43f}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 5; 
+                	      Modus ($h$): 5
+                     \end{noten}
+
+

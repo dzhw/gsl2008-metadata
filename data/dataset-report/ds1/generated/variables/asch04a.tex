@@ -1,0 +1,209 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{asch04a (Notendurchschnitt (Note derzeit))}
+	\label{section:asch04a}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-asch04a$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins1-03$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - erste Welle:
+					  03
+ \\
+					%--
+					Fragetext: & Geben Sie bitte Ihren ungefähren derzeitigen Notendurchschnitt an.\par  als Note (z.B. 2,3) \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-asch04a}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								0.7 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								0.8 & \multicolumn{1}{X}{-} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,01} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+								0.9 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								1 & \multicolumn{1}{X}{-} & %137 &
+								  \num{137} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,51} &
+								  \num[round-mode=places,round-precision=2]{0,49} \\
+								1.1 & \multicolumn{1}{X}{-} & %73 &
+								  \num{73} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,27} &
+								  \num[round-mode=places,round-precision=2]{0,26} \\
+								1.2 & \multicolumn{1}{X}{-} & %110 &
+								  \num{110} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,41} &
+								  \num[round-mode=places,round-precision=2]{0,39} \\
+								1.3 & \multicolumn{1}{X}{-} & %491 &
+								  \num{491} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,81} &
+								  \num[round-mode=places,round-precision=2]{1,74} \\
+								1.4 & \multicolumn{1}{X}{-} & %224 &
+								  \num{224} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,83} &
+								  \num[round-mode=places,round-precision=2]{0,79} \\
+								1.5 & \multicolumn{1}{X}{-} & %329 &
+								  \num{329} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,21} &
+								  \num[round-mode=places,round-precision=2]{1,17} \\
+								1.6 & \multicolumn{1}{X}{-} & %382 &
+								  \num{382} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,41} &
+								  \num[round-mode=places,round-precision=2]{1,36} \\
+							... & ... & ... & ... & ... \\
+								4.3 & \multicolumn{1}{X}{-} & %22 &
+								  \num{22} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,08} &
+								  \num[round-mode=places,round-precision=2]{0,08} \\
+
+								4.4 & \multicolumn{1}{X}{-} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,02} &
+								  \num[round-mode=places,round-precision=2]{0,02} \\
+
+								4.5 & \multicolumn{1}{X}{-} & %20 &
+								  \num{20} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,07} &
+								  \num[round-mode=places,round-precision=2]{0,07} \\
+
+								4.6 & \multicolumn{1}{X}{-} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,01} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								4.7 & \multicolumn{1}{X}{-} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,01} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								4.8 & \multicolumn{1}{X}{-} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,01} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								5 & \multicolumn{1}{X}{-} & %11 &
+								  \num{11} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,04} &
+								  \num[round-mode=places,round-precision=2]{0,04} \\
+
+								5.3 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								5.4 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								5.6 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{27099}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{96,16}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{1083} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{3,84} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-asch04a}
+				\label{tableValues:asch04a}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 46%
+                	    ; 
+                	      Minimum ($min$): 0.7; 
+                	      Maximum ($max$): 5.6; 
+                	      Median ($\tilde{x}$): 2.5; 
+                	      Modus ($h$): 3
+                     \end{noten}
+
+

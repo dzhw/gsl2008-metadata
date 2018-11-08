@@ -1,0 +1,303 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bstu17 (angestrebter 1. Studienabschluss (Examen))}
+	\label{section:bstu17}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-bstu17$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins2-26$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - zweite Welle:
+					  26
+ \\
+					%--
+					Fragetext: & Wenn Sie bereits studieren oder noch studieren wollen: Welchen ersten Studienabschluss streben Sie an? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bstu17}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ B.A./Diplom an Berufsakademie   } &
+
+
+					%281 &
+					  \num{281} &
+					%--
+					  \num[round-mode=places,round-precision=2]{5,31} &
+					    \num[round-mode=places,round-precision=2]{1} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ B.A./Diplom an Verwaltungsfachhochschule   } &
+
+
+					%148 &
+					  \num{148} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2,79} &
+					    \num[round-mode=places,round-precision=2]{0,53} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ B.A. an Fachhochschule   } &
+
+
+					%1377 &
+					  \num{1377} &
+					%--
+					  \num[round-mode=places,round-precision=2]{26} &
+					    \num[round-mode=places,round-precision=2]{4,89} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ B.A. an Universität (außer LA)   } &
+
+
+					%1848 &
+					  \num{1848} &
+					%--
+					  \num[round-mode=places,round-precision=2]{34,89} &
+					    \num[round-mode=places,round-precision=2]{6,56} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ LA Grund-, Haupt-, Realschule   } &
+
+
+					%197 &
+					  \num{197} &
+					%--
+					  \num[round-mode=places,round-precision=2]{3,72} &
+					    \num[round-mode=places,round-precision=2]{0,7} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ LA Gymnasium   } &
+
+
+					%303 &
+					  \num{303} &
+					%--
+					  \num[round-mode=places,round-precision=2]{5,72} &
+					    \num[round-mode=places,round-precision=2]{1,08} \\
+							%????
+
+					7 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ LA berufsbildende Schule   } &
+
+
+					%31 &
+					  \num{31} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,59} &
+					    \num[round-mode=places,round-precision=2]{0,11} \\
+							%????
+
+					8 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ LA Sonderschule   } &
+
+
+					%39 &
+					  \num{39} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,74} &
+					    \num[round-mode=places,round-precision=2]{0,14} \\
+							%????
+
+					9 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Staatsexamen   } &
+
+
+					%568 &
+					  \num{568} &
+					%--
+					  \num[round-mode=places,round-precision=2]{10,73} &
+					    \num[round-mode=places,round-precision=2]{2,02} \\
+							%????
+
+					10 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Diplom FH   } &
+
+
+					%101 &
+					  \num{101} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1,91} &
+					    \num[round-mode=places,round-precision=2]{0,36} \\
+							%????
+
+					11 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Diplom Uni   } &
+
+
+					%216 &
+					  \num{216} &
+					%--
+					  \num[round-mode=places,round-precision=2]{4,08} &
+					    \num[round-mode=places,round-precision=2]{0,77} \\
+							%????
+
+					12 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Magister   } &
+
+
+					%14 &
+					  \num{14} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,26} &
+					    \num[round-mode=places,round-precision=2]{0,05} \\
+							%????
+
+					13 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ kirchlicher Abschluss   } &
+
+
+					%12 &
+					  \num{12} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,23} &
+					    \num[round-mode=places,round-precision=2]{0,04} \\
+							%????
+
+					14 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ künstlerischer Abschluss   } &
+
+
+					%22 &
+					  \num{22} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,42} &
+					    \num[round-mode=places,round-precision=2]{0,08} \\
+							%????
+
+					15 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Abschluss im Ausland   } &
+
+
+					%133 &
+					  \num{133} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2,51} &
+					    \num[round-mode=places,round-precision=2]{0,47} \\
+							%????
+
+					16 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ deutscher \& ausländischer Abschluss   } &
+
+
+					%6 &
+					  \num{6} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,11} &
+					    \num[round-mode=places,round-precision=2]{0,02} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{5296}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{18,79}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-999 &
+							weiß nicht &
+							  \num{7} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,02} \\
+							-998 &
+							keine Angabe &
+							  \num{71} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,25} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{22249} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{78,95} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{559} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{1,98} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bstu17}
+				\label{tableValues:bstu17}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 16%
+                	    ; 
+                	      Modus ($h$): 4
+                     \end{noten}
+
+
