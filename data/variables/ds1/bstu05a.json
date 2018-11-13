@@ -1,121 +1,133 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche drei Studienrichtungen kommen bzw. kamen für Sie persönlich am ehesten infrage?\r\ngeisteswissenschaftliche Studienrichtung"
+      },
+      "questionNumber": "12",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.73,
+        "absoluteFrequency": 3869,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 155,
+        "code": -969
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "in 1st place",
+          "de": "an 1. Stelle"
+        },
+        "validRelativeFrequency": 34.52,
+        "relativeFrequency": 2.34,
+        "absoluteFrequency": 659,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "in 2nd place",
+          "de": "an 2. Stelle"
+        },
+        "validRelativeFrequency": 31.22,
+        "relativeFrequency": 2.11,
+        "absoluteFrequency": 596,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "in 3rd place",
+          "de": "an 3. Stelle"
+        },
+        "validRelativeFrequency": 34.26,
+        "relativeFrequency": 2.32,
+        "absoluteFrequency": 654,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 6.77,
+    "totalValidAbsoluteFrequency": 1909,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 198,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "study orientation: arts",
+    "de": "Studienrichtung: geisteswissenschaftlich"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Studienrichtung: geisteswissenschaftlich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 198,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 6.77,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 659,
-        "label": {
-          "en": null,
-          "de": "an 1. Stelle"
-        },
-        "relativeFrequency": 2.34,
-        "validRelativeFrequency": 34.52,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 596,
-        "label": {
-          "en": null,
-          "de": "an 2. Stelle"
-        },
-        "relativeFrequency": 2.11,
-        "validRelativeFrequency": 31.22,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 654,
-        "label": {
-          "en": null,
-          "de": "an 3. Stelle"
-        },
-        "relativeFrequency": 2.32,
-        "validRelativeFrequency": 34.26,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1909,
-    "missings": [
-      {
-        "absoluteFrequency": 3869,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.73,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 155,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.55,
-        "code": -969
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche drei Studienrichtungen kommen bzw. kamen für Sie persönlich am ehesten infrage?\ngeisteswissenschaftliche Studienrichtung"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

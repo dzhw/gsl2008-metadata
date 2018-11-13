@@ -1,74 +1,86 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schulart (ermittelt: allgemeinb. vs. berufl. Schulen)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-asys03",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "18",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "general education schools",
+          "de": "allgemeinbildene Schulen"
+        },
+        "validRelativeFrequency": 70.19,
+        "relativeFrequency": 70.19,
+        "absoluteFrequency": 19782,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "vocational schools",
+          "de": "berufliche Schulen"
+        },
+        "validRelativeFrequency": 29.81,
+        "relativeFrequency": 29.81,
+        "absoluteFrequency": 8400,
+        "value": "19"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 28182,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 8,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen, die anhand einer projekteigenen Codierung (vgl. cl-dzhw-6) generiert wurden, wurden zu zwei Schulformen aggregiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The variable contains the identified school type in coded form. This involved the use of a project-specific code (see cl-dzhw-6).",
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen, die anhand einer projekteigenen Codierung (vgl. cl-dzhw-6) generiert wurden, wurden zu zwei Schulformen aggregiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 100,
-    "statistics": {
-      "mode": "18"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 19782,
-        "label": {
-          "en": null,
-          "de": "allgemeinbildene Schulen"
-        },
-        "relativeFrequency": 70.19,
-        "validRelativeFrequency": 70.19,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 8400,
-        "label": {
-          "en": null,
-          "de": "berufliche Schulen"
-        },
-        "relativeFrequency": 29.81,
-        "validRelativeFrequency": 29.81,
-        "value": "19"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 28182,
-    "missings": null
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-asys03",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 8,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of school (identified: general ed. vs. vocat. schools)",
+    "de": "Schulart (ermittelt: allgemeinb. vs. berufl. Schulen)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

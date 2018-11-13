@@ -1,171 +1,183 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Studiengebühren: Grund für Nichtzahlung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Zahlen Sie derzeit Studiengebühren?\r\nnein, ich zahle keine Studiengebühren und rechne auch in absehbarer Zeit nicht damit, weil"
+      },
+      "questionNumber": "36",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "10",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.44,
+        "absoluteFrequency": 123,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 16.85,
+        "absoluteFrequency": 4748,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "siblings",
+          "de": "Geschwister"
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "primary residence",
+          "de": "Erstwohnsitz"
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "costs borne by employer",
+          "de": "Kosten trägt Arbeitgeber"
+        },
+        "validRelativeFrequency": 4.05,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 43,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "studying at foreign institution of higher education",
+          "de": "Studium an ausländischer HS"
+        },
+        "validRelativeFrequency": 0.75,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "not yet undertaking a degree course",
+          "de": "noch nicht im Studium"
+        },
+        "validRelativeFrequency": 40.96,
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 435,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "uncertain whether/when tuition fees ",
+          "de": "steht nicht fest, ob/wann Studiengebühren "
+        },
+        "validRelativeFrequency": 1.13,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 12,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "institution of higher education with no tuition fees chosen",
+          "de": "HS ohne Studiengebühren gewählt"
+        },
+        "validRelativeFrequency": 52.35,
+        "relativeFrequency": 1.97,
+        "absoluteFrequency": 556,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "sonstiges"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.77,
+    "totalValidAbsoluteFrequency": 1062,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 369,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Gründe für die Nichtzahlung von Studiengebühren in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly gathered reasons for the non-payment of tuition fees in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Gründe für die Nichtzahlung von Studiengebühren in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 3.77,
-    "statistics": {
-      "mode": "10"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Geschwister"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.19,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Erstwohnsitz"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.47,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 43,
-        "label": {
-          "en": null,
-          "de": "Kosten trägt Arbeitgeber"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 4.05,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Studium an ausländischer HS"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.75,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 435,
-        "label": {
-          "en": null,
-          "de": "noch nicht im Studium"
-        },
-        "relativeFrequency": 1.54,
-        "validRelativeFrequency": 40.96,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": null,
-          "de": "steht nicht fest, ob/wann Studiengebühren "
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 1.13,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 556,
-        "label": {
-          "en": null,
-          "de": "HS ohne Studiengebühren gewählt"
-        },
-        "relativeFrequency": 1.97,
-        "validRelativeFrequency": 52.35,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "sonstiges"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.09,
-        "value": "20"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1062,
-    "missings": [
-      {
-        "absoluteFrequency": 123,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.44,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 4748,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 16.85,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "36",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Zahlen Sie derzeit Studiengebühren?\nnein, ich zahle keine Studiengebühren und rechne auch in absehbarer Zeit nicht damit, weil"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 369,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "tuition fees: reason for non-payment",
+    "de": "Studiengebühren: Grund für Nichtzahlung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

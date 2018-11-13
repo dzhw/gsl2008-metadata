@@ -1,170 +1,182 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Finanzierung letze 2 Semester: Angabe sonstige Quelle"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf welche Weise haben Sie in den letzten beiden Studiensemestern Ihren Lebensunterhalt finanziert?\r\nandere Finanzierungsquelle, und zwar:"
+      },
+      "questionNumber": "4.12",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.69,
+        "absoluteFrequency": 3012,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "absoluteFrequency": 588,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "code": -969
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "University of the German Armed Forces Munich",
+          "de": "Uni Bundeswehr München"
+        },
+        "validRelativeFrequency": 14.49,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "joint degree",
+          "de": "Duales Studium"
+        },
+        "validRelativeFrequency": 37.68,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 26,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "university of cooperative education",
+          "de": "Berufsakademie"
+        },
+        "validRelativeFrequency": 2.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Baden-Württemberg Cooperative State University",
+          "de": "Duale Hochschule Baden-Württemberg"
+        },
+        "validRelativeFrequency": 2.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "internship",
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 5.8,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "housing benefit",
+          "de": "Wohngeld"
+        },
+        "validRelativeFrequency": 15.94,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "other sources of financing",
+          "de": "sonstige Finanzierungsquellen"
+        },
+        "validRelativeFrequency": 20.29,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.24,
+    "totalValidAbsoluteFrequency": 69,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1025,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfasste Angaben zu anderen Finanzierungsquellen in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on other source of financing in coded form. This involved the use of a project-specific code list.",
+      "de": "Diese Variable enthält die offen erfasste Angaben zu anderen Finanzierungsquellen in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.24,
-    "statistics": {
-      "mode": "3"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "Uni Bundeswehr München"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 14.49,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": null,
-          "de": "Duales Studium"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 37.68,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Berufsakademie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.9,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Duale Hochschule Baden-Württemberg"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.9,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Praktikum"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 5.8,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "Wohngeld"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 15.94,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "sonstige Finanzierungsquellen"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 20.29,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 69,
-    "missings": [
-      {
-        "absoluteFrequency": 3012,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 10.69,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 588,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.09,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.01,
-        "code": -969
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Auf welche Weise haben Sie in den letzten beiden Studiensemestern Ihren Lebensunterhalt finanziert?\nandere Finanzierungsquelle, und zwar:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1025,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "financing of last 2 semesters (in %): specify other source",
+    "de": "Finanzierung letze 2 Semester: Angabe sonstige Quelle"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

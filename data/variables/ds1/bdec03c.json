@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Aspekt gegen Studium: fehlendes Angebot in Nähe des Heimatortes"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-dec03c",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 351,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\r\ndas Fehlen eines passenden Studienangebotes in der Nähe meines Heimatortes"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.72,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "529.2882",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 94,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 467,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 1.66,
         "validRelativeFrequency": 8,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 467,
         "value": "1"
       },
       {
-        "absoluteFrequency": 869,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 3.08,
         "validRelativeFrequency": 14.88,
+        "relativeFrequency": 3.08,
+        "absoluteFrequency": 869,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1139,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 4.04,
         "validRelativeFrequency": 19.51,
+        "relativeFrequency": 4.04,
+        "absoluteFrequency": 1139,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1496,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 5.31,
         "validRelativeFrequency": 25.62,
+        "relativeFrequency": 5.31,
+        "absoluteFrequency": 1496,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1868,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 6.63,
         "validRelativeFrequency": 31.99,
+        "relativeFrequency": 6.63,
+        "absoluteFrequency": 1868,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.72,
     "totalValidAbsoluteFrequency": 5839,
-    "missings": [
-      {
-        "absoluteFrequency": 94,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.33,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\ndas Fehlen eines passenden Studienangebotes in der Nähe meines Heimatortes"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-dec03c",
+  "surveyNumbers": [2],
+  "indexInDataSet": 351,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "points against studying: shortage of options near home location",
+    "de": "Aspekt gegen Studium: fehlendes Angebot in Nähe des Heimatortes"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

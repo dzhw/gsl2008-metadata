@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Persönlichkeit: zurückhaltend"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 132,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\r\nIch bin eher zurückhaltend, reserviert."
+      },
+      "questionNumber": "26",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.57,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "4769.524",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.43,
+        "absoluteFrequency": 966,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1059,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll und ganz zu"
         },
-        "relativeFrequency": 3.76,
         "validRelativeFrequency": 3.89,
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 1059,
         "value": "1"
       },
       {
-        "absoluteFrequency": 4734,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 16.8,
         "validRelativeFrequency": 17.39,
+        "relativeFrequency": 16.8,
+        "absoluteFrequency": 4734,
         "value": "2"
       },
       {
-        "absoluteFrequency": 8294,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 29.43,
         "validRelativeFrequency": 30.47,
+        "relativeFrequency": 29.43,
+        "absoluteFrequency": 8294,
         "value": "3"
       },
       {
-        "absoluteFrequency": 8173,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 29,
         "validRelativeFrequency": 30.03,
+        "relativeFrequency": 29,
+        "absoluteFrequency": 8173,
         "value": "4"
       },
       {
-        "absoluteFrequency": 4956,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft überhaupt nicht zu"
         },
-        "relativeFrequency": 17.59,
         "validRelativeFrequency": 18.21,
+        "relativeFrequency": 17.59,
+        "absoluteFrequency": 4956,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 96.57,
     "totalValidAbsoluteFrequency": 27216,
-    "missings": [
-      {
-        "absoluteFrequency": 966,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.43,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "26",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\nIch bin eher zurückhaltend, reserviert."
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 132,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "personality: reserved",
+    "de": "Persönlichkeit: zurückhaltend"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

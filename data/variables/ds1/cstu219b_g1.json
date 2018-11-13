@@ -1,223 +1,235 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "9. Tätigkeit: 2. Studienfach (Studienbereich)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu219b",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "30",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 12.92,
+        "absoluteFrequency": 3642,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Linguistics and cultural sciences, generally",
+          "de": "Sprach- und Kulturwissenschaften allgemein"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Cath. theology/religious doctrine",
+          "de": "Kath. Theologie, Religionslehre"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "History",
+          "de": "Geschichte"
+        },
+        "validRelativeFrequency": 10.34,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Library science, documentation, publishing",
+          "de": "Bibliothekswissenschaft, Dokumentation Publizistik"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Classical philology, modern Greek",
+          "de": "Altphilologie (klass. Phililologie), Neugriechisch"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "German studies (German, Germanic languages without Anglistics)",
+          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
+        },
+        "validRelativeFrequency": 10.34,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Anglistics, Americanistics",
+          "de": "Anglistik, Amerikanistik"
+        },
+        "validRelativeFrequency": 10.34,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Romanistics",
+          "de": "Romanistik"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Sports, sports science",
+          "de": "Sport, Sportwissenschaft"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "22"
+      },
+      {
+        "label": {
+          "en": "Law, Business and social studies, generally",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "Political sciences",
+          "de": "Politikwissenschaften"
+        },
+        "validRelativeFrequency": 6.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": "Social sciences",
+          "de": "Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 6.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": "Economic sciences",
+          "de": "Wirtschaftswissenschaften"
+        },
+        "validRelativeFrequency": 24.14,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": "Mathematics ",
+          "de": "Mathematik"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "37"
+      },
+      {
+        "label": {
+          "en": "Performing art, film and television, theatre studies",
+          "de": "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"
+        },
+        "validRelativeFrequency": 3.45,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "77"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.1,
+    "totalValidAbsoluteFrequency": 29,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 670,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Studienbereiche wurden aus den Fächercodes generiert. Die Zuordnung ergibt sich auf Grundlage des Destatis Schlüsselverzeichnisses für die Studenten- und Prüfungsstatistik (WiSe 2007/08). Einige darin nicht enthaltenen Fächercodes wurden vom DZHW vergeben und zugeordnet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The areas of study were generated from the subject codes. The classification is based on the Destatis key directory for student and examination statistics (winter semester 2007/08). Some of the subject codes not contained therein were assigned and allocated by the DZHW.",
+      "de": "Die Studienbereiche wurden aus den Fächercodes generiert. Die Zuordnung ergibt sich auf Grundlage des Destatis Schlüsselverzeichnisses für die Studenten- und Prüfungsstatistik (WiSe 2007/08). Einige darin nicht enthaltenen Fächercodes wurden vom DZHW vergeben und zugeordnet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.1,
-    "statistics": {
-      "mode": "30"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sprach- und Kulturwissenschaften allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kath. Theologie, Religionslehre"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Geschichte"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 10.34,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bibliothekswissenschaft, Dokumentation Publizistik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Altphilologie (klass. Phililologie), Neugriechisch"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 10.34,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Anglistik, Amerikanistik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 10.34,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Romanistik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sport, Sportwissenschaft"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "22"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "23"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Politikwissenschaften"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 6.9,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Sozialwissenschaften"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 6.9,
-        "value": "26"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Wirtschaftswissenschaften"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 24.14,
-        "value": "30"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Mathematik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "37"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.45,
-        "value": "77"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 29,
-    "missings": [
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3642,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 12.92,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu219b",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 670,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "9th activity: 2nd subject (area of study)",
+    "de": "9. Tätigkeit: 2. Studienfach (Studienbereich)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

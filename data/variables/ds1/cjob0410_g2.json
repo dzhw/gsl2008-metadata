@@ -1,93 +1,105 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "10. Tätigkeit: Erwerbstätigkeit (KldB-1992-Berufsordnung) (3-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0410",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "multimodal",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.02,
+        "absoluteFrequency": 3669,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Industrial, REFA engineers",
+          "de": "Wirtschafts-, REFA-Ingenieure und -Ingenieurinnen"
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "607"
+      },
+      {
+        "label": {
+          "en": "Office administrators, administrators without designation",
+          "de": "Bürofachkräfte, Kaufmännische Angestellte o.n.A."
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "780"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.01,
+    "totalValidAbsoluteFrequency": 2,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 704,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Berufsordnungen wurden aus den codierten Angaben zum Beruf generiert. Die Zuordnung ergibt sich auf Grundlage der Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The rankings of occupations were generated from the coded entries for occupations. The classification is based on the 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992).",
+      "de": "Die Berufsordnungen wurden aus den codierten Angaben zum Beruf generiert. Die Zuordnung ergibt sich auf Grundlage der Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.01,
-    "statistics": {
-      "mode": "multimodal"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Wirtschafts-, REFA-Ingenieure und -Ingenieurinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 50,
-        "value": "607"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bürofachkräfte, Kaufmännische Angestellte o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 50,
-        "value": "780"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2,
-    "missings": [
-      {
-        "absoluteFrequency": 3669,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0410",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 704,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "10th activity: gainful activity (Ger. Class. of Occ. 1992) (3-dig.)",
+    "de": "10. Tätigkeit: Erwerbstätigkeit (KldB-1992-Berufsordnung) (3-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

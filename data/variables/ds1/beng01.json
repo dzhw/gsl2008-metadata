@@ -1,132 +1,144 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie die Aufnahme eines ingenieurwissenschaftlichen Studiums an einer Universität oder einer Fachhochschule erwogen?"
+      },
+      "questionNumber": "13",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 59.78,
+        "relativeFrequency": 12.51,
+        "absoluteFrequency": 3525,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "considered it, but it is irrelevant",
+          "de": "erwogen, aber spielt keine Rolle"
+        },
+        "validRelativeFrequency": 13.58,
+        "relativeFrequency": 2.84,
+        "absoluteFrequency": 801,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "seriously considered it, but chose against it",
+          "de": "ernsthaft erwogen, aber nicht gewählt"
+        },
+        "validRelativeFrequency": 4.75,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 280,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "unsure, but could be worth considering",
+          "de": "unsicher, aber käme infrage"
+        },
+        "validRelativeFrequency": 7.02,
+        "relativeFrequency": 1.47,
+        "absoluteFrequency": 414,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "yes, chosen",
+          "de": "ja, gewählt"
+        },
+        "validRelativeFrequency": 14.87,
+        "relativeFrequency": 3.11,
+        "absoluteFrequency": 877,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.92,
+    "totalValidAbsoluteFrequency": 5897,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 207,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "considered taking engineering degree?",
+    "de": "Aufnahme ingenieurwissenschaftliches Studium erwogen?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Aufnahme ingenieurwissenschaftliches Studium erwogen?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 207,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.92,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3525,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 12.51,
-        "validRelativeFrequency": 59.78,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 801,
-        "label": {
-          "en": null,
-          "de": "erwogen, aber spielt keine Rolle"
-        },
-        "relativeFrequency": 2.84,
-        "validRelativeFrequency": 13.58,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 280,
-        "label": {
-          "en": null,
-          "de": "ernsthaft erwogen, aber nicht gewählt"
-        },
-        "relativeFrequency": 0.99,
-        "validRelativeFrequency": 4.75,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 414,
-        "label": {
-          "en": null,
-          "de": "unsicher, aber käme infrage"
-        },
-        "relativeFrequency": 1.47,
-        "validRelativeFrequency": 7.02,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 877,
-        "label": {
-          "en": null,
-          "de": "ja, gewählt"
-        },
-        "relativeFrequency": 3.11,
-        "validRelativeFrequency": 14.87,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5897,
-    "missings": [
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.13,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "13",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie die Aufnahme eines ingenieurwissenschaftlichen Studiums an einer Universität oder einer Fachhochschule erwogen?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

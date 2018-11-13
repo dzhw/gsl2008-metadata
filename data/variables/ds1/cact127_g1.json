@@ -1,362 +1,374 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "7. Tätigkeit: andere Tätigkeit (Art)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\r\nAnderes\r\n(z. B. Praktikum, Hausfrau/Hausmann, Jobben, au pair, Arbeitslosigkeit)"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 11.24,
+        "absoluteFrequency": 3167,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 63,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 31.75,
+        "relativeFrequency": 0.57,
+        "absoluteFrequency": 160,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "technical university",
+          "de": "Technische Hochschule"
+        },
+        "validRelativeFrequency": 5.36,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 27,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "college of education",
+          "de": "Pädagogische Hochschule"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "art/music college",
+          "de": "Kunst-/Musikhochschule"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "college of public administration (senior civil servant)",
+          "de": "VwFH (Beamte gehobener Dienst)"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "foreign university",
+          "de": "Ausländische Hochschule"
+        },
+        "validRelativeFrequency": 6.35,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 32,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "vocational school (healthcare)",
+          "de": "Berufsfachschule (Gesundheitswesen)"
+        },
+        "validRelativeFrequency": 1.39,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "civil servant (clerical trade)",
+          "de": "Beamter (mittlerer Dienst)"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "vocational training (dual)",
+          "de": "Berufliche Ausbildung (dual)"
+        },
+        "validRelativeFrequency": 1.98,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "employment (employed)",
+          "de": "Berufstätigkeit (abhängig)"
+        },
+        "validRelativeFrequency": 6.75,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 34,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "employment (self-employed)",
+          "de": "Berufstätigkeit (selbständig)"
+        },
+        "validRelativeFrequency": 0.99,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "internship",
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 3.37,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "unemployment",
+          "de": "Arbeitslosigkeit"
+        },
+        "validRelativeFrequency": 2.58,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "22"
+      },
+      {
+        "label": {
+          "en": "voluntary social year",
+          "de": "Freiwilliges Soziales Jahr (FSJ)"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "household activity",
+          "de": "Haushaltstätigkeit"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "jobbing",
+          "de": "Jobben"
+        },
+        "validRelativeFrequency": 2.58,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": "period of stay abroad/au-pair",
+          "de": "Auslandsaufenthalt/Au-Pair"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": "vacation",
+          "de": "Urlaub"
+        },
+        "validRelativeFrequency": 0.6,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": "studies at the German Armed Forces",
+          "de": "Studium Bundeswehr"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "33"
+      },
+      {
+        "label": {
+          "en": "gaining of general higher education entrance qualification (after university of applied sciences entrance qualification)",
+          "de": "Erwerb Abitur (nach Fachhochschulreife)"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "37"
+      },
+      {
+        "label": {
+          "en": "preparation for training course",
+          "de": "Vorbereitung auf Ausbildung"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": "dual study course at university of applied sciences",
+          "de": "Duales FH-Studium"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "39"
+      },
+      {
+        "label": {
+          "en": "uni of applied sciences + employment",
+          "de": "FH + Erwerbstätigkeit"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "46"
+      },
+      {
+        "label": {
+          "en": "uni + employment",
+          "de": "Uni + Erwerbstätigkeit"
+        },
+        "validRelativeFrequency": 0.6,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "47"
+      },
+      {
+        "label": {
+          "en": "uni of applied sciences + internship",
+          "de": "FH + Praktikum"
+        },
+        "validRelativeFrequency": 4.37,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 22,
+        "value": "48"
+      },
+      {
+        "label": {
+          "en": "uni + internship",
+          "de": "Uni + Praktikum"
+        },
+        "validRelativeFrequency": 15.08,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 76,
+        "value": "49"
+      },
+      {
+        "label": {
+          "en": "uni + household activity",
+          "de": "Uni + Haushaltstätigkeit"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "51"
+      }
+    ],
+    "totalValidRelativeFrequency": 1.79,
+    "totalValidAbsoluteFrequency": 504,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 639,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält einen vom Projekt vergebenen Code. Der Code bündelt die Informationen der Hochschulart bei einem Studium sowie der offen erfassten Angaben zur Art der Berufsausbildung oder zu anderen Tätigkeiten. Dabei wurde eine projekteigene Codierliste verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains a project-assigned code. The code bundles the information on type of higher education institution during the course of studies and the openly collected data on type of vocational training or other activities. This involved the use of a project-specific code list.",
+      "de": "Diese Variable enthält einen vom Projekt vergebenen Code. Der Code bündelt die Informationen der Hochschulart bei einem Studium sowie der offen erfassten Angaben zur Art der Berufsausbildung oder zu anderen Tätigkeiten. Dabei wurde eine projekteigene Codierliste verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 1.79,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 63,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 12.5,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 160,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 0.57,
-        "validRelativeFrequency": 31.75,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 27,
-        "label": {
-          "en": null,
-          "de": "Technische Hochschule"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 5.36,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Pädagogische Hochschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.4,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Kunst-/Musikhochschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.4,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "VwFH (Beamte gehobener Dienst)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.2,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 32,
-        "label": {
-          "en": null,
-          "de": "Ausländische Hochschule"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 6.35,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Berufsfachschule (Gesundheitswesen)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.39,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Beamter (mittlerer Dienst)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.4,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "Berufliche Ausbildung (dual)"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 1.98,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 34,
-        "label": {
-          "en": null,
-          "de": "Berufstätigkeit (abhängig)"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 6.75,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Berufstätigkeit (selbständig)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.99,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "Praktikum"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 3.37,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "Arbeitslosigkeit"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 2.58,
-        "value": "22"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Freiwilliges Soziales Jahr (FSJ)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.2,
-        "value": "23"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Haushaltstätigkeit"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.2,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "Jobben"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 2.58,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Auslandsaufenthalt/Au-Pair"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.2,
-        "value": "26"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Urlaub"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.6,
-        "value": "28"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Studium Bundeswehr"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.2,
-        "value": "33"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Erwerb Abitur (nach Fachhochschulreife)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.2,
-        "value": "37"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Vorbereitung auf Ausbildung"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.2,
-        "value": "38"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Duales FH-Studium"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.4,
-        "value": "39"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "FH + Erwerbstätigkeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.4,
-        "value": "46"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Uni + Erwerbstätigkeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.6,
-        "value": "47"
-      },
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": null,
-          "de": "FH + Praktikum"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 4.37,
-        "value": "48"
-      },
-      {
-        "absoluteFrequency": 76,
-        "label": {
-          "en": null,
-          "de": "Uni + Praktikum"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 15.08,
-        "value": "49"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Uni + Haushaltstätigkeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.4,
-        "value": "51"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 504,
-    "missings": [
-      {
-        "absoluteFrequency": 3167,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 11.24,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nAnderes\n(z. B. Praktikum, Hausfrau/Hausmann, Jobben, au pair, Arbeitslosigkeit)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 639,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "7th activity: other activity (type)",
+    "de": "7. Tätigkeit: andere Tätigkeit (Art)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

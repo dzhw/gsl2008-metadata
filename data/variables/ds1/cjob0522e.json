@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "2. Job: Nähe zu Studieninhalten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1048,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.\r\nNähe zu Studieninhalten"
+      },
+      "questionNumber": "4.14",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 4.33,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "170.499",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.51,
+        "absoluteFrequency": 1271,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 4.19,
+        "absoluteFrequency": 1181,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 386,
         "label": {
-          "en": null,
+          "en": "to a large extent",
           "de": "in hohem Maße"
         },
-        "relativeFrequency": 1.37,
         "validRelativeFrequency": 31.67,
+        "relativeFrequency": 1.37,
+        "absoluteFrequency": 386,
         "value": "1"
       },
       {
-        "absoluteFrequency": 271,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 0.96,
         "validRelativeFrequency": 22.23,
+        "relativeFrequency": 0.96,
+        "absoluteFrequency": 271,
         "value": "2"
       },
       {
-        "absoluteFrequency": 143,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 0.51,
         "validRelativeFrequency": 11.73,
+        "relativeFrequency": 0.51,
+        "absoluteFrequency": 143,
         "value": "3"
       },
       {
-        "absoluteFrequency": 75,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 0.27,
         "validRelativeFrequency": 6.15,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 75,
         "value": "4"
       },
       {
-        "absoluteFrequency": 344,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "gar nicht"
         },
-        "relativeFrequency": 1.22,
         "validRelativeFrequency": 28.22,
+        "relativeFrequency": 1.22,
+        "absoluteFrequency": 344,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 4.33,
     "totalValidAbsoluteFrequency": 1219,
-    "missings": [
-      {
-        "absoluteFrequency": 1271,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.51,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1181,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 4.19,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Geben Sie uns bitte nähere Auskünfte über die Art, Dauer und Nähe der Arbeitstätigkeit zu Ihrem bisherigen Studium.\nNähe zu Studieninhalten"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1048,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd job: closeness to course content",
+    "de": "2. Job: Nähe zu Studieninhalten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

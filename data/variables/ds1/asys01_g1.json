@@ -1,74 +1,86 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "alte/neue Bundesländer"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-asys01",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "former states",
+          "de": "alte Länder"
+        },
+        "validRelativeFrequency": 71.38,
+        "relativeFrequency": 71.38,
+        "absoluteFrequency": 20115,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "new states",
+          "de": "neue Länder"
+        },
+        "validRelativeFrequency": 28.62,
+        "relativeFrequency": 28.62,
+        "absoluteFrequency": 8067,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 28182,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 3,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Bundesländer wurden anhand des Destatis-Bundeslandschlüssels (vgl. cl-destatis-bundesland-1990) zu alten und neuen Bundesländern zugeordnet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated as part of the anonymisation. The federal states were assigned to old and new federal states using the Destatis federal state code list (see cl-destatis-bundesland-1990).",
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Bundesländer wurden anhand des Destatis-Bundeslandschlüssels (vgl. cl-destatis-bundesland-1990) zu alten und neuen Bundesländern zugeordnet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 100,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 20115,
-        "label": {
-          "en": null,
-          "de": "alte Länder"
-        },
-        "relativeFrequency": 71.38,
-        "validRelativeFrequency": 71.38,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 8067,
-        "label": {
-          "en": null,
-          "de": "neue Länder"
-        },
-        "relativeFrequency": 28.62,
-        "validRelativeFrequency": 28.62,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 28182,
-    "missings": null
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-asys01",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 3,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "old/new federal states",
+    "de": "alte/neue Bundesländer"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

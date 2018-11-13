@@ -1,111 +1,123 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Waren Sie vor Erwerb der Hochschulreife erwerbstätig?"
+      },
+      "questionNumber": "10",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 17.83,
+        "absoluteFrequency": 5024,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 54.91,
+        "relativeFrequency": 1.77,
+        "absoluteFrequency": 498,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 45.09,
+        "relativeFrequency": 1.45,
+        "absoluteFrequency": 409,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.22,
+    "totalValidAbsoluteFrequency": 907,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 195,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "occupation before HR?",
+    "de": "Berufstätigkeit vor HR?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Berufstätigkeit vor HR?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 195,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 3.22,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 498,
-        "label": {
-          "en": null,
-          "de": "ja"
-        },
-        "relativeFrequency": 1.77,
-        "validRelativeFrequency": 54.91,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 409,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 1.45,
-        "validRelativeFrequency": 45.09,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 907,
-    "missings": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.01,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 5024,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 17.83,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "10",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Waren Sie vor Erwerb der Hochschulreife erwerbstätig?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

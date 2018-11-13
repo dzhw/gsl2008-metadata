@@ -1,102 +1,114 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Darunter befinden sich…\r\nBücher mit Gedichten"
+      },
+      "questionNumber": "40",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 50,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 68.26,
+        "relativeFrequency": 14.25,
+        "absoluteFrequency": 4016,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 31.74,
+        "relativeFrequency": 6.62,
+        "absoluteFrequency": 1867,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.88,
+    "totalValidAbsoluteFrequency": 5883,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 386,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "books in parental home: poetry",
+    "de": "Bücher im Elternhaus: Poesie/Gedichte"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Bücher im Elternhaus: Poesie/Gedichte"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 386,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.88,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4016,
-        "label": {
-          "en": null,
-          "de": "ja"
-        },
-        "relativeFrequency": 14.25,
-        "validRelativeFrequency": 68.26,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1867,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 6.62,
-        "validRelativeFrequency": 31.74,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5883,
-    "missings": [
-      {
-        "absoluteFrequency": 50,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.18,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "40",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Darunter befinden sich…\nBücher mit Gedichten"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

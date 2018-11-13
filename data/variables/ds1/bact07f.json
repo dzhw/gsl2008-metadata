@@ -1,111 +1,123 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Aus welchen Gründen haben Sie diese Planung bislang noch nicht verwirklicht?\r\nich möchte vorher Geld verdienen"
+      },
+      "questionNumber": "21",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 14.85,
+        "absoluteFrequency": 4186,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 87.96,
+        "relativeFrequency": 5.34,
+        "absoluteFrequency": 1505,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 12.04,
+        "relativeFrequency": 0.73,
+        "absoluteFrequency": 206,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 6.07,
+    "totalValidAbsoluteFrequency": 1711,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 271,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "reason for non-realisation: earn money beforehand",
+    "de": "Grund Nichtverwirklichung: vorher Geld verdienen"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Grund Nichtverwirklichung: vorher Geld verdienen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 271,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 6.07,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1505,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 5.34,
-        "validRelativeFrequency": 87.96,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 206,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 0.73,
-        "validRelativeFrequency": 12.04,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1711,
-    "missings": [
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.13,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 4186,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 14.85,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "21",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Aus welchen Gründen haben Sie diese Planung bislang noch nicht verwirklicht?\nich möchte vorher Geld verdienen"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

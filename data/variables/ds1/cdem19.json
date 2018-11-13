@@ -1,132 +1,144 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Möchten Sie in Zukunft ein (weiteres) Kind bzw. (weitere) Kinder?"
+      },
+      "questionNumber": "8.5",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 47,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, in the near future",
+          "de": "ja, in nächster Zeit"
+        },
+        "validRelativeFrequency": 9.49,
+        "relativeFrequency": 1.22,
+        "absoluteFrequency": 344,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, at a later date",
+          "de": "ja, später einmal"
+        },
+        "validRelativeFrequency": 67.19,
+        "relativeFrequency": 8.64,
+        "absoluteFrequency": 2435,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "theoretically yes, but reasons against",
+          "de": "eigentlich schon, aber Gründe dagegen"
+        },
+        "validRelativeFrequency": 4.36,
+        "relativeFrequency": 0.56,
+        "absoluteFrequency": 158,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "I cannot say at present",
+          "de": "kann ich zur Zeit nicht sagen"
+        },
+        "validRelativeFrequency": 13.22,
+        "relativeFrequency": 1.7,
+        "absoluteFrequency": 479,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 5.74,
+        "relativeFrequency": 0.74,
+        "absoluteFrequency": 208,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 12.86,
+    "totalValidAbsoluteFrequency": 3624,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1274,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "(more) children desired?",
+    "de": "(weitere) Kinder gewünscht?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "(weitere) Kinder gewünscht?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1274,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 12.86,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 344,
-        "label": {
-          "en": null,
-          "de": "ja, in nächster Zeit"
-        },
-        "relativeFrequency": 1.22,
-        "validRelativeFrequency": 9.49,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2435,
-        "label": {
-          "en": null,
-          "de": "ja, später einmal"
-        },
-        "relativeFrequency": 8.64,
-        "validRelativeFrequency": 67.19,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 158,
-        "label": {
-          "en": null,
-          "de": "eigentlich schon, aber Gründe dagegen"
-        },
-        "relativeFrequency": 0.56,
-        "validRelativeFrequency": 4.36,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 479,
-        "label": {
-          "en": null,
-          "de": "kann ich zur Zeit nicht sagen"
-        },
-        "relativeFrequency": 1.7,
-        "validRelativeFrequency": 13.22,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 208,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 0.74,
-        "validRelativeFrequency": 5.74,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3624,
-    "missings": [
-      {
-        "absoluteFrequency": 47,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.17,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "8.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Möchten Sie in Zukunft ein (weiteres) Kind bzw. (weitere) Kinder?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

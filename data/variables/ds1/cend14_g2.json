@@ -1,91 +1,95 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "14. Tätigkeit: Ende (Monat)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cend14",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "12",
+      "highWhisker": 12,
+      "lowWhisker": 12,
+      "thirdQuartile": "12",
+      "firstQuartile": "12",
+      "standardDeviation": null,
+      "median": "12",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "12",
+      "minimum": "12",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.02,
+        "absoluteFrequency": 3668,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "12"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.01,
+    "totalValidAbsoluteFrequency": 3,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 775,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The month was generated from the collectively gathered data on year and month.",
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.01,
-    "statistics": {
-      "firstQuartile": "12",
-      "highWhisker": 12,
-      "lowWhisker": 12,
-      "minimum": "12",
-      "thirdQuartile": "12",
-      "meanDeviation": "0",
-      "maximum": "12",
-      "mode": "12",
-      "median": "12"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Dezember"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 100,
-        "value": "12"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3,
-    "missings": [
-      {
-        "absoluteFrequency": 3668,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cend14",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 775,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "14th activity: end (month)",
+    "de": "14. Tätigkeit: Ende (Monat)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

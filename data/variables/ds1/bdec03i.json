@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Aspekt gegen Studium: geringer Praxisbezug"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-dec03i",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 357,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\r\ngeringer Praxisbezug eines Hochschulstudiums"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.73,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "636.0354",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.32,
+        "absoluteFrequency": 90,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 714,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 2.53,
         "validRelativeFrequency": 12.22,
+        "relativeFrequency": 2.53,
+        "absoluteFrequency": 714,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1558,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 5.53,
         "validRelativeFrequency": 26.66,
+        "relativeFrequency": 5.53,
+        "absoluteFrequency": 1558,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1851,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 6.57,
         "validRelativeFrequency": 31.68,
+        "relativeFrequency": 6.57,
+        "absoluteFrequency": 1851,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1143,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.06,
         "validRelativeFrequency": 19.56,
+        "relativeFrequency": 4.06,
+        "absoluteFrequency": 1143,
         "value": "4"
       },
       {
-        "absoluteFrequency": 577,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 2.05,
         "validRelativeFrequency": 9.88,
+        "relativeFrequency": 2.05,
+        "absoluteFrequency": 577,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.73,
     "totalValidAbsoluteFrequency": 5843,
-    "missings": [
-      {
-        "absoluteFrequency": 90,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.32,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\ngeringer Praxisbezug eines Hochschulstudiums"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-dec03i",
+  "surveyNumbers": [2],
+  "indexInDataSet": 357,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "points against studying: limited practical relevance",
+    "de": "Aspekt gegen Studium: geringer Praxisbezug"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

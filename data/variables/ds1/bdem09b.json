@@ -1,102 +1,114 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Geben Sie bitte an, ob Ihr Vater bzw. Ihre Mutter in Deutschland geboren sind.\r\nMutter"
+      },
+      "questionNumber": "41",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 61,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "born in Germany",
+          "de": "in Deutschland geboren"
+        },
+        "validRelativeFrequency": 89.05,
+        "relativeFrequency": 18.55,
+        "absoluteFrequency": 5229,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "not born in Germany",
+          "de": "nicht in Deutschland geboren"
+        },
+        "validRelativeFrequency": 10.95,
+        "relativeFrequency": 2.28,
+        "absoluteFrequency": 643,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.84,
+    "totalValidAbsoluteFrequency": 5872,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 390,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "mother: born in Germany? ",
+    "de": "Mutter: Deutschland Geburtsland?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Mutter: Deutschland Geburtsland?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 390,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.84,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 5229,
-        "label": {
-          "en": null,
-          "de": "in Deutschland geboren"
-        },
-        "relativeFrequency": 18.55,
-        "validRelativeFrequency": 89.05,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 643,
-        "label": {
-          "en": null,
-          "de": "nicht in Deutschland geboren"
-        },
-        "relativeFrequency": 2.28,
-        "validRelativeFrequency": 10.95,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5872,
-    "missings": [
-      {
-        "absoluteFrequency": 61,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.22,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "41",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Geben Sie bitte an, ob Ihr Vater bzw. Ihre Mutter in Deutschland geboren sind.\nMutter"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

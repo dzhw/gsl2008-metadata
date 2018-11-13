@@ -1,180 +1,184 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Veränderung seit Schulzeit: wirtschaftlich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 436,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Kein Mensch ist auf allen Gebieten gleich leistungsstark. In welchen der folgenden Bereiche…\r\n(b) haben sich diese seit der Schule verändert?\r\nim wirtschaftlichen Bereich"
+      },
+      "questionNumber": "1.4",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.96,
     "statistics": {
-      "firstQuartile": "0",
+      "meanDeviation": 1.4826,
+      "mode": "0",
       "highWhisker": 4,
       "lowWhisker": -3,
-      "minimum": "-4",
       "thirdQuartile": "2",
-      "meanDeviation": "447.7452",
+      "firstQuartile": "0",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "4",
-      "mode": "0",
-      "median": "1"
+      "minimum": "-4",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 20,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 2,
         "label": {
-          "en": null,
+          "en": "worsened",
           "de": "verschlechtert"
         },
-        "relativeFrequency": 0.01,
         "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
         "value": "-4"
       },
       {
-        "absoluteFrequency": 25,
         "label": {
           "en": null,
           "de": "-3"
         },
-        "relativeFrequency": 0.09,
         "validRelativeFrequency": 0.68,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 25,
         "value": "-3"
       },
       {
-        "absoluteFrequency": 65,
         "label": {
           "en": null,
           "de": "-2"
         },
-        "relativeFrequency": 0.23,
         "validRelativeFrequency": 1.78,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 65,
         "value": "-2"
       },
       {
-        "absoluteFrequency": 134,
         "label": {
           "en": null,
           "de": "-1"
         },
-        "relativeFrequency": 0.48,
         "validRelativeFrequency": 3.67,
+        "relativeFrequency": 0.48,
+        "absoluteFrequency": 134,
         "value": "-1"
       },
       {
-        "absoluteFrequency": 1331,
         "label": {
-          "en": null,
+          "en": "stayed the same",
           "de": "gleich geblieben"
         },
-        "relativeFrequency": 4.72,
         "validRelativeFrequency": 36.46,
+        "relativeFrequency": 4.72,
+        "absoluteFrequency": 1331,
         "value": "0"
       },
       {
-        "absoluteFrequency": 674,
         "label": {
           "en": null,
           "de": "1"
         },
-        "relativeFrequency": 2.39,
         "validRelativeFrequency": 18.46,
+        "relativeFrequency": 2.39,
+        "absoluteFrequency": 674,
         "value": "1"
       },
       {
-        "absoluteFrequency": 600,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 2.13,
         "validRelativeFrequency": 16.43,
+        "relativeFrequency": 2.13,
+        "absoluteFrequency": 600,
         "value": "2"
       },
       {
-        "absoluteFrequency": 453,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 1.61,
         "validRelativeFrequency": 12.41,
+        "relativeFrequency": 1.61,
+        "absoluteFrequency": 453,
         "value": "3"
       },
       {
-        "absoluteFrequency": 367,
         "label": {
-          "en": null,
+          "en": "improved",
           "de": "verbessert"
         },
-        "relativeFrequency": 1.3,
         "validRelativeFrequency": 10.05,
+        "relativeFrequency": 1.3,
+        "absoluteFrequency": 367,
         "value": "4"
       }
     ],
+    "totalValidRelativeFrequency": 12.96,
     "totalValidAbsoluteFrequency": 3651,
-    "missings": [
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.07,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Kein Mensch ist auf allen Gebieten gleich leistungsstark. In welchen der folgenden Bereiche…\n(b) haben sich diese seit der Schule verändert?\nim wirtschaftlichen Bereich"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 436,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "change since school: commercial",
+    "de": "Veränderung seit Schulzeit: wirtschaftlich"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

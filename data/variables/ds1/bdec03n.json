@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Aspekt gegen Studium: zu geringe Anerkennung des Bachelorabschlusses"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-dec03n",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 362,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\r\ngeringe Akzeptanz von Bachelorabschlüssen auf dem Arbeitsmarkt"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.69,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "361.7544",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 103,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 540,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 1.92,
         "validRelativeFrequency": 9.26,
+        "relativeFrequency": 1.92,
+        "absoluteFrequency": 540,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1170,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 4.15,
         "validRelativeFrequency": 20.07,
+        "relativeFrequency": 4.15,
+        "absoluteFrequency": 1170,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1909,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 6.77,
         "validRelativeFrequency": 32.74,
+        "relativeFrequency": 6.77,
+        "absoluteFrequency": 1909,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1285,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.56,
         "validRelativeFrequency": 22.04,
+        "relativeFrequency": 4.56,
+        "absoluteFrequency": 1285,
         "value": "4"
       },
       {
-        "absoluteFrequency": 926,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 3.29,
         "validRelativeFrequency": 15.88,
+        "relativeFrequency": 3.29,
+        "absoluteFrequency": 926,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.69,
     "totalValidAbsoluteFrequency": 5830,
-    "missings": [
-      {
-        "absoluteFrequency": 103,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.37,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\ngeringe Akzeptanz von Bachelorabschlüssen auf dem Arbeitsmarkt"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-dec03n",
+  "surveyNumbers": [2],
+  "indexInDataSet": 362,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "points against studying: too little recognition of bachelor’s degree",
+    "de": "Aspekt gegen Studium: zu geringe Anerkennung des Bachelorabschlusses"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

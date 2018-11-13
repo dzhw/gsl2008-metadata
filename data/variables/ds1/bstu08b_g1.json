@@ -1,200 +1,212 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "2. Nennung Idee: Art Hochschulabschluss"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?\r\nich habe mich noch nicht endgültig entschieden, werde aber wahrscheinlich …"
+      },
+      "questionNumber": "18",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 22,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.66,
+        "absoluteFrequency": 5821,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 53,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "BA/diploma at the university of cooperative education",
+          "de": "B.A./Diplom an Berufsakademie"
+        },
+        "validRelativeFrequency": 5.41,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "BA/diploma at the college of public administration",
+          "de": "B.A./Diplom an Verwaltungsfachhochschule"
+        },
+        "validRelativeFrequency": 2.7,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "BA University of Applied Sciences",
+          "de": "B.A. an Fachhochschule"
+        },
+        "validRelativeFrequency": 29.73,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "BA University (except for teaching profession)",
+          "de": "B.A. an Universität (außer LA)"
+        },
+        "validRelativeFrequency": 37.84,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Teaching profession primary, lower secondary and secondary school",
+          "de": "LA Grund-, Haupt-, Realschule"
+        },
+        "validRelativeFrequency": 5.41,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Teaching profession grammar school",
+          "de": "LA Gymnasium"
+        },
+        "validRelativeFrequency": 2.7,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Teaching profession vocational school",
+          "de": "LA berufsbildende Schule"
+        },
+        "validRelativeFrequency": 2.7,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "State exams",
+          "de": "Staatsexamen"
+        },
+        "validRelativeFrequency": 8.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Artistic examination",
+          "de": "künstlerischer Abschluss"
+        },
+        "validRelativeFrequency": 2.7,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "degree abroad",
+          "de": "Abschluss im Ausland"
+        },
+        "validRelativeFrequency": 2.7,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "15"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.13,
+    "totalValidAbsoluteFrequency": 37,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 256,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfasste Angabe zum nächsten Schritt des nachschulischen Werdegangs in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-12)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on the next step of the post-school career path in coded form. This involved the use of a project-specific code list (see cl-dzhw-12).",
+      "de": "Diese Variable enthält die offen erfasste Angabe zum nächsten Schritt des nachschulischen Werdegangs in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-12)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.13,
-    "statistics": {
-      "mode": "4"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "B.A./Diplom an Berufsakademie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 5.41,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "B.A./Diplom an Verwaltungsfachhochschule"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 2.7,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "B.A. an Fachhochschule"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 29.73,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "B.A. an Universität (außer LA)"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 37.84,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "LA Grund-, Haupt-, Realschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 5.41,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "LA Gymnasium"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 2.7,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "LA berufsbildende Schule"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 2.7,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Staatsexamen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 8.11,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "künstlerischer Abschluss"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 2.7,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Abschluss im Ausland"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 2.7,
-        "value": "15"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 37,
-    "missings": [
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.08,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 5821,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 20.66,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 53,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.19,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?\nich habe mich noch nicht endgültig entschieden, werde aber wahrscheinlich …"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 256,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd entry idea: degree type",
+    "de": "2. Nennung Idee: Art Hochschulabschluss"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

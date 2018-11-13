@@ -1,120 +1,133 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "1. Tätigkeit: Hochschulart (FH/Uni; ohne Saarland)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu211d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.87,
+        "absoluteFrequency": 3628,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "no study at a uni or uni of applied sciences, but study in a broader sense",
+          "de": "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)"
+        },
+        "validRelativeFrequency": 19.05,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "-943"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 54.76,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 26.19,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.15,
+    "totalValidAbsoluteFrequency": 42,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 502,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Unterscheidung von Fachhochschulen und Universitäten (Hochschulart) wurde aus den codierten Hochschulangaben generiert. Für die Unterscheidung wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet. Für das Saarland wird diese Information nicht bereitgestellt, um eine Re-Identifikation der Hochschule zu verhindern; dort gibt es nur eine und keine weiteren öffentlichen (oder privaten) Universitäten."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The difference between advanced technical colleges and universities (type of higher education institution) was generated from the coded data on institutes of higher education. The Destatis key directory for student and examination statistics (winter semester 2007/08) (see cl-destatis-studienfach-2008) was used for the differentiation. In the official statistics, missing universities were added and allocated from the project. In order to prevent a reidentification of the particular institute of higher education, this information was not provided for the Saarland; this state only has one university, whether public or private.",
+      "de": "Die Unterscheidung von Fachhochschulen und Universitäten (Hochschulart) wurde aus den codierten Hochschulangaben generiert. Für die Unterscheidung wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet. Für das Saarland wird diese Information nicht bereitgestellt, um eine Re-Identifikation der Hochschule zu verhindern; dort gibt es nur eine und keine weiteren öffentlichen (oder privaten) Universitäten."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.12,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 67.65,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 32.35,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 34,
-    "missings": [
-      {
-        "absoluteFrequency": 3628,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.87,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0,
-        "code": -988
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)"
-        },
-        "relativeFrequency": 0.03,
-        "code": -943
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu211d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 502,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st activity: type of higher education institution (FH/uni; excluding Saarland)",
+    "de": "1. Tätigkeit: Hochschulart (FH/Uni; ohne Saarland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

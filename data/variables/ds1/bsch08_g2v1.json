@@ -1,191 +1,203 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schwerpunktfach Berufsschüler"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-bsch08_v1",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie eine berufliche Schule besucht haben: Welches war Ihr beruflicher Schwerpunkt?"
+      },
+      "questionNumber": "05",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "9",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 35,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 36.13,
+        "absoluteFrequency": 10182,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 57.92,
+        "absoluteFrequency": 16322,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "technology (vocational school)",
+          "de": "Technik (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 22.58,
+        "relativeFrequency": 1.32,
+        "absoluteFrequency": 371,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "construction (vocational school)",
+          "de": "Bauwesen (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 1.58,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 26,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "computer science (vocational school)",
+          "de": "Informatik (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 5.23,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 86,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "economics (and administration) (vocational school)",
+          "de": "Wirtschaft (und Verwaltung) (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 38.77,
+        "relativeFrequency": 2.26,
+        "absoluteFrequency": 637,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "agriculture/natural sciences (vocational school)",
+          "de": "Landwirtschaft/ Naturwissenschaften (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 1.64,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 27,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "design (vocational school)",
+          "de": "Gestaltung (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 4.99,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 82,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "nutrition/home economics/health (vocational school)",
+          "de": "Ernährung/Hauswirtschaft/Gesundheit (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 6.45,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 106,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "social welfare (vocational school)",
+          "de": "Sozialwesen (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 18.14,
+        "relativeFrequency": 1.06,
+        "absoluteFrequency": 298,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "languages (vocational school)",
+          "de": "Sprachen (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.43,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Media (and communications) (vocational school)",
+          "de": "Medien (und Kommunikation) (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.18,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "15"
+      }
+    ],
+    "totalValidRelativeFrequency": 5.83,
+    "totalValidAbsoluteFrequency": 1643,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": "gsl2008-ds1-sch08_g2",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 187,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde aggregiert. Die (Schul-)Fächergruppen wurden aus den codierten Angaben zu dem fachlichen Schwerpunkt an beruflichen Schulen Form generiert. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-7)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated. The (school) subject groups were generated from the coded information on the professional focus at vocational schools. This involved the use of a project-specific code list (see cl-dzhw-7).",
+      "de": "Diese Variable wurde aggregiert. Die (Schul-)Fächergruppen wurden aus den codierten Angaben zu dem fachlichen Schwerpunkt an beruflichen Schulen Form generiert. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-7)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5.83,
-    "statistics": {
-      "mode": "9"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 371,
-        "label": {
-          "en": null,
-          "de": "Technik (berufsbildende Schule)"
-        },
-        "relativeFrequency": 1.32,
-        "validRelativeFrequency": 22.58,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": null,
-          "de": "Bauwesen (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 1.58,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 86,
-        "label": {
-          "en": null,
-          "de": "Informatik (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.31,
-        "validRelativeFrequency": 5.23,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 637,
-        "label": {
-          "en": null,
-          "de": "Wirtschaft (und Verwaltung) (berufsbildende Schule)"
-        },
-        "relativeFrequency": 2.26,
-        "validRelativeFrequency": 38.77,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 27,
-        "label": {
-          "en": null,
-          "de": "Landwirtschaft/ Naturwissenschaften (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 1.64,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 82,
-        "label": {
-          "en": null,
-          "de": "Gestaltung (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 4.99,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 106,
-        "label": {
-          "en": null,
-          "de": "Ernährung/Hauswirtschaft/Gesundheit (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 6.45,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 298,
-        "label": {
-          "en": null,
-          "de": "Sozialwesen (berufsbildende Schule)"
-        },
-        "relativeFrequency": 1.06,
-        "validRelativeFrequency": 18.14,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Sprachen (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.43,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Medien (und Kommunikation) (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.18,
-        "value": "15"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1643,
-    "missings": [
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.12,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 10182,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 36.13,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 16322,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 57.92,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "05",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn Sie eine berufliche Schule besucht haben: Welches war Ihr beruflicher Schwerpunkt?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-bsch08_v1",
+  "panelIdentifier": "gsl2008-ds1-sch08_g2",
+  "surveyNumbers": [2],
+  "indexInDataSet": 187,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "main subject vocational school students ",
+    "de": "Schwerpunktfach Berufsschüler"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

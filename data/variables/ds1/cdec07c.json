@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Persönlichkeit: Vollendung von Dingen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 445,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie sich beschreiben müssten: Inwieweit treffen die folgenden Aussagen auf Sie zu?\r\nWas ich begonnen habe, führe ich auch zu Ende."
+      },
+      "questionNumber": "1.6",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.98,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "679.0308",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 12,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1611,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll zu"
         },
-        "relativeFrequency": 5.72,
         "validRelativeFrequency": 44.03,
+        "relativeFrequency": 5.72,
+        "absoluteFrequency": 1611,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1434,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 5.09,
         "validRelativeFrequency": 39.19,
+        "relativeFrequency": 5.09,
+        "absoluteFrequency": 1434,
         "value": "2"
       },
       {
-        "absoluteFrequency": 469,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 1.66,
         "validRelativeFrequency": 12.82,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 469,
         "value": "3"
       },
       {
-        "absoluteFrequency": 134,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 0.48,
         "validRelativeFrequency": 3.66,
+        "relativeFrequency": 0.48,
+        "absoluteFrequency": 134,
         "value": "4"
       },
       {
-        "absoluteFrequency": 11,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft gar nicht zu"
         },
-        "relativeFrequency": 0.04,
         "validRelativeFrequency": 0.3,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 12.98,
     "totalValidAbsoluteFrequency": 3659,
-    "missings": [
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.04,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn Sie sich beschreiben müssten: Inwieweit treffen die folgenden Aussagen auf Sie zu?\nWas ich begonnen habe, führe ich auch zu Ende."
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 445,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "personality: perfectionist",
+    "de": "Persönlichkeit: Vollendung von Dingen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

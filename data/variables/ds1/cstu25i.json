@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Bewertung Hauptfach: eigene Mitwirkung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 974,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie bewerten Sie folgende Aspekte Ihres derzeitigen 1. Hauptstudienfachs?\r\nMitwirkung bei der Planung und Durchführung von Lehrveranstaltungen"
+      },
+      "questionNumber": "4.4",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 10.68,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "459.606",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.26,
+        "absoluteFrequency": 73,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "absoluteFrequency": 588,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 106,
         "label": {
-          "en": null,
+          "en": "very good",
           "de": "sehr gut"
         },
-        "relativeFrequency": 0.38,
         "validRelativeFrequency": 3.52,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 106,
         "value": "1"
       },
       {
-        "absoluteFrequency": 413,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 1.47,
         "validRelativeFrequency": 13.72,
+        "relativeFrequency": 1.47,
+        "absoluteFrequency": 413,
         "value": "2"
       },
       {
-        "absoluteFrequency": 839,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 2.98,
         "validRelativeFrequency": 27.87,
+        "relativeFrequency": 2.98,
+        "absoluteFrequency": 839,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1123,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 3.98,
         "validRelativeFrequency": 37.31,
+        "relativeFrequency": 3.98,
+        "absoluteFrequency": 1123,
         "value": "4"
       },
       {
-        "absoluteFrequency": 529,
         "label": {
-          "en": null,
+          "en": "very poor",
           "de": "sehr schlecht"
         },
-        "relativeFrequency": 1.88,
         "validRelativeFrequency": 17.57,
+        "relativeFrequency": 1.88,
+        "absoluteFrequency": 529,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 10.68,
     "totalValidAbsoluteFrequency": 3010,
-    "missings": [
-      {
-        "absoluteFrequency": 73,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.26,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 588,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.09,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie bewerten Sie folgende Aspekte Ihres derzeitigen 1. Hauptstudienfachs?\nMitwirkung bei der Planung und Durchführung von Lehrveranstaltungen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 974,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "rating of main subject: personal involvement",
+    "de": "Bewertung Hauptfach: eigene Mitwirkung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

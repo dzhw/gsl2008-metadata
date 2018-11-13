@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: Praktika"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 131,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInformationsangebote\r\nPraktika"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 57.4,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "2905.896",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.3,
+        "absoluteFrequency": 1212,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 27.78,
+        "absoluteFrequency": 7828,
+        "code": -988
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 5290,
         "label": {
-          "en": null,
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
-        "relativeFrequency": 18.77,
         "validRelativeFrequency": 32.7,
+        "relativeFrequency": 18.77,
+        "absoluteFrequency": 5290,
         "value": "1"
       },
       {
-        "absoluteFrequency": 5397,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 19.15,
         "validRelativeFrequency": 33.36,
+        "relativeFrequency": 19.15,
+        "absoluteFrequency": 5397,
         "value": "2"
       },
       {
-        "absoluteFrequency": 3437,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 12.2,
         "validRelativeFrequency": 21.25,
+        "relativeFrequency": 12.2,
+        "absoluteFrequency": 3437,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1245,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.42,
         "validRelativeFrequency": 7.7,
+        "relativeFrequency": 4.42,
+        "absoluteFrequency": 1245,
         "value": "4"
       },
       {
-        "absoluteFrequency": 807,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
-        "relativeFrequency": 2.86,
         "validRelativeFrequency": 4.99,
+        "relativeFrequency": 2.86,
+        "absoluteFrequency": 807,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 57.4,
     "totalValidAbsoluteFrequency": 16176,
-    "missings": [
-      {
-        "absoluteFrequency": 1212,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.3,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 7828,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 27.78,
-        "code": -988
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInformationsangebote\nPraktika"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 131,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: work placements",
+    "de": "Informationsquelle Zukunft: Praktika"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

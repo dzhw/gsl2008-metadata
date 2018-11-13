@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: kommerz. Beratung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 119,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInstitutionen/Personen\r\nkommerzielle Beratungseinrichtung"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.36,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "502.6014",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.97,
+        "absoluteFrequency": 1402,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 64.14,
+        "absoluteFrequency": 18076,
+        "code": -988
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 261,
         "label": {
-          "en": null,
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
-        "relativeFrequency": 0.93,
         "validRelativeFrequency": 4.55,
+        "relativeFrequency": 0.93,
+        "absoluteFrequency": 261,
         "value": "1"
       },
       {
-        "absoluteFrequency": 736,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 2.61,
         "validRelativeFrequency": 12.83,
+        "relativeFrequency": 2.61,
+        "absoluteFrequency": 736,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1701,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 6.04,
         "validRelativeFrequency": 29.64,
+        "relativeFrequency": 6.04,
+        "absoluteFrequency": 1701,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1362,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.83,
         "validRelativeFrequency": 23.74,
+        "relativeFrequency": 4.83,
+        "absoluteFrequency": 1362,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1678,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
-        "relativeFrequency": 5.95,
         "validRelativeFrequency": 29.24,
+        "relativeFrequency": 5.95,
+        "absoluteFrequency": 1678,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.36,
     "totalValidAbsoluteFrequency": 5738,
-    "missings": [
-      {
-        "absoluteFrequency": 1402,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.97,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 18076,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 64.14,
-        "code": -988
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nkommerzielle Beratungseinrichtung"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 119,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: business consultation",
+    "de": "Informationsquelle Zukunft: kommerz. Beratung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

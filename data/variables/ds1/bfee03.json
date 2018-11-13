@@ -1,131 +1,143 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Zahlen Sie derzeit Studiengebühren?"
+      },
+      "questionNumber": "36",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 60,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.79,
+        "absoluteFrequency": 1914,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 39.03,
+        "relativeFrequency": 5.48,
+        "absoluteFrequency": 1545,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "not yet, but will be introduced soon",
+          "de": "noch nicht, aber werden bald eingeführt"
+        },
+        "validRelativeFrequency": 3.76,
+        "relativeFrequency": 0.53,
+        "absoluteFrequency": 149,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "not yet, but in future institution of higher education ",
+          "de": "noch nicht, aber an zukünftiger HS "
+        },
+        "validRelativeFrequency": 28.8,
+        "relativeFrequency": 4.05,
+        "absoluteFrequency": 1140,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 28.42,
+        "relativeFrequency": 3.99,
+        "absoluteFrequency": 1125,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 14.05,
+    "totalValidAbsoluteFrequency": 3959,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 368,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "tuition fees: payable currently?",
+    "de": "Studiengebühren: werden aktuell gezahlt?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Studiengebühren: werden aktuell gezahlt?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 368,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 14.05,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1545,
-        "label": {
-          "en": null,
-          "de": "ja"
-        },
-        "relativeFrequency": 5.48,
-        "validRelativeFrequency": 39.03,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 149,
-        "label": {
-          "en": null,
-          "de": "noch nicht, aber werden bald eingeführt"
-        },
-        "relativeFrequency": 0.53,
-        "validRelativeFrequency": 3.76,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1140,
-        "label": {
-          "en": null,
-          "de": "noch nicht, aber an zukünftiger HS "
-        },
-        "relativeFrequency": 4.05,
-        "validRelativeFrequency": 28.8,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1125,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 3.99,
-        "validRelativeFrequency": 28.42,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3959,
-    "missings": [
-      {
-        "absoluteFrequency": 60,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.21,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1914,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.79,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "36",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Zahlen Sie derzeit Studiengebühren?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,93 +1,105 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ihr Geschlecht"
+      },
+      "questionNumber": "29",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.66,
+        "absoluteFrequency": 185,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "male",
+          "de": "männlich"
+        },
+        "validRelativeFrequency": 45.81,
+        "relativeFrequency": 45.51,
+        "absoluteFrequency": 12825,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "female",
+          "de": "weiblich"
+        },
+        "validRelativeFrequency": 54.19,
+        "relativeFrequency": 53.84,
+        "absoluteFrequency": 15172,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 99.34,
+    "totalValidAbsoluteFrequency": 27997,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 147,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "gender",
+    "de": "Geschlecht"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Geschlecht"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 147,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 99.34,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 12825,
-        "label": {
-          "en": null,
-          "de": "männlich"
-        },
-        "relativeFrequency": 45.51,
-        "validRelativeFrequency": 45.81,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 15172,
-        "label": {
-          "en": null,
-          "de": "weiblich"
-        },
-        "relativeFrequency": 53.84,
-        "validRelativeFrequency": 54.19,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 27997,
-    "missings": [
-      {
-        "absoluteFrequency": 185,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.66,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "29",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ihr Geschlecht"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

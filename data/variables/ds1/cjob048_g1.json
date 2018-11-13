@@ -1,202 +1,214 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "8. Tätigkeit: Beruf Erwerbstätigkeit (KldB-1992-Berufsklasse) (4-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cjob048",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\r\nStudium\r\nName und Ort der Hochschule/Berufsakademie\r\n(z. B. \"Uni Köln\", \"FH Merseburg\" oder \"BA Mosbach\")"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "8630",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.98,
+        "absoluteFrequency": 3657,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Garment tailors",
+          "de": "Bekleidungsschneider/innen"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3511"
+      },
+      {
+        "label": {
+          "en": "Planning, project engineers without further specialization",
+          "de": "Planungs-, Projektingenieur(e/innen) o.n.F."
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "6003"
+      },
+      {
+        "label": {
+          "en": "Personnel managers",
+          "de": "Personalleiter/innen"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7515"
+      },
+      {
+        "label": {
+          "en": "Personnel consultants",
+          "de": "Personalberater/innen"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7574"
+      },
+      {
+        "label": {
+          "en": "Clerical workers without further specification",
+          "de": "Angestellte o.n.A."
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7800"
+      },
+      {
+        "label": {
+          "en": "Office administrators, office clerks without further specification",
+          "de": "Bürokaufleute, Kontorist(en/innen) o.n.A."
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7803"
+      },
+      {
+        "label": {
+          "en": "Commercial clerks without further specification",
+          "de": "Kaufmännische Angestellte o.n.A."
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7804"
+      },
+      {
+        "label": {
+          "en": "Administration professionals in clerical labour and social administration service",
+          "de": "Verwaltungsfachleute im mittleren Arbeits- und Sozialverwaltungsdienst"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7873"
+      },
+      {
+        "label": {
+          "en": "Secretaries, generally",
+          "de": "Sekretär(e/innen), allgemein"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7890"
+      },
+      {
+        "label": {
+          "en": "Other social workers, social education workers",
+          "de": "andere Sozialarbeiter/innen, Sozialpädagog(en/innen)"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8619"
+      },
+      {
+        "label": {
+          "en": "Educators without further specification",
+          "de": "Erzieher/innen o.n.A."
+        },
+        "validRelativeFrequency": 21.43,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "8630"
+      },
+      {
+        "label": {
+          "en": "Other employees without further specification",
+          "de": "Sonstige Arbeitskräfte o.n.T."
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9971"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.05,
+    "totalValidAbsoluteFrequency": 14,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 659,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Berufsangaben einer Erwerbstätigkeit in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on employment in coded form. The 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992) was used as a code list.",
+      "de": "Diese Variable enthält die offen erfassten Berufsangaben einer Erwerbstätigkeit in codierter Form. Als Codierliste wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.05,
-    "statistics": {
-      "mode": "8630"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bekleidungsschneider/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "3511"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Planungs-, Projektingenieur(e/innen) o.n.F."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "6003"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Personalleiter/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "7515"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Personalberater/innen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "7574"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Angestellte o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "7800"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bürokaufleute, Kontorist(en/innen) o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "7803"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kaufmännische Angestellte o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "7804"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Verwaltungsfachleute im mittleren Arbeits- und Sozialverwaltungsdienst"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "7873"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sekretär(e/innen), allgemein"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "7890"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "andere Sozialarbeiter/innen, Sozialpädagog(en/innen)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "8619"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Erzieher/innen o.n.A."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 21.43,
-        "value": "8630"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sonstige Arbeitskräfte o.n.T."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 7.14,
-        "value": "9971"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 14,
-    "missings": [
-      {
-        "absoluteFrequency": 3657,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.98,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nStudium\nName und Ort der Hochschule/Berufsakademie\n(z. B. \"Uni Köln\", \"FH Merseburg\" oder \"BA Mosbach\")"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cjob048",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 659,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "8th activity: occupation gainf. activ. (Ger. Class. of Occ. 1992) (4-dig.)",
+    "de": "8. Tätigkeit: Beruf Erwerbstätigkeit (KldB-1992-Berufsklasse) (4-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

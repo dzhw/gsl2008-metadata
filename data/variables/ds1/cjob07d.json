@@ -1,203 +1,203 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ist Ihre Tätigkeit…?\r\nohne fest vereinbarte Arbeitszeit mit … Std./Woche"
+      },
+      "questionNumber": "7.2",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 11.1195,
+      "mode": "multimodal",
+      "highWhisker": 60.625,
+      "lowWhisker": 10,
+      "thirdQuartile": "40",
+      "firstQuartile": "26.25",
+      "standardDeviation": 19.6316,
+      "median": "32.5",
+      "kurtosis": 7.1319,
+      "skewness": 1.7464,
+      "maximum": "99",
+      "minimum": "10",
+      "meanValue": 35.8889
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.42,
+        "absoluteFrequency": 964,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.54,
+        "absoluteFrequency": 2689,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.56,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 22.22,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.56,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.56,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 22.22,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "40"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.56,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.56,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "54"
+      },
+      {
+        "label": {
+          "en": "99 hours or more",
+          "de": "99 und mehr Stunden"
+        },
+        "validRelativeFrequency": 5.56,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "99"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.06,
+    "totalValidAbsoluteFrequency": 18,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1228,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "no set working hours: hours per week",
+    "de": "ohne feste Arbeitszeit: Stunden pro Woche"
+  },
   "scaleLevel": {
     "en": "ratio",
     "de": "verhältnis"
   },
-  "label": {
-    "en": null,
-    "de": "ohne feste Arbeitszeit: Stunden pro Woche"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1228,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.06,
-    "statistics": {
-      "firstQuartile": "26.25",
-      "highWhisker": 60.625,
-      "lowWhisker": 10,
-      "skewness": 1.7464,
-      "minimum": "10",
-      "thirdQuartile": "40",
-      "meanDeviation": "0",
-      "meanValue": 35.8889,
-      "maximum": "99",
-      "mode": "multimodal",
-      "median": "32.5",
-      "standardDeviation": 19.6316,
-      "kurtosis": 7.1319
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 5.56,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 22.22,
-        "value": "30"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 5.56,
-        "value": "35"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 5.56,
-        "value": "38"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 22.22,
-        "value": "40"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 5.56,
-        "value": "50"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 5.56,
-        "value": "54"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "99 und mehr Stunden"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 5.56,
-        "value": "99"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 18,
-    "missings": [
-      {
-        "absoluteFrequency": 964,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.42,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2689,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 9.54,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "7.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ist Ihre Tätigkeit…?\nohne fest vereinbarte Arbeitszeit mit … Std./Woche"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

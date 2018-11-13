@@ -1,181 +1,185 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Erwerb der Hochschulreife: Monat"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-bsch11",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie diese Hochschulreife erworben? (Jahr)"
+      },
+      "questionNumber": "02",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "6",
+      "highWhisker": 8.5,
+      "lowWhisker": 4.5,
+      "thirdQuartile": "7",
+      "firstQuartile": "6",
+      "standardDeviation": null,
+      "median": "6",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "12",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "January",
+          "de": "Januar"
+        },
+        "validRelativeFrequency": 0.08,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "validRelativeFrequency": 4.79,
+        "relativeFrequency": 1.01,
+        "absoluteFrequency": 284,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "April",
+          "de": "April"
+        },
+        "validRelativeFrequency": 0.94,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 56,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "validRelativeFrequency": 4.13,
+        "relativeFrequency": 0.87,
+        "absoluteFrequency": 245,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "validRelativeFrequency": 61.57,
+        "relativeFrequency": 12.96,
+        "absoluteFrequency": 3653,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "validRelativeFrequency": 27.19,
+        "relativeFrequency": 5.72,
+        "absoluteFrequency": 1613,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "validRelativeFrequency": 1.18,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 70,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "validRelativeFrequency": 0.03,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "12"
+      }
+    ],
+    "totalValidRelativeFrequency": 21.05,
+    "totalValidAbsoluteFrequency": 5933,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 164,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The month was generated from the collectively gathered data on year and month.",
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 21.05,
-    "statistics": {
-      "firstQuartile": "6",
-      "highWhisker": 8.5,
-      "lowWhisker": 4.5,
-      "minimum": "1",
-      "thirdQuartile": "7",
-      "meanDeviation": "91.1799",
-      "maximum": "12",
-      "mode": "6",
-      "median": "6"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Januar"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.08,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Februar"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.07,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 284,
-        "label": {
-          "en": null,
-          "de": "März"
-        },
-        "relativeFrequency": 1.01,
-        "validRelativeFrequency": 4.79,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 56,
-        "label": {
-          "en": null,
-          "de": "April"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 0.94,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 245,
-        "label": {
-          "en": null,
-          "de": "Mai"
-        },
-        "relativeFrequency": 0.87,
-        "validRelativeFrequency": 4.13,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 3653,
-        "label": {
-          "en": null,
-          "de": "Juni"
-        },
-        "relativeFrequency": 12.96,
-        "validRelativeFrequency": 61.57,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1613,
-        "label": {
-          "en": null,
-          "de": "Juli"
-        },
-        "relativeFrequency": 5.72,
-        "validRelativeFrequency": 27.19,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 70,
-        "label": {
-          "en": null,
-          "de": "August"
-        },
-        "relativeFrequency": 0.25,
-        "validRelativeFrequency": 1.18,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "September"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.02,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Dezember"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.03,
-        "value": "12"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5933,
-    "missings": [
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "02",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wann haben Sie diese Hochschulreife erworben? (Jahr)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-bsch11",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 164,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "obtaining of higher education entrance qualification: month",
+    "de": "Erwerb der Hochschulreife: Monat"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

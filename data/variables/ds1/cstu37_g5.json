@@ -1,156 +1,170 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "künftiges Studium: Hochschulart (FH/Uni; ohne Saarland)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu37",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "An welcher Hochschule wollen Sie studieren?"
+      },
+      "questionNumber": "4.20",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.75,
+        "absoluteFrequency": 211,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.97,
+        "absoluteFrequency": 274,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 5.39,
+        "absoluteFrequency": 1518,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 120,
+        "code": -988
+      },
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "code": -969
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "anonymized",
+          "de": "anonymisiert"
+        },
+        "validRelativeFrequency": 0.91,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "-967"
+      },
+      {
+        "label": {
+          "en": "no study at a uni or uni of applied sciences, but study in a broader sense",
+          "de": "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)"
+        },
+        "validRelativeFrequency": 1.23,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 19,
+        "value": "-943"
+      },
+      {
+        "label": {
+          "en": "university",
+          "de": "Universität"
+        },
+        "validRelativeFrequency": 75.11,
+        "relativeFrequency": 4.11,
+        "absoluteFrequency": 1159,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "university of applied sciences",
+          "de": "Fachhochschule"
+        },
+        "validRelativeFrequency": 22.75,
+        "relativeFrequency": 1.25,
+        "absoluteFrequency": 351,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 5.48,
+    "totalValidAbsoluteFrequency": 1543,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1168,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Unterscheidung von Fachhochschulen und Universitäten (Hochschulart) wurde aus den codierten Hochschulangaben generiert. Für die Unterscheidung wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet. Für das Saarland wird diese Information nicht bereitgestellt, um eine Re-Identifikation der Hochschule zu verhindern; dort gibt es nur eine und keine weiteren öffentlichen (oder privaten) Universitäten."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The difference between advanced technical colleges and universities (type of higher education institution) was generated from the coded data on institutes of higher education. The Destatis key directory for student and examination statistics (winter semester 2007/08) (see cl-destatis-studienfach-2008) was used for the differentiation. In the official statistics, missing universities were added and allocated from the project. In order to prevent a reidentification of the particular institute of higher education, this information was not provided for the Saarland; this state only has one university, whether public or private.",
+      "de": "Die Unterscheidung von Fachhochschulen und Universitäten (Hochschulart) wurde aus den codierten Hochschulangaben generiert. Für die Unterscheidung wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet. Für das Saarland wird diese Information nicht bereitgestellt, um eine Re-Identifikation der Hochschule zu verhindern; dort gibt es nur eine und keine weiteren öffentlichen (oder privaten) Universitäten."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5.36,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1159,
-        "label": {
-          "en": null,
-          "de": "Universität"
-        },
-        "relativeFrequency": 4.11,
-        "validRelativeFrequency": 76.75,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 351,
-        "label": {
-          "en": null,
-          "de": "Fachhochschule"
-        },
-        "relativeFrequency": 1.25,
-        "validRelativeFrequency": 23.25,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1510,
-    "missings": [
-      {
-        "absoluteFrequency": 211,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.75,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 274,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.97,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1518,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 5.39,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 120,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.43,
-        "code": -988
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.02,
-        "code": -969
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "anonymisiert"
-        },
-        "relativeFrequency": 0.05,
-        "code": -967
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": null,
-          "de": "kein Uni/FH-Studium, aber Studium im weiteren Sinne (VerwFH/BA)"
-        },
-        "relativeFrequency": 0.07,
-        "code": -943
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.20",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "An welcher Hochschule wollen Sie studieren?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu37",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1168,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "further studies: type of higher education institution (FH/uni; excl. Saarland)",
+    "de": "künftiges Studium: Hochschulart (FH/Uni; ohne Saarland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

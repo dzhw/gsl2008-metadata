@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Einschätzung Berufsaussichten: qualifizierte Fachkräfte allgemein"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-fut02",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 143,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie…\r\n… allgemein die Berufsaussichten für Absolventen eines beruflichen Ausbildungsweges ohne Studium ein?"
+      },
+      "questionNumber": "27",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 91.27,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 0,
+      "mode": "3",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "5776.21",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 6.06,
+        "absoluteFrequency": 1709,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.67,
+        "absoluteFrequency": 752,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 652,
         "label": {
-          "en": null,
+          "en": "very good",
           "de": "sehr gut"
         },
-        "relativeFrequency": 2.31,
         "validRelativeFrequency": 2.53,
+        "relativeFrequency": 2.31,
+        "absoluteFrequency": 652,
         "value": "1"
       },
       {
-        "absoluteFrequency": 6583,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 23.36,
         "validRelativeFrequency": 25.59,
+        "relativeFrequency": 23.36,
+        "absoluteFrequency": 6583,
         "value": "2"
       },
       {
-        "absoluteFrequency": 13256,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 47.04,
         "validRelativeFrequency": 51.54,
+        "relativeFrequency": 47.04,
+        "absoluteFrequency": 13256,
         "value": "3"
       },
       {
-        "absoluteFrequency": 4563,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 16.19,
         "validRelativeFrequency": 17.74,
+        "relativeFrequency": 16.19,
+        "absoluteFrequency": 4563,
         "value": "4"
       },
       {
-        "absoluteFrequency": 667,
         "label": {
-          "en": null,
+          "en": "very poor",
           "de": "sehr schlecht"
         },
-        "relativeFrequency": 2.37,
         "validRelativeFrequency": 2.59,
+        "relativeFrequency": 2.37,
+        "absoluteFrequency": 667,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 91.27,
     "totalValidAbsoluteFrequency": 25721,
-    "missings": [
-      {
-        "absoluteFrequency": 1709,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 6.06,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 752,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 2.67,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "27",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie…\n… allgemein die Berufsaussichten für Absolventen eines beruflichen Ausbildungsweges ohne Studium ein?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-fut02",
+  "surveyNumbers": [1],
+  "indexInDataSet": 143,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "evaluation job prospects: qualified persons general",
+    "de": "Einschätzung Berufsaussichten: qualifizierte Fachkräfte allgemein"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

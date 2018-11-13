@@ -1,51 +1,44 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "13. Tätigkeit: Staat einer ausl. Hochschule"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2113d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
+  "relatedQuestions": null,
+  "distribution": null,
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 763,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The foreign countries were generated from the coded data on institutions of higher education. The generated data only includes the countries of foreign universities; German universities were placed under ‘not applicable’. A project-specific code list (see cl-dzhw-9) was used for the countries.",
+      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.01,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 2,
-    "missings": null
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2113d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 763,
+  "accessWays": ["not-accessible"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "13th activity: country of a foreign institute of higher education",
+    "de": "13. Tätigkeit: Staat einer ausl. Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

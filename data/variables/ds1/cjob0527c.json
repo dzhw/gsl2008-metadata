@@ -1,114 +1,114 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": null,
-    "de": "7. Job: Stunden pro Monat"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1101,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": null,
   "distribution": {
-    "totalValidRelativeFrequency": 0.01,
     "statistics": {
-      "firstQuartile": "53.25",
+      "meanDeviation": 45.2193,
+      "mode": "multimodal",
       "highWhisker": 99,
       "lowWhisker": 38,
-      "skewness": 0,
-      "minimum": "38",
       "thirdQuartile": "83.75",
-      "meanDeviation": "0",
-      "meanValue": 68.5,
-      "maximum": "99",
-      "mode": "multimodal",
-      "median": "68.5",
+      "firstQuartile": "53.25",
       "standardDeviation": 43.1335,
-      "kurtosis": 1
+      "median": "68.5",
+      "kurtosis": 1,
+      "skewness": 0,
+      "maximum": "99",
+      "minimum": "38",
+      "meanValue": 68.5
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.91,
+        "absoluteFrequency": 3076,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.1,
+        "absoluteFrequency": 593,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1,
         "label": {
           "en": null,
           "de": null
         },
-        "relativeFrequency": 0,
         "validRelativeFrequency": 50,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
         "value": "38"
       },
       {
-        "absoluteFrequency": 1,
         "label": {
-          "en": null,
+          "en": "99 hours or more",
           "de": "99 und mehr Stunden"
         },
-        "relativeFrequency": 0,
         "validRelativeFrequency": 50,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
         "value": "99"
       }
     ],
+    "totalValidRelativeFrequency": 0.01,
     "totalValidAbsoluteFrequency": 2,
-    "missings": [
-      {
-        "absoluteFrequency": 3076,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 10.91,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 593,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.1,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": null,
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1101,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "7th job: hours per month",
+    "de": "7. Job: Stunden pro Monat"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

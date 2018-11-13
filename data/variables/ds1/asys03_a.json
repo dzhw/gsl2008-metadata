@@ -1,51 +1,44 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schulart (ermittelt)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-asys03",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
+  "relatedQuestions": null,
+  "distribution": null,
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 6,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält einen vom Projekt vergebene Code. Der Code gibt an, welcher Schulart eine Stichprobenschule zuzuordnen ist, über die die Befragten den Fragebogen erhalten haben. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-6)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains a project-assigned code. The code indicates to which type of school a sample school should be assigned, about which the respondents have been given a questionnaire. This involved the use of a project-specific code (see cl-dzhw-6).",
+      "de": "Diese Variable enthält einen vom Projekt vergebene Code. Der Code gibt an, welcher Schulart eine Stichprobenschule zuzuordnen ist, über die die Befragten den Fragebogen erhalten haben. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-6)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 100,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 28182,
-    "missings": null
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-asys03",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 6,
+  "accessWays": ["not-accessible"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of school (identified)",
+    "de": "Schulart (ermittelt)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,93 +1,105 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Aussagen zur Bedeutung der Hochschulreife treffen auf Sie persönlich am meisten zu?\r\nIch möchte einen möglichst hohen Schulabschluss haben, der mir alle Möglichkeiten offen lässt."
+      },
+      "questionNumber": "07",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 7.65,
+        "absoluteFrequency": 2156,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 23.01,
+        "relativeFrequency": 21.25,
+        "absoluteFrequency": 5989,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 76.99,
+        "relativeFrequency": 71.1,
+        "absoluteFrequency": 20037,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 92.35,
+    "totalValidAbsoluteFrequency": 26026,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 61,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification: leaves all options open",
+    "de": "Hochschulreife: lässt alle Möglichkeiten offen"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Hochschulreife: lässt alle Möglichkeiten offen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 61,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 92.35,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 5989,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 21.25,
-        "validRelativeFrequency": 23.01,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 20037,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 71.1,
-        "validRelativeFrequency": 76.99,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 26026,
-    "missings": [
-      {
-        "absoluteFrequency": 2156,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 7.65,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "07",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Aussagen zur Bedeutung der Hochschulreife treffen auf Sie persönlich am meisten zu?\nIch möchte einen möglichst hohen Schulabschluss haben, der mir alle Möglichkeiten offen lässt."
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,111 +1,123 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie bereits oder in Kürze Studiengebühren zahlen: Wie finanzieren Sie diese (voraussichtlich)?\r\nich verfüge über ausreichend finanzielle Rücklagen"
+      },
+      "questionNumber": "37",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 56,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.78,
+        "absoluteFrequency": 3039,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 88.16,
+        "relativeFrequency": 8.88,
+        "absoluteFrequency": 2502,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 11.84,
+        "relativeFrequency": 1.19,
+        "absoluteFrequency": 336,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 10.07,
+    "totalValidAbsoluteFrequency": 2838,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 372,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "financing of tuition fees: financial reserves",
+    "de": "Finanzierung Studiengebühren: finanzielle Rücklagen"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Finanzierung Studiengebühren: finanzielle Rücklagen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 372,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 10.07,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2502,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 8.88,
-        "validRelativeFrequency": 88.16,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 336,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 1.19,
-        "validRelativeFrequency": 11.84,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2838,
-    "missings": [
-      {
-        "absoluteFrequency": 56,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.2,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3039,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.78,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "37",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn Sie bereits oder in Kürze Studiengebühren zahlen: Wie finanzieren Sie diese (voraussichtlich)?\nich verfüge über ausreichend finanzielle Rücklagen"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

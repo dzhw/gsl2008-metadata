@@ -1,151 +1,163 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie in den letzten Jahren neben dem Studium Geld verdient?"
+      },
+      "questionNumber": "4.13",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "6",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 39,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "absoluteFrequency": 588,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "no, wasn’t required",
+          "de": "nein, war nicht erforderlich"
+        },
+        "validRelativeFrequency": 8.28,
+        "relativeFrequency": 0.89,
+        "absoluteFrequency": 252,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no, not possible due to study workload",
+          "de": "nein, wegen Studienbelastung nicht möglich"
+        },
+        "validRelativeFrequency": 10.51,
+        "relativeFrequency": 1.14,
+        "absoluteFrequency": 320,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "no, no job found",
+          "de": "nein, keinen Job gefunden"
+        },
+        "validRelativeFrequency": 0.69,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "yes, occasionally",
+          "de": "ja, gelegentlich"
+        },
+        "validRelativeFrequency": 30.91,
+        "relativeFrequency": 3.34,
+        "absoluteFrequency": 941,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "yes, frequently",
+          "de": "ja, häufig"
+        },
+        "validRelativeFrequency": 13.11,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 399,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "yes, constantly",
+          "de": "ja, laufend"
+        },
+        "validRelativeFrequency": 36.5,
+        "relativeFrequency": 3.94,
+        "absoluteFrequency": 1111,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 10.8,
+    "totalValidAbsoluteFrequency": 3044,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1026,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "money earned alongside studies?",
+    "de": "Geld neben dem Studium verdient?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Geld neben dem Studium verdient?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1026,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 10.8,
-    "statistics": {
-      "mode": "6"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 252,
-        "label": {
-          "en": null,
-          "de": "nein, war nicht erforderlich"
-        },
-        "relativeFrequency": 0.89,
-        "validRelativeFrequency": 8.28,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 320,
-        "label": {
-          "en": null,
-          "de": "nein, wegen Studienbelastung nicht möglich"
-        },
-        "relativeFrequency": 1.14,
-        "validRelativeFrequency": 10.51,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "nein, keinen Job gefunden"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.69,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 941,
-        "label": {
-          "en": null,
-          "de": "ja, gelegentlich"
-        },
-        "relativeFrequency": 3.34,
-        "validRelativeFrequency": 30.91,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 399,
-        "label": {
-          "en": null,
-          "de": "ja, häufig"
-        },
-        "relativeFrequency": 1.42,
-        "validRelativeFrequency": 13.11,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1111,
-        "label": {
-          "en": null,
-          "de": "ja, laufend"
-        },
-        "relativeFrequency": 3.94,
-        "validRelativeFrequency": 36.5,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3044,
-    "missings": [
-      {
-        "absoluteFrequency": 39,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.14,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 588,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.09,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.13",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie in den letzten Jahren neben dem Studium Geld verdient?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: Studierendensekretariat"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 117,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInstitutionen/Personen\r\nStudierendensekretariat an Hochschulen"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 22.35,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "538.1838",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5,
+        "absoluteFrequency": 1409,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 62.12,
+        "absoluteFrequency": 17508,
+        "code": -988
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 350,
         "label": {
-          "en": null,
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
-        "relativeFrequency": 1.24,
         "validRelativeFrequency": 5.56,
+        "relativeFrequency": 1.24,
+        "absoluteFrequency": 350,
         "value": "1"
       },
       {
-        "absoluteFrequency": 889,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 3.15,
         "validRelativeFrequency": 14.11,
+        "relativeFrequency": 3.15,
+        "absoluteFrequency": 889,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1561,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 5.54,
         "validRelativeFrequency": 24.78,
+        "relativeFrequency": 5.54,
+        "absoluteFrequency": 1561,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1575,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 5.59,
         "validRelativeFrequency": 25,
+        "relativeFrequency": 5.59,
+        "absoluteFrequency": 1575,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1924,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
-        "relativeFrequency": 6.83,
         "validRelativeFrequency": 30.54,
+        "relativeFrequency": 6.83,
+        "absoluteFrequency": 1924,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 22.35,
     "totalValidAbsoluteFrequency": 6299,
-    "missings": [
-      {
-        "absoluteFrequency": 1409,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 5,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 17508,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 62.12,
-        "code": -988
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nStudierendensekretariat an Hochschulen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 117,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: Admissions Office",
+    "de": "Informationsquelle Zukunft: Studierendensekretariat"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

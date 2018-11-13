@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Einschätzung: allg. Berufsaussichten nach Studium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-fut01",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 400,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie …\r\n… allgemein die Berufsaussichten für Absolventen eines Studiums ein?"
+      },
+      "questionNumber": "46",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.4,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 0,
+      "mode": "2",
       "highWhisker": 2,
       "lowWhisker": 2,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "1264.658",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.6,
+        "absoluteFrequency": 170,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 980,
         "label": {
-          "en": null,
+          "en": "very good",
           "de": "sehr gut"
         },
-        "relativeFrequency": 3.48,
         "validRelativeFrequency": 17.04,
+        "relativeFrequency": 3.48,
+        "absoluteFrequency": 980,
         "value": "1"
       },
       {
-        "absoluteFrequency": 3395,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 12.05,
         "validRelativeFrequency": 59.04,
+        "relativeFrequency": 12.05,
+        "absoluteFrequency": 3395,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1232,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 4.37,
         "validRelativeFrequency": 21.43,
+        "relativeFrequency": 4.37,
+        "absoluteFrequency": 1232,
         "value": "3"
       },
       {
-        "absoluteFrequency": 127,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 0.45,
         "validRelativeFrequency": 2.21,
+        "relativeFrequency": 0.45,
+        "absoluteFrequency": 127,
         "value": "4"
       },
       {
-        "absoluteFrequency": 16,
         "label": {
-          "en": null,
+          "en": "very poor",
           "de": "sehr schlecht"
         },
-        "relativeFrequency": 0.06,
         "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.4,
     "totalValidAbsoluteFrequency": 5750,
-    "missings": [
-      {
-        "absoluteFrequency": 170,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.6,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.05,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "46",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie …\n… allgemein die Berufsaussichten für Absolventen eines Studiums ein?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-fut01",
+  "surveyNumbers": [2],
+  "indexInDataSet": 400,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "assessment: overall postgraduate job prospects",
+    "de": "Einschätzung: allg. Berufsaussichten nach Studium"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

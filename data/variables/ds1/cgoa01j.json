@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Berufs- und Lebensziel: Leben genießen, genügend Freizeit haben"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-goa01j",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1263,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\r\nMir geht es darum, …\r\ndas Leben zu genießen und genügend Freizeit zu haben"
+      },
+      "questionNumber": "8.1",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.88,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "578.214",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 41,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 977,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 3.47,
         "validRelativeFrequency": 26.91,
+        "relativeFrequency": 3.47,
+        "absoluteFrequency": 977,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1367,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 4.85,
         "validRelativeFrequency": 37.66,
+        "relativeFrequency": 4.85,
+        "absoluteFrequency": 1367,
         "value": "2"
       },
       {
-        "absoluteFrequency": 983,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.49,
         "validRelativeFrequency": 27.08,
+        "relativeFrequency": 3.49,
+        "absoluteFrequency": 983,
         "value": "3"
       },
       {
-        "absoluteFrequency": 256,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 0.91,
         "validRelativeFrequency": 7.05,
+        "relativeFrequency": 0.91,
+        "absoluteFrequency": 256,
         "value": "4"
       },
       {
-        "absoluteFrequency": 47,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 0.17,
         "validRelativeFrequency": 1.29,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 47,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 12.88,
     "totalValidAbsoluteFrequency": 3630,
-    "missings": [
-      {
-        "absoluteFrequency": 41,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.15,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "8.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\nMir geht es darum, …\ndas Leben zu genießen und genügend Freizeit zu haben"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-goa01j",
+  "surveyNumbers": [3],
+  "indexInDataSet": 1263,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "career and life goals: enjoy life, have sufficient leisure time",
+    "de": "Berufs- und Lebensziel: Leben genießen, genügend Freizeit haben"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

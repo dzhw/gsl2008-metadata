@@ -1,111 +1,123 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Aus welchen Gründen haben Sie diese Planung bislang noch nicht verwirklicht?\r\nich wollte zunächst längere Zeit ins Ausland gehen"
+      },
+      "questionNumber": "21",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 14.85,
+        "absoluteFrequency": 4186,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 82.99,
+        "relativeFrequency": 5.04,
+        "absoluteFrequency": 1420,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 17.01,
+        "relativeFrequency": 1.03,
+        "absoluteFrequency": 291,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 6.07,
+    "totalValidAbsoluteFrequency": 1711,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 276,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "reason for non-realisation: period of stay abroad",
+    "de": "Grund Nichtverwirklichung: Auslandsaufenthalt"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Grund Nichtverwirklichung: Auslandsaufenthalt"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 276,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 6.07,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1420,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 5.04,
-        "validRelativeFrequency": 82.99,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 291,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 1.03,
-        "validRelativeFrequency": 17.01,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1711,
-    "missings": [
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.13,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 4186,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 14.85,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "21",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Aus welchen Gründen haben Sie diese Planung bislang noch nicht verwirklicht?\nich wollte zunächst längere Zeit ins Ausland gehen"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Deutsch (Fach): abwechslungsreich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 17,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Der Unterricht der letzten beiden Schuljahre kann unter verschiedenen Gesichtspunkten bewertet werden:\r\nDer Unterricht im Fach Deutsch war…\r\nabwechslungsreich"
+      },
+      "questionNumber": "04",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.35,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "4213.549",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.81,
+        "absoluteFrequency": 228,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.84,
+        "absoluteFrequency": 237,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 2475,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll zu"
         },
-        "relativeFrequency": 8.78,
         "validRelativeFrequency": 8.93,
+        "relativeFrequency": 8.78,
+        "absoluteFrequency": 2475,
         "value": "1"
       },
       {
-        "absoluteFrequency": 7517,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 26.67,
         "validRelativeFrequency": 27.12,
+        "relativeFrequency": 26.67,
+        "absoluteFrequency": 7517,
         "value": "2"
       },
       {
-        "absoluteFrequency": 10582,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 37.55,
         "validRelativeFrequency": 38.18,
+        "relativeFrequency": 37.55,
+        "absoluteFrequency": 10582,
         "value": "3"
       },
       {
-        "absoluteFrequency": 5317,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 18.87,
         "validRelativeFrequency": 19.18,
+        "relativeFrequency": 18.87,
+        "absoluteFrequency": 5317,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1826,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft gar nicht zu"
         },
-        "relativeFrequency": 6.48,
         "validRelativeFrequency": 6.59,
+        "relativeFrequency": 6.48,
+        "absoluteFrequency": 1826,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 98.35,
     "totalValidAbsoluteFrequency": 27717,
-    "missings": [
-      {
-        "absoluteFrequency": 228,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.81,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 237,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.84,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "04",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Der Unterricht der letzten beiden Schuljahre kann unter verschiedenen Gesichtspunkten bewertet werden:\nDer Unterricht im Fach Deutsch war…\nabwechslungsreich"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 17,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "German (subject): varied",
+    "de": "Deutsch (Fach): abwechslungsreich"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,209 +1,213 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Einschätzung persönliche Studienleistungen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 965,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie persönlich Ihre Studienleistungen im Vergleich zu anderen ein?"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 10.83,
     "statistics": {
-      "firstQuartile": "0",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": -4.5,
-      "minimum": "-5",
       "thirdQuartile": "3",
-      "meanDeviation": "151.2252",
+      "firstQuartile": "0",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "-5",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 32,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "absoluteFrequency": 588,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 12,
         "label": {
-          "en": null,
+          "en": "below average",
           "de": "unterdurchschnittlich"
         },
-        "relativeFrequency": 0.04,
         "validRelativeFrequency": 0.39,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 12,
         "value": "-5"
       },
       {
-        "absoluteFrequency": 16,
         "label": {
           "en": null,
           "de": "-4"
         },
-        "relativeFrequency": 0.06,
         "validRelativeFrequency": 0.52,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
         "value": "-4"
       },
       {
-        "absoluteFrequency": 49,
         "label": {
           "en": null,
           "de": "-3"
         },
-        "relativeFrequency": 0.17,
         "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 49,
         "value": "-3"
       },
       {
-        "absoluteFrequency": 76,
         "label": {
           "en": null,
           "de": "-2"
         },
-        "relativeFrequency": 0.27,
         "validRelativeFrequency": 2.49,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 76,
         "value": "-2"
       },
       {
-        "absoluteFrequency": 94,
         "label": {
           "en": null,
           "de": "-1"
         },
-        "relativeFrequency": 0.33,
         "validRelativeFrequency": 3.08,
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 94,
         "value": "-1"
       },
       {
-        "absoluteFrequency": 645,
         "label": {
-          "en": null,
+          "en": "average",
           "de": "durchschnittlich"
         },
-        "relativeFrequency": 2.29,
         "validRelativeFrequency": 21.14,
+        "relativeFrequency": 2.29,
+        "absoluteFrequency": 645,
         "value": "0"
       },
       {
-        "absoluteFrequency": 402,
         "label": {
           "en": null,
           "de": "1"
         },
-        "relativeFrequency": 1.43,
         "validRelativeFrequency": 13.18,
+        "relativeFrequency": 1.43,
+        "absoluteFrequency": 402,
         "value": "1"
       },
       {
-        "absoluteFrequency": 687,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 2.44,
         "validRelativeFrequency": 22.52,
+        "relativeFrequency": 2.44,
+        "absoluteFrequency": 687,
         "value": "2"
       },
       {
-        "absoluteFrequency": 640,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 2.27,
         "validRelativeFrequency": 20.98,
+        "relativeFrequency": 2.27,
+        "absoluteFrequency": 640,
         "value": "3"
       },
       {
-        "absoluteFrequency": 316,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.12,
         "validRelativeFrequency": 10.36,
+        "relativeFrequency": 1.12,
+        "absoluteFrequency": 316,
         "value": "4"
       },
       {
-        "absoluteFrequency": 114,
         "label": {
-          "en": null,
+          "en": "above average",
           "de": "überdurchschnittlich"
         },
-        "relativeFrequency": 0.4,
         "validRelativeFrequency": 3.74,
+        "relativeFrequency": 0.4,
+        "absoluteFrequency": 114,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 10.83,
     "totalValidAbsoluteFrequency": 3051,
-    "missings": [
-      {
-        "absoluteFrequency": 32,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.11,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 588,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.09,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie persönlich Ihre Studienleistungen im Vergleich zu anderen ein?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 965,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "assessment of personal academic achievements",
+    "de": "Einschätzung persönliche Studienleistungen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

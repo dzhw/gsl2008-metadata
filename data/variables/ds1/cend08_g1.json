@@ -1,124 +1,124 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": null,
-    "de": "8. Tätigkeit: Ende (Jahr) "
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cend08",
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\r\nZeitraum\r\nEnde\r\nMonat/Jahr"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "2012",
+      "highWhisker": 2012,
+      "lowWhisker": 2012,
+      "thirdQuartile": "2012",
+      "firstQuartile": "2012",
+      "standardDeviation": 0.4779,
+      "median": "2012",
+      "kurtosis": 6.7636,
+      "skewness": -2.1212,
+      "maximum": "2012",
+      "minimum": "2010",
+      "meanValue": 2011.7821
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.03,
+        "absoluteFrequency": 3391,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.86,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 16.07,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 45,
+        "value": "2011"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 81.07,
+        "relativeFrequency": 0.81,
+        "absoluteFrequency": 227,
+        "value": "2012"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.99,
+    "totalValidAbsoluteFrequency": 280,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 642,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The year was generated from the collectively gathered data on year and month.",
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.99,
-    "statistics": {
-      "firstQuartile": "2012",
-      "highWhisker": 2012,
-      "lowWhisker": 2012,
-      "skewness": -2.1212,
-      "minimum": "2010",
-      "thirdQuartile": "2012",
-      "meanDeviation": "54.8562",
-      "meanValue": 2011.7821,
-      "maximum": "2012",
-      "mode": "2012",
-      "median": "2012",
-      "standardDeviation": 0.4779,
-      "kurtosis": 6.7636
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2.86,
-        "value": "2010"
-      },
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 16.07,
-        "value": "2011"
-      },
-      {
-        "absoluteFrequency": 227,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.81,
-        "validRelativeFrequency": 81.07,
-        "value": "2012"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 280,
-    "missings": [
-      {
-        "absoluteFrequency": 3391,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.03,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nZeitraum\nEnde\nMonat/Jahr"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cend08",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 642,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "8th activity: end (year)",
+    "de": "8. Tätigkeit: Ende (Jahr) "
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

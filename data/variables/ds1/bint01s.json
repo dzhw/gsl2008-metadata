@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Interessenbereich: technische Geräte oder Anlagen bauen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 236,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\r\ntechnische Geräte oder Anlagen bauen"
+      },
+      "questionNumber": "16",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.98,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "259.455",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 20,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 506,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 1.8,
         "validRelativeFrequency": 8.56,
+        "relativeFrequency": 1.8,
+        "absoluteFrequency": 506,
         "value": "1"
       },
       {
-        "absoluteFrequency": 671,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 2.38,
         "validRelativeFrequency": 11.35,
+        "relativeFrequency": 2.38,
+        "absoluteFrequency": 671,
         "value": "2"
       },
       {
-        "absoluteFrequency": 681,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 2.42,
         "validRelativeFrequency": 11.52,
+        "relativeFrequency": 2.42,
+        "absoluteFrequency": 681,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1241,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.4,
         "validRelativeFrequency": 20.99,
+        "relativeFrequency": 4.4,
+        "absoluteFrequency": 1241,
         "value": "4"
       },
       {
-        "absoluteFrequency": 2814,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 9.99,
         "validRelativeFrequency": 47.59,
+        "relativeFrequency": 9.99,
+        "absoluteFrequency": 2814,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.98,
     "totalValidAbsoluteFrequency": 5913,
-    "missings": [
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.07,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\ntechnische Geräte oder Anlagen bauen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 236,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "area of interest: build technical equipment or installations",
+    "de": "Interessenbereich: technische Geräte oder Anlagen bauen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

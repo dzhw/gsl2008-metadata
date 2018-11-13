@@ -1,111 +1,123 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie noch kein Studium an einer Universität oder einer Fachhochschule aufgenommen haben und dies auch zukünftig nicht tun wollen, nennen Sie uns bitte die ausschlaggebenden Gründe hierfür.\r\nDie Anforderungen eines solchen Studiums sind unübersichtlich und unkalkulierbar."
+      },
+      "questionNumber": "6.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 48,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 7.77,
+        "absoluteFrequency": 2189,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 97.07,
+        "relativeFrequency": 4.94,
+        "absoluteFrequency": 1392,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 2.93,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 42,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 5.09,
+    "totalValidAbsoluteFrequency": 1434,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-dec03e",
+  "surveyNumbers": [3],
+  "indexInDataSet": 1214,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "reason for foregoing studies: unforeseeable requirements",
+    "de": "Grund Studienverzicht: Anforderungen unkalkulierbar"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Grund Studienverzicht: Anforderungen unkalkulierbar"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-dec03e",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1214,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5.09,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1392,
-        "label": {
-          "en": null,
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 4.94,
-        "validRelativeFrequency": 97.07,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 42,
-        "label": {
-          "en": null,
-          "de": "genannt"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 2.93,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1434,
-    "missings": [
-      {
-        "absoluteFrequency": 48,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.17,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2189,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 7.77,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "6.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn Sie noch kein Studium an einer Universität oder einer Fachhochschule aufgenommen haben und dies auch zukünftig nicht tun wollen, nennen Sie uns bitte die ausschlaggebenden Gründe hierfür.\nDie Anforderungen eines solchen Studiums sind unübersichtlich und unkalkulierbar."
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

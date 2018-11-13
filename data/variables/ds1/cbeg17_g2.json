@@ -1,91 +1,95 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "17. Tätigkeit: Beginn (Monat)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cbeg17",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "8",
+      "highWhisker": 8,
+      "lowWhisker": 8,
+      "thirdQuartile": "8",
+      "firstQuartile": "8",
+      "standardDeviation": null,
+      "median": "8",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "8",
+      "minimum": "8",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.02,
+        "absoluteFrequency": 3670,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "8"
+      }
+    ],
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 1,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 839,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The month was generated from the collectively gathered data on year and month.",
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0,
-    "statistics": {
-      "firstQuartile": "8",
-      "highWhisker": 8,
-      "lowWhisker": 8,
-      "minimum": "8",
-      "thirdQuartile": "8",
-      "meanDeviation": "0",
-      "maximum": "8",
-      "mode": "8",
-      "median": "8"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "August"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 100,
-        "value": "8"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1,
-    "missings": [
-      {
-        "absoluteFrequency": 3670,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cbeg17",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 839,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "17th activity: start (month)",
+    "de": "17. Tätigkeit: Beginn (Monat)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

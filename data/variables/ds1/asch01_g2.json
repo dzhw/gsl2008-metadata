@@ -1,83 +1,95 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schulart (erfragt: allgemeinb. vs. berufl. Schulen)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-asch01",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchen Schultyp bzw. Schulzweig besuchen Sie gegenwärtig?"
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "18",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "general education schools",
+          "de": "allgemeinbildene Schulen"
+        },
+        "validRelativeFrequency": 67.62,
+        "relativeFrequency": 67.62,
+        "absoluteFrequency": 19057,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "vocational schools",
+          "de": "berufliche Schulen"
+        },
+        "validRelativeFrequency": 32.38,
+        "relativeFrequency": 32.38,
+        "absoluteFrequency": 9125,
+        "value": "19"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 28182,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 12,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen wurden zu zwei Ausprägungen zusammengefasst. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-20)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated as part of the anonymisation. The school types were aggregated to two characteristics. This involved the use of a project-specific code list (see cl-dzhw-20).",
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen wurden zu zwei Ausprägungen zusammengefasst. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-20)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 100,
-    "statistics": {
-      "mode": "18"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 19057,
-        "label": {
-          "en": null,
-          "de": "allgemeinbildene Schulen"
-        },
-        "relativeFrequency": 67.62,
-        "validRelativeFrequency": 67.62,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 9125,
-        "label": {
-          "en": null,
-          "de": "berufliche Schulen"
-        },
-        "relativeFrequency": 32.38,
-        "validRelativeFrequency": 32.38,
-        "value": "19"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 28182,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welchen Schultyp bzw. Schulzweig besuchen Sie gegenwärtig?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-asch01",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 12,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of school (asked: general ed. vs vocat. schools)",
+    "de": "Schulart (erfragt: allgemeinb. vs. berufl. Schulen)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

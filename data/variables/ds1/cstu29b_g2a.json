@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Wechsel Hochschule: zu Staat einer ausl. Hochschule"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu29b",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Von welcher Hochschule zu welcher Hochschule haben Sie gewechselt bzw. werden Sie wechseln?"
+      },
+      "questionNumber": "4.8",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1003,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The foreign countries were generated from the coded data on institutions of higher education. The generated data only includes the countries of foreign universities; German universities were placed under ‘not applicable’. A project-specific code list (see cl-dzhw-9) was used for the countries.",
+      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.25,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 70,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.8",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Von welcher Hochschule zu welcher Hochschule haben Sie gewechselt bzw. werden Sie wechseln?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu29b",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1003,
+  "accessWays": ["not-accessible"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "change of higher ed. inst.: to country of a foreign higher ed. inst.",
+    "de": "Wechsel Hochschule: zu Staat einer ausl. Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

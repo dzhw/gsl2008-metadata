@@ -1,142 +1,142 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": null,
-    "de": "Beginn nachschulische Tätigkeit: Jahr"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-bact05",
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann wollen Sie mit diesem Studium/dieser Berufsausbildung bzw. Tätigkeit beginnen? (Monat)"
+      },
+      "questionNumber": "19",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "2009",
+      "highWhisker": 2009,
+      "lowWhisker": 2009,
+      "thirdQuartile": "2009",
+      "firstQuartile": "2009",
+      "standardDeviation": 0.2113,
+      "median": "2009",
+      "kurtosis": 40.038,
+      "skewness": 5.8407,
+      "maximum": "2011",
+      "minimum": "2009",
+      "meanValue": 2009.0391
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 59,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 14.82,
+        "absoluteFrequency": 4177,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 96.45,
+        "relativeFrequency": 5.78,
+        "absoluteFrequency": 1630,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.2,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 54,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.36,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "2011"
+      }
+    ],
+    "totalValidRelativeFrequency": 6,
+    "totalValidAbsoluteFrequency": 1690,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 263,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The year was generated from the collectively gathered data on year and month.",
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 6,
-    "statistics": {
-      "firstQuartile": "2009",
-      "highWhisker": 2009,
-      "lowWhisker": 2009,
-      "skewness": 5.8407,
-      "minimum": "2009",
-      "thirdQuartile": "2009",
-      "meanDeviation": "71.1648",
-      "meanValue": 2009.0391,
-      "maximum": "2011",
-      "mode": "2009",
-      "median": "2009",
-      "standardDeviation": 0.2113,
-      "kurtosis": 40.038
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1630,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 5.78,
-        "validRelativeFrequency": 96.45,
-        "value": "2009"
-      },
-      {
-        "absoluteFrequency": 54,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 3.2,
-        "value": "2010"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.36,
-        "value": "2011"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1690,
-    "missings": [
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.02,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.21,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 4177,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 14.82,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wann wollen Sie mit diesem Studium/dieser Berufsausbildung bzw. Tätigkeit beginnen? (Monat)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": "gsl2008-ds1-bact05",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 263,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "start of post-school activity: year",
+    "de": "Beginn nachschulische Tätigkeit: Jahr"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

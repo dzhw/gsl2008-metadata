@@ -1,70 +1,84 @@
 {
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": null,
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 13.03,
+        "absoluteFrequency": 3671,
+        "code": -989
+      }
+    ],
+    "validResponses": null,
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 0,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2119b",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 889,
+  "accessWays": ["onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "19th activity: 2nd subject",
+    "de": "19. Tätigkeit: 2. Studienfach"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "19. Tätigkeit: 2. Studienfach"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2119b",
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 889,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 0,
-    "missings": [
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3671,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 13.03,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": null,
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

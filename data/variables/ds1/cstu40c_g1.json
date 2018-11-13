@@ -1,300 +1,312 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "3. Verzichtsgrund MA"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Aus welchen Gründen nehmen Sie (voraussichtlich) kein Masterstudium auf?"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "6",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5.2,
+        "absoluteFrequency": 1465,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 7.41,
+        "absoluteFrequency": 2087,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "financing, degree course too expensive",
+          "de": "Finanzierung, Studium zu teuer"
+        },
+        "validRelativeFrequency": 11.02,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "age",
+          "de": "Alter"
+        },
+        "validRelativeFrequency": 2.54,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "duration of studies too long, invest no further time",
+          "de": "zu lange Studiendauer, keine weitere Zeit investieren"
+        },
+        "validRelativeFrequency": 2.54,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "too demanding/stressful",
+          "de": "zu anstrengend/stressig"
+        },
+        "validRelativeFrequency": 5.08,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "compatibility with job",
+          "de": "Vereinbarkeit mit Job"
+        },
+        "validRelativeFrequency": 5.08,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "compatibility with family",
+          "de": "Vereinbarkeit mit Familie"
+        },
+        "validRelativeFrequency": 11.86,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "beyond capabilities",
+          "de": "übersteigt Fähigkeiten"
+        },
+        "validRelativeFrequency": 3.39,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "no suitable MA (at place of study, in field of study)",
+          "de": "kein geeigneter M.A. (am Studienort, im Studiengang)"
+        },
+        "validRelativeFrequency": 3.39,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "unhappy with subject",
+          "de": "unzufrieden mit Studienfach"
+        },
+        "validRelativeFrequency": 1.69,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "earn money soon",
+          "de": "bald Geld verdienen"
+        },
+        "validRelativeFrequency": 11.02,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "BA sufficient for job market",
+          "de": "B.A. ausreichend für Arbeitsmarkt"
+        },
+        "validRelativeFrequency": 11.02,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "gain professional experience",
+          "de": "Berufserfahrung sammeln"
+        },
+        "validRelativeFrequency": 6.78,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "MA too theoretical, practical experience more relevant",
+          "de": "M.A. zu theoretisch, praktische Erfahrungen relevanter"
+        },
+        "validRelativeFrequency": 6.78,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "state examination (e.g. medicine, teaching)",
+          "de": "Staatsexamen (z.B. Medizin, Lehramt)"
+        },
+        "validRelativeFrequency": 1.69,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "other further professional training",
+          "de": "andere berufliche Weiterbildung"
+        },
+        "validRelativeFrequency": 4.24,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "no further motivation",
+          "de": "keine weitere Motivation"
+        },
+        "validRelativeFrequency": 5.08,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "too early for decision, not finished BA yet",
+          "de": "zu früh für Entscheidung, B.A. noch nicht beendet"
+        },
+        "validRelativeFrequency": 0.85,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "22"
+      },
+      {
+        "label": {
+          "en": "not started a degree course",
+          "de": "kein Studium begonnen"
+        },
+        "validRelativeFrequency": 1.69,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "discontinuation/change of studies",
+          "de": "Studienabbruch/Studiengangswechsel"
+        },
+        "validRelativeFrequency": 0.85,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "sonstiges"
+        },
+        "validRelativeFrequency": 3.39,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "98"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.42,
+    "totalValidAbsoluteFrequency": 118,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1173,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Verzichtgründe für ein Masterstudium in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on reasons for foregoing a master’s degree in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Verzichtgründe für ein Masterstudium in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.42,
-    "statistics": {
-      "mode": "6"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "Finanzierung, Studium zu teuer"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 11.02,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Alter"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.54,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "zu lange Studiendauer, keine weitere Zeit investieren"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.54,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "zu anstrengend/stressig"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 5.08,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Vereinbarkeit mit Job"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 5.08,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "Vereinbarkeit mit Familie"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 11.86,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "übersteigt Fähigkeiten"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.39,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "kein geeigneter M.A. (am Studienort, im Studiengang)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.39,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "unzufrieden mit Studienfach"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.69,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "bald Geld verdienen"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 11.02,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "B.A. ausreichend für Arbeitsmarkt"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 11.02,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Berufserfahrung sammeln"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 6.78,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "M.A. zu theoretisch, praktische Erfahrungen relevanter"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 6.78,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Staatsexamen (z.B. Medizin, Lehramt)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.69,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "andere berufliche Weiterbildung"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 4.24,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "keine weitere Motivation"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 5.08,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "zu früh für Entscheidung, B.A. noch nicht beendet"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.85,
-        "value": "22"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "kein Studium begonnen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.69,
-        "value": "23"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Studienabbruch/Studiengangswechsel"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.85,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "sonstiges"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.39,
-        "value": "98"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 118,
-    "missings": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 1465,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 5.2,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 2087,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 7.41,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Aus welchen Gründen nehmen Sie (voraussichtlich) kein Masterstudium auf?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1173,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd reason for abandoning MA",
+    "de": "3. Verzichtsgrund MA"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

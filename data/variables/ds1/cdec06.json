@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Bewertung Entscheidungsfindung (rückblickend)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 419,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie bewerten Sie rückblickend die Entscheidungsfindung bei der Wahl Ihres nachschulischen Werdegangs?"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.99,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "275.7636",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 721,
         "label": {
-          "en": null,
+          "en": "easy",
           "de": "problemlos"
         },
-        "relativeFrequency": 2.56,
         "validRelativeFrequency": 19.69,
+        "relativeFrequency": 2.56,
+        "absoluteFrequency": 721,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1332,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 4.73,
         "validRelativeFrequency": 36.37,
+        "relativeFrequency": 4.73,
+        "absoluteFrequency": 1332,
         "value": "2"
       },
       {
-        "absoluteFrequency": 907,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.22,
         "validRelativeFrequency": 24.77,
+        "relativeFrequency": 3.22,
+        "absoluteFrequency": 907,
         "value": "3"
       },
       {
-        "absoluteFrequency": 548,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.94,
         "validRelativeFrequency": 14.96,
+        "relativeFrequency": 1.94,
+        "absoluteFrequency": 548,
         "value": "4"
       },
       {
-        "absoluteFrequency": 154,
         "label": {
-          "en": null,
+          "en": "very difficult",
           "de": "sehr schwierig"
         },
-        "relativeFrequency": 0.55,
         "validRelativeFrequency": 4.21,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 154,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 12.99,
     "totalValidAbsoluteFrequency": 3662,
-    "missings": [
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.03,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie bewerten Sie rückblickend die Entscheidungsfindung bei der Wahl Ihres nachschulischen Werdegangs?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 419,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "rating of decision-making (retrospectively)",
+    "de": "Bewertung Entscheidungsfindung (rückblickend)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,104 +1,104 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": null,
-    "de": "7. Job: Ende (Jahr)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cend27",
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1095,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": null,
   "distribution": {
-    "totalValidRelativeFrequency": 0.01,
     "statistics": {
-      "firstQuartile": "2012",
+      "meanDeviation": 0,
+      "mode": "2012",
       "highWhisker": 2012,
       "lowWhisker": 2012,
-      "skewness": null,
-      "minimum": "2012",
       "thirdQuartile": "2012",
-      "meanDeviation": "0",
-      "meanValue": 2012,
-      "maximum": "2012",
-      "mode": "2012",
-      "median": "2012",
+      "firstQuartile": "2012",
       "standardDeviation": 0,
-      "kurtosis": null
+      "median": "2012",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "2012",
+      "minimum": "2012",
+      "meanValue": 2012
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.91,
+        "absoluteFrequency": 3076,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.1,
+        "absoluteFrequency": 593,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 2,
         "label": {
           "en": null,
           "de": null
         },
-        "relativeFrequency": 0.01,
         "validRelativeFrequency": 100,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
         "value": "2012"
       }
     ],
+    "totalValidRelativeFrequency": 0.01,
     "totalValidAbsoluteFrequency": 2,
-    "missings": [
-      {
-        "absoluteFrequency": 3076,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 10.91,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 593,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.1,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": null,
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "The year was generated from the collectively gathered data on year and month.",
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cend27",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1095,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "7th job: end (year)",
+    "de": "7. Job: Ende (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

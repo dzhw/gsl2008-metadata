@@ -1,103 +1,115 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie die Art der von Ihnen in diesem Schuljahr angestrebten Hochschulreife an."
+      },
+      "questionNumber": "02",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "general higher education entrance qualification",
+          "de": "allg. HS-Reife"
+        },
+        "validRelativeFrequency": 70.64,
+        "relativeFrequency": 70.64,
+        "absoluteFrequency": 19908,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "subject-related entrance qualification",
+          "de": "fachgebundene HS-Reife"
+        },
+        "validRelativeFrequency": 1.28,
+        "relativeFrequency": 1.28,
+        "absoluteFrequency": 362,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "advanced technical college certificate",
+          "de": "Fachhochschulreife"
+        },
+        "validRelativeFrequency": 27.66,
+        "relativeFrequency": 27.66,
+        "absoluteFrequency": 7796,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "subject-related university entrance qualification",
+          "de": "fachgebundene FH-Reife"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.41,
+        "absoluteFrequency": 116,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 28182,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-sch02",
+  "surveyNumbers": [1],
+  "indexInDataSet": 13,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "type of higher education entrance qualification (aimed for)",
+    "de": "Art der Hochschulreife (angestrebt)"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Art der Hochschulreife (angestrebt)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-sch02",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 13,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 100,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 19908,
-        "label": {
-          "en": null,
-          "de": "allg. HS-Reife"
-        },
-        "relativeFrequency": 70.64,
-        "validRelativeFrequency": 70.64,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 362,
-        "label": {
-          "en": null,
-          "de": "fachgebundene HS-Reife"
-        },
-        "relativeFrequency": 1.28,
-        "validRelativeFrequency": 1.28,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 7796,
-        "label": {
-          "en": null,
-          "de": "Fachhochschulreife"
-        },
-        "relativeFrequency": 27.66,
-        "validRelativeFrequency": 27.66,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 116,
-        "label": {
-          "en": null,
-          "de": "fachgebundene FH-Reife"
-        },
-        "relativeFrequency": 0.41,
-        "validRelativeFrequency": 0.41,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 28182,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "02",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie die Art der von Ihnen in diesem Schuljahr angestrebten Hochschulreife an."
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

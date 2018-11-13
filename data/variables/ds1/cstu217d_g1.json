@@ -1,251 +1,263 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "7. Tätigkeit: Bundesland der HS"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu217d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "9",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 11.63,
+        "absoluteFrequency": 3277,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 40,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "validRelativeFrequency": 0.85,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Hamburg",
+          "de": "Hamburg"
+        },
+        "validRelativeFrequency": 1.69,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "validRelativeFrequency": 7.34,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 26,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Bremen",
+          "de": "Bremen"
+        },
+        "validRelativeFrequency": 1.69,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "North Rhine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "validRelativeFrequency": 13.28,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 47,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "validRelativeFrequency": 7.06,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 25,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "validRelativeFrequency": 6.5,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "validRelativeFrequency": 14.97,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 53,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "validRelativeFrequency": 20.34,
+        "relativeFrequency": 0.26,
+        "absoluteFrequency": 72,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Saarland",
+          "de": "Saarland"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "validRelativeFrequency": 5.93,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Brandenburg",
+          "de": "Brandenburg"
+        },
+        "validRelativeFrequency": 3.11,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 11,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "Mecklenburg-West Pomerania",
+          "de": "Mecklenburg-Vorpommern"
+        },
+        "validRelativeFrequency": 2.82,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "validRelativeFrequency": 6.78,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 24,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Saxony-Anhalt",
+          "de": "Sachsen-Anhalt"
+        },
+        "validRelativeFrequency": 2.54,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "validRelativeFrequency": 4.8,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "16"
+      }
+    ],
+    "totalValidRelativeFrequency": 1.26,
+    "totalValidAbsoluteFrequency": 354,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 630,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer; Länder von ausländische Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Zuordnung von Hochschulen zu Bundesländern wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The federal states were generated from the coded data on institutions of higher education. The generated data only includes federal states; countries of foreign universities were placed under ‘not applicable’. The Destatis key directory for student and examination statistics (winter semester 2007/08) (see cl-destatis-studienfach-2008) was used for the allocation of higher education institutions to federal states.",
+      "de": "Die Bundesländer wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich Bundesländer; Länder von ausländische Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Zuordnung von Hochschulen zu Bundesländern wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 1.26,
-    "statistics": {
-      "mode": "9"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Schleswig-Holstein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.85,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Hamburg"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.69,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": null,
-          "de": "Niedersachsen"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 7.34,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "Bremen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.69,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 47,
-        "label": {
-          "en": null,
-          "de": "Nordrhein-Westfalen"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 13.28,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": null,
-          "de": "Hessen"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 7.06,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "Rheinland-Pfalz"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 6.5,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 53,
-        "label": {
-          "en": null,
-          "de": "Baden-Württemberg"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 14.97,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 72,
-        "label": {
-          "en": null,
-          "de": "Bayern"
-        },
-        "relativeFrequency": 0.26,
-        "validRelativeFrequency": 20.34,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Saarland"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 0.28,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "Berlin"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 5.93,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": "Brandenburg"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 3.11,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "Mecklenburg-Vorpommern"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 2.82,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": null,
-          "de": "Sachsen"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 6.78,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "Sachsen-Anhalt"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2.54,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "Thüringen"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 4.8,
-        "value": "16"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 354,
-    "missings": [
-      {
-        "absoluteFrequency": 3277,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 11.63,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.14,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu217d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 630,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "7th activity: federal state of higher education institution",
+    "de": "7. Tätigkeit: Bundesland der HS"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

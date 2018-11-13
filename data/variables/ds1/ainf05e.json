@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: HS-Lehrer(innen)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 115,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nInstitutionen/Personen\r\nHochschullehrer/innen"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 37.2,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "538.1838",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.68,
+        "absoluteFrequency": 1318,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 47.59,
+        "absoluteFrequency": 13413,
+        "code": -988
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 735,
         "label": {
-          "en": null,
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
-        "relativeFrequency": 2.61,
         "validRelativeFrequency": 7.01,
+        "relativeFrequency": 2.61,
+        "absoluteFrequency": 735,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1987,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 7.05,
         "validRelativeFrequency": 18.95,
+        "relativeFrequency": 7.05,
+        "absoluteFrequency": 1987,
         "value": "2"
       },
       {
-        "absoluteFrequency": 2674,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 9.49,
         "validRelativeFrequency": 25.5,
+        "relativeFrequency": 9.49,
+        "absoluteFrequency": 2674,
         "value": "3"
       },
       {
-        "absoluteFrequency": 2726,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 9.67,
         "validRelativeFrequency": 26,
+        "relativeFrequency": 9.67,
+        "absoluteFrequency": 2726,
         "value": "4"
       },
       {
-        "absoluteFrequency": 2363,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
-        "relativeFrequency": 8.38,
         "validRelativeFrequency": 22.54,
+        "relativeFrequency": 8.38,
+        "absoluteFrequency": 2363,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 37.2,
     "totalValidAbsoluteFrequency": 10485,
-    "missings": [
-      {
-        "absoluteFrequency": 1318,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.68,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 13413,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 47.59,
-        "code": -988
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nInstitutionen/Personen\nHochschullehrer/innen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 115,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: professors",
+    "de": "Informationsquelle Zukunft: HS-Lehrer(innen)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

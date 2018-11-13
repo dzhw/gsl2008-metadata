@@ -1,102 +1,114 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Alternative Qualifizierung: Art der Ausbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was werden/wollen Sie statt dessen tun?\r\neine (andere) Berufsausbildung absolvieren, und zwar:"
+      },
+      "questionNumber": "30",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "13",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 21.01,
+        "absoluteFrequency": 5921,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "vocational school",
+          "de": "Berufsfachschule"
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "vocational training (apprenticeship)",
+          "de": "betriebliche Ausbildung (Lehre)"
+        },
+        "validRelativeFrequency": 75,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "13"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.04,
+    "totalValidAbsoluteFrequency": 12,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 314,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Arten der Ausbildung in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on types of education in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Arten der Ausbildung in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.04,
-    "statistics": {
-      "mode": "13"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Berufsfachschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 25,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "betriebliche Ausbildung (Lehre)"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 75,
-        "value": "13"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 12,
-    "missings": [
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 5921,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 21.01,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "30",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was werden/wollen Sie statt dessen tun?\neine (andere) Berufsausbildung absolvieren, und zwar:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 314,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "Alternative qualification: type of education",
+    "de": "Alternative Qualifizierung: Art der Ausbildung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

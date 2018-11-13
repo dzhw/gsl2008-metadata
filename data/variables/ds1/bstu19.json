@@ -1,131 +1,143 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welcher Art wird das Masterstudium voraussichtlich sein?"
+      },
+      "questionNumber": "28",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.47,
+        "absoluteFrequency": 133,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 12.46,
+        "absoluteFrequency": 3512,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "full-time",
+          "de": "Vollzeit"
+        },
+        "validRelativeFrequency": 56.56,
+        "relativeFrequency": 4.59,
+        "absoluteFrequency": 1294,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "part-time",
+          "de": "Teilzeit"
+        },
+        "validRelativeFrequency": 1.57,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "accompanying studies",
+          "de": "berufsbegleitend"
+        },
+        "validRelativeFrequency": 9.83,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 225,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "don’t know yet",
+          "de": "weiß noch nicht"
+        },
+        "validRelativeFrequency": 32.04,
+        "relativeFrequency": 2.6,
+        "absoluteFrequency": 733,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 8.12,
+    "totalValidAbsoluteFrequency": 2288,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 312,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "type of master’s degree planned",
+    "de": "Art geplantes Masterstudium"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Art geplantes Masterstudium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 312,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 8.12,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1294,
-        "label": {
-          "en": null,
-          "de": "Vollzeit"
-        },
-        "relativeFrequency": 4.59,
-        "validRelativeFrequency": 56.56,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "Teilzeit"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 1.57,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 225,
-        "label": {
-          "en": null,
-          "de": "berufsbegleitend"
-        },
-        "relativeFrequency": 0.8,
-        "validRelativeFrequency": 9.83,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 733,
-        "label": {
-          "en": null,
-          "de": "weiß noch nicht"
-        },
-        "relativeFrequency": 2.6,
-        "validRelativeFrequency": 32.04,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2288,
-    "missings": [
-      {
-        "absoluteFrequency": 133,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.47,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3512,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 12.46,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "28",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welcher Art wird das Masterstudium voraussichtlich sein?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

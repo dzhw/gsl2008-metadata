@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Stärke: sportlich"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-ski01g",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 50,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Kein Mensch ist auf allen Gebieten gleich leistungsstark. In welchen der folgenden Bereiche liegen Ihre Stärken, in welchen Ihre Schwächen?\r\nim sportlichen Bereich"
+      },
+      "questionNumber": "06",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.05,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "3315.094",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.95,
+        "absoluteFrequency": 269,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 8119,
         "label": {
-          "en": null,
+          "en": "strong",
           "de": "stark"
         },
-        "relativeFrequency": 28.81,
         "validRelativeFrequency": 29.09,
+        "relativeFrequency": 28.81,
+        "absoluteFrequency": 8119,
         "value": "1"
       },
       {
-        "absoluteFrequency": 8733,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 30.99,
         "validRelativeFrequency": 31.29,
+        "relativeFrequency": 30.99,
+        "absoluteFrequency": 8733,
         "value": "2"
       },
       {
-        "absoluteFrequency": 6497,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 23.05,
         "validRelativeFrequency": 23.28,
+        "relativeFrequency": 23.05,
+        "absoluteFrequency": 6497,
         "value": "3"
       },
       {
-        "absoluteFrequency": 2953,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 10.48,
         "validRelativeFrequency": 10.58,
+        "relativeFrequency": 10.48,
+        "absoluteFrequency": 2953,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1611,
         "label": {
-          "en": null,
+          "en": "weak",
           "de": "schwach"
         },
-        "relativeFrequency": 5.72,
         "validRelativeFrequency": 5.77,
+        "relativeFrequency": 5.72,
+        "absoluteFrequency": 1611,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 99.05,
     "totalValidAbsoluteFrequency": 27913,
-    "missings": [
-      {
-        "absoluteFrequency": 269,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.95,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "06",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Kein Mensch ist auf allen Gebieten gleich leistungsstark. In welchen der folgenden Bereiche liegen Ihre Stärken, in welchen Ihre Schwächen?\nim sportlichen Bereich"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-ski01g",
+  "surveyNumbers": [1],
+  "indexInDataSet": 50,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "strengths: athletic",
+    "de": "Stärke: sportlich"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

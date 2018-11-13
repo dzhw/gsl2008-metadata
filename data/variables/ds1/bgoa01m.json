@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Ziel: sicherer Arbeitsplatz"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-goa01m",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 415,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\r\nMir geht es darum, einen sicheren Arbeitsplatz zu haben"
+      },
+      "questionNumber": "47",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.99,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "713.1306",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 18,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 3532,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 12.53,
         "validRelativeFrequency": 59.71,
+        "relativeFrequency": 12.53,
+        "absoluteFrequency": 3532,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1705,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 6.05,
         "validRelativeFrequency": 28.83,
+        "relativeFrequency": 6.05,
+        "absoluteFrequency": 1705,
         "value": "2"
       },
       {
-        "absoluteFrequency": 518,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 1.84,
         "validRelativeFrequency": 8.76,
+        "relativeFrequency": 1.84,
+        "absoluteFrequency": 518,
         "value": "3"
       },
       {
-        "absoluteFrequency": 123,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 0.44,
         "validRelativeFrequency": 2.08,
+        "relativeFrequency": 0.44,
+        "absoluteFrequency": 123,
         "value": "4"
       },
       {
-        "absoluteFrequency": 37,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 0.13,
         "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 37,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.99,
     "totalValidAbsoluteFrequency": 5915,
-    "missings": [
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.06,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "47",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\nMir geht es darum, einen sicheren Arbeitsplatz zu haben"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-goa01m",
+  "surveyNumbers": [2],
+  "indexInDataSet": 415,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "aim: secure workplace",
+    "de": "Ziel: sicherer Arbeitsplatz"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

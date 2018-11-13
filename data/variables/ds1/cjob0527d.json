@@ -1,114 +1,114 @@
 {
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 963.69,
+      "mode": "multimodal",
+      "highWhisker": 2300,
+      "lowWhisker": 1000,
+      "thirdQuartile": "1975",
+      "firstQuartile": "1325",
+      "standardDeviation": 919.2388,
+      "median": "1650",
+      "kurtosis": 1,
+      "skewness": 0,
+      "maximum": "2300",
+      "minimum": "1000",
+      "meanValue": 1650
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.91,
+        "absoluteFrequency": 3076,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.1,
+        "absoluteFrequency": 593,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "1000"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "2300"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.01,
+    "totalValidAbsoluteFrequency": 2,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1102,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "7th job: net monthly income",
+    "de": "7. Job: Netto-Monatseinkommen"
+  },
   "scaleLevel": {
     "en": "ratio",
     "de": "verhältnis"
   },
-  "label": {
-    "en": null,
-    "de": "7. Job: Netto-Monatseinkommen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1102,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.01,
-    "statistics": {
-      "firstQuartile": "1325",
-      "highWhisker": 2300,
-      "lowWhisker": 1000,
-      "skewness": 0,
-      "minimum": "1000",
-      "thirdQuartile": "1975",
-      "meanDeviation": "0",
-      "meanValue": 1650,
-      "maximum": "2300",
-      "mode": "multimodal",
-      "median": "1650",
-      "standardDeviation": 919.2388,
-      "kurtosis": 1
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 50,
-        "value": "1000"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 50,
-        "value": "2300"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2,
-    "missings": [
-      {
-        "absoluteFrequency": 3076,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 10.91,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 593,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.1,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": null,
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

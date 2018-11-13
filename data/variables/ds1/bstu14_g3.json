@@ -1,119 +1,131 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "2. Qualifikation: Staat einer ausl. Hochschule"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-bstu14",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Angaben zum möglichen/beabsichtigten Studium:"
+      },
+      "questionNumber": "24",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "9990",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.36,
+        "absoluteFrequency": 101,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.89,
+        "absoluteFrequency": 252,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 17.8,
+        "absoluteFrequency": 5017,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 1.89,
+        "absoluteFrequency": 534,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Higher education institutions abroad",
+          "de": "Hochschulen im Ausland"
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 29,
+        "value": "9990"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.1,
+    "totalValidAbsoluteFrequency": 29,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 298,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9). Staaten mit nur einer Hochschule wurden als sonstige Staaten zusammengefasst."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The foreign countries were generated from the coded data on institutions of higher education. The generated data only includes the countries of foreign universities; German universities were placed under ‘not applicable’. A project-specific code list (see cl-dzhw-9) was used for the countries. Countries with only one college or university were pooled together as ‘other countries’.",
+      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9). Staaten mit nur einer Hochschule wurden als sonstige Staaten zusammengefasst."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.1,
-    "statistics": {
-      "mode": "9990"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": null,
-          "de": "Hochschulen im Ausland"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 100,
-        "value": "9990"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 29,
-    "missings": [
-      {
-        "absoluteFrequency": 101,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 0.36,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 252,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.89,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 5017,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 17.8,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 534,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 1.89,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "24",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Angaben zum möglichen/beabsichtigten Studium:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-bstu14",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 298,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd qualification: country of a foreign institute of higher education",
+    "de": "2. Qualifikation: Staat einer ausl. Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,70 +1,84 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "17. Tätigkeit: Erwerbstätigkeit (KldB-1992-Berufsordnung) (3-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0417",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": null,
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.03,
+        "absoluteFrequency": 3671,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": null,
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 0,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 858,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Berufsordnungen wurden aus den codierten Angaben zum Beruf generiert. Die Zuordnung ergibt sich auf Grundlage der Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The rankings of occupations were generated from the coded entries for occupations. The classification is based on the 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992).",
+      "de": "Die Berufsordnungen wurden aus den codierten Angaben zum Beruf generiert. Die Zuordnung ergibt sich auf Grundlage der Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 0,
-    "missings": [
-      {
-        "absoluteFrequency": 3671,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.03,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0417",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 858,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "17th activity: gainful activity (Ger. Class. of Occ. 1992) (3-dig.)",
+    "de": "17. Tätigkeit: Erwerbstätigkeit (KldB-1992-Berufsordnung) (3-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

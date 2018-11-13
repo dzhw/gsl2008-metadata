@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Berufs- und Lebensziel: beruflicher Aufstieg"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-goa01e",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1258,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\r\nMir geht es darum, …\r\nChancen für den beruflichen Aufstieg zu bekommen"
+      },
+      "questionNumber": "8.1",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.88,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "778.365",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 42,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 902,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 3.2,
         "validRelativeFrequency": 24.86,
+        "relativeFrequency": 3.2,
+        "absoluteFrequency": 902,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1532,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 5.44,
         "validRelativeFrequency": 42.22,
+        "relativeFrequency": 5.44,
+        "absoluteFrequency": 1532,
         "value": "2"
       },
       {
-        "absoluteFrequency": 820,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 2.91,
         "validRelativeFrequency": 22.6,
+        "relativeFrequency": 2.91,
+        "absoluteFrequency": 820,
         "value": "3"
       },
       {
-        "absoluteFrequency": 295,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.05,
         "validRelativeFrequency": 8.13,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 295,
         "value": "4"
       },
       {
-        "absoluteFrequency": 80,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 0.28,
         "validRelativeFrequency": 2.2,
+        "relativeFrequency": 0.28,
+        "absoluteFrequency": 80,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 12.88,
     "totalValidAbsoluteFrequency": 3629,
-    "missings": [
-      {
-        "absoluteFrequency": 42,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.15,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "8.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark verfolgen Sie die nachstehenden Berufs- und Lebensziele?\nMir geht es darum, …\nChancen für den beruflichen Aufstieg zu bekommen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-goa01e",
+  "surveyNumbers": [3],
+  "indexInDataSet": 1258,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "career and life goals: professional advancement",
+    "de": "Berufs- und Lebensziel: beruflicher Aufstieg"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

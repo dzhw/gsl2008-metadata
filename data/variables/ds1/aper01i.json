@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Persönlichkeit: nervös/unsicher"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 140,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\r\nIch werde leicht nervös und unsicher."
+      },
+      "questionNumber": "26",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.94,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "5122.383",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.06,
+        "absoluteFrequency": 863,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1120,
         "label": {
-          "en": null,
+          "en": "totally applicable",
           "de": "trifft voll und ganz zu"
         },
-        "relativeFrequency": 3.97,
         "validRelativeFrequency": 4.1,
+        "relativeFrequency": 3.97,
+        "absoluteFrequency": 1120,
         "value": "1"
       },
       {
-        "absoluteFrequency": 4575,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 16.23,
         "validRelativeFrequency": 16.75,
+        "relativeFrequency": 16.23,
+        "absoluteFrequency": 4575,
         "value": "2"
       },
       {
-        "absoluteFrequency": 9372,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 33.26,
         "validRelativeFrequency": 34.31,
+        "relativeFrequency": 33.26,
+        "absoluteFrequency": 9372,
         "value": "3"
       },
       {
-        "absoluteFrequency": 8838,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 31.36,
         "validRelativeFrequency": 32.35,
+        "relativeFrequency": 31.36,
+        "absoluteFrequency": 8838,
         "value": "4"
       },
       {
-        "absoluteFrequency": 3414,
         "label": {
-          "en": null,
+          "en": "not applicable at all",
           "de": "trifft überhaupt nicht zu"
         },
-        "relativeFrequency": 12.11,
         "validRelativeFrequency": 12.5,
+        "relativeFrequency": 12.11,
+        "absoluteFrequency": 3414,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 96.94,
     "totalValidAbsoluteFrequency": 27319,
-    "missings": [
-      {
-        "absoluteFrequency": 863,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.06,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "26",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die Planung des eigenen Qualifizierungsweges wird auch durch Persönlichkeitseigenschaften beeinflusst. Inwieweit treffen folgende Aussagen auf Sie zu?\nIch werde leicht nervös und unsicher."
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 140,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "personality: nervous/insecure",
+    "de": "Persönlichkeit: nervös/unsicher"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

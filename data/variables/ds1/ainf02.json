@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsgrad über Studium/Ausbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 104,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie fühlen Sie sich bei Ihren Überlegungen über die verschiedenen für Sie in Frage kommenden Studien- und Ausbildungsmöglichkeiten informiert?"
+      },
+      "questionNumber": "23",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.35,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "5197.996",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.65,
+        "absoluteFrequency": 465,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1390,
         "label": {
-          "en": null,
+          "en": "comprehensive",
           "de": "umfassend"
         },
-        "relativeFrequency": 4.93,
         "validRelativeFrequency": 5.01,
+        "relativeFrequency": 4.93,
+        "absoluteFrequency": 1390,
         "value": "1"
       },
       {
-        "absoluteFrequency": 6055,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 21.49,
         "validRelativeFrequency": 21.85,
+        "relativeFrequency": 21.49,
+        "absoluteFrequency": 6055,
         "value": "2"
       },
       {
-        "absoluteFrequency": 11407,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 40.48,
         "validRelativeFrequency": 41.16,
+        "relativeFrequency": 40.48,
+        "absoluteFrequency": 11407,
         "value": "3"
       },
       {
-        "absoluteFrequency": 6316,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 22.41,
         "validRelativeFrequency": 22.79,
+        "relativeFrequency": 22.41,
+        "absoluteFrequency": 6316,
         "value": "4"
       },
       {
-        "absoluteFrequency": 2549,
         "label": {
-          "en": null,
+          "en": "insufficient",
           "de": "unzureichend"
         },
-        "relativeFrequency": 9.04,
         "validRelativeFrequency": 9.2,
+        "relativeFrequency": 9.04,
+        "absoluteFrequency": 2549,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 98.35,
     "totalValidAbsoluteFrequency": 27717,
-    "missings": [
-      {
-        "absoluteFrequency": 465,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.65,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "23",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie fühlen Sie sich bei Ihren Überlegungen über die verschiedenen für Sie in Frage kommenden Studien- und Ausbildungsmöglichkeiten informiert?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 104,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "level of information on studying/vocational training",
+    "de": "Informationsgrad über Studium/Ausbildung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

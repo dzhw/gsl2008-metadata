@@ -1,142 +1,154 @@
 {
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "21",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.9,
+        "absoluteFrequency": 3071,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.1,
+        "absoluteFrequency": 593,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "research assistant/tutor/trainer",
+          "de": "wissenschaftliche Hilfskraft/Tutor/Übungsleiter"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "working student/student job",
+          "de": "Werkstudent(in)/Studentenjob"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "holiday job/summer job",
+          "de": "Ferienjob/Sommerjob"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "internship",
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "casual work/side job",
+          "de": "Jobben/Nebenjob"
+        },
+        "validRelativeFrequency": 28.57,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": "assistant",
+          "de": "Hilfskraft (Hiwi)"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "30"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.02,
+    "totalValidAbsoluteFrequency": 7,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1089,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "6th job: occupation type",
+    "de": "6. Job: Art der Tätigkeit"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "6. Job: Art der Tätigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1089,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.02,
-    "statistics": {
-      "mode": "21"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "wissenschaftliche Hilfskraft/Tutor/Übungsleiter"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Werkstudent(in)/Studentenjob"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Ferienjob/Sommerjob"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Praktikum"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Jobben/Nebenjob"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 28.57,
-        "value": "21"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Hilfskraft (Hiwi)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 14.29,
-        "value": "30"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7,
-    "missings": [
-      {
-        "absoluteFrequency": 3071,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 10.9,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 593,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.1,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": null,
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

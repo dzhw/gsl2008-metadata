@@ -1,132 +1,144 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Hatten Sie bis zum Abgang von der Schule, an der Sie die Hochschulereife erworben haben, den Wunsch zu studieren?"
+      },
+      "questionNumber": "11",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "as soon as possible",
+          "de": "so bald wie möglich"
+        },
+        "validRelativeFrequency": 59.2,
+        "relativeFrequency": 12.43,
+        "absoluteFrequency": 3502,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "after vocational training",
+          "de": "nach Berufsausbildung"
+        },
+        "validRelativeFrequency": 8.62,
+        "relativeFrequency": 1.81,
+        "absoluteFrequency": 510,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "after other activity",
+          "de": "nach anderer Tätigkeit"
+        },
+        "validRelativeFrequency": 14.44,
+        "relativeFrequency": 3.03,
+        "absoluteFrequency": 854,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "was still undecided",
+          "de": "war noch unentschlossen"
+        },
+        "validRelativeFrequency": 9.48,
+        "relativeFrequency": 1.99,
+        "absoluteFrequency": 561,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no, I didn’t want to study",
+          "de": "nein, ich wollte nicht studieren"
+        },
+        "validRelativeFrequency": 8.27,
+        "relativeFrequency": 1.74,
+        "absoluteFrequency": 489,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.99,
+    "totalValidAbsoluteFrequency": 5916,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 197,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "study ambition during school time?",
+    "de": "Studienwunsch während der Schulzeit?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Studienwunsch während der Schulzeit?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 197,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.99,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3502,
-        "label": {
-          "en": null,
-          "de": "so bald wie möglich"
-        },
-        "relativeFrequency": 12.43,
-        "validRelativeFrequency": 59.2,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 510,
-        "label": {
-          "en": null,
-          "de": "nach Berufsausbildung"
-        },
-        "relativeFrequency": 1.81,
-        "validRelativeFrequency": 8.62,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 854,
-        "label": {
-          "en": null,
-          "de": "nach anderer Tätigkeit"
-        },
-        "relativeFrequency": 3.03,
-        "validRelativeFrequency": 14.44,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 561,
-        "label": {
-          "en": null,
-          "de": "war noch unentschlossen"
-        },
-        "relativeFrequency": 1.99,
-        "validRelativeFrequency": 9.48,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 489,
-        "label": {
-          "en": null,
-          "de": "nein, ich wollte nicht studieren"
-        },
-        "relativeFrequency": 1.74,
-        "validRelativeFrequency": 8.27,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5916,
-    "missings": [
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.06,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "11",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Hatten Sie bis zum Abgang von der Schule, an der Sie die Hochschulereife erworben haben, den Wunsch zu studieren?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

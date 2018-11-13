@@ -1,262 +1,274 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schwierigkeit: andere (Nennung)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-adec02j",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\r\netwas anderes:"
+      },
+      "questionNumber": "17",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "7",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 89.23,
+        "absoluteFrequency": 25146,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 6.92,
+        "absoluteFrequency": 1951,
+        "code": -988
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "poor average grades",
+          "de": "schlechter Notendurchschnitt"
+        },
+        "validRelativeFrequency": 3.41,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 37,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "ambiguity surrounding job profile",
+          "de": "Unklarheit über Berufsbild"
+        },
+        "validRelativeFrequency": 4.15,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 45,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "place of study",
+          "de": "Studienort"
+        },
+        "validRelativeFrequency": 11.34,
+        "relativeFrequency": 0.44,
+        "absoluteFrequency": 123,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "family/friends, family reasons",
+          "de": "Familie/Freunde, familiäre Gründe"
+        },
+        "validRelativeFrequency": 9.86,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 107,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "inability to decide",
+          "de": "mangelnde Entschlussfähigkeit"
+        },
+        "validRelativeFrequency": 16.96,
+        "relativeFrequency": 0.65,
+        "absoluteFrequency": 184,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "excess interest",
+          "de": "Interessenübermaß"
+        },
+        "validRelativeFrequency": 4.06,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 44,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "lack of training places",
+          "de": "Ausbildungsplatz-/Stellenmangel"
+        },
+        "validRelativeFrequency": 12.9,
+        "relativeFrequency": 0.5,
+        "absoluteFrequency": 140,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "health issues",
+          "de": "Gesundheitsprobleme"
+        },
+        "validRelativeFrequency": 1.75,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 19,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "ambiguity surrounding earning potential",
+          "de": "Unklarheit über Verdienstmöglichkeiten"
+        },
+        "validRelativeFrequency": 1.2,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "lack of time",
+          "de": "Zeitmangel"
+        },
+        "validRelativeFrequency": 2.21,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 24,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "uncertainty regarding BA/MA",
+          "de": "Unsicherheit bzgl. B.A./M.A."
+        },
+        "validRelativeFrequency": 0.83,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 9,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "duration of studies/vocational training",
+          "de": "Ausbildungs-/Studiendauer"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "lack of motivation",
+          "de": "mangelnde Motivation"
+        },
+        "validRelativeFrequency": 2.12,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "choice of subjects",
+          "de": "Studienfachwahl"
+        },
+        "validRelativeFrequency": 0.92,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "entrance restriction/qualification for vocational training",
+          "de": "Zugangsbeschränkung/Qualifikation für Ausbildung"
+        },
+        "validRelativeFrequency": 2.95,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 32,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "lack of knowledge",
+          "de": "mangelnde Kenntnisse"
+        },
+        "validRelativeFrequency": 2.03,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 22,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "organisational and procedure",
+          "de": "Organisatorisches und Ablauf"
+        },
+        "validRelativeFrequency": 9.31,
+        "relativeFrequency": 0.36,
+        "absoluteFrequency": 101,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "sonstiges"
+        },
+        "validRelativeFrequency": 13.27,
+        "relativeFrequency": 0.51,
+        "absoluteFrequency": 144,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.85,
+    "totalValidAbsoluteFrequency": 1085,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 94,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Nennungen anderer Schwierigkeiten in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The variable contains the openly recorded entries on the difficulties in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Nennungen anderer Schwierigkeiten in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 3.85,
-    "statistics": {
-      "mode": "7"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": null,
-          "de": "schlechter Notendurchschnitt"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 3.41,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": null,
-          "de": "Unklarheit über Berufsbild"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 4.15,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 123,
-        "label": {
-          "en": null,
-          "de": "Studienort"
-        },
-        "relativeFrequency": 0.44,
-        "validRelativeFrequency": 11.34,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 107,
-        "label": {
-          "en": null,
-          "de": "Familie/Freunde, familiäre Gründe"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 9.86,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 184,
-        "label": {
-          "en": null,
-          "de": "mangelnde Entschlussfähigkeit"
-        },
-        "relativeFrequency": 0.65,
-        "validRelativeFrequency": 16.96,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": null,
-          "de": "Interessenübermaß"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 4.06,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 140,
-        "label": {
-          "en": null,
-          "de": "Ausbildungsplatz-/Stellenmangel"
-        },
-        "relativeFrequency": 0.5,
-        "validRelativeFrequency": 12.9,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": null,
-          "de": "Gesundheitsprobleme"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 1.75,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "Unklarheit über Verdienstmöglichkeiten"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 1.2,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": null,
-          "de": "Zeitmangel"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 2.21,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": "Unsicherheit bzgl. B.A./M.A."
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.83,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Ausbildungs-/Studiendauer"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.74,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "mangelnde Motivation"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 2.12,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "Studienfachwahl"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.92,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 32,
-        "label": {
-          "en": null,
-          "de": "Zugangsbeschränkung/Qualifikation für Ausbildung"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 2.95,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": null,
-          "de": "mangelnde Kenntnisse"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 2.03,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 101,
-        "label": {
-          "en": null,
-          "de": "Organisatorisches und Ablauf"
-        },
-        "relativeFrequency": 0.36,
-        "validRelativeFrequency": 9.31,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 144,
-        "label": {
-          "en": null,
-          "de": "sonstiges"
-        },
-        "relativeFrequency": 0.51,
-        "validRelativeFrequency": 13.27,
-        "value": "20"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1085,
-    "missings": [
-      {
-        "absoluteFrequency": 25146,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 89.23,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 1951,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 6.92,
-        "code": -988
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was bereitet Ihnen persönlich besondere Schwierigkeiten und Probleme bei der Wahl Ihres nachschulischen Werdegangs?\netwas anderes:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-adec02j",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 94,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulty: other (entry)",
+    "de": "Schwierigkeit: andere (Nennung)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

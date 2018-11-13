@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Grund Studienpause: Nennung sonstiger Gründe"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Aus welchen Gründen legen Sie diese Studienpause ein?\r\nSonstiges, und zwar:\r\n(z. B. Auslandsaufenthalt, Praktikum)"
+      },
+      "questionNumber": "5.8",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.98,
+        "absoluteFrequency": 277,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 11.62,
+        "absoluteFrequency": 3275,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "health/family",
+          "de": "Gesundheit/Familie"
+        },
+        "validRelativeFrequency": 8.4,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "experience/stay abroad",
+          "de": "Auslanderfahrung, -aufenthalt"
+        },
+        "validRelativeFrequency": 36.13,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 43,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "internship",
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 30.25,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "first something different, break from everyday life",
+          "de": "erst mal was anderes, raus aus Alltag"
+        },
+        "validRelativeFrequency": 3.36,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "leisure time",
+          "de": "Freizeit"
+        },
+        "validRelativeFrequency": 2.52,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "sonstiges"
+        },
+        "validRelativeFrequency": 19.33,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.42,
+    "totalValidAbsoluteFrequency": 119,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1201,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Gründe für eine Studienpause in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly collected data on reasons for taking a break in studies in coded form. A code list was also created based on the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Gründe für eine Studienpause in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.42,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": "Gesundheit/Familie"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 8.4,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 43,
-        "label": {
-          "en": null,
-          "de": "Auslanderfahrung, -aufenthalt"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 36.13,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": null,
-          "de": "Praktikum"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 30.25,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "erst mal was anderes, raus aus Alltag"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.36,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Freizeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 2.52,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "sonstiges"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 19.33,
-        "value": "20"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 119,
-    "missings": [
-      {
-        "absoluteFrequency": 277,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.98,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3275,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 11.62,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.8",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Aus welchen Gründen legen Sie diese Studienpause ein?\nSonstiges, und zwar:\n(z. B. Auslandsaufenthalt, Praktikum)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1201,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason for study break: name other reasons",
+    "de": "Grund Studienpause: Nennung sonstiger Gründe"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

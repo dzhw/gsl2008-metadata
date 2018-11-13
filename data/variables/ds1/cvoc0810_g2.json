@@ -1,83 +1,95 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "10. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsordnung) (3-Steller)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc0810",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "780",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.02,
+        "absoluteFrequency": 3670,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Office administrators, administrators without designation",
+          "de": "Bürofachkräfte, Kaufmännische Angestellte o.n.A."
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "780"
+      }
+    ],
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 1,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 702,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Berufsbereiche wurden aus den codierten Angaben zum Ausbildungsberuf generiert. Die Zuordnung ergibt sich auf Grundlage der Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The occupational fields were generated from the coded information on qualified occupations. The classification is based on the 1992 edition of the Destatis classification of occupations (KldB-92) (cl-destatis-kldb-1992).",
+      "de": "Die Berufsbereiche wurden aus den codierten Angaben zum Ausbildungsberuf generiert. Die Zuordnung ergibt sich auf Grundlage der Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0,
-    "statistics": {
-      "mode": "780"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bürofachkräfte, Kaufmännische Angestellte o.n.A."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 100,
-        "value": "780"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1,
-    "missings": [
-      {
-        "absoluteFrequency": 3670,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cvoc0810",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 702,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "10th activity: qualified occupation (Ger. Class. of Occ. 1992) (3-dig.)",
+    "de": "10. Tätigkeit: Ausbildungsberuf (KldB-1992-Berufsordnung) (3-Steller)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

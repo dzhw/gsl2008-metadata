@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Informationsquelle Zukunft: spezielle Bücher/Zeitschriften"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 110,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\r\nMedien\r\nspezielle Bücher und Zeitschriften zur Studien-/Ausbildungswahl"
+      },
+      "questionNumber": "25",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 71.55,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "2582.689",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.8,
+        "absoluteFrequency": 1071,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 10.52,
+        "absoluteFrequency": 2966,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 14.13,
+        "absoluteFrequency": 3981,
+        "code": -988
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 3893,
         "label": {
-          "en": null,
+          "en": "very helpful",
           "de": "sehr hilfreich"
         },
-        "relativeFrequency": 13.81,
         "validRelativeFrequency": 19.31,
+        "relativeFrequency": 13.81,
+        "absoluteFrequency": 3893,
         "value": "1"
       },
       {
-        "absoluteFrequency": 7751,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 27.5,
         "validRelativeFrequency": 38.44,
+        "relativeFrequency": 27.5,
+        "absoluteFrequency": 7751,
         "value": "2"
       },
       {
-        "absoluteFrequency": 5459,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 19.37,
         "validRelativeFrequency": 27.07,
+        "relativeFrequency": 19.37,
+        "absoluteFrequency": 5459,
         "value": "3"
       },
       {
-        "absoluteFrequency": 2151,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 7.63,
         "validRelativeFrequency": 10.67,
+        "relativeFrequency": 7.63,
+        "absoluteFrequency": 2151,
         "value": "4"
       },
       {
-        "absoluteFrequency": 910,
         "label": {
-          "en": null,
+          "en": "not helpful",
           "de": "nicht hilfreich"
         },
-        "relativeFrequency": 3.23,
         "validRelativeFrequency": 4.51,
+        "relativeFrequency": 3.23,
+        "absoluteFrequency": 910,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 71.55,
     "totalValidAbsoluteFrequency": 20164,
-    "missings": [
-      {
-        "absoluteFrequency": 1071,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 3.8,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 2966,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 10.52,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 3981,
-        "label": {
-          "en": null,
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 14.13,
-        "code": -988
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Schätzen Sie bitte ein, in welchem Maße Sie aus den folgenden Quellen wichtige Informationen für Ihre Studien-/Ausbildungsplanung erhalten haben und wie hilfreich diese waren.\nMedien\nspezielle Bücher und Zeitschriften zur Studien-/Ausbildungswahl"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 110,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future source of information: specialist books/magazines",
+    "de": "Informationsquelle Zukunft: spezielle Bücher/Zeitschriften"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

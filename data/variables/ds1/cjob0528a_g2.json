@@ -1,92 +1,104 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "8. Job: Arbeitsort (PLZ-Leitregion)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0528a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1109,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfasste Angaben zum Ort einer Arbeit im Studium in codierter Form. Dabei wurden die ersten beiden Stellen der Postleitzahlen als Codierliste verwendet. Angaben zu einem Ort im Ausland wurden in einer gesonderten Variable erfasst."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": null,
   "distribution": {
-    "totalValidRelativeFrequency": 0,
     "statistics": {
-      "mode": "23"
+      "meanDeviation": null,
+      "mode": "23",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.92,
+        "absoluteFrequency": 3077,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.1,
+        "absoluteFrequency": 593,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1,
         "label": {
           "en": null,
           "de": null
         },
-        "relativeFrequency": 0,
         "validRelativeFrequency": 100,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
         "value": "23"
       }
     ],
+    "totalValidRelativeFrequency": 0,
     "totalValidAbsoluteFrequency": 1,
-    "missings": [
-      {
-        "absoluteFrequency": 3077,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 10.92,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 593,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.1,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": null,
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "This variable contains the openly recorded data on the place of work during studies in coded form. The first two digits of the postcodes were thereby used as a code list. Data on foreign locations were collected in a separate variable.",
+      "de": "Diese Variable enthält die offen erfasste Angaben zum Ort einer Arbeit im Studium in codierter Form. Dabei wurden die ersten beiden Stellen der Postleitzahlen als Codierliste verwendet. Angaben zu einem Ort im Ausland wurden in einer gesonderten Variable erfasst."
+    }
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cjob0528a",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1109,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "8th job: place of work (postcode/routing region )",
+    "de": "8. Job: Arbeitsort (PLZ-Leitregion)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

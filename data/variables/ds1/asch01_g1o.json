@@ -1,153 +1,165 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Schulart (erfragt und aggregiert)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-asch01",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchen Schultyp bzw. Schulzweig besuchen Sie gegenwärtig?"
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": null,
+    "validResponses": [
+      {
+        "label": {
+          "en": "grammar school",
+          "de": "Gymnasium"
+        },
+        "validRelativeFrequency": 50.18,
+        "relativeFrequency": 50.18,
+        "absoluteFrequency": 14143,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "upper secondary level of vocational school",
+          "de": "gymnasiale Oberstufe einer Berufsfachschule"
+        },
+        "validRelativeFrequency": 0.98,
+        "relativeFrequency": 0.98,
+        "absoluteFrequency": 276,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "higher vocational school",
+          "de": "Berufsoberschule"
+        },
+        "validRelativeFrequency": 3.51,
+        "relativeFrequency": 3.51,
+        "absoluteFrequency": 989,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "technical college",
+          "de": "Fachoberschule"
+        },
+        "validRelativeFrequency": 16.77,
+        "relativeFrequency": 16.77,
+        "absoluteFrequency": 4727,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "(upper) vocational school",
+          "de": "(höhere) Berufsfachschule"
+        },
+        "validRelativeFrequency": 5.78,
+        "relativeFrequency": 5.78,
+        "absoluteFrequency": 1629,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "evening school/college",
+          "de": "Abendgymnasium/Kolleg"
+        },
+        "validRelativeFrequency": 2.63,
+        "relativeFrequency": 2.63,
+        "absoluteFrequency": 740,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "technical institute/professional academy",
+          "de": "Fachschule/-akademie"
+        },
+        "validRelativeFrequency": 5.09,
+        "relativeFrequency": 5.09,
+        "absoluteFrequency": 1435,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "comprehensive school/Steiner Waldorf School",
+          "de": "Gesamtschule/Waldorfschule"
+        },
+        "validRelativeFrequency": 5.11,
+        "relativeFrequency": 5.11,
+        "absoluteFrequency": 1439,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "specialised grammar school/upper class in ‘Oberstufenzentrum’ (vocational school in Berlin or Brandenburg)",
+          "de": "Fachgymnasium/gymnasiale Oberstufe im Oberstufenzentrum"
+        },
+        "validRelativeFrequency": 9.95,
+        "relativeFrequency": 9.95,
+        "absoluteFrequency": 2804,
+        "value": "17"
+      }
+    ],
+    "totalValidRelativeFrequency": 100,
+    "totalValidAbsoluteFrequency": 28182,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 11,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen wurden zu neun Ausprägungen zusammengefasst. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-20)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated as part of the anonymisation. The school types were aggregated to nine characteristics. This involved the use of a project-specific code list (see cl-dzhw-20).",
+      "de": "Diese Variable wurde im Rahmen der Anonymisierung aggregiert. Die Schulformen wurden zu neun Ausprägungen zusammengefasst. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-20)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 100,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 14143,
-        "label": {
-          "en": null,
-          "de": "Gymnasium"
-        },
-        "relativeFrequency": 50.18,
-        "validRelativeFrequency": 50.18,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 276,
-        "label": {
-          "en": null,
-          "de": "gymnasiale Oberstufe einer Berufsfachschule"
-        },
-        "relativeFrequency": 0.98,
-        "validRelativeFrequency": 0.98,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 989,
-        "label": {
-          "en": null,
-          "de": "Berufsoberschule"
-        },
-        "relativeFrequency": 3.51,
-        "validRelativeFrequency": 3.51,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 4727,
-        "label": {
-          "en": null,
-          "de": "Fachoberschule"
-        },
-        "relativeFrequency": 16.77,
-        "validRelativeFrequency": 16.77,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1629,
-        "label": {
-          "en": null,
-          "de": "(höhere) Berufsfachschule"
-        },
-        "relativeFrequency": 5.78,
-        "validRelativeFrequency": 5.78,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 740,
-        "label": {
-          "en": null,
-          "de": "Abendgymnasium/Kolleg"
-        },
-        "relativeFrequency": 2.63,
-        "validRelativeFrequency": 2.63,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 1435,
-        "label": {
-          "en": null,
-          "de": "Fachschule/-akademie"
-        },
-        "relativeFrequency": 5.09,
-        "validRelativeFrequency": 5.09,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 1439,
-        "label": {
-          "en": null,
-          "de": "Gesamtschule/Waldorfschule"
-        },
-        "relativeFrequency": 5.11,
-        "validRelativeFrequency": 5.11,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 2804,
-        "label": {
-          "en": null,
-          "de": "Fachgymnasium/gymnasiale Oberstufe im Oberstufenzentrum"
-        },
-        "relativeFrequency": 9.95,
-        "validRelativeFrequency": 9.95,
-        "value": "17"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 28182,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welchen Schultyp bzw. Schulzweig besuchen Sie gegenwärtig?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-asch01",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 11,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of school (asked and aggregated)",
+    "de": "Schulart (erfragt und aggregiert)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

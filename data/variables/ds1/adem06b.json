@@ -1,123 +1,135 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Geben Sie bitte en jeweils höchsten beruflichen Abschluss Ihrer Eltern an.\r\nMutter"
+      },
+      "questionNumber": "33",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.42,
+        "absoluteFrequency": 1246,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "university degree",
+          "de": "Uni-Abschluss"
+        },
+        "validRelativeFrequency": 22.52,
+        "relativeFrequency": 21.53,
+        "absoluteFrequency": 6067,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "degree from advanced technical college/university of applied sciences",
+          "de": "FH-Abschluss"
+        },
+        "validRelativeFrequency": 14.62,
+        "relativeFrequency": 13.98,
+        "absoluteFrequency": 3939,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "master’s certificate, engineering degree",
+          "de": "Meisterprüfung, Technikerabschluss"
+        },
+        "validRelativeFrequency": 3.52,
+        "relativeFrequency": 3.36,
+        "absoluteFrequency": 948,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "apprenticeship",
+          "de": "Lehre"
+        },
+        "validRelativeFrequency": 54.07,
+        "relativeFrequency": 51.68,
+        "absoluteFrequency": 14565,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no vocational qualification",
+          "de": "kein beruflicher Abschluss"
+        },
+        "validRelativeFrequency": 5.26,
+        "relativeFrequency": 5.03,
+        "absoluteFrequency": 1417,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 95.58,
+    "totalValidAbsoluteFrequency": 26936,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 161,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "highest professional qualification: mother",
+    "de": "höchster beruflicher Abschluss: Mutter"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "höchster beruflicher Abschluss: Mutter"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 161,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 95.58,
-    "statistics": {
-      "mode": "4"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 6067,
-        "label": {
-          "en": null,
-          "de": "Uni-Abschluss"
-        },
-        "relativeFrequency": 21.53,
-        "validRelativeFrequency": 22.52,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3939,
-        "label": {
-          "en": null,
-          "de": "FH-Abschluss"
-        },
-        "relativeFrequency": 13.98,
-        "validRelativeFrequency": 14.62,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 948,
-        "label": {
-          "en": null,
-          "de": "Meisterprüfung, Technikerabschluss"
-        },
-        "relativeFrequency": 3.36,
-        "validRelativeFrequency": 3.52,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 14565,
-        "label": {
-          "en": null,
-          "de": "Lehre"
-        },
-        "relativeFrequency": 51.68,
-        "validRelativeFrequency": 54.07,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1417,
-        "label": {
-          "en": null,
-          "de": "kein beruflicher Abschluss"
-        },
-        "relativeFrequency": 5.03,
-        "validRelativeFrequency": 5.26,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 26936,
-    "missings": [
-      {
-        "absoluteFrequency": 1246,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 4.42,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "33",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Geben Sie bitte en jeweils höchsten beruflichen Abschluss Ihrer Eltern an.\nMutter"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,159 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Bedeutung für Werdegang: familiäre Gründe"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-mot01o",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 338,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\r\nfamiliäre Gründe"
+      },
+      "questionNumber": "31",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.07,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "6",
       "highWhisker": 6,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "6",
-      "meanDeviation": "373.6152",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "6",
-      "mode": "6",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.46,
+        "absoluteFrequency": 131,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 147,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 394,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr bedeutend"
         },
-        "relativeFrequency": 1.4,
         "validRelativeFrequency": 6.97,
+        "relativeFrequency": 1.4,
+        "absoluteFrequency": 394,
         "value": "1"
       },
       {
-        "absoluteFrequency": 661,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 2.35,
         "validRelativeFrequency": 11.69,
+        "relativeFrequency": 2.35,
+        "absoluteFrequency": 661,
         "value": "2"
       },
       {
-        "absoluteFrequency": 991,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.52,
         "validRelativeFrequency": 17.52,
+        "relativeFrequency": 3.52,
+        "absoluteFrequency": 991,
         "value": "3"
       },
       {
-        "absoluteFrequency": 921,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 3.27,
         "validRelativeFrequency": 16.29,
+        "relativeFrequency": 3.27,
+        "absoluteFrequency": 921,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1165,
         "label": {
           "en": null,
           "de": "5"
         },
-        "relativeFrequency": 4.13,
         "validRelativeFrequency": 20.6,
+        "relativeFrequency": 4.13,
+        "absoluteFrequency": 1165,
         "value": "5"
       },
       {
-        "absoluteFrequency": 1523,
         "label": {
-          "en": null,
+          "en": "unimportant",
           "de": "bedeutungslos"
         },
-        "relativeFrequency": 5.4,
         "validRelativeFrequency": 26.93,
+        "relativeFrequency": 5.4,
+        "absoluteFrequency": 1523,
         "value": "6"
       }
     ],
+    "totalValidRelativeFrequency": 20.07,
     "totalValidAbsoluteFrequency": 5655,
-    "missings": [
-      {
-        "absoluteFrequency": 131,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.46,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 0.52,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "31",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\nfamiliäre Gründe"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-mot01o",
+  "surveyNumbers": [2],
+  "indexInDataSet": 338,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "importance for career: family reasons",
+    "de": "Bedeutung für Werdegang: familiäre Gründe"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

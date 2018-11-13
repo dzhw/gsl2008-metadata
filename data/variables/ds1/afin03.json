@@ -1,121 +1,125 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie sich mit Ihren Eltern schon über deren Beteiligung an diesen Kosten verständigt?"
+      },
+      "questionNumber": "20",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 1.4826,
+      "mode": "2",
+      "highWhisker": 4,
+      "lowWhisker": 1,
+      "thirdQuartile": "3",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "4",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.32,
+        "absoluteFrequency": 372,
+        "code": -998
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 28.27,
+        "relativeFrequency": 27.89,
+        "absoluteFrequency": 7861,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, but not finalised yet",
+          "de": "ja,aber noch nicht abschließend"
+        },
+        "validRelativeFrequency": 33.26,
+        "relativeFrequency": 32.82,
+        "absoluteFrequency": 9249,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "no, not yet",
+          "de": "nein, noch nicht"
+        },
+        "validRelativeFrequency": 23.94,
+        "relativeFrequency": 23.62,
+        "absoluteFrequency": 6657,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no, I won’t",
+          "de": "nein, werde ich nicht tun"
+        },
+        "validRelativeFrequency": 14.54,
+        "relativeFrequency": 14.35,
+        "absoluteFrequency": 4043,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 98.68,
+    "totalValidAbsoluteFrequency": 27810,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 98,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "parents asked to make contributions to cost of studies?",
+    "de": "Eltern zu Kostenbeteiligung am Studium gefragt?"
+  },
   "scaleLevel": {
     "en": "ordinal",
     "de": "ordinal"
   },
-  "label": {
-    "en": null,
-    "de": "Eltern zu Kostenbeteiligung am Studium gefragt?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 98,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 98.68,
-    "statistics": {
-      "firstQuartile": "1",
-      "highWhisker": 4,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "3",
-      "meanDeviation": "1921.45",
-      "maximum": "4",
-      "mode": "2",
-      "median": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7861,
-        "label": {
-          "en": null,
-          "de": "ja"
-        },
-        "relativeFrequency": 27.89,
-        "validRelativeFrequency": 28.27,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 9249,
-        "label": {
-          "en": null,
-          "de": "ja,aber noch nicht abschließend"
-        },
-        "relativeFrequency": 32.82,
-        "validRelativeFrequency": 33.26,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 6657,
-        "label": {
-          "en": null,
-          "de": "nein, noch nicht"
-        },
-        "relativeFrequency": 23.62,
-        "validRelativeFrequency": 23.94,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 4043,
-        "label": {
-          "en": null,
-          "de": "nein, werde ich nicht tun"
-        },
-        "relativeFrequency": 14.35,
-        "validRelativeFrequency": 14.54,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 27810,
-    "missings": [
-      {
-        "absoluteFrequency": 372,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.32,
-        "code": -998
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "20",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie sich mit Ihren Eltern schon über deren Beteiligung an diesen Kosten verständigt?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

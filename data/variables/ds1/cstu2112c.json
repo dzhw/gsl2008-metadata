@@ -1,133 +1,145 @@
 {
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "17",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.97,
+        "absoluteFrequency": 3655,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "BA University of Applied Sciences",
+          "de": "B.A. an Fachhochschule"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "BA University (except for teaching profession)",
+          "de": "B.A. an Universität (außer LA)"
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "MA University (except for teaching profession)",
+          "de": "M.A. an Universität (außer LA)"
+        },
+        "validRelativeFrequency": 18.75,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "LA BA/MA grammar school",
+          "de": "LA B.A./M.A. Gymnasium"
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "State examination (non-teacher training)",
+          "de": "Staatsexamen (außer LA)"
+        },
+        "validRelativeFrequency": 50,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "degree abroad",
+          "de": "Abschluss im Ausland"
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "21"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.06,
+    "totalValidAbsoluteFrequency": 16,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 738,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "12th activity: targeted degree",
+    "de": "12. Tätigkeit: angestrebter Abschluss"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "12. Tätigkeit: angestrebter Abschluss"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 738,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.06,
-    "statistics": {
-      "mode": "17"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "B.A. an Fachhochschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "B.A. an Universität (außer LA)"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 6.25,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "M.A. an Universität (außer LA)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 18.75,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "LA B.A./M.A. Gymnasium"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 6.25,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Staatsexamen (außer LA)"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 50,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Abschluss im Ausland"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 6.25,
-        "value": "21"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 16,
-    "missings": [
-      {
-        "absoluteFrequency": 3655,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.97,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

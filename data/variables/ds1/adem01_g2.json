@@ -1,210 +1,214 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Geburtsmonat"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-adem01",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ihr Geburtsjahr und Ihr Geburtsmonat (Monat)"
+      },
+      "questionNumber": "28",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 4.4478,
+      "mode": "7",
+      "highWhisker": 12,
+      "lowWhisker": 1,
+      "thirdQuartile": "9",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "7",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "12",
+      "minimum": "1",
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.85,
+        "absoluteFrequency": 802,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "implausible value",
+          "de": "unplausibler Wert"
+        },
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 40,
+        "code": -968
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "January",
+          "de": "Januar"
+        },
+        "validRelativeFrequency": 8.24,
+        "relativeFrequency": 8,
+        "absoluteFrequency": 2254,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "validRelativeFrequency": 7.72,
+        "relativeFrequency": 7.49,
+        "absoluteFrequency": 2110,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "validRelativeFrequency": 8.51,
+        "relativeFrequency": 8.26,
+        "absoluteFrequency": 2328,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "April",
+          "de": "April"
+        },
+        "validRelativeFrequency": 7.99,
+        "relativeFrequency": 7.75,
+        "absoluteFrequency": 2185,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "validRelativeFrequency": 8.47,
+        "relativeFrequency": 8.22,
+        "absoluteFrequency": 2316,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "validRelativeFrequency": 8.17,
+        "relativeFrequency": 7.93,
+        "absoluteFrequency": 2234,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "validRelativeFrequency": 9.29,
+        "relativeFrequency": 9.01,
+        "absoluteFrequency": 2539,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "validRelativeFrequency": 8.73,
+        "relativeFrequency": 8.47,
+        "absoluteFrequency": 2388,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "validRelativeFrequency": 8.57,
+        "relativeFrequency": 8.31,
+        "absoluteFrequency": 2343,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "October",
+          "de": "Oktober"
+        },
+        "validRelativeFrequency": 8.36,
+        "relativeFrequency": 8.11,
+        "absoluteFrequency": 2285,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "November",
+          "de": "November"
+        },
+        "validRelativeFrequency": 7.68,
+        "relativeFrequency": 7.46,
+        "absoluteFrequency": 2101,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "validRelativeFrequency": 8.26,
+        "relativeFrequency": 8.01,
+        "absoluteFrequency": 2257,
+        "value": "12"
+      }
+    ],
+    "totalValidRelativeFrequency": 97.01,
+    "totalValidAbsoluteFrequency": 27340,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 146,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The month was generated from the collectively gathered data on year and month.",
+      "de": "Der Monat wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 97.01,
-    "statistics": {
-      "firstQuartile": "4",
-      "highWhisker": 12,
-      "lowWhisker": 1,
-      "minimum": "1",
-      "thirdQuartile": "9",
-      "meanDeviation": "95.6277",
-      "maximum": "12",
-      "mode": "7",
-      "median": "7"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2254,
-        "label": {
-          "en": null,
-          "de": "Januar"
-        },
-        "relativeFrequency": 8,
-        "validRelativeFrequency": 8.24,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2110,
-        "label": {
-          "en": null,
-          "de": "Februar"
-        },
-        "relativeFrequency": 7.49,
-        "validRelativeFrequency": 7.72,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2328,
-        "label": {
-          "en": null,
-          "de": "März"
-        },
-        "relativeFrequency": 8.26,
-        "validRelativeFrequency": 8.51,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2185,
-        "label": {
-          "en": null,
-          "de": "April"
-        },
-        "relativeFrequency": 7.75,
-        "validRelativeFrequency": 7.99,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2316,
-        "label": {
-          "en": null,
-          "de": "Mai"
-        },
-        "relativeFrequency": 8.22,
-        "validRelativeFrequency": 8.47,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2234,
-        "label": {
-          "en": null,
-          "de": "Juni"
-        },
-        "relativeFrequency": 7.93,
-        "validRelativeFrequency": 8.17,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 2539,
-        "label": {
-          "en": null,
-          "de": "Juli"
-        },
-        "relativeFrequency": 9.01,
-        "validRelativeFrequency": 9.29,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 2388,
-        "label": {
-          "en": null,
-          "de": "August"
-        },
-        "relativeFrequency": 8.47,
-        "validRelativeFrequency": 8.73,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 2343,
-        "label": {
-          "en": null,
-          "de": "September"
-        },
-        "relativeFrequency": 8.31,
-        "validRelativeFrequency": 8.57,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 2285,
-        "label": {
-          "en": null,
-          "de": "Oktober"
-        },
-        "relativeFrequency": 8.11,
-        "validRelativeFrequency": 8.36,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 2101,
-        "label": {
-          "en": null,
-          "de": "November"
-        },
-        "relativeFrequency": 7.46,
-        "validRelativeFrequency": 7.68,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 2257,
-        "label": {
-          "en": null,
-          "de": "Dezember"
-        },
-        "relativeFrequency": 8.01,
-        "validRelativeFrequency": 8.26,
-        "value": "12"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 27340,
-    "missings": [
-      {
-        "absoluteFrequency": 802,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 2.85,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": null,
-          "de": "unplausibler Wert"
-        },
-        "relativeFrequency": 0.14,
-        "code": -968
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "28",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ihr Geburtsjahr und Ihr Geburtsmonat (Monat)"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-adem01",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 146,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "month of birth",
+    "de": "Geburtsmonat"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

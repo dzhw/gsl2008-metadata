@@ -1,123 +1,135 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie die Art Ihrer Hochschulreife an."
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "general higher education entrance qualification",
+          "de": "allg. HSR"
+        },
+        "validRelativeFrequency": 82.71,
+        "relativeFrequency": 17.41,
+        "absoluteFrequency": 4907,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "subject-related entrance qualification",
+          "de": "fachgebundene HSR"
+        },
+        "validRelativeFrequency": 1.65,
+        "relativeFrequency": 0.35,
+        "absoluteFrequency": 98,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "advanced technical college certificate",
+          "de": "Fachhochschulreife"
+        },
+        "validRelativeFrequency": 15.27,
+        "relativeFrequency": 3.21,
+        "absoluteFrequency": 906,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "subject-related university entrance qualification",
+          "de": "fachgebundene FH-Reife"
+        },
+        "validRelativeFrequency": 0.24,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "school-based part of university of applied sciences entrance qualification",
+          "de": "schulischer Teil der FH-Reife"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 21.05,
+    "totalValidAbsoluteFrequency": 5933,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-sch02",
+  "surveyNumbers": [2],
+  "indexInDataSet": 162,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "type of higher education entrance qualification (obtained)",
+    "de": "Art der Hochschulreife (erworben)"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Art der Hochschulreife (erworben)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-sch02",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 162,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 21.05,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4907,
-        "label": {
-          "en": null,
-          "de": "allg. HSR"
-        },
-        "relativeFrequency": 17.41,
-        "validRelativeFrequency": 82.71,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 98,
-        "label": {
-          "en": null,
-          "de": "fachgebundene HSR"
-        },
-        "relativeFrequency": 0.35,
-        "validRelativeFrequency": 1.65,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 906,
-        "label": {
-          "en": null,
-          "de": "Fachhochschulreife"
-        },
-        "relativeFrequency": 3.21,
-        "validRelativeFrequency": 15.27,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "fachgebundene FH-Reife"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.24,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "schulischer Teil der FH-Reife"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.13,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5933,
-    "missings": [
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie die Art Ihrer Hochschulreife an."
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

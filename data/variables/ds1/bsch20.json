@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Vorbereitung durch Schule "
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-sch20",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 365,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie fühlen Sie sich alles in allem durch die Schule auf das von Ihnen gewählte Studium bzw. die Berufsausbildung vorbereitet?"
+      },
+      "questionNumber": "34",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.86,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "1063.024",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 55,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 415,
         "label": {
-          "en": null,
+          "en": "very good",
           "de": "sehr gut"
         },
-        "relativeFrequency": 1.47,
         "validRelativeFrequency": 7.06,
+        "relativeFrequency": 1.47,
+        "absoluteFrequency": 415,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1859,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 6.6,
         "validRelativeFrequency": 31.63,
+        "relativeFrequency": 6.6,
+        "absoluteFrequency": 1859,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1921,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 6.82,
         "validRelativeFrequency": 32.68,
+        "relativeFrequency": 6.82,
+        "absoluteFrequency": 1921,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1142,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.05,
         "validRelativeFrequency": 19.43,
+        "relativeFrequency": 4.05,
+        "absoluteFrequency": 1142,
         "value": "4"
       },
       {
-        "absoluteFrequency": 541,
         "label": {
-          "en": null,
+          "en": "insufficient",
           "de": "unzureichend"
         },
-        "relativeFrequency": 1.92,
         "validRelativeFrequency": 9.2,
+        "relativeFrequency": 1.92,
+        "absoluteFrequency": 541,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.86,
     "totalValidAbsoluteFrequency": 5878,
-    "missings": [
-      {
-        "absoluteFrequency": 55,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.2,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "34",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie fühlen Sie sich alles in allem durch die Schule auf das von Ihnen gewählte Studium bzw. die Berufsausbildung vorbereitet?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-sch20",
+  "surveyNumbers": [2],
+  "indexInDataSet": 365,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "preparation in school ",
+    "de": "Vorbereitung durch Schule "
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

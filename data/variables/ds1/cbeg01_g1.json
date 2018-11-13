@@ -1,95 +1,95 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": null,
-    "de": "1. Tätigkeit: Beginn (Jahr)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cbeg01",
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 486,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\r\nZeitraum\r\nBeginn\r\nMonat/Jahr"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 13.03,
     "statistics": {
-      "firstQuartile": "2008",
+      "meanDeviation": 0,
+      "mode": "2008",
       "highWhisker": 2008,
       "lowWhisker": 2008,
-      "skewness": null,
-      "minimum": "2008",
       "thirdQuartile": "2008",
-      "meanDeviation": "0",
-      "meanValue": 2008,
-      "maximum": "2008",
-      "mode": "2008",
-      "median": "2008",
+      "firstQuartile": "2008",
       "standardDeviation": 0,
-      "kurtosis": null
+      "median": "2008",
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": "2008",
+      "minimum": "2008",
+      "meanValue": 2008
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 3671,
         "label": {
           "en": null,
           "de": null
         },
-        "relativeFrequency": 13.03,
         "validRelativeFrequency": 100,
+        "relativeFrequency": 13.03,
+        "absoluteFrequency": 3671,
         "value": "2008"
       }
     ],
+    "totalValidRelativeFrequency": 13.03,
     "totalValidAbsoluteFrequency": 3671,
-    "missings": [
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\nZeitraum\nBeginn\nMonat/Jahr"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": "The year was generated from the collectively gathered data on year and month.",
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cbeg01",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 486,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st activity: start (year)",
+    "de": "1. Tätigkeit: Beginn (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

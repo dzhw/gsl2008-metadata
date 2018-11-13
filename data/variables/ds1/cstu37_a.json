@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "künftiges Studium: Hochschule"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu37",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "An welcher Hochschule wollen Sie studieren?"
+      },
+      "questionNumber": "4.20",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1163,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2006/07 und SoSe 2007) verwendet. Für ausländische Hochschulen wurde eine projekteigene Codierliste verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on institutions of higher education in coded form. The Destatis key directory for student and examination statistics (winter semester 2006/07 and summer semester 2007) was used as a code list for German institutions of higher education. A project-specific code list was generated for the foreign institutions of higher education.",
+      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2006/07 und SoSe 2007) verwendet. Für ausländische Hochschulen wurde eine projekteigene Codierliste verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5.9,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 1663,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.20",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "An welcher Hochschule wollen Sie studieren?"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu37",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1163,
+  "accessWays": ["not-accessible"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "further studies: institute of higher education",
+    "de": "künftiges Studium: Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

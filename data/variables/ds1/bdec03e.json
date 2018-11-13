@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Aspekt gegen Studium: unübersichtliche Anforderungen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-dec03e",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 353,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\r\nunkalkulierbare und unübersichtliche Anforderungen eines Studiums"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.72,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "848.0472",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.34,
+        "absoluteFrequency": 95,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 621,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 2.2,
         "validRelativeFrequency": 10.64,
+        "relativeFrequency": 2.2,
+        "absoluteFrequency": 621,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1688,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 5.99,
         "validRelativeFrequency": 28.91,
+        "relativeFrequency": 5.99,
+        "absoluteFrequency": 1688,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1790,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 6.35,
         "validRelativeFrequency": 30.66,
+        "relativeFrequency": 6.35,
+        "absoluteFrequency": 1790,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1193,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.23,
         "validRelativeFrequency": 20.44,
+        "relativeFrequency": 4.23,
+        "absoluteFrequency": 1193,
         "value": "4"
       },
       {
-        "absoluteFrequency": 546,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 1.94,
         "validRelativeFrequency": 9.35,
+        "relativeFrequency": 1.94,
+        "absoluteFrequency": 546,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.72,
     "totalValidAbsoluteFrequency": 5838,
-    "missings": [
-      {
-        "absoluteFrequency": 95,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.34,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\nunkalkulierbare und unübersichtliche Anforderungen eines Studiums"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-dec03e",
+  "surveyNumbers": [2],
+  "indexInDataSet": 353,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "points against studying: complex requirements",
+    "de": "Aspekt gegen Studium: unübersichtliche Anforderungen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Einschätzung: finanzielle Unterstützung durch Eltern bei Studium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 99,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Falls Sie über ein Hochschulstudium nachdenken, was nehmen Sie an: Wie stark werden Sie von Ihren Eltern bei Ihrem Studium finanziell unterstützt werden?"
+      },
+      "questionNumber": "21",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 80.13,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "3125.321",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 17.47,
+        "absoluteFrequency": 4922,
+        "code": -999
+      },
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.4,
+        "absoluteFrequency": 677,
+        "code": -998
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 6615,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 23.47,
         "validRelativeFrequency": 29.29,
+        "relativeFrequency": 23.47,
+        "absoluteFrequency": 6615,
         "value": "1"
       },
       {
-        "absoluteFrequency": 6947,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 24.65,
         "validRelativeFrequency": 30.76,
+        "relativeFrequency": 24.65,
+        "absoluteFrequency": 6947,
         "value": "2"
       },
       {
-        "absoluteFrequency": 4341,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 15.4,
         "validRelativeFrequency": 19.22,
+        "relativeFrequency": 15.4,
+        "absoluteFrequency": 4341,
         "value": "3"
       },
       {
-        "absoluteFrequency": 2447,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 8.68,
         "validRelativeFrequency": 10.84,
+        "relativeFrequency": 8.68,
+        "absoluteFrequency": 2447,
         "value": "4"
       },
       {
-        "absoluteFrequency": 2233,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 7.92,
         "validRelativeFrequency": 9.89,
+        "relativeFrequency": 7.92,
+        "absoluteFrequency": 2233,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 80.13,
     "totalValidAbsoluteFrequency": 22583,
-    "missings": [
-      {
-        "absoluteFrequency": 4922,
-        "label": {
-          "en": null,
-          "de": "weiß nicht"
-        },
-        "relativeFrequency": 17.47,
-        "code": -999
-      },
-      {
-        "absoluteFrequency": 677,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 2.4,
-        "code": -998
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "21",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Falls Sie über ein Hochschulstudium nachdenken, was nehmen Sie an: Wie stark werden Sie von Ihren Eltern bei Ihrem Studium finanziell unterstützt werden?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 99,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "estimation: financial support for studies through parents",
+    "de": "Einschätzung: finanzielle Unterstützung durch Eltern bei Studium"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

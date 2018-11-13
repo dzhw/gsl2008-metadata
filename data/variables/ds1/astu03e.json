@@ -1,102 +1,114 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welches Studienfach wird dies voraussichtlich sein?\r\nIst Ihr Ziel der Lehrberuf?"
+      },
+      "questionNumber": "14",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.63,
+        "absoluteFrequency": 3840,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.59,
+        "absoluteFrequency": 5803,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 11.51,
+        "relativeFrequency": 7.57,
+        "absoluteFrequency": 2134,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 88.49,
+        "relativeFrequency": 58.21,
+        "absoluteFrequency": 16405,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 65.78,
+    "totalValidAbsoluteFrequency": 18539,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 80,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "expected subject: teaching profession aim?",
+    "de": "voraussichtliches Studienfach: Ziel Lehrerberuf?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "voraussichtliches Studienfach: Ziel Lehrerberuf?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 80,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 65.78,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2134,
-        "label": {
-          "en": null,
-          "de": "ja"
-        },
-        "relativeFrequency": 7.57,
-        "validRelativeFrequency": 11.51,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 16405,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 58.21,
-        "validRelativeFrequency": 88.49,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 18539,
-    "missings": [
-      {
-        "absoluteFrequency": 3840,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.63,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 5803,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 20.59,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welches Studienfach wird dies voraussichtlich sein?\nIst Ihr Ziel der Lehrberuf?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

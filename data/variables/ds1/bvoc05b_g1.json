@@ -1,340 +1,352 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "2. Nennung Idee: Ausbildung/Berufstätigkeit (KldB-1992-Berufsordnung) (3-Steller"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?\r\nich habe mich noch nicht endgültig entschieden, werde aber wahrscheinlich …"
+      },
+      "questionNumber": "18",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "780",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 21,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.66,
+        "absoluteFrequency": 5821,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 59,
+        "code": -969
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Animal carers and related professions",
+          "de": "Tierpfleger/Tierpflegerinnen und verwandte Berufe, a.n.g."
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "Carpenters",
+          "de": "Tischler/Tischlerinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "501"
+      },
+      {
+        "label": {
+          "en": "Book, music handlers",
+          "de": "Buch-, Musikalienhändler und -händlerinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "674"
+      },
+      {
+        "label": {
+          "en": "Bank clerks",
+          "de": "Bankfachleute"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "691"
+      },
+      {
+        "label": {
+          "en": "saleswoman in healthcare sector",
+          "de": "Kauffrau im Gesundheitsw"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "693"
+      },
+      {
+        "label": {
+          "en": "Rail vehicle drivers",
+          "de": "Schienenfahrzeugführer/Schienenfahrzeugführerinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "711"
+      },
+      {
+        "label": {
+          "en": "Aviation professions",
+          "de": "Luftverkehrsberufe"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "726"
+      },
+      {
+        "label": {
+          "en": "Office administrators, administrators without designation",
+          "de": "Bürofachkräfte, Kaufmännische Angestellte o.n.A."
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "780"
+      },
+      {
+        "label": {
+          "en": "Industrial/technical administrators, business managers (without graduate diploma)",
+          "de": "Industriekaufleute, Technische Kaufleute, Betriebswirte/Betriebswirtinnen (ohne Diplom), a.n.g."
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "785"
+      },
+      {
+        "label": {
+          "en": "Soldiers, border patrol, police officers",
+          "de": "Soldaten, Grenzschutz-, Polizeibedienstete"
+        },
+        "validRelativeFrequency": 9.38,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "801"
+      },
+      {
+        "label": {
+          "en": "Chimney sweepers",
+          "de": "Schornsteinfeger/Schornsteinfegerinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "804"
+      },
+      {
+        "label": {
+          "en": "Librarians, archivists, museum curators",
+          "de": "Bibliothekare/Bibliothekarinnen, Archivare/Archivarinnen, Museumsfachleute"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "823"
+      },
+      {
+        "label": {
+          "en": "Performing artists, singers",
+          "de": "Darstellende Künstler/Künstlerinnen, Sänger/Sängerinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "832"
+      },
+      {
+        "label": {
+          "en": "Fine artists (applied art)",
+          "de": "Bildende Künstler/Künstlerinnen (angewandte Kunst)"
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "834"
+      },
+      {
+        "label": {
+          "en": "Artistic and related stage, picture and audio technology professions ",
+          "de": "Künstlerische und zugeordnete Berufe der Bühnen-, Bild- und Tontechnik"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "835"
+      },
+      {
+        "label": {
+          "en": "Artists, professional sportspersons, art therapy professions",
+          "de": "Artisten/Artistinnen, Berufssportler/Berufssportlerinnen, künstlerische Hilfsberufe"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "838"
+      },
+      {
+        "label": {
+          "en": "Masseurs, hydrotherapists, physiotherapists",
+          "de": "Masseure/Masseurinnen, Medizinische Bademeister/Bademeisterinnen und Krankengymnasten/Krankengymnastinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "852"
+      },
+      {
+        "label": {
+          "en": "Nurses, midwives/male midwives",
+          "de": "Krankenschwestern/-pfleger, Hebammen/Entbindungspfleger"
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "853"
+      },
+      {
+        "label": {
+          "en": "Consulting hours assistants",
+          "de": "Sprechstundenhelfer/Sprechstundenhelferinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "856"
+      },
+      {
+        "label": {
+          "en": "Assistant medical technicians and related professions",
+          "de": "Medizinisch-technische Assistenten/Assistentinnen und verwandte Berufe"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "857"
+      },
+      {
+        "label": {
+          "en": "Therapeutic professions",
+          "de": "Therapeutische Berufe, a.n.g."
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "859"
+      },
+      {
+        "label": {
+          "en": "Educators",
+          "de": "Erzieher/Erzieherinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "863"
+      },
+      {
+        "label": {
+          "en": "Sports teachers",
+          "de": "Sportlehrer/Sportlehrerinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "876"
+      },
+      {
+        "label": {
+          "en": "Hoteliers, innkeepers, hotel and restaurant managers",
+          "de": "Hoteliers, Gastwirte/Gastwirtinnen, Hotel-, Gaststättengeschäftsführer und -geschäftsführerinnen"
+        },
+        "validRelativeFrequency": 3.12,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "911"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.11,
+    "totalValidAbsoluteFrequency": 32,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 255,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfasste Angabe zum nächsten Schritt des nachschulischen Werdegangs in codierter Form. Als Codierliste für die Angaben zum (Ausbildungs-)Beruf wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains the openly recorded data on the next step of the post-school career path in coded form. The 1992 edition of the Destatis classification of (qualified) occupations (KldB-92) (cl-destatis-kldb-1992) was used as a code list.",
+      "de": "Diese Variable enthält die offen erfasste Angabe zum nächsten Schritt des nachschulischen Werdegangs in codierter Form. Als Codierliste für die Angaben zum (Ausbildungs-)Beruf wurde die Destatis-Klassifikation der Berufe (KldB-92) (cl-destatis-kldb-1992) in der Ausgabe 1992 verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.11,
-    "statistics": {
-      "mode": "780"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Tierpfleger/Tierpflegerinnen und verwandte Berufe, a.n.g."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Tischler/Tischlerinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "501"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Buch-, Musikalienhändler und -händlerinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "674"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bankfachleute"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "691"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Kauffrau im Gesundheitsw"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "693"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Schienenfahrzeugführer/Schienenfahrzeugführerinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "711"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Luftverkehrsberufe"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "726"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "Bürofachkräfte, Kaufmännische Angestellte o.n.A."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "780"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Industriekaufleute, Technische Kaufleute, Betriebswirte/Betriebswirtinnen (ohne Diplom), a.n.g."
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 6.25,
-        "value": "785"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Soldaten, Grenzschutz-, Polizeibedienstete"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 9.38,
-        "value": "801"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Schornsteinfeger/Schornsteinfegerinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "804"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Bibliothekare/Bibliothekarinnen, Archivare/Archivarinnen, Museumsfachleute"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "823"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Darstellende Künstler/Künstlerinnen, Sänger/Sängerinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "832"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Bildende Künstler/Künstlerinnen (angewandte Kunst)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 6.25,
-        "value": "834"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Künstlerische und zugeordnete Berufe der Bühnen-, Bild- und Tontechnik"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "835"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Artisten/Artistinnen, Berufssportler/Berufssportlerinnen, künstlerische Hilfsberufe"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "838"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Masseure/Masseurinnen, Medizinische Bademeister/Bademeisterinnen und Krankengymnasten/Krankengymnastinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "852"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Krankenschwestern/-pfleger, Hebammen/Entbindungspfleger"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 6.25,
-        "value": "853"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sprechstundenhelfer/Sprechstundenhelferinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "856"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Medizinisch-technische Assistenten/Assistentinnen und verwandte Berufe"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "857"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Therapeutische Berufe, a.n.g."
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "859"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Erzieher/Erzieherinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "863"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Sportlehrer/Sportlehrerinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "876"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "Hoteliers, Gastwirte/Gastwirtinnen, Hotel-, Gaststättengeschäftsführer und -geschäftsführerinnen"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 3.12,
-        "value": "911"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 32,
-    "missings": [
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.07,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 5821,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 20.66,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.21,
-        "code": -969
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Für welchen nächsten Schritt Ihres nachschulischen Werdegangs haben Sie sich entschieden?\nich habe mich noch nicht endgültig entschieden, werde aber wahrscheinlich …"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 255,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd entry idea: training/occupation (Ger. Class. of Occ. [Kldb] 1992) (3-dig.)",
+    "de": "2. Nennung Idee: Ausbildung/Berufstätigkeit (KldB-1992-Berufsordnung) (3-Steller"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

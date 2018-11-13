@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Interessenbereich: komplexe Probleme lösen "
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 231,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\r\ndie Lösung eines komplexen Problems finden"
+      },
+      "questionNumber": "16",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 21.01,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1104.537",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1552,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 5.51,
         "validRelativeFrequency": 26.22,
+        "relativeFrequency": 5.51,
+        "absoluteFrequency": 1552,
         "value": "1"
       },
       {
-        "absoluteFrequency": 2185,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 7.75,
         "validRelativeFrequency": 36.91,
+        "relativeFrequency": 7.75,
+        "absoluteFrequency": 2185,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1353,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 4.8,
         "validRelativeFrequency": 22.85,
+        "relativeFrequency": 4.8,
+        "absoluteFrequency": 1353,
         "value": "3"
       },
       {
-        "absoluteFrequency": 608,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 2.16,
         "validRelativeFrequency": 10.27,
+        "relativeFrequency": 2.16,
+        "absoluteFrequency": 608,
         "value": "4"
       },
       {
-        "absoluteFrequency": 222,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 0.79,
         "validRelativeFrequency": 3.75,
+        "relativeFrequency": 0.79,
+        "absoluteFrequency": 222,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 21.01,
     "totalValidAbsoluteFrequency": 5920,
-    "missings": [
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.05,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessieren.\ndie Lösung eines komplexen Problems finden"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 231,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "area of interest: solve complex problems ",
+    "de": "Interessenbereich: komplexe Probleme lösen "
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

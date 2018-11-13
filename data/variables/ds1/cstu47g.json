@@ -1,201 +1,213 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche der folgenden Zulassungsvoraussetzungen bestehen in Ihrem (geplanten) Masterstudiengang?\r\nSonstiges, und zwar:"
+      },
+      "questionNumber": "5.9",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "absoluteFrequency": 1945,
+        "code": -989
+      },
+      {
+        "label": {
+          "en": "unknown missing",
+          "de": "unbekannter fehlender Wert"
+        },
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 22,
+        "code": -969
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "no other entrance requirements",
+          "de": "keine sonstigen Zulassungsvoraussetzungen"
+        },
+        "validRelativeFrequency": 93.43,
+        "relativeFrequency": 5.65,
+        "absoluteFrequency": 1592,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "BA at the same university",
+          "de": "B.A. an gleicher HS"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "professional experience",
+          "de": "Berufserfahrung"
+        },
+        "validRelativeFrequency": 1,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 17,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "none",
+          "de": "keine"
+        },
+        "validRelativeFrequency": 0.29,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "covering letter",
+          "de": "Motivationsschreiben"
+        },
+        "validRelativeFrequency": 2.17,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 37,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "B.A.",
+          "de": "B.A."
+        },
+        "validRelativeFrequency": 0.76,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Internship",
+          "de": "Praktikum"
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "social commitment",
+          "de": "soziales Engagement"
+        },
+        "validRelativeFrequency": 0.18,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "specific know-how",
+          "de": "spezifische Fachkenntnisse"
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "period of stay abroad",
+          "de": "Auslandsaufenthalt"
+        },
+        "validRelativeFrequency": 0.18,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "sonstiges"
+        },
+        "validRelativeFrequency": 0.94,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "20"
+      }
+    ],
+    "totalValidRelativeFrequency": 6.05,
+    "totalValidAbsoluteFrequency": 1704,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1208,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "admission requirements: other (name)",
+    "de": "Zulassungsvoraussetzung: Sonstiges (Nennung)"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Zulassungsvoraussetzung: Sonstiges (Nennung)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1208,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 6.05,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1592,
-        "label": {
-          "en": null,
-          "de": "keine sonstigen Zulassungsvoraussetzungen"
-        },
-        "relativeFrequency": 5.65,
-        "validRelativeFrequency": 93.43,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "B.A. an gleicher HS"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.12,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": "Berufserfahrung"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 1,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "keine"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.29,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": null,
-          "de": "Motivationsschreiben"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 2.17,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "B.A."
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.76,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Praktikum"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.47,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "soziales Engagement"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.18,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "spezifische Fachkenntnisse"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.47,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Auslandsaufenthalt"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.18,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "sonstiges"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.94,
-        "value": "20"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1704,
-    "missings": [
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1945,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.9,
-        "code": -989
-      },
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": null,
-          "de": "unbekannter fehlender Wert"
-        },
-        "relativeFrequency": 0.08,
-        "code": -969
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche der folgenden Zulassungsvoraussetzungen bestehen in Ihrem (geplanten) Masterstudiengang?\nSonstiges, und zwar:"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

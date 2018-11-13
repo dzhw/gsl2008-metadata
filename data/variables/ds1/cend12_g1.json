@@ -1,105 +1,105 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": null,
-    "de": "12. Tätigkeit: Ende (Jahr) "
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cend12",
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "2012",
+      "highWhisker": 2012,
+      "lowWhisker": 2012,
+      "thirdQuartile": "2012",
+      "firstQuartile": "2012",
+      "standardDeviation": 0.4031,
+      "median": "2012",
+      "kurtosis": 3.5641,
+      "skewness": -1.6013,
+      "maximum": "2012",
+      "minimum": "2011",
+      "meanValue": 2011.8125
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.97,
+        "absoluteFrequency": 3655,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 18.75,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "2011"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 81.25,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "2012"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.06,
+    "totalValidAbsoluteFrequency": 16,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 730,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The year was generated from the collectively gathered data on year and month.",
+      "de": "Das Jahr wurde aus der gemeinsam erfassten Angabe von Jahr und Monat generiert."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.06,
-    "statistics": {
-      "firstQuartile": "2012",
-      "highWhisker": 2012,
-      "lowWhisker": 2012,
-      "skewness": -1.6013,
-      "minimum": "2011",
-      "thirdQuartile": "2012",
-      "meanDeviation": "7.413",
-      "meanValue": 2011.8125,
-      "maximum": "2012",
-      "mode": "2012",
-      "median": "2012",
-      "standardDeviation": 0.4031,
-      "kurtosis": 3.5641
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 18.75,
-        "value": "2011"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 81.25,
-        "value": "2012"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 16,
-    "missings": [
-      {
-        "absoluteFrequency": 3655,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 12.97,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cend12",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 730,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "12th activity: end (year)",
+    "de": "12. Tätigkeit: Ende (Jahr) "
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

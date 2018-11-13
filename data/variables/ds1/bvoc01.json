@@ -1,113 +1,125 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Ausbildung abgeschlossen? (vor/mit Erwerb HR)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-voc01",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 192,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie bereits vor oder mit Erwerb der Hochschulreife eine Berufsausbildung abgeschlossen?"
+      },
+      "questionNumber": "07",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 21.05,
     "statistics": {
-      "mode": "3"
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 706,
         "label": {
-          "en": null,
+          "en": "yes, before higher education entrance qualification",
           "de": "ja, vor Hochschulreife"
         },
-        "relativeFrequency": 2.51,
         "validRelativeFrequency": 11.9,
+        "relativeFrequency": 2.51,
+        "absoluteFrequency": 706,
         "value": "1"
       },
       {
-        "absoluteFrequency": 197,
         "label": {
-          "en": null,
+          "en": "yes, with higher education entrance qualification",
           "de": "ja, mit Hochschulreife"
         },
-        "relativeFrequency": 0.7,
         "validRelativeFrequency": 3.32,
+        "relativeFrequency": 0.7,
+        "absoluteFrequency": 197,
         "value": "2"
       },
       {
-        "absoluteFrequency": 5023,
         "label": {
           "en": null,
           "de": "nein"
         },
-        "relativeFrequency": 17.82,
         "validRelativeFrequency": 84.66,
+        "relativeFrequency": 17.82,
+        "absoluteFrequency": 5023,
         "value": "3"
       },
       {
-        "absoluteFrequency": 7,
         "label": {
-          "en": null,
+          "en": "at present training/internship for full university entrance certificate",
           "de": "zur Zeit Ausbildung/Praktikum für volle Fachhochschulreife"
         },
-        "relativeFrequency": 0.02,
         "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
         "value": "4"
       }
     ],
+    "totalValidRelativeFrequency": 21.05,
     "totalValidAbsoluteFrequency": 5933,
-    "missings": [
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "07",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie bereits vor oder mit Erwerb der Hochschulreife eine Berufsausbildung abgeschlossen?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-voc01",
+  "surveyNumbers": [2],
+  "indexInDataSet": 192,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "Education completed? (before/concurrent w/ higher ed. entrance qualification)",
+    "de": "Ausbildung abgeschlossen? (vor/mit Erwerb HR)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

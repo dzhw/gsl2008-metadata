@@ -1,150 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Motiv Tätigkeit (Dez 2012): hoher sozialer Status"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-mot01j",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 470,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Diese Frage bezieht sich auf den Zeitpunkt Dezember 2012. Wie bedeutend sind die folgenden Gründe und Motive für die Ausübung Ihrer derzeitigen Tätigkeit (Studium/Ausbildung/Erwerbstätigkeit)?\r\neinen hohen sozialen Status erreichen"
+      },
+      "questionNumber": "1.9",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 12.97,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 6,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "120.8319",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "6",
-      "mode": "2",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 15,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 449,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr bedeutend"
         },
-        "relativeFrequency": 1.59,
         "validRelativeFrequency": 12.28,
+        "relativeFrequency": 1.59,
+        "absoluteFrequency": 449,
         "value": "1"
       },
       {
-        "absoluteFrequency": 922,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 3.27,
         "validRelativeFrequency": 25.22,
+        "relativeFrequency": 3.27,
+        "absoluteFrequency": 922,
         "value": "2"
       },
       {
-        "absoluteFrequency": 919,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 3.26,
         "validRelativeFrequency": 25.14,
+        "relativeFrequency": 3.26,
+        "absoluteFrequency": 919,
         "value": "3"
       },
       {
-        "absoluteFrequency": 525,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.86,
         "validRelativeFrequency": 14.36,
+        "relativeFrequency": 1.86,
+        "absoluteFrequency": 525,
         "value": "4"
       },
       {
-        "absoluteFrequency": 464,
         "label": {
           "en": null,
           "de": "5"
         },
-        "relativeFrequency": 1.65,
         "validRelativeFrequency": 12.69,
+        "relativeFrequency": 1.65,
+        "absoluteFrequency": 464,
         "value": "5"
       },
       {
-        "absoluteFrequency": 377,
         "label": {
-          "en": null,
+          "en": "unimportant",
           "de": "bedeutungslos"
         },
-        "relativeFrequency": 1.34,
         "validRelativeFrequency": 10.31,
+        "relativeFrequency": 1.34,
+        "absoluteFrequency": 377,
         "value": "6"
       }
     ],
+    "totalValidRelativeFrequency": 12.97,
     "totalValidAbsoluteFrequency": 3656,
-    "missings": [
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.05,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "1.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Diese Frage bezieht sich auf den Zeitpunkt Dezember 2012. Wie bedeutend sind die folgenden Gründe und Motive für die Ausübung Ihrer derzeitigen Tätigkeit (Studium/Ausbildung/Erwerbstätigkeit)?\neinen hohen sozialen Status erreichen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-mot01j",
+  "surveyNumbers": [3],
+  "indexInDataSet": 470,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "occupational motives (Dec 2012): high social status",
+    "de": "Motiv Tätigkeit (Dez 2012): hoher sozialer Status"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

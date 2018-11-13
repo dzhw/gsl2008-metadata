@@ -1,271 +1,283 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "Wechsel Studiengang: zu Studienabschluss"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Von welchem zu welchem Studiengang haben Sie gewechselt bzw. haben Sie noch vor zu wechseln?\r\nzu:"
+      },
+      "questionNumber": "4.6",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 11.42,
+        "absoluteFrequency": 3219,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "BA/diploma at the university of cooperative education",
+          "de": "B.A./Diplom an Berufsakademie"
+        },
+        "validRelativeFrequency": 1.35,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "BA/MA/diploma at the college of public administration",
+          "de": "B.A./M.A./Diplom an Verwaltungsfachhochschule"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "BA University of Applied Sciences",
+          "de": "B.A. an Fachhochschule"
+        },
+        "validRelativeFrequency": 18.2,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 81,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "BA University (except for teaching profession)",
+          "de": "B.A. an Universität (außer LA)"
+        },
+        "validRelativeFrequency": 38.65,
+        "relativeFrequency": 0.61,
+        "absoluteFrequency": 172,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "MA University of Applied Sciences",
+          "de": "M.A. an Fachhochschule"
+        },
+        "validRelativeFrequency": 0.45,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "MA University (except for teaching profession)",
+          "de": "M.A. an Universität (außer LA)"
+        },
+        "validRelativeFrequency": 0.9,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 4,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Diploma University of Applied Sciences",
+          "de": "Diplom an Fachhochschule"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 5,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Diploma University",
+          "de": "Diplom an Universität"
+        },
+        "validRelativeFrequency": 1.57,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "LA BA/MA GHR",
+          "de": "LA B.A./M.A. GHR"
+        },
+        "validRelativeFrequency": 3.15,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 14,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "LA BA/MA grammar school",
+          "de": "LA B.A./M.A. Gymnasium"
+        },
+        "validRelativeFrequency": 7.64,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 34,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "LA BA/MA vocational schools",
+          "de": "LA B.A./M.A. berufsbildende Schulen"
+        },
+        "validRelativeFrequency": 1.35,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "LA State Examination GHR",
+          "de": "LA Staatsexamen GHR"
+        },
+        "validRelativeFrequency": 6.07,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 27,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "LA State Examination grammar school",
+          "de": "LA Staatsexamen Gymnasium"
+        },
+        "validRelativeFrequency": 6.29,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 28,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "LA State Examination special needs school",
+          "de": "LA Staatsexamen Sonderschule"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "State examination (non-teacher training)",
+          "de": "Staatsexamen (außer LA)"
+        },
+        "validRelativeFrequency": 7.42,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 33,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "Master's",
+          "de": "Magister"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "Ecclesiastical examination",
+          "de": "kirchlicher Abschluss"
+        },
+        "validRelativeFrequency": 0.45,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "degree abroad",
+          "de": "Abschluss im Ausland"
+        },
+        "validRelativeFrequency": 2.92,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 13,
+        "value": "21"
+      }
+    ],
+    "totalValidRelativeFrequency": 1.58,
+    "totalValidAbsoluteFrequency": 445,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 991,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zum Studienabschluss. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste (vgl. cl-dzhw-13) erstellt."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The variable contains the openly recorded data on the final degree. A code list (see cl-dzhw-13) was also created using the open data (or based on the already available lists, on the basis of the entries from previous cohorts).",
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Studienabschluss. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste (vgl. cl-dzhw-13) erstellt."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 1.58,
-    "statistics": {
-      "mode": "4"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "B.A./Diplom an Berufsakademie"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.35,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "B.A./M.A./Diplom an Verwaltungsfachhochschule"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.12,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 81,
-        "label": {
-          "en": null,
-          "de": "B.A. an Fachhochschule"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 18.2,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 172,
-        "label": {
-          "en": null,
-          "de": "B.A. an Universität (außer LA)"
-        },
-        "relativeFrequency": 0.61,
-        "validRelativeFrequency": 38.65,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "M.A. an Fachhochschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.45,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": "M.A. an Universität (außer LA)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.9,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": "Diplom an Fachhochschule"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.12,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Diplom an Universität"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.57,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": "LA B.A./M.A. GHR"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 3.15,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 34,
-        "label": {
-          "en": null,
-          "de": "LA B.A./M.A. Gymnasium"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 7.64,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "LA B.A./M.A. berufsbildende Schulen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.35,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 27,
-        "label": {
-          "en": null,
-          "de": "LA Staatsexamen GHR"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 6.07,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 28,
-        "label": {
-          "en": null,
-          "de": "LA Staatsexamen Gymnasium"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 6.29,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "LA Staatsexamen Sonderschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 33,
-        "label": {
-          "en": null,
-          "de": "Staatsexamen (außer LA)"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 7.42,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Magister"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "kirchlicher Abschluss"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.45,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": "Abschluss im Ausland"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 2.92,
-        "value": "21"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 445,
-    "missings": [
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 3219,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 11.42,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Von welchem zu welchem Studiengang haben Sie gewechselt bzw. haben Sie noch vor zu wechseln?\nzu:"
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 991,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "change of course: to final degree",
+    "de": "Wechsel Studiengang: zu Studienabschluss"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

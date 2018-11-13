@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Motiv MA: etwas anderes machen als bisher"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1185,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\r\netwas ganz anderes machen als bisher"
+      },
+      "questionNumber": "5.5",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.81,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "197.1858",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 88,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 6.9,
+        "absoluteFrequency": 1945,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 36,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr wichtig"
         },
-        "relativeFrequency": 0.13,
         "validRelativeFrequency": 2.2,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 36,
         "value": "1"
       },
       {
-        "absoluteFrequency": 70,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 0.25,
         "validRelativeFrequency": 4.27,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 70,
         "value": "2"
       },
       {
-        "absoluteFrequency": 169,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 0.6,
         "validRelativeFrequency": 10.32,
+        "relativeFrequency": 0.6,
+        "absoluteFrequency": 169,
         "value": "3"
       },
       {
-        "absoluteFrequency": 359,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 1.27,
         "validRelativeFrequency": 21.92,
+        "relativeFrequency": 1.27,
+        "absoluteFrequency": 359,
         "value": "4"
       },
       {
-        "absoluteFrequency": 1004,
         "label": {
-          "en": null,
+          "en": "not important",
           "de": "unwichtig"
         },
-        "relativeFrequency": 3.56,
         "validRelativeFrequency": 61.29,
+        "relativeFrequency": 3.56,
+        "absoluteFrequency": 1004,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 5.81,
     "totalValidAbsoluteFrequency": 1638,
-    "missings": [
-      {
-        "absoluteFrequency": 88,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.31,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 1945,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 6.9,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "5.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Motive für den Masterabschluss?\netwas ganz anderes machen als bisher"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 1185,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motive for MA: trying something new",
+    "de": "Motiv MA: etwas anderes machen als bisher"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,232 +1,244 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "4. Prüfungsfach (Fächergruppe)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-bsch17a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Nennen Sie bitte Ihre Prüfungsfächer und geben Sie zusätzlich an, mit welcher wöchentlichen Stundenzahl diese in Ihrem Abschlussjahr unterrichtet wurden."
+      },
+      "questionNumber": "04",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.84,
+        "absoluteFrequency": 236,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "mathematics/natural sciences/technology (general education school)",
+          "de": "Mathematik/Naturwissenschaften/Technik (Allgemeinbildene Schule)"
+        },
+        "validRelativeFrequency": 28.65,
+        "relativeFrequency": 5.79,
+        "absoluteFrequency": 1632,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "cultural studies/sociology/economics (general education school)",
+          "de": "Kulturwissenschaften/Soziologie/Wirtschaft (Allgemeinbildene Schule)"
+        },
+        "validRelativeFrequency": 31.6,
+        "relativeFrequency": 6.39,
+        "absoluteFrequency": 1800,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "art/music/sport (general education school)",
+          "de": "Kunst/Musik/Sport (Allgemeinbildene Schule)"
+        },
+        "validRelativeFrequency": 4.49,
+        "relativeFrequency": 0.91,
+        "absoluteFrequency": 256,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "nutrition/health (general education school)",
+          "de": "Ernährung/Gesundheit (Allgemeinbildene Schule)"
+        },
+        "validRelativeFrequency": 0.05,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 3,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "languages/linguistics (general education school)",
+          "de": "Sprachen/Sprachwissenschaften (Allgemeinbildene Schule)"
+        },
+        "validRelativeFrequency": 25.84,
+        "relativeFrequency": 5.22,
+        "absoluteFrequency": 1472,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "technology (vocational school)",
+          "de": "Technik (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 1.14,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 65,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "construction (vocational school)",
+          "de": "Bauwesen (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 7,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "computer science (vocational school)",
+          "de": "Informatik (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.51,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 29,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "economics (and administration) (vocational school)",
+          "de": "Wirtschaft (und Verwaltung) (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 3.97,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 226,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "agriculture/natural sciences (vocational school)",
+          "de": "Landwirtschaft/ Naturwissenschaften (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.14,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 8,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "design (vocational school)",
+          "de": "Gestaltung (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 16,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "nutrition/home economics/health (vocational school)",
+          "de": "Ernährung/Hauswirtschaft/Gesundheit (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.4,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 23,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "social welfare (vocational school)",
+          "de": "Sozialwesen (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 1.93,
+        "relativeFrequency": 0.39,
+        "absoluteFrequency": 110,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "languages (vocational school)",
+          "de": "Sprachen (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.84,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 48,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Media (and communications) (vocational school)",
+          "de": "Medien (und Kommunikation) (berufsbildende Schule)"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "15"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.22,
+    "totalValidAbsoluteFrequency": 5697,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 181,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde aggregiert. Die (Schul-)Fächergruppen wurden aus den codierten Angaben zum 4. Prüfungsfach in der Schule generiert. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-7)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable was aggregated. The (school) subject groups were generated from the coded information on the 4th exam subject at the school. This involved the use of a project-specific code list (see cl-dzhw-7).",
+      "de": "Diese Variable wurde aggregiert. Die (Schul-)Fächergruppen wurden aus den codierten Angaben zum 4. Prüfungsfach in der Schule generiert. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-7)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.22,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1632,
-        "label": {
-          "en": null,
-          "de": "Mathematik/Naturwissenschaften/Technik (Allgemeinbildene Schule)"
-        },
-        "relativeFrequency": 5.79,
-        "validRelativeFrequency": 28.65,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1800,
-        "label": {
-          "en": null,
-          "de": "Kulturwissenschaften/Soziologie/Wirtschaft (Allgemeinbildene Schule)"
-        },
-        "relativeFrequency": 6.39,
-        "validRelativeFrequency": 31.6,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 256,
-        "label": {
-          "en": null,
-          "de": "Kunst/Musik/Sport (Allgemeinbildene Schule)"
-        },
-        "relativeFrequency": 0.91,
-        "validRelativeFrequency": 4.49,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": "Ernährung/Gesundheit (Allgemeinbildene Schule)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.05,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1472,
-        "label": {
-          "en": null,
-          "de": "Sprachen/Sprachwissenschaften (Allgemeinbildene Schule)"
-        },
-        "relativeFrequency": 5.22,
-        "validRelativeFrequency": 25.84,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 65,
-        "label": {
-          "en": null,
-          "de": "Technik (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 1.14,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": "Bauwesen (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.12,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": null,
-          "de": "Informatik (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 0.51,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 226,
-        "label": {
-          "en": null,
-          "de": "Wirtschaft (und Verwaltung) (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.8,
-        "validRelativeFrequency": 3.97,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": "Landwirtschaft/ Naturwissenschaften (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.14,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": "Gestaltung (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.28,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": "Ernährung/Hauswirtschaft/Gesundheit (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.4,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 110,
-        "label": {
-          "en": null,
-          "de": "Sozialwesen (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.39,
-        "validRelativeFrequency": 1.93,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 48,
-        "label": {
-          "en": null,
-          "de": "Sprachen (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 0.84,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": "Medien (und Kommunikation) (berufsbildende Schule)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.04,
-        "value": "15"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5697,
-    "missings": [
-      {
-        "absoluteFrequency": 236,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.84,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "04",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Nennen Sie bitte Ihre Prüfungsfächer und geben Sie zusätzlich an, mit welcher wöchentlichen Stundenzahl diese in Ihrem Abschlussjahr unterrichtet wurden."
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-bsch17a",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 181,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "4th exam subject (subject group)",
+    "de": "4. Prüfungsfach (Fächergruppe)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

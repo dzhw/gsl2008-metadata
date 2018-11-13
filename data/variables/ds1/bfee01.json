@@ -1,172 +1,184 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In einigen Bundesländern werden Studiengebühren von bis zu 500€ ab dem ersten Semester erhoben. Welche Auswirkungen hat dies auf Ihre Studienpläne?"
+      },
+      "questionNumber": "35",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "8",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 60,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "never had a desire to embark on course of studies",
+          "de": "nie Studienwunsch gehabt"
+        },
+        "validRelativeFrequency": 4.1,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 241,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no admission degree course",
+          "de": "keine Aufnahme Studium"
+        },
+        "validRelativeFrequency": 4.51,
+        "relativeFrequency": 0.94,
+        "absoluteFrequency": 265,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Change to higher education institution with no tuition fees",
+          "de": "Wechsel an HS ohne Studiengebühren"
+        },
+        "validRelativeFrequency": 12.62,
+        "relativeFrequency": 2.63,
+        "absoluteFrequency": 741,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no tuition fees at planned higher education institution",
+          "de": "keine Studiengebühren an HS geplant"
+        },
+        "validRelativeFrequency": 14.42,
+        "relativeFrequency": 3.01,
+        "absoluteFrequency": 847,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "employer pays tuition fees",
+          "de": "Arbeitgeber zahlt Studiengebühren"
+        },
+        "validRelativeFrequency": 4.53,
+        "relativeFrequency": 0.94,
+        "absoluteFrequency": 266,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "am/will be exempt",
+          "de": "bin/werde befreit"
+        },
+        "validRelativeFrequency": 3.9,
+        "relativeFrequency": 0.81,
+        "absoluteFrequency": 229,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "better education through tuition fees",
+          "de": "durch Studiengebühren bessere Ausbildung"
+        },
+        "validRelativeFrequency": 2.86,
+        "relativeFrequency": 0.6,
+        "absoluteFrequency": 168,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "take up and/or continue with degree course regardless of fees",
+          "de": "Studium unabhängig von Gebühren aufnehmen bzw. fortsetzen"
+        },
+        "validRelativeFrequency": 48.44,
+        "relativeFrequency": 10.1,
+        "absoluteFrequency": 2845,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "other",
+          "de": "anderes"
+        },
+        "validRelativeFrequency": 4.61,
+        "relativeFrequency": 0.96,
+        "absoluteFrequency": 271,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 20.84,
+    "totalValidAbsoluteFrequency": 5873,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 366,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "tuition fees: effect on study plans",
+    "de": "Studiengebühren: Auswirkungen auf Studienpläne"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Studiengebühren: Auswirkungen auf Studienpläne"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 366,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 20.84,
-    "statistics": {
-      "mode": "8"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 241,
-        "label": {
-          "en": null,
-          "de": "nie Studienwunsch gehabt"
-        },
-        "relativeFrequency": 0.86,
-        "validRelativeFrequency": 4.1,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 265,
-        "label": {
-          "en": null,
-          "de": "keine Aufnahme Studium"
-        },
-        "relativeFrequency": 0.94,
-        "validRelativeFrequency": 4.51,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 741,
-        "label": {
-          "en": null,
-          "de": "Wechsel an HS ohne Studiengebühren"
-        },
-        "relativeFrequency": 2.63,
-        "validRelativeFrequency": 12.62,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 847,
-        "label": {
-          "en": null,
-          "de": "keine Studiengebühren an HS geplant"
-        },
-        "relativeFrequency": 3.01,
-        "validRelativeFrequency": 14.42,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 266,
-        "label": {
-          "en": null,
-          "de": "Arbeitgeber zahlt Studiengebühren"
-        },
-        "relativeFrequency": 0.94,
-        "validRelativeFrequency": 4.53,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 229,
-        "label": {
-          "en": null,
-          "de": "bin/werde befreit"
-        },
-        "relativeFrequency": 0.81,
-        "validRelativeFrequency": 3.9,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 168,
-        "label": {
-          "en": null,
-          "de": "durch Studiengebühren bessere Ausbildung"
-        },
-        "relativeFrequency": 0.6,
-        "validRelativeFrequency": 2.86,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 2845,
-        "label": {
-          "en": null,
-          "de": "Studium unabhängig von Gebühren aufnehmen bzw. fortsetzen"
-        },
-        "relativeFrequency": 10.1,
-        "validRelativeFrequency": 48.44,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 271,
-        "label": {
-          "en": null,
-          "de": "anderes"
-        },
-        "relativeFrequency": 0.96,
-        "validRelativeFrequency": 4.61,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5873,
-    "missings": [
-      {
-        "absoluteFrequency": 60,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.21,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "35",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In einigen Bundesländern werden Studiengebühren von bis zu 500€ ab dem ersten Semester erhoben. Welche Auswirkungen hat dies auf Ihre Studienpläne?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

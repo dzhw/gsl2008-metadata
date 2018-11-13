@@ -1,159 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Bedeutung für Werdegang: gute Berufs- und Einkommenschancen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gsl2008-ds1-mot01s",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 342,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\r\nmeines Erachtens günstige Berufs- und Einkommenschancen"
+      },
+      "questionNumber": "31",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.03,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "696.822",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "6",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.5,
+        "absoluteFrequency": 142,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 147,
+        "code": -989
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 1301,
         "label": {
-          "en": null,
+          "en": "very important",
           "de": "sehr bedeutend"
         },
-        "relativeFrequency": 4.62,
         "validRelativeFrequency": 23.05,
+        "relativeFrequency": 4.62,
+        "absoluteFrequency": 1301,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1894,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 6.72,
         "validRelativeFrequency": 33.56,
+        "relativeFrequency": 6.72,
+        "absoluteFrequency": 1894,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1226,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 4.35,
         "validRelativeFrequency": 21.72,
+        "relativeFrequency": 4.35,
+        "absoluteFrequency": 1226,
         "value": "3"
       },
       {
-        "absoluteFrequency": 637,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 2.26,
         "validRelativeFrequency": 11.29,
+        "relativeFrequency": 2.26,
+        "absoluteFrequency": 637,
         "value": "4"
       },
       {
-        "absoluteFrequency": 361,
         "label": {
           "en": null,
           "de": "5"
         },
-        "relativeFrequency": 1.28,
         "validRelativeFrequency": 6.4,
+        "relativeFrequency": 1.28,
+        "absoluteFrequency": 361,
         "value": "5"
       },
       {
-        "absoluteFrequency": 225,
         "label": {
-          "en": null,
+          "en": "unimportant",
           "de": "bedeutungslos"
         },
-        "relativeFrequency": 0.8,
         "validRelativeFrequency": 3.99,
+        "relativeFrequency": 0.8,
+        "absoluteFrequency": 225,
         "value": "6"
       }
     ],
+    "totalValidRelativeFrequency": 20.03,
     "totalValidAbsoluteFrequency": 5644,
-    "missings": [
-      {
-        "absoluteFrequency": 142,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.5,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 0.52,
-        "code": -989
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "31",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Bedeutung haben die folgenden Gründe und Motive für den von Ihnen gewählten nachschulischen Werdegang?\nmeines Erachtens günstige Berufs- und Einkommenschancen"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gsl2008-ds1-mot01s",
+  "surveyNumbers": [2],
+  "indexInDataSet": 342,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "importance for career: good job and earnings opportunities",
+    "de": "Bedeutung für Werdegang: gute Berufs- und Einkommenschancen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

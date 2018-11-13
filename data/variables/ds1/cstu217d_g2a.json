@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "7. Tätigkeit: Staat einer ausl. Hochschule"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu217d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 631,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The foreign countries were generated from the coded data on institutions of higher education. The generated data only includes the countries of foreign universities; German universities were placed under ‘not applicable’. A project-specific code list (see cl-dzhw-9) was used for the countries.",
+      "de": "Die Staaten im Ausland wurden aus den codierten Hochschulangaben generiert. Die Generierung enthält ausschließlich die Länder von ausländischen Hochschulen; deutschen Hochschulen wurden auf \"trifft nicht zu\" gesetzt. Für die Länder wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-9)."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.14,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 40,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben."
-      }
-    }
-  ],
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu217d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 631,
+  "accessWays": ["not-accessible"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "7th activity: country of a foreign institute of higher education",
+    "de": "7. Tätigkeit: Staat einer ausl. Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,184 +1,184 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie Ihre Prüfungsfächer und geben Sie zusätzlich an, mit welcher wöchentlichen Stundenzahl diese in Ihrem Abschlussjahr unterrichtet wurden.\r\nStunden je Woche"
+      },
+      "questionNumber": "04",
+      "instrumentNumber": 2
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": 0,
+      "mode": "5",
+      "highWhisker": 6.5,
+      "lowWhisker": 2.5,
+      "thirdQuartile": "5",
+      "firstQuartile": "4",
+      "standardDeviation": 0.8504,
+      "median": "5",
+      "kurtosis": 6.3979,
+      "skewness": 0.451,
+      "maximum": "9",
+      "minimum": "1",
+      "meanValue": 4.7745
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.54,
+        "absoluteFrequency": 434,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.25,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 69,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.67,
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 92,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 31.88,
+        "relativeFrequency": 6.22,
+        "absoluteFrequency": 1753,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 52.03,
+        "relativeFrequency": 10.15,
+        "absoluteFrequency": 2861,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 11.22,
+        "relativeFrequency": 2.19,
+        "absoluteFrequency": 617,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.55,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 30,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.18,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 65,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.18,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 10,
+        "value": "9"
+      }
+    ],
+    "totalValidRelativeFrequency": 19.51,
+    "totalValidAbsoluteFrequency": 5499,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 176,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "2nd exam subject: weekly hours",
+    "de": "2. Prüfungsfach: wöchentliche Stundenzahl"
+  },
   "scaleLevel": {
     "en": "ratio",
     "de": "verhältnis"
   },
-  "label": {
-    "en": null,
-    "de": "2. Prüfungsfach: wöchentliche Stundenzahl"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 176,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 19.51,
-    "statistics": {
-      "firstQuartile": "4",
-      "highWhisker": 6.5,
-      "lowWhisker": 2.5,
-      "skewness": 0.451,
-      "minimum": "1",
-      "thirdQuartile": "5",
-      "meanDeviation": "87.4734",
-      "meanValue": 4.7745,
-      "maximum": "9",
-      "mode": "5",
-      "median": "5",
-      "standardDeviation": 0.8504,
-      "kurtosis": 6.3979
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.04,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 69,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 1.25,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 92,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.33,
-        "validRelativeFrequency": 1.67,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1753,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 6.22,
-        "validRelativeFrequency": 31.88,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2861,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 10.15,
-        "validRelativeFrequency": 52.03,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 617,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 2.19,
-        "validRelativeFrequency": 11.22,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 30,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 0.55,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 65,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 1.18,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.18,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5499,
-    "missings": [
-      {
-        "absoluteFrequency": 434,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 1.54,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "04",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie Ihre Prüfungsfächer und geben Sie zusätzlich an, mit welcher wöchentlichen Stundenzahl diese in Ihrem Abschlussjahr unterrichtet wurden.\nStunden je Woche"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

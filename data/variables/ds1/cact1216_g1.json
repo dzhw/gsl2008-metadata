@@ -1,83 +1,95 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "16. Tätigkeit: andere Tätigkeit (Art)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "48",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.02,
+        "absoluteFrequency": 3670,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "uni of applied sciences + internship",
+          "de": "FH + Praktikum"
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 0,
+        "absoluteFrequency": 1,
+        "value": "48"
+      }
+    ],
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 1,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 837,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält einen vom Projekt vergebenen Code. Der Code bündelt die Informationen der Hochschulart bei einem Studium sowie der offen erfassten Angaben zur Art der Berufsausbildung oder zu anderen Tätigkeiten. Dabei wurde eine projekteigene Codierliste verwendet."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "This variable contains a project-assigned code. The code bundles the information on type of higher education institution during the course of studies and the openly collected data on type of vocational training or other activities. This involved the use of a project-specific code list.",
+      "de": "Diese Variable enthält einen vom Projekt vergebenen Code. Der Code bündelt die Informationen der Hochschulart bei einem Studium sowie der offen erfassten Angaben zur Art der Berufsausbildung oder zu anderen Tätigkeiten. Dabei wurde eine projekteigene Codierliste verwendet."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0,
-    "statistics": {
-      "mode": "48"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": "FH + Praktikum"
-        },
-        "relativeFrequency": 0,
-        "validRelativeFrequency": 100,
-        "value": "48"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1,
-    "missings": [
-      {
-        "absoluteFrequency": 3670,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 837,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "16th activity: other activity (type)",
+    "de": "16. Tätigkeit: andere Tätigkeit (Art)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

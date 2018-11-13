@@ -1,70 +1,84 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": null,
-    "de": "17. Tätigkeit: Hochschulart (FH/Uni; ohne Saarland)"
-  },
-  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2117d",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
+  "relatedQuestions": null,
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": null,
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.03,
+        "absoluteFrequency": 3671,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      }
+    ],
+    "validResponses": null,
+    "totalValidRelativeFrequency": 0,
+    "totalValidAbsoluteFrequency": 0,
+    "totalAbsoluteFrequency": 28182
   },
   "filterDetails": {
-    "expression": null,
+    "expressionLanguage": null,
     "description": {
       "en": null,
       "de": null
     },
-    "expressionLanguage": null
+    "expression": null
   },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 854,
   "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Die Unterscheidung von Fachhochschulen und Universitäten (Hochschulart) wurde aus den codierten Hochschulangaben generiert. Für die Unterscheidung wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet. Für das Saarland wird diese Information nicht bereitgestellt, um eine Re-Identifikation der Hochschule zu verhindern; dort gibt es nur eine und keine weiteren öffentlichen (oder privaten) Universitäten."
-    },
+    "ruleExpressionLanguage": null,
     "rule": null,
-    "ruleExpressionLanguage": null
+    "description": {
+      "en": "The difference between advanced technical colleges and universities (type of higher education institution) was generated from the coded data on institutes of higher education. The Destatis key directory for student and examination statistics (winter semester 2007/08) (see cl-destatis-studienfach-2008) was used for the differentiation. In the official statistics, missing universities were added and allocated from the project. In order to prevent a reidentification of the particular institute of higher education, this information was not provided for the Saarland; this state only has one university, whether public or private.",
+      "de": "Die Unterscheidung von Fachhochschulen und Universitäten (Hochschulart) wurde aus den codierten Hochschulangaben generiert. Für die Unterscheidung wurde das Destatis Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2007/08) (cl-destatis-hochschule-2008) verwendet. In der amtlichen Statistik fehlende Hochschulen wurden ergänzt und vom Projekt zugeordnet. Für das Saarland wird diese Information nicht bereitgestellt, um eine Re-Identifikation der Hochschule zu verhindern; dort gibt es nur eine und keine weiteren öffentlichen (oder privaten) Universitäten."
+    }
   },
   "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0,
-    "statistics": null,
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 0,
-    "missings": [
-      {
-        "absoluteFrequency": 3671,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 13.03,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      }
-    ]
-  },
-  "relatedQuestions": null,
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gsl2008-ds1-cstu2117d",
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 854,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "17th activity: type of higher education institution (FH/uni; excluding Saarland)",
+    "de": "17. Tätigkeit: Hochschulart (FH/Uni; ohne Saarland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,141 +1,153 @@
 {
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Habens Sie seit Beginn Ihres Studiums das Studienfach oder den angestrebten Abschluss gewechselt?"
+      },
+      "questionNumber": "4.5",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 6,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 86.97,
+        "absoluteFrequency": 24511,
+        "code": -995
+      },
+      {
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 2.09,
+        "absoluteFrequency": 588,
+        "code": -989
+      }
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, subject & degree",
+          "de": "ja, Fach & Abschluss"
+        },
+        "validRelativeFrequency": 5.88,
+        "relativeFrequency": 0.64,
+        "absoluteFrequency": 181,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, only the subject",
+          "de": "ja, nur das Fach"
+        },
+        "validRelativeFrequency": 6.53,
+        "relativeFrequency": 0.71,
+        "absoluteFrequency": 201,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "yes, only the degree",
+          "de": "ja, nur den Abschluss"
+        },
+        "validRelativeFrequency": 1.43,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 44,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "no, but in the near future",
+          "de": "nein, aber demnächst"
+        },
+        "validRelativeFrequency": 0.65,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 20,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 85.51,
+        "relativeFrequency": 9.34,
+        "absoluteFrequency": 2631,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 10.92,
+    "totalValidAbsoluteFrequency": 3077,
+    "totalAbsoluteFrequency": 28182
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 981,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "annotations": {
+    "en": null,
+    "de": null
+  },
+  "label": {
+    "en": "subject/degree change since starting?",
+    "de": "Studienfach-/Abschlusswechsel seit Beginn?"
+  },
   "scaleLevel": {
     "en": "nominal",
     "de": "nominal"
   },
-  "label": {
-    "en": null,
-    "de": "Studienfach-/Abschlusswechsel seit Beginn?"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 981,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 10.92,
-    "statistics": {
-      "mode": "5"
-    },
-    "totalAbsoluteFrequency": 28182,
-    "validResponses": [
-      {
-        "absoluteFrequency": 181,
-        "label": {
-          "en": null,
-          "de": "ja, Fach & Abschluss"
-        },
-        "relativeFrequency": 0.64,
-        "validRelativeFrequency": 5.88,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 201,
-        "label": {
-          "en": null,
-          "de": "ja, nur das Fach"
-        },
-        "relativeFrequency": 0.71,
-        "validRelativeFrequency": 6.53,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": null,
-          "de": "ja, nur den Abschluss"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 1.43,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": null,
-          "de": "nein, aber demnächst"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.65,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2631,
-        "label": {
-          "en": null,
-          "de": "nein"
-        },
-        "relativeFrequency": 9.34,
-        "validRelativeFrequency": 85.51,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3077,
-    "missings": [
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.02,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 24511,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 86.97,
-        "code": -995
-      },
-      {
-        "absoluteFrequency": 588,
-        "label": {
-          "en": null,
-          "de": "filterbedingt fehlend"
-        },
-        "relativeFrequency": 2.09,
-        "code": -989
-      }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "4.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Habens Sie seit Beginn Ihres Studiums das Studienfach oder den angestrebten Abschluss gewechselt?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

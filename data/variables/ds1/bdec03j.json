@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": null,
-    "de": "Aspekt gegen Studium: unsichere Berufsaussichten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 358,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\r\nunsichere Berufsaussichten in der infrage kommenden Studienrichtung"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.71,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "695.3394",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 28182,
+    "missings": [
+      {
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.34,
+        "absoluteFrequency": 96,
+        "code": -998
+      },
+      {
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 78.95,
+        "absoluteFrequency": 22249,
+        "code": -995
+      }
+    ],
     "validResponses": [
       {
-        "absoluteFrequency": 675,
         "label": {
-          "en": null,
+          "en": "very strong",
           "de": "sehr stark"
         },
-        "relativeFrequency": 2.4,
         "validRelativeFrequency": 11.56,
+        "relativeFrequency": 2.4,
+        "absoluteFrequency": 675,
         "value": "1"
       },
       {
-        "absoluteFrequency": 1673,
         "label": {
           "en": null,
           "de": "2"
         },
-        "relativeFrequency": 5.94,
         "validRelativeFrequency": 28.66,
+        "relativeFrequency": 5.94,
+        "absoluteFrequency": 1673,
         "value": "2"
       },
       {
-        "absoluteFrequency": 1644,
         "label": {
           "en": null,
           "de": "3"
         },
-        "relativeFrequency": 5.83,
         "validRelativeFrequency": 28.17,
+        "relativeFrequency": 5.83,
+        "absoluteFrequency": 1644,
         "value": "3"
       },
       {
-        "absoluteFrequency": 1144,
         "label": {
           "en": null,
           "de": "4"
         },
-        "relativeFrequency": 4.06,
         "validRelativeFrequency": 19.6,
+        "relativeFrequency": 4.06,
+        "absoluteFrequency": 1144,
         "value": "4"
       },
       {
-        "absoluteFrequency": 701,
         "label": {
-          "en": null,
+          "en": "not at all",
           "de": "überhaupt nicht"
         },
-        "relativeFrequency": 2.49,
         "validRelativeFrequency": 12.01,
+        "relativeFrequency": 2.49,
+        "absoluteFrequency": 701,
         "value": "5"
       }
     ],
+    "totalValidRelativeFrequency": 20.71,
     "totalValidAbsoluteFrequency": 5837,
-    "missings": [
-      {
-        "absoluteFrequency": 96,
-        "label": {
-          "en": null,
-          "de": "keine Angabe"
-        },
-        "relativeFrequency": 0.34,
-        "code": -998
-      },
-      {
-        "absoluteFrequency": 22249,
-        "label": {
-          "en": null,
-          "de": "keine Teilnahme (Panel)"
-        },
-        "relativeFrequency": 78.95,
-        "code": -995
-      }
-    ]
+    "totalAbsoluteFrequency": 28182
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Aspekte gegen die Aufnahme eines Studiums an einer Fachhochschule oder Universität?\nunsichere Berufsaussichten in der infrage kommenden Studienrichtung"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 358,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "points against studying: uncertain job prospects",
+    "de": "Aspekt gegen Studium: unsichere Berufsaussichten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }
