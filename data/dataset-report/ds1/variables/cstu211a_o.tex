@@ -1,0 +1,208 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{cstu211a\_o (1. Tätigkeit: 1. Studienfach)}
+	\label{section:cstu211a_o}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-cstu211a_o$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins3-2.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - dritte Welle:
+					  2.1
+ \\
+					%--
+					Fragetext: & Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\par  Studium\par  Nennen Sie bitte Ihre Hauptstudienfächer\par  (Bitte zutreffende Codes aus der beiliegenden Fächerliste eintragen) \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-cstu211a_o}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								8 & \multicolumn{1}{X}{Anglistik/Englisch} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								17 & \multicolumn{1}{X}{Bauingenieurwesen/Ingenieurbau} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								21 & \multicolumn{1}{X}{Betriebswirtschaftslehre} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{6.98} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+								32 & \multicolumn{1}{X}{Chemie} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.65} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+								53 & \multicolumn{1}{X}{Evang. Theologie, - Religionslehre} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								67 & \multicolumn{1}{X}{Germanistik/Deutsch} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{6.98} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+								68 & \multicolumn{1}{X}{Geschichte} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								79 & \multicolumn{1}{X}{Informatik} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								92 & \multicolumn{1}{X}{Kunstgeschichte, Kunstwissenschaft} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								104 & \multicolumn{1}{X}{Maschinenbau/-wesen} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{11.63} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+							... & ... & ... & ... & ... \\
+								184 & \multicolumn{1}{X}{Wirtschaftswissenschaften} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								261 & \multicolumn{1}{X}{Innere Verwaltung} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.65} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								266 & \multicolumn{1}{X}{Finanzverwaltung} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.65} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								282 & \multicolumn{1}{X}{Biotechnologie} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.65} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								380 & \multicolumn{1}{X}{Mechatronik} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								458 & \multicolumn{1}{X}{Umweltschutz} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								554 & \multicolumn{1}{X}{Kriminalpolizei} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								555 & \multicolumn{1}{X}{Schutzpolizei} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.65} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								580 & \multicolumn{1}{X}{Handel} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								591 & \multicolumn{1}{X}{Steuern Prüfungswesen} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.33} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{43}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{0.15}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{3628} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{12.87} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{24511} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{86.97} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-cstu211a_o}
+				\label{tableValues:cstu211a_o}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 26%
+                	    ; 
+                	      Modus ($h$): 104
+                     \end{noten}
+
+

@@ -1,0 +1,191 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{cstu33 (weiteres Studium künftig beabsichtigt?)}
+	\label{section:cstu33}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-cstu33$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins3-4.16$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - dritte Welle:
+					  4.16
+ \\
+					%--
+					Fragetext: & Beabsichtigen Sie, künftig ein weiteres Studium aufzunehmen \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-cstu33}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					-949 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Zweitstudium bereits aufgenommen   } &
+
+
+					%875 &
+					  \num{875} &
+					%--
+					  \num[round-mode=places,round-precision=2]{28.44} &
+					    \num[round-mode=places,round-precision=2]{3.1} \\
+							%????
+
+					-948 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Doppelstudium   } &
+
+
+					%14 &
+					  \num{14} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.45} &
+					    \num[round-mode=places,round-precision=2]{0.05} \\
+							%????
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, auf jeden Fall   } &
+
+
+					%375 &
+					  \num{375} &
+					%--
+					  \num[round-mode=places,round-precision=2]{12.19} &
+					    \num[round-mode=places,round-precision=2]{1.33} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, wahrscheinlich   } &
+
+
+					%339 &
+					  \num{339} &
+					%--
+					  \num[round-mode=places,round-precision=2]{11.02} &
+					    \num[round-mode=places,round-precision=2]{1.2} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ eventuell   } &
+
+
+					%307 &
+					  \num{307} &
+					%--
+					  \num[round-mode=places,round-precision=2]{9.98} &
+					    \num[round-mode=places,round-precision=2]{1.09} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nein, wahrscheinlich nicht   } &
+
+
+					%645 &
+					  \num{645} &
+					%--
+					  \num[round-mode=places,round-precision=2]{20.96} &
+					    \num[round-mode=places,round-precision=2]{2.29} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nein, auf keinen Fall   } &
+
+
+					%522 &
+					  \num{522} &
+					%--
+					  \num[round-mode=places,round-precision=2]{16.96} &
+					    \num[round-mode=places,round-precision=2]{1.85} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{3077}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{10.92}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{6} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.02} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{24511} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{86.97} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{588} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{2.09} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-cstu33}
+				\label{tableValues:cstu33}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 7%
+                	    ; 
+                	      Minimum ($min$): -949; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 2; 
+                	      Modus ($h$): -949
+                     \end{noten}
+
+

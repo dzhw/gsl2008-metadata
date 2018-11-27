@@ -1,0 +1,213 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bsch08\_g1v1o (Schwerpunktfach Berufsschüler)}
+	\label{section:bsch08_g1v1o}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-bsch08_g1v1o$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins2-05$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - zweite Welle:
+					  05
+ \\
+					%--
+					Fragetext: & Wenn Sie eine berufliche Schule besucht haben: Welches war Ihr beruflicher Schwerpunkt? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bsch08_g1v1o}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								301 & \multicolumn{1}{X}{Automatisierungstechnik} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.3} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+								303 & \multicolumn{1}{X}{Druck} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.06} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								304 & \multicolumn{1}{X}{Elektrotechnik,} & %70 &
+								  \num{70} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.26} &
+								  \num[round-mode=places,round-precision=2]{0.25} \\
+								306 & \multicolumn{1}{X}{Fertigungstechnik, Produktionstechnik, Verfahrenstechnik} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.18} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+								307 & \multicolumn{1}{X}{Holztechnik} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.06} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+								309 & \multicolumn{1}{X}{Kfz-Technik} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.24} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+								310 & \multicolumn{1}{X}{Maschinenbau, Maschinentechnik} & %54 &
+								  \num{54} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.29} &
+								  \num[round-mode=places,round-precision=2]{0.19} \\
+								311 & \multicolumn{1}{X}{Mechanik} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.18} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+								312 & \multicolumn{1}{X}{Metalltechnik} & %19 &
+								  \num{19} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.16} &
+								  \num[round-mode=places,round-precision=2]{0.07} \\
+								313 & \multicolumn{1}{X}{Nachrichtentechnik} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.12} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+							... & ... & ... & ... & ... \\
+								660 & \multicolumn{1}{X}{Psychologie} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.37} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+
+								661 & \multicolumn{1}{X}{Sozialpädagogik} & %63 &
+								  \num{63} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.83} &
+								  \num[round-mode=places,round-precision=2]{0.22} \\
+
+								662 & \multicolumn{1}{X}{Sozialwesen, Sozialwirtschaft} & %76 &
+								  \num{76} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.63} &
+								  \num[round-mode=places,round-precision=2]{0.27} \\
+
+								663 & \multicolumn{1}{X}{Pflege, Krankenpflege, Altenpflege, Haus- und Familienpflege} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.37} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+
+								701 & \multicolumn{1}{X}{Deutsch/Kommunikation (Sprache/Kommunikation)} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.12} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								706 & \multicolumn{1}{X}{Spanisch} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.12} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								708 & \multicolumn{1}{X}{Fremdsprachen (sofern keine konkrete angegeben wurde)} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.18} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								751 & \multicolumn{1}{X}{Medien (und Kommunikation)} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.06} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								753 & \multicolumn{1}{X}{Medientechnik} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.12} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								773 & \multicolumn{1}{X}{Chemie (Anorganische/Organische)} & %10 &
+								  \num{10} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.61} &
+								  \num[round-mode=places,round-precision=2]{0.04} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1643}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{5.83}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{35} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.12} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{10182} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{36.13} \\
+							-988 &
+							trifft nicht zu &
+							  \num{16322} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{57.92} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bsch08_g1v1o}
+				\label{tableValues:bsch08_g1v1o}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 75%
+                	    ; 
+                	      Modus ($h$): 465
+                     \end{noten}
+
+

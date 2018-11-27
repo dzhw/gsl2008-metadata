@@ -1,0 +1,174 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{cmot01f (Motiv Tätigkeit (Dez 2012): Interesse am vermittelten Sachwissen)}
+	\label{section:cmot01f}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-cmot01f$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins3-1.9$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - dritte Welle:
+					  1.9
+ \\
+					%--
+					Fragetext: & Diese Frage bezieht sich auf den Zeitpunkt Dezember 2012. Wie bedeutend sind die folgenden Gründe und Motive für die Ausübung Ihrer derzeitigen Tätigkeit (Studium/Ausbildung/Erwerbstätigkeit)?\par  Interesse am vermittelten Sachwissen \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-cmot01f}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr bedeutend   } &
+
+
+					%1066 &
+					  \num{1066} &
+					%--
+					  \num[round-mode=places,round-precision=2]{29.19} &
+					    \num[round-mode=places,round-precision=2]{3.78} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%1488 &
+					  \num{1488} &
+					%--
+					  \num[round-mode=places,round-precision=2]{40.74} &
+					    \num[round-mode=places,round-precision=2]{5.28} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%695 &
+					  \num{695} &
+					%--
+					  \num[round-mode=places,round-precision=2]{19.03} &
+					    \num[round-mode=places,round-precision=2]{2.47} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%220 &
+					  \num{220} &
+					%--
+					  \num[round-mode=places,round-precision=2]{6.02} &
+					    \num[round-mode=places,round-precision=2]{0.78} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 5   } &
+
+
+					%101 &
+					  \num{101} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2.77} &
+					    \num[round-mode=places,round-precision=2]{0.36} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ bedeutungslos   } &
+
+
+					%82 &
+					  \num{82} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2.25} &
+					    \num[round-mode=places,round-precision=2]{0.29} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{3652}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{12.96}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{19} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.07} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{24511} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{86.97} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-cmot01f}
+				\label{tableValues:cmot01f}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 6%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 6; 
+                	      Median ($\tilde{x}$): 2; 
+                	      Modus ($h$): 2
+                     \end{noten}
+
+

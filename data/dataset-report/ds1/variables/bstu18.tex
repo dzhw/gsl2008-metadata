@@ -1,0 +1,152 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bstu18 (Masterstudium geplant?)}
+	\label{section:bstu18}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-bstu18$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins2-27$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - zweite Welle:
+					  27
+ \\
+					%--
+					Fragetext: & Streben Sie nach dem ersten Abschluss ein Masterstudium an? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bstu18}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, direkt im Anschluss   } &
+
+
+					%1826 &
+					  \num{1826} &
+					%--
+					  \num[round-mode=places,round-precision=2]{34.81} &
+					    \num[round-mode=places,round-precision=2]{6.48} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, nach Phase außerhalb der HS   } &
+
+
+					%468 &
+					  \num{468} &
+					%--
+					  \num[round-mode=places,round-precision=2]{8.92} &
+					    \num[round-mode=places,round-precision=2]{1.66} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nein   } &
+
+
+					%864 &
+					  \num{864} &
+					%--
+					  \num[round-mode=places,round-precision=2]{16.47} &
+					    \num[round-mode=places,round-precision=2]{3.07} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ weiß noch nicht   } &
+
+
+					%2088 &
+					  \num{2088} &
+					%--
+					  \num[round-mode=places,round-precision=2]{39.8} &
+					    \num[round-mode=places,round-precision=2]{7.41} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{5246}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{18.61}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{127} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.45} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{22249} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{78.95} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{560} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{1.99} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bstu18}
+				\label{tableValues:bstu18}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 4%
+                	    ; 
+                	      Modus ($h$): 4
+                     \end{noten}
+
+

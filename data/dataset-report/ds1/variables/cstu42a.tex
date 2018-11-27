@@ -1,0 +1,195 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{cstu42a (Entscheidungszeitpunkt Masterstudium (Angabe Semester))}
+	\label{section:cstu42a}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-cstu42a$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & verhältnis \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins3-5.4$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - dritte Welle:
+					  5.4
+ \\
+					%--
+					Fragetext: & Wann haben Sie sich für das Masterstudium entschieden?\par  erst später im Studium , und zwar im … Semester \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-cstu42a}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%20 &
+					  \num{20} &
+					%--
+					  \num[round-mode=places,round-precision=2]{4.52} &
+					    \num[round-mode=places,round-precision=2]{0.07} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%76 &
+					  \num{76} &
+					%--
+					  \num[round-mode=places,round-precision=2]{17.19} &
+					    \num[round-mode=places,round-precision=2]{0.27} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%124 &
+					  \num{124} &
+					%--
+					  \num[round-mode=places,round-precision=2]{28.05} &
+					    \num[round-mode=places,round-precision=2]{0.44} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%135 &
+					  \num{135} &
+					%--
+					  \num[round-mode=places,round-precision=2]{30.54} &
+					    \num[round-mode=places,round-precision=2]{0.48} \\
+							%????
+
+					7 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%53 &
+					  \num{53} &
+					%--
+					  \num[round-mode=places,round-precision=2]{11.99} &
+					    \num[round-mode=places,round-precision=2]{0.19} \\
+							%????
+
+					8 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%29 &
+					  \num{29} &
+					%--
+					  \num[round-mode=places,round-precision=2]{6.56} &
+					    \num[round-mode=places,round-precision=2]{0.1} \\
+							%????
+
+					9 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%5 &
+					  \num{5} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1.13} &
+					    \num[round-mode=places,round-precision=2]{0.02} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{442}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{1.57}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{1284} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{4.56} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{24511} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{86.97} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{1945} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{6.9} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-cstu42a}
+				\label{tableValues:cstu42a}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 7%
+                	    ; 
+                	      Minimum ($min$): 3; 
+                	      Maximum ($max$): 9; 
+                	      arithmetisches Mittel ($\bar{x}$): \num[round-mode=places,round-precision=2]{5.5249}; 
+                	      Median ($\tilde{x}$): 6; 
+                	      Modus ($h$): 6; 
+                	      Standardabweichung ($s$): \num[round-mode=places,round-precision=2]{1.2797}; 
+                	      Schiefe ($v$): \num[round-mode=places,round-precision=2]{0.2435}; 
+                	      Wölbung ($w$): \num[round-mode=places,round-precision=2]{2.8036}
+                     \end{noten}
+
+

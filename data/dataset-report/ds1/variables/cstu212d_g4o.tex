@@ -1,0 +1,185 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{cstu212d\_g4o (2. Tätigkeit: Hochschulart)}
+	\label{section:cstu212d_g4o}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-cstu212d_g4o$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins3-2.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - dritte Welle:
+					  2.1
+ \\
+					%--
+					Fragetext: & Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-cstu212d_g4o}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Universität   } &
+
+
+					%965 &
+					  \num{965} &
+					%--
+					  \num[round-mode=places,round-precision=2]{70.39} &
+					    \num[round-mode=places,round-precision=2]{3.42} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Pädagogische Hochschulen   } &
+
+
+					%12 &
+					  \num{12} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.88} &
+					    \num[round-mode=places,round-precision=2]{0.04} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Theologische/Kirchliche Hochschulen   } &
+
+
+					%1 &
+					  \num{1} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.07} &
+					    \num[round-mode=places,round-precision=2]{0} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Kunsthochschulen   } &
+
+
+					%8 &
+					  \num{8} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.58} &
+					    \num[round-mode=places,round-precision=2]{0.03} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Fachhochschule   } &
+
+
+					%347 &
+					  \num{347} &
+					%--
+					  \num[round-mode=places,round-precision=2]{25.31} &
+					    \num[round-mode=places,round-precision=2]{1.23} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Verwaltungsfachhochschulen   } &
+
+
+					%38 &
+					  \num{38} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2.77} &
+					    \num[round-mode=places,round-precision=2]{0.13} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1371}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{4.86}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{2237} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{7.94} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{24511} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{86.97} \\
+							-988 &
+							trifft nicht zu &
+							  \num{41} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.15} \\
+							-969 &
+							unbekannter fehlender Wert &
+							  \num{2} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.01} \\
+							-944 &
+							kein Studium an Uni/PH/KunstHS/Theol.HS/FH/VerwFH, aber Studium an BA &
+							  \num{20} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.07} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-cstu212d_g4o}
+				\label{tableValues:cstu212d_g4o}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 6%
+                	    ; 
+                	      Modus ($h$): 1
+                     \end{noten}
+
+

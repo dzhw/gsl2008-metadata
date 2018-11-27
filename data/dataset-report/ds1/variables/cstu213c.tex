@@ -1,0 +1,209 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{cstu213c (3. Tätigkeit: angestrebter Abschluss)}
+	\label{section:cstu213c}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gsl2008-ds1-cstu213c$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gsl2008-ins3-2.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Studienberechtigtenpanels 2008 - dritte Welle:
+					  2.1
+ \\
+					%--
+					Fragetext: & Wir bitten Sie nun, uns in dem folgenden Schema einen Überblick Ihres Werdegangs von Juli 2008 bis Dezember 2012 zu geben.\par  Studium\par  Nennen Sie bitte Ihre angestrebte Abschlussprüfung \par  (siehe Liste der Studienabschlüsse, rechte Seite oben) \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-cstu213c}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								1 & \multicolumn{1}{X}{B.A./Diplom an Berufsakademie} & %11 &
+								  \num{11} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.68} &
+								  \num[round-mode=places,round-precision=2]{0.04} \\
+								2 & \multicolumn{1}{X}{B.A./M.A./Diplom an Verwaltungsfachhochschule} & %16 &
+								  \num{16} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.98} &
+								  \num[round-mode=places,round-precision=2]{0.06} \\
+								3 & \multicolumn{1}{X}{B.A. an Fachhochschule} & %396 &
+								  \num{396} &
+								%--
+								  \num[round-mode=places,round-precision=2]{24.31} &
+								  \num[round-mode=places,round-precision=2]{1.41} \\
+								4 & \multicolumn{1}{X}{B.A. an Universität (außer LA)} & %554 &
+								  \num{554} &
+								%--
+								  \num[round-mode=places,round-precision=2]{34.01} &
+								  \num[round-mode=places,round-precision=2]{1.97} \\
+								5 & \multicolumn{1}{X}{M.A. an Fachhochschule} & %21 &
+								  \num{21} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.29} &
+								  \num[round-mode=places,round-precision=2]{0.07} \\
+								6 & \multicolumn{1}{X}{M.A. an Universität (außer LA)} & %133 &
+								  \num{133} &
+								%--
+								  \num[round-mode=places,round-precision=2]{8.16} &
+								  \num[round-mode=places,round-precision=2]{0.47} \\
+								7 & \multicolumn{1}{X}{Diplom an Fachhochschule} & %15 &
+								  \num{15} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.92} &
+								  \num[round-mode=places,round-precision=2]{0.05} \\
+								8 & \multicolumn{1}{X}{Diplom an Universität} & %49 &
+								  \num{49} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.01} &
+								  \num[round-mode=places,round-precision=2]{0.17} \\
+								9 & \multicolumn{1}{X}{LA B.A./M.A. GHR} & %35 &
+								  \num{35} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.15} &
+								  \num[round-mode=places,round-precision=2]{0.12} \\
+								10 & \multicolumn{1}{X}{LA B.A./M.A. Gymnasium} & %66 &
+								  \num{66} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4.05} &
+								  \num[round-mode=places,round-precision=2]{0.23} \\
+							... & ... & ... & ... & ... \\
+								12 & \multicolumn{1}{X}{LA B.A./M.A. Sonderschule} & %7 &
+								  \num{7} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.43} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+
+								13 & \multicolumn{1}{X}{LA Staatsexamen GHR} & %49 &
+								  \num{49} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.01} &
+								  \num[round-mode=places,round-precision=2]{0.17} \\
+
+								14 & \multicolumn{1}{X}{LA Staatsexamen Gymnasium} & %58 &
+								  \num{58} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.56} &
+								  \num[round-mode=places,round-precision=2]{0.21} \\
+
+								16 & \multicolumn{1}{X}{LA Staatsexamen Sonderschule} & %9 &
+								  \num{9} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.55} &
+								  \num[round-mode=places,round-precision=2]{0.03} \\
+
+								17 & \multicolumn{1}{X}{Staatsexamen (außer LA)} & %145 &
+								  \num{145} &
+								%--
+								  \num[round-mode=places,round-precision=2]{8.9} &
+								  \num[round-mode=places,round-precision=2]{0.51} \\
+
+								18 & \multicolumn{1}{X}{Magister} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.31} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+
+								19 & \multicolumn{1}{X}{kirchlicher Abschluss} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.37} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+
+								20 & \multicolumn{1}{X}{künstlicher Abschluss} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.06} &
+								  \num[round-mode=places,round-precision=2]{0} \\
+
+								21 & \multicolumn{1}{X}{Abschluss im Ausland} & %41 &
+								  \num{41} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.52} &
+								  \num[round-mode=places,round-precision=2]{0.15} \\
+
+								23 & \multicolumn{1}{X}{deutscher \& ausländischer Abschluss} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.18} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1629}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{5.78}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{2042} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{7.25} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{24511} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{86.97} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{28182}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-cstu213c}
+				\label{tableValues:cstu213c}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 21%
+                	    ; 
+                	      Modus ($h$): 4
+                     \end{noten}
+
+
