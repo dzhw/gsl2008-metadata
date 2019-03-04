@@ -5,20 +5,21 @@
 %% The original source files were:
 %%
 %% dsreport.dtx  (with options: `package')
-%% 
+%%
 %% -----------------------------------------------------------------
 %% Author:     le-tex publishing services
 %% Maintainer: le-tex publishing services
-%% 
+%%
 %% Diese Datei ist Teil des dsreport-Pakets zur Erstellung
 %% von Daten- und Methodenberichten sowie Datensatzreports
-%% 
+%%
 %%       Copyright (C) 2017 Deutsches Zentrum für Hochschul-
 %%                          und Wissenschaftsforschung GmbH
 %% -----------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}[2015/01/01]
 \ProvidesPackage{dsreport}
     [2017/05/26 v0.95 DZHW Berichte]
+\usepackage[breakwords]{truncate}
 \ifx\directlua\undefined\else\ifnum\luatexversion>84\relax
   \IfFileExists{luatex85.sty}{\RequirePackage{luatex85}}{}
 \fi\fi
@@ -294,12 +295,12 @@
     \null\hfill
     \llap{\hb@xt@\dimexpr\paperwidth-2\oddsidemargin-26mm{%
         \llap{\thepage\kern4mm}%
-        \!\textbar\kern4mm\color{black!50}\footnotesize\@title\normalcolor\hfill
+        \!\textbar\kern4mm\color{black!50}\footnotesize\truncate{12cm}{\@title}\normalcolor\hfill
         \smash{\lower1bp\hbox{\includegraphics[height=4.25mm]{fdz-logo_ohne-text}}}}}}%
   \def\@oddfoot{%
     \hb@xt@\dimexpr\paperwidth-2\oddsidemargin-26mm{%
         \smash{\lower1bp\hbox{\includegraphics[height=4.25mm]{fdz-logo_ohne-text}}}\hfill
-        \color{black!50}\footnotesize\@title\kern4mm\normalcolor\textbar\!}%
+        \color{black!50}\footnotesize\truncate{11cm}{\@title}\kern4mm\normalcolor\textbar\!}%
     \rlap{\kern4mm\thepage}}%
   \let\@mkboth\markboth
   \def\chaptermark##1{%
@@ -319,7 +320,7 @@
     \@griffregister
     \color{black!50}%
     \smash{\lower1.6mm\rlap{\vrule\@width\dimexpr\paperwidth-2\oddsidemargin\@height0.5bp\@depth\z@}}%
-    \@title\hfill\rightmark}%
+    \truncate{9.5cm}{\@title}\hfill\truncate{7cm}{\rightmark}}%
   \def\@oddfoot{%
     \hfill\thepage\hfill
     \smash{\lower1bp\llap{\includegraphics[height=4.25mm]{fdz-logo_ohne-text}}}}%
